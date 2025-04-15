@@ -1,0 +1,44 @@
+{
+    "workflow": [
+        {
+            "expert": "Ella Thompson",
+            "task": "Theme Development"
+        },
+        {
+            "expert": "Max Hunter",
+            "task": "Character Development"
+        },
+        {
+            "expert": "Leo Yang",
+            "task": "Supporting Character Development"
+        },
+        {
+            "expert": "Julia Carter",
+            "task": "Plot Structuring"
+        },
+        {
+            "expert": "Nina Reyes",
+            "task": "Setting Design"
+        },
+        {
+            "expert": "Tom Schmidt",
+            "task": "Character Arc Development"
+        },
+        {
+            "expert": "Ava Brooks",
+            "task": "First Draft Writing"
+        },
+        {
+            "expert": "Ethan Cole",
+            "task": "Editing the Draft"
+        },
+        {
+            "expert": "Sophia Martinez",
+            "task": "Feedback Gathering"
+        },
+        {
+            "expert": "Zachary Bell",
+            "task": "Final Revisions"
+        }
+    ]
+}

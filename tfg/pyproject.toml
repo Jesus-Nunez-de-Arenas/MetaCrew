@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tfg"
+version = "0.1.0"
+description = "test using crewAI"
+authors = ["Jesus Nuñez de Arenas Llamas"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.67.1,<1.0.0" }
+
+
+[tool.poetry.scripts]
+test = "tfg.main:run"
+run_crew = "tfg.main:run"
+train = "tfg.main:train"
+replay = "tfg.main:replay"
+test2 = "tfg.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
