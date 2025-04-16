@@ -1,54 +1,28 @@
 {
     "subtasks": [
         {
-            "name": "Identify Story Theme",
-            "description": "Determine the central theme or concept for the story that will guide the narrative direction.",
-            "expected_output": "A clear and concise statement of the story theme that will serve as a foundation for developing the plot."
+            "name": "Plot Development",
+            "description": "Outline the main events and structure of the story, including the story arc and subplots."
         },
         {
-            "name": "Define Main Characters",
-            "description": "Outline the main characters involved in the story, including their motivations, backgrounds, and roles in the narrative.",
-            "expected_output": "Character profiles for each main character, detailing their attributes, motivations, and relationships."
+            "name": "Character Creation",
+            "description": "Develop well-rounded characters, focusing on backstories, motivations, and relationships."
         },
         {
-            "name": "Outline the Plot Structure",
-            "description": "Create a basic outline of the plot, including the beginning, middle, and end, highlighting key events and conflict.",
-            "expected_output": "A structured outline that clearly defines the plot progression with major events listed."
+            "name": "Setting",
+            "description": "Establish the time and place of the story, including specific details that enhance the narrative."
         },
         {
-            "name": "Develop Supporting Characters",
-            "description": "Identify and outline supporting characters who will enhance the main characters and contribute to the plot.",
-            "expected_output": "Profiles for supporting characters that detail their roles and significance to the story."
+            "name": "Conflict",
+            "description": "Identify main and secondary conflicts that drive the narrative; ensure resolution ties with character development."
         },
         {
-            "name": "Establish Setting",
-            "description": "Determine the time and place in which the story occurs, and identify any unique environmental factors that impact the narrative.",
-            "expected_output": "A detailed description of the setting, including location, time period, and any relevant cultural or atmospheric details."
+            "name": "Theme Exploration",
+            "description": "Determine central themes or messages and ensure connection between characters, plot, and setting."
         },
         {
-            "name": "Create Character Arcs",
-            "description": "Map out the development of the main characters over the course of the story, focusing on their growth and changes.",
-            "expected_output": "Character arc diagrams that illustrate how each main character evolves from beginning to end."
-        },
-        {
-            "name": "Draft the Story",
-            "description": "Write the first draft of the story, integrating all elements (theme, plot, characters, and setting) into a coherent narrative.",
-            "expected_output": "An initial draft of the story that includes all essential elements and flows logically from beginning to end."
-        },
-        {
-            "name": "Edit and Revise",
-            "description": "Review the original draft for consistency, coherence, and clarity, making necessary revisions to enhance the narrative.",
-            "expected_output": "A polished version of the story that reflects necessary edits, improving overall quality and readability."
-        },
-        {
-            "name": "Gather Feedback",
-            "description": "Share the revised story with peers or a focus group to obtain constructive feedback that can inform further revisions.",
-            "expected_output": "A compilation of feedback highlighting strengths, weaknesses, and suggestions for improvement."
-        },
-        {
-            "name": "Final Revision",
-            "description": "Incorporate feedback into the last round of edits to finalize the story, ensuring it meets all outlined criteria.",
-            "expected_output": "A completed final version of the story, ready for presentation or publication."
+            "name": "Drafting and Revising",
+            "description": "Write the first draft and revise for clarity, seeking feedback for improvement."
         }
     ]
 }

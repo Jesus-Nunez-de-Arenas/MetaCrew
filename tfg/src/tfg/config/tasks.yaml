@@ -1,11 +1,10 @@
 subtasks:
   description: >
-    Create subtasks from the main task {topic}.
+    Create the minimun number of subtasks from the main task {topic} needed to solve it.
 
   expected_output: >
     List with all the subtask necessary to solve the main task in json format.
 
-  agent: master
 
 experts:
   description: >
@@ -13,17 +12,15 @@ experts:
     each expert assigned by using the task's name.
     
   expected_output: >
-    List of experts in json format.
+    List of experts with their name, role, goal and backstory in json format.
 
-  agent: hhrr
 
 workflow:
   description: >
-    Choose a workflow that would result in the most efficient way to solve the main task {topic} taking into 
-    account the subtasks and the experts needed to complete them, the have to be the same as the ones in the files. 
-    Indicate the order of the tasks to complete in the workflow.
+    Choose a workflow that would result in the most efficient way to solve the main task {topic}, indicate the order 
+    of the tasks to complete in the workflow. Take into account the subtasks and the experts needed to complete 
+    them, they have to be the same as the ones in the files. 
+    
   
   expected_output: >
     Workflow of the experts in json format.
-
-  agent: planner

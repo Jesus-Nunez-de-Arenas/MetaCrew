@@ -1,0 +1,30 @@
+character_creation:
+  agent: no_expert_assigned.
+  description: Develop well-rounded characters, focusing on backstories, motivations,
+    and relationships.
+  expected_output: No expected output provided.
+conflict:
+  agent: no_expert_assigned.
+  description: Identify main and secondary conflicts that drive the narrative; ensure
+    resolution ties with character development.
+  expected_output: No expected output provided.
+drafting_and_revising:
+  agent: no_expert_assigned.
+  description: Write the first draft and revise for clarity, seeking feedback for
+    improvement.
+  expected_output: No expected output provided.
+plot_development:
+  agent: no_expert_assigned.
+  description: Outline the main events and structure of the story, including the story
+    arc and subplots.
+  expected_output: No expected output provided.
+setting:
+  agent: no_expert_assigned.
+  description: Establish the time and place of the story, including specific details
+    that enhance the narrative.
+  expected_output: No expected output provided.
+theme_exploration:
+  agent: no_expert_assigned.
+  description: Determine central themes or messages and ensure connection between
+    characters, plot, and setting.
+  expected_output: No expected output provided.

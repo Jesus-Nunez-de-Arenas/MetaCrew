@@ -1,44 +1,46 @@
 {
     "workflow": [
         {
-            "expert": "Ella Thompson",
-            "task": "Theme Development"
+            "task": "Develop Initial Plot",
+            "assigned_experts": [
+                "John Smith"
+            ],
+            "subtask": "Plot Development"
         },
         {
-            "expert": "Max Hunter",
-            "task": "Character Development"
+            "task": "Create Characters",
+            "assigned_experts": [
+                "Emily Foster"
+            ],
+            "subtask": "Character Development"
         },
         {
-            "expert": "Leo Yang",
-            "task": "Supporting Character Development"
+            "task": "Build the World",
+            "assigned_experts": [
+                "Michael Lee"
+            ],
+            "subtask": "World Building"
         },
         {
-            "expert": "Julia Carter",
-            "task": "Plot Structuring"
+            "task": "Identify Conflicts",
+            "assigned_experts": [
+                "Sarah Thompson"
+            ],
+            "subtask": "Conflict Identification"
         },
         {
-            "expert": "Nina Reyes",
-            "task": "Setting Design"
+            "task": "Articulate Themes",
+            "assigned_experts": [
+                "Robert Green"
+            ],
+            "subtask": "Theme Articulation"
         },
         {
-            "expert": "Tom Schmidt",
-            "task": "Character Arc Development"
-        },
-        {
-            "expert": "Ava Brooks",
-            "task": "First Draft Writing"
-        },
-        {
-            "expert": "Ethan Cole",
-            "task": "Editing the Draft"
-        },
-        {
-            "expert": "Sophia Martinez",
-            "task": "Feedback Gathering"
-        },
-        {
-            "expert": "Zachary Bell",
-            "task": "Final Revisions"
+            "task": "Draft the Story",
+            "assigned_experts": [
+                "Jessica Taylor"
+            ],
+            "subtask": "Drafting and Revisions"
         }
     ]
 }

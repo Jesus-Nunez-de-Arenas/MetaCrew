@@ -20,7 +20,6 @@ import yaml
 #                                                                          #
 ############################################################################
 
-
 def clean_json_file(file_path: str) -> None:
     """
     Cleans a JSON file by removing unnecessary lines at the beginning and end,
@@ -94,6 +93,31 @@ def clean_comments_python_file(file_path: str) -> None:
 
     except Exception as e:
         raise Exception(f"Error cleaning Python file {file_path}: {e}")
+    
+    
+def clean_all_python_files(storage_path: str) -> None:
+    """
+    Cleans all Python files in a directory by removing comments.
+    
+    Args:
+        storage_path (str): The path to the directory containing the Python files to be cleaned.
+        
+        
+    Raises:
+        Exception: If the Python files cannot be cleaned, an exception is raised with the error message.
+    """
+    
+    
+    try:
+        for root, dirs, files in os.walk(storage_path):
+            for file in files:
+                if file.endswith('.py'):
+                    file_path = os.path.join(root, file)
+                    clean_comments_python_file(file_path)
+                    
+    except Exception as e:
+        
+        raise Exception(f"Error cleaning Python files in {storage_path}: {e}")
 
         
     
@@ -106,7 +130,7 @@ def clean_comments_python_file(file_path: str) -> None:
 #                                                                          #
 ############################################################################
     
-def initialize_crew(crew_path):
+def initialize_crew(crew_path, crew_name):
     
     """
     Initializes the crew using the crewai CLI.
@@ -123,7 +147,7 @@ def initialize_crew(crew_path):
     try:
         provider_choice = "1\n3\n" + os.getenv("OPENAI_API_KEY") + "\n"
         subprocess.run(
-            ["crewai", "create", "crew", "answer"], 
+            ["crewai", "create", "crew", crew_name], 
             cwd=crew_path, 
             input=provider_choice.encode(),
             check=True
@@ -170,7 +194,7 @@ def create_agent_yaml(json_path: str, yaml_path: str) -> None:
             name = expert["name"].lower().replace(" ", "_")
             agents[name] = {
                 "role": f"{expert['role']}",
-                "goal": f"{expert['goal']}",
+                "goal": f"The main task is {{topic}}. {expert['goal']}",
                 "backstory": f"{expert['backstory']}"
             }
 
@@ -274,5 +298,47 @@ def create_single_crew():
 def create_multi_crews():
     pass
 
-def run_new_crew():
-    pass
+
+def run_new_crew(crew_path):
+    """
+    Run the new crew.
+    
+    Args:
+        crew_path (str): The path to the crew directory.
+        
+    Raises:
+        Exception: If the new crew cannot be run, an exception is raised with the error message.
+        The error message includes the details of the subprocess call that failed.    
+    """
+    
+    # Set the environment variable for the crew path
+    try:
+        subprocess.run(
+            ["poetry", "lock"], 
+            cwd=crew_path, 
+            check=True
+            )   
+    
+    except subprocess.CalledProcessError as e:
+        raise Exception(f"Failed to run poetry: {e}")
+    
+    # Install the new crew using the crewai CLI
+    try:
+        subprocess.run(
+            ["crewai", "install"], 
+            cwd=crew_path, 
+            check=True
+            )
+    except subprocess.CalledProcessError as e:
+        raise Exception(f"Failed to install the new crew: {e}")
+    
+    
+    # Run the new crew using the crewai CLI
+    try:
+        subprocess.run(
+            ["crewai", "run"], 
+            cwd=crew_path, 
+            check=True
+            )
+    except subprocess.CalledProcessError as e:
+        raise Exception(f"Failed to run the new crew: {e}")
