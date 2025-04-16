@@ -3,7 +3,7 @@ subtasks:
     Create the minimun number of subtasks from the main task {topic} needed to solve it.
 
   expected_output: >
-    List with all the subtask necessary to solve the main task in json format.
+    List with all the subtask necessary to solve the main task with their name, description and expected output in json format.
 
 
 experts:
@@ -23,4 +23,4 @@ workflow:
     
   
   expected_output: >
-    Workflow of the experts in json format.
+    Workflow of the experts with task, the expert or experts and the name of the subtask in json format.

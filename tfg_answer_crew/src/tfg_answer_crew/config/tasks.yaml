@@ -1,30 +1,24 @@
-character_creation:
-  agent: no_expert_assigned.
-  description: Develop well-rounded characters, focusing on backstories, motivations,
-    and relationships.
+character_development:
+  description: Create detailed profiles for main and supporting characters.
   expected_output: No expected output provided.
-conflict:
-  agent: no_expert_assigned.
-  description: Identify main and secondary conflicts that drive the narrative; ensure
-    resolution ties with character development.
+create_an_outline:
+  description: Structure the narrative arc, including exposition, rising action, climax,
+    and falling action.
   expected_output: No expected output provided.
-drafting_and_revising:
-  agent: no_expert_assigned.
-  description: Write the first draft and revise for clarity, seeking feedback for
-    improvement.
+develop_a_story_concept:
+  description: Define the core idea and themes of the story.
   expected_output: No expected output provided.
-plot_development:
-  agent: no_expert_assigned.
-  description: Outline the main events and structure of the story, including the story
-    arc and subplots.
+drafting_the_story:
+  description: Write the initial draft based on the outline.
   expected_output: No expected output provided.
-setting:
-  agent: no_expert_assigned.
-  description: Establish the time and place of the story, including specific details
-    that enhance the narrative.
+finalizing_and_formatting:
+  description: Prepare the manuscript for publication or submission.
   expected_output: No expected output provided.
-theme_exploration:
-  agent: no_expert_assigned.
-  description: Determine central themes or messages and ensure connection between
-    characters, plot, and setting.
+revising_and_editing:
+  description: Polish the manuscript, focusing on language, grammar, and narrative
+    coherence.
+  expected_output: No expected output provided.
+style_guide_development:
+  description: Specify tone, voice, and stylistic elements (e.g., descriptive language,
+    dialogue format).
   expected_output: No expected output provided.

@@ -1,40 +1,53 @@
 {
     "experts": [
         {
-            "name": "John Smith",
-            "role": "Plot Consultant",
-            "goal": "To create engaging and structured plots.",
-            "backstory": "John is a seasoned storyteller with 15 years of experience in screenwriting and has worked on multiple award-winning films."
+            "name": "Emily Johnson",
+            "role": "Creative Director",
+            "goal": "To innovate and generate unique story ideas.",
+            "backstory": "With over 10 years in creative writing and storytelling, Emily has led various successful projects that blend traditional narratives with modern themes.",
+            "assigned_subtask": "Develop a Story Concept"
         },
         {
-            "name": "Emily Foster",
-            "role": "Character Analyst",
-            "goal": "To develop nuanced characters with compelling backstories and motivations.",
-            "backstory": "Emily has a background in psychology and has co-written several popular novels, focusing on character depth."
+            "name": "Michael Smith",
+            "role": "Outline Specialist",
+            "goal": "To create structured outlines that guide the story development process.",
+            "backstory": "Having authored multiple critically acclaimed novels, Michael specializes in transforming complex ideas into clear, concise outlines.",
+            "assigned_subtask": "Create an Outline"
         },
         {
-            "name": "Michael Lee",
-            "role": "World Builder",
-            "goal": "To create immersive and believable settings for the story.",
-            "backstory": "Michael is an architect who transitioned to writing fantasy novels, using his design skills to craft detailed worlds."
+            "name": "Sarah Davis",
+            "role": "Stylistic Consultant",
+            "goal": "To develop a cohesive style guide that defines the voice and tone of the project.",
+            "backstory": "As a former editor at a major publishing house, Sarah has a keen eye for stylistic consistency and has helped numerous authors strengthen their narrative voice.",
+            "assigned_subtask": "Style Guide Development"
         },
         {
-            "name": "Sarah Thompson",
-            "role": "Conflict Specialist",
-            "goal": "To identify and amplify both main and secondary conflicts in the narrative.",
-            "backstory": "Sarah has a degree in Dramatic Arts and has worked as a dramaturg, focusing on conflict in theater productions."
+            "name": "Carlos Martinez",
+            "role": "Character Developer",
+            "goal": "To create compelling, multidimensional characters that resonate with readers.",
+            "backstory": "Carlos has worked as a character consultant for various films and novels, blending psychological insights with narrative needs.",
+            "assigned_subtask": "Character Development"
         },
         {
-            "name": "Robert Green",
-            "role": "Theme Consultant",
-            "goal": "To discover and articulate the central themes and messages of the story.",
-            "backstory": "Robert is a professor of literature and has published several essays on thematic elements in modern storytelling."
+            "name": "Linda Green",
+            "role": "Story Writer",
+            "goal": "To turn the outline and character profiles into a full draft.",
+            "backstory": "An experienced author with several bestsellers, Linda is known for her ability to draft engaging narratives swiftly and with attention to detail.",
+            "assigned_subtask": "Drafting the Story"
         },
         {
-            "name": "Jessica Taylor",
+            "name": "Tom Williams",
             "role": "Editor",
-            "goal": "To write the first draft and implement necessary revisions.",
-            "backstory": "Jessica has over 10 years of experience in editorial work, helping authors refine their manuscripts to reach publication quality."
+            "goal": "To refine the draft through constructive feedback and edits.",
+            "backstory": "An editor with a passion for storytelling, Tom has worked on projects that span multiple genres, ensuring narrative clarity and quality.",
+            "assigned_subtask": "Revising and Editing"
+        },
+        {
+            "name": "Sophia Lee",
+            "role": "Format Specialist",
+            "goal": "To ensure the final manuscript is polished and prepared for publication.",
+            "backstory": "Sophia has years of experience in formatting manuscripts for both print and digital, making her adept at ensuring stories meet industry standards.",
+            "assigned_subtask": "Finalizing and Formatting"
         }
     ]
 }

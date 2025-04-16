@@ -242,15 +242,6 @@ def create_task_yaml(task_path: str, expert_path: str, workflow_path: str, yaml_
                 with open(task_path, 'r') as file:
                     tasks = json.load(file)
 
-        # Load workflow.json
-        with open(workflow_path, 'r') as file:
-            try:
-                workflow = json.load(file)
-            except json.JSONDecodeError:
-                clean_json_file(workflow_path)
-                with open(workflow_path, 'r') as file:
-                    workflow = json.load(file)
-
         # Eliminate the first level of the JSON if necessary
         if isinstance(experts, dict):
             experts = experts.get(next(iter(experts)), experts)
@@ -258,18 +249,9 @@ def create_task_yaml(task_path: str, expert_path: str, workflow_path: str, yaml_
         if isinstance(tasks, dict):
             tasks = tasks.get(next(iter(tasks)), tasks)
 
-        if isinstance(workflow, dict):
-            workflow = workflow.get(next(iter(workflow)), workflow)
-
         # Ensure tasks is a list
         if not isinstance(tasks, list):
             raise ValueError("Tasks data is not a list. Please check the structure of subtasks.json.")
-
-        # Ensure workflow is a dictionary or handle it as a list
-        if isinstance(workflow, list):
-            workflow = workflow[0] if workflow else {}
-        if not isinstance(workflow, dict):
-            raise ValueError("Workflow data is not a dictionary or valid list. Please check the structure of workflow.json.")
 
         # Transform tasks into the tasks.yaml structure
         tasks_yaml = {}
@@ -280,7 +262,6 @@ def create_task_yaml(task_path: str, expert_path: str, workflow_path: str, yaml_
             tasks_yaml[name] = {
                 "description": task.get("description", "No description provided."),
                 "expected_output": task.get("expected_output", "No expected output provided."),
-                "agent": workflow.get("expert", "No expert assigned.").lower().replace(" ", "_"),
             }
 
         # Write the tasks.yaml file

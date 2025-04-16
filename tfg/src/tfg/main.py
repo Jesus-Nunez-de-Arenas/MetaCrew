@@ -40,6 +40,14 @@ warnings.filterwarnings("ignore", message="Number of requested results .* is gre
 ############################################################################
 
 
+############################################################################
+#                                                                          #
+#                                                                          #
+#                                  RUN CREW                                #
+#                                                                          #
+#                                                                          #
+############################################################################
+
 def run():
     """
     Run the crew.
@@ -57,6 +65,15 @@ def run():
     new_crew()
     
     
+############################################################################
+#                                                                          #
+#                                                                          #
+#                                 TRAIN CREW                               #
+#                                                                          #
+#                                                                          #
+############################################################################
+
+
 def train():
     """
     Train the crew for a given number of iterations.
@@ -70,6 +87,16 @@ def train():
     except Exception as e:
         raise Exception(f"An error occurred while training the crew: {e}")
 
+
+############################################################################
+#                                                                          #
+#                                                                          #
+#                                REPLAY CREW                               #
+#                                                                          #
+#                                                                          #
+############################################################################
+
+
 def replay():
     """
     Replay the crew execution from a specific task.
@@ -79,6 +106,15 @@ def replay():
 
     except Exception as e:
         raise Exception(f"An error occurred while replaying the crew: {e}")
+
+
+############################################################################
+#                                                                          #
+#                                                                          #
+#                                  TEST CREW                               #
+#                                                                          #
+#                                                                          #
+############################################################################
 
 def test():
     """

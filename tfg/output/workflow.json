@@ -1,46 +1,36 @@
+```json
 {
     "workflow": [
         {
-            "task": "Develop Initial Plot",
-            "assigned_experts": [
-                "John Smith"
-            ],
-            "subtask": "Plot Development"
+            "expert": "Emily Johnson",
+            "role": "Creative Director",
+            "subtask": "Develop a Story Concept"
         },
         {
-            "task": "Create Characters",
-            "assigned_experts": [
-                "Emily Foster"
-            ],
+            "expert": "Michael Smith",
+            "role": "Outline Specialist",
+            "subtask": "Create an Outline"
+        },
+        {
+            "expert": "Carlos Martinez",
+            "role": "Character Developer",
             "subtask": "Character Development"
         },
         {
-            "task": "Build the World",
-            "assigned_experts": [
-                "Michael Lee"
-            ],
-            "subtask": "World Building"
+            "expert": "Linda Green",
+            "role": "Story Writer",
+            "subtask": "Drafting the Story"
         },
         {
-            "task": "Identify Conflicts",
-            "assigned_experts": [
-                "Sarah Thompson"
-            ],
-            "subtask": "Conflict Identification"
+            "expert": "Tom Williams",
+            "role": "Editor",
+            "subtask": "Revising and Editing"
         },
         {
-            "task": "Articulate Themes",
-            "assigned_experts": [
-                "Robert Green"
-            ],
-            "subtask": "Theme Articulation"
-        },
-        {
-            "task": "Draft the Story",
-            "assigned_experts": [
-                "Jessica Taylor"
-            ],
-            "subtask": "Drafting and Revisions"
+            "expert": "Sophia Lee",
+            "role": "Format Specialist",
+            "subtask": "Finalizing and Formatting"
         }
     ]
 }
+```

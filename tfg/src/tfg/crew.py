@@ -18,6 +18,7 @@ from typing import List, Optional
 from pydantic import BaseModel, Field
 import yaml
 from tfg.tools.custom_tool import CleanJSON
+import sqlite3
 
 
 ############################################################################
@@ -54,6 +55,18 @@ class TfgCrew():
 
 	agents_config = 'config/agents.yaml'
 	tasks_config = 'config/tasks.yaml'
+ 
+	# Ensure the database directory exists
+	db_dir = os.path.join(os.getenv("CREWAI_STORAGE_DIR", "./storage/"), "long_term")
+	os.makedirs(db_dir, exist_ok=True)
+
+	# Ensure the database file exists
+	db_path = os.path.join(db_dir, "long_term_memory.db")
+	if not os.path.exists(db_path):
+		# Create an empty SQLite database
+		with sqlite3.connect(db_path) as conn:
+			pass  # The database file will be created if it doesn't exist
+
 
 	@agent
 	def scrum(self) -> Agent:
@@ -124,29 +137,6 @@ class TfgCrew():
   
 		return workflow_planner
 
-	# @agent
-	# def manager(self) -> Agent:
-	# 	"""
-	# 	Creates the manager agent.
-	# 	This agent is responsible for managing the crew.
-
-	# 	Returns:
-	# 		Agent: The manager agent.
-	# 	"""
-	# 	manager = Agent(
-	# 		config=self.agents_config['manager'],
-	# 		verbose=True,
-	# 		allow_delegation=True,
-	# 		tools=[
-	# 			JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
-	# 		]
-	# 	)
-	# 	# There seems to be an error in the constructor of the manager agent, so we need to set the config manually
-	# 	manager.config = agents_config['manager']
-  
-	# 	print(f"Manager config: {manager.config}")
-	# 	return manager
-
 	@task
 	def subtasks(self) -> Task:
 		"""
@@ -210,42 +200,40 @@ class TfgCrew():
 			agents=self.agents, # Automatically created by the @agent decorator
 			tasks=self.tasks, # Automatically created by the @task decorator
    			manager_agent=create_manager_agent(),
-			# process=Process.sequential,
 			process=Process.hierarchical,
 			verbose=True,
-			# memory=True,
-			# long_term_memory=LongTermMemory(
-			# 	storage=LTMSQLiteStorage(
-			# 		db_path=os.getenv("CREWAI_STORAGE_DIR") + "long_term/long_term_memory.db",
-			# 	)
-			# ),
-			# short_term_memory=ShortTermMemory(
-			# 	storage=RAGStorage(
-			# 		crew=self,
-			# 		type="short_term",
-			# 		path=os.getenv("CREWAI_STORAGE_DIR") + "short_term/",
-			# 		embedder_config={
-			# 			"provider": "openai",
-			# 			"config": {
-			# 				"model": 'text-embedding-3-small',
-			# 				"api_key": os.getenv("OPENAI_API_KEY")
-			# 			}
-			# 		},
-			# 	),
-			# ),
-			# entity_memory=EntityMemory(
-			# 	storage=RAGStorage(
-			# 		crew=self,
-			# 		type="entities",
-			# 		path=os.getenv("CREWAI_STORAGE_DIR") + "entities/",
-			# 		embedder_config={
-			# 			"provider": "openai",
-			# 			"config": {
-			# 				"model": 'text-embedding-3-small',
-       		# 				"api_key": os.getenv("OPENAI_API_KEY")
-			# 			}
-			# 		},
-			# 	),
-			# )
-			# process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
+			memory=True,
+			long_term_memory=LongTermMemory(
+				storage=LTMSQLiteStorage(
+					db_path=self.db_path,
+				)
+			),
+			short_term_memory=ShortTermMemory(
+				storage=RAGStorage(
+					crew=self,
+					type="short_term",
+					path=os.getenv("CREWAI_STORAGE_DIR") + "short_term/",
+					embedder_config={
+						"provider": "openai",
+						"config": {
+							"model": 'text-embedding-3-small',
+							"api_key": os.getenv("OPENAI_API_KEY")
+						}
+					},
+				),
+			),
+			entity_memory=EntityMemory(
+				storage=RAGStorage(
+					crew=self,
+					type="entities",
+					path=os.getenv("CREWAI_STORAGE_DIR") + "entities/",
+					embedder_config={
+						"provider": "openai",
+						"config": {
+							"model": 'text-embedding-3-small',
+       						"api_key": os.getenv("OPENAI_API_KEY")
+						}
+					},
+				),
+			)
 		)
