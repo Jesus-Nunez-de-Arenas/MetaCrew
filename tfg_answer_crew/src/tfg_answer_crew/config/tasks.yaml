@@ -1,26 +1,20 @@
-Brainstorming_Ideas:
-  description: "Generate and gather initial ideas and concepts for the story.  \n"
-  expected_output: "A list of potential story ideas.  \n"
-Creating_Characters:
-  description: "Develop character profiles and traits for the main characters in the\
-    \ story.  \n"
-  expected_output: "Detailed character profiles.  \n"
-Establishing_Setting:
-  description: "Define the time, place, and environment where the story takes place.\
-    \  \n"
-  expected_output: "A concise description of the setting.  \n"
-Plot_Development:
-  description: "Outline the sequence of events and conflicts that will drive the story.\
-    \  \n"
-  expected_output: "A structured plot outline.  \n"
-Writing_the_First_Draft:
-  description: "Compose the initial version of the story based on the outline and\
-    \ character profiles.  \n"
-  expected_output: "The first draft of the story written.  \n"
-Editing_and_Revising:
-  description: "Review and revise the first draft for clarity, coherence, and grammatical\
-    \ accuracy.  \n"
-  expected_output: "A polished version of the story.  \n"
-Final_Review:
-  description: "Conduct a final review before publishing or sharing the story.  \n"
-  expected_output: A final draft ready for publication.
+Define_Themes:
+  description: >
+    Identify and outline the main themes of the story to ensure a coherent message and engaging narrative.
+  expected_output: >
+    A list of main themes with brief descriptions.
+Develop_Characters:
+  description: >
+    Create profiles for the main characters, including the protagonist, antagonist, and supporting characters, detailing their motivations, backgrounds, and relationships.
+  expected_output: >
+    Character profiles for each main character.
+Establish_Settings:
+  description: >
+    Determine the time and place for the story, outlining how the setting influences the plot and character dynamics.
+  expected_output: >
+    A detailed description of the primary setting(s) used in the story.
+Define_Purpose:
+  description: >
+    Clarify the story's purpose, determining what message or experience is intended for the audience and how it will shape the narrative.
+  expected_output: >
+    A statement outlining the purpose of the story.

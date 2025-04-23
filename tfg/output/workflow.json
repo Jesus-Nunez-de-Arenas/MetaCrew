@@ -1,78 +1,26 @@
 {
-    "workflow": [
-        {
-            "task": "Outline Creation",
-            "expert": [
-                {
-                    "name": "Alice Smith",
-                    "role": "Creative Writer"
-                },
-                {
-                    "name": "Michael Brown",
-                    "role": "Plot Consultant"
-                }
-            ],
-            "subtask": "Creating the skeletal framework of the story, involving basic structure and key plot points."
-        },
-        {
-            "task": "Character Development",
-            "expert": [
-                {
-                    "name": "John Doe",
-                    "role": "Character Development Specialist"
-                }
-            ],
-            "subtask": "Developing characters in depth, including their profiles, motivations, and arcs."
-        },
-        {
-            "task": "Setting Design",
-            "expert": [
-                {
-                    "name": "Emily Johnson",
-                    "role": "Setting Designer"
-                }
-            ],
-            "subtask": "Designing the environment where the story takes place, creating a vivid backdrop."
-        },
-        {
-            "task": "Plot Structuring",
-            "expert": [
-                {
-                    "name": "Michael Brown",
-                    "role": "Plot Consultant"
-                }
-            ],
-            "subtask": "Structuring the plot and identifying key elements based on previous inputs."
-        },
-        {
-            "task": "Draft Assembly",
-            "expert": [
-                {
-                    "name": "Sarah Wilson",
-                    "role": "Lead Writer"
-                }
-            ],
-            "subtask": "Compiling all components into a cohesive narrative, translating the outline and character sketches."
-        },
-        {
-            "task": "Editing Process",
-            "expert": [
-                {
-                    "name": "David Clark",
-                    "role": "Editor"
-                }
-            ],
-            "subtask": "Reviewing and refining the narrative for clarity, coherence, and style."
-        },
-        {
-            "task": "Final Review",
-            "expert": [
-                {
-                    "name": "Laura Green",
-                    "role": "Final Review Specialist"
-                }
-            ],
-            "subtask": "Conducting a final quality check before publication, ensuring the product is polished."
-        }
+  "workflow": {
+    "steps": [
+      {
+        "task": "Identify and outline the main themes of the story.",
+        "expert": "Alice Thompson",
+        "subtask": "Theme Analysis"
+      },
+      {
+        "task": "Clarify the story's purpose.",
+        "expert": "David Brown",
+        "subtask": "Purpose Clarification"
+      },
+      {
+        "task": "Create profiles for the main characters.",
+        "expert": "Mark Johnson",
+        "subtask": "Character Development"
+      },
+      {
+        "task": "Determine the time and place for the story.",
+        "expert": "Laura Smith",
+        "subtask": "Setting Creation"
+      }
     ]
+  }
 }

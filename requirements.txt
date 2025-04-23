@@ -1,0 +1,9 @@
+crewai
+openai
+langchain
+langchain_community
+python-dotenv
+crewai_tools
+unstructured
+poetry
+uvicorn

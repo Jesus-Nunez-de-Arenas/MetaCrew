@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import socket
 import sys
 import os
 import logging
@@ -10,11 +11,21 @@ from time import sleep
 import atexit
 
 ############################################################################
+# ------------------------ Warnings Supressions -------------------------- #
+############################################################################
+
+# Suppress Pydantic deprecation warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="pydantic")
+# Suppress specific warnings from chromadb
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="chromadb")
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain")
+
+############################################################################
 # ------------------------ Logging Setup --------------------------------- #
 ############################################################################
 
 # Create a logs folder if it doesn't exist
-log_dir = './logs'
+log_dir = './logs/' + datetime.now().strftime('%Y-%m-%d') + '/' + datetime.now().strftime('%H') + '/'
 os.makedirs(log_dir, exist_ok=True)
 
 # Create a log file with a timestamp
@@ -40,26 +51,10 @@ sys.stderr = Tee(sys.stderr, log_file)
 # Ensure the log file is closed when the program exits
 @atexit.register
 def close_log_file():
-    log_file.close()
+    if not log_file.closed:
+        log_file.close()
 
 
-############################################################################
-# ------------------------ Warnings Supressions -------------------------- #
-############################################################################
-
-# Suppress Pydantic deprecation warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning, module="pydantic")
-# Suppress specific warnings from chromadb
-warnings.filterwarnings("ignore", message="Accessing the 'model_fields' attribute on the instance is deprecated")
-warnings.filterwarnings("ignore", message="The `schema` method is deprecated; use `model_json_schema` instead")
-# Suppress warnings about deprecated Pydantic V1 validators
-warnings.filterwarnings("ignore", message="Pydantic V1 style `@validator` validators are deprecated")
-# Suppress warnings about deprecated class-based `config` in Pydantic
-warnings.filterwarnings("ignore", message="Support for class-based `config` is deprecated, use ConfigDict instead")
-# Suppress warnings about extra keyword arguments in Pydantic `Field`
-warnings.filterwarnings("ignore", message="Using extra keyword arguments on `Field` is deprecated and will be removed")
-# Suppress specific warnings from local_persistent_hnsw
-warnings.filterwarnings("ignore", message="Number of requested results .* is greater than number of elements in index .*")
 
 ############################################################################
 # --------------------------------- Code --------------------------------- #
@@ -82,9 +77,9 @@ def run():
         'topic': 'Create a story'
     }
     
-    #clean_folders()
+    clean_folders()
     
-    #TfgCrew().crew().kickoff(inputs=inputs)
+    TfgCrew().crew().kickoff(inputs=inputs)
     
     new_crew()
     
