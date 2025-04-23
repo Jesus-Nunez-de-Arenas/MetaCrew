@@ -165,3 +165,4 @@ cython_debug/
 privateParameters.py
 .env
 __pycache__/
+logs/

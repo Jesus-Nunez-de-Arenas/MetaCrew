@@ -1,6 +1,9 @@
-from .util_functions import clean_json_file, eliminate_folder, clean_all_python_files
+import yaml
+from .util_functions import clean_json_file, eliminate_folder, clean_all_python_files, strip_markdown_fencing
 from .util_functions import initialize_crew, create_workflow, create_agent_yaml, create_task_yaml, create_single_crew, create_multi_crews, run_new_crew
+from .langchain_utils import run_agent_on_file, run_subtask_agent_on_file
 import os
+import json
 
 
 ############################################################################
@@ -8,7 +11,7 @@ import os
 ############################################################################
 
 
-def clean(storage_path: str) -> None:
+def clean_json(storage_path: str) -> None:
     
     """
     Cleans the JSON files in the specified storage path.
@@ -20,19 +23,25 @@ def clean(storage_path: str) -> None:
     """
     
     try:    
-        clean_json_file(os.path.join(storage_path, 'subtasks.json'))
+        with open(os.path.join(storage_path, 'subtasks.json'), 'r') as file:
+            try: 
+                json.load(file)
+            except json.JSONDecodeError:
+                clean_json_file(os.path.join(storage_path, 'subtasks.json'))
+                
+        with open(os.path.join(storage_path, 'experts.json'), 'r') as file:
+            try: 
+                json.load(file)
+            except json.JSONDecodeError:
+                clean_json_file(os.path.join(storage_path, 'experts.json'))
+                
+        with open(os.path.join(storage_path, 'workflow.json'), 'r') as file:
+            try: 
+                json.load(file)
+            except json.JSONDecodeError:
+                clean_json_file(os.path.join(storage_path, 'workflow.json'))
     except Exception as e:
-        raise Exception(f"JSON file in {storage_path} already cleaned: {e}")
-    
-    try:
-        clean_json_file(os.path.join(storage_path, 'experts.json'))
-    except Exception as e:
-        raise Exception(f"JSON file in {storage_path} already cleaned: {e}")
-    
-    try:
-        clean_json_file(os.path.join(storage_path, 'workflow.json'))
-    except Exception as e:
-        raise Exception(f"JSON file in {storage_path} already cleaned: {e}")
+        raise Exception(f"Error cleaning JSON files: {e}")
     
 
 def new_crew() -> None:
@@ -41,36 +50,77 @@ def new_crew() -> None:
     Creates the crew composed by the agents created.
     """
     
-    crew_name = os.getenv("CREW_NAME")
-    
-    initialize_crew(os.path.abspath(os.path.join(__file__, "../../../../..")), crew_name)
+    #initialize_crew(os.path.abspath(os.path.join(__file__, "../../../../..")))
     
     
-    eliminate_folder(os.path.abspath(os.path.join(__file__, "../../../../../" + crew_name + "/knowledge/")))
+    #eliminate_folder(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+    #                                              os.getenv("CREW_NAME") + "/knowledge/")))
     
+    #clean_json(os.getenv("OUTPUT_DIR"))
     
-    create_agent_yaml(json_path=os.getenv("OUTPUT_DIR") + 'experts.json',
-                      yaml_path=os.path.abspath(os.path.join(__file__, "../../../../../" + crew_name + "/src/" + crew_name + "/config/agents.yaml")))
-    
-    
-    create_task_yaml(task_path=os.getenv("OUTPUT_DIR") + 'subtasks.json',
-                     expert_path=os.getenv("OUTPUT_DIR") + 'experts.json',
-                     workflow_path=os.getenv("OUTPUT_DIR") + 'workflow.json',
-                     yaml_path=os.path.abspath(os.path.join(__file__, "../../../../../" + crew_name + "/src/" + crew_name + "/config/tasks.yaml")))
-    
-    # run_new_crew(os.path.abspath(os.path.join(__file__, "../../../../..")), crew_name)
+    try:
+        # create_agent_yaml(json_path=os.getenv("OUTPUT_DIR") + 'experts.json',
+        #                 yaml_path=os.path.abspath(os.path.join(__file__, "../../../../../" + 
+        #                                                         os.getenv("CREW_NAME") + "/src/" + 
+        #                                                         os.getenv("CREW_NAME") + 
+        #                                                         "/config/agents.yaml")))
+        
+        # Run the agent on the file and get the YAML
+        agents_yaml = run_agent_on_file(file_path=os.getenv("OUTPUT_DIR") + 'experts.json')
+        
+        # Remove markdown-style triple backticks
+        clean_yaml_str = strip_markdown_fencing(agents_yaml)
+        
+        # Convert YAML string to a Python dict
+        clean_dict = yaml.safe_load(clean_yaml_str)
+        
+        with open(os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                                        os.getenv("CREW_NAME") + "/src/" +
+                                                        os.getenv("CREW_NAME") +
+                                                        "/config/agents.yaml")), 'w') as file:
 
+            yaml.safe_dump(clean_dict, file, default_flow_style=False, sort_keys=False)
+        
+    except Exception as e:
+        raise Exception(f"Error creating agent YAML file: {e}")
+        
+    try:
+        # create_task_yaml(task_path=os.getenv("OUTPUT_DIR") + 'subtasks.json',
+        #                 expert_path=os.getenv("OUTPUT_DIR") + 'experts.json',
+        #                 yaml_path=os.path.abspath(os.path.join(__file__, "../../../../../" + 
+        #                                                         os.getenv("CREW_NAME") + "/src/" + 
+        #                                                         os.getenv("CREW_NAME") + 
+        #                                                         "/config/tasks.yaml")))
 
-    clean_all_python_files(os.path.abspath(os.path.join(__file__, "../../../../../" + crew_name + "/src/")))
+        # Run the agent on the file and get the YAML
+        subtasks_yaml = run_subtask_agent_on_file(file_path=os.getenv("OUTPUT_DIR") + 'subtasks.json')
+
+        # Remove markdown-style triple backticks
+        clean_yaml_str = strip_markdown_fencing(subtasks_yaml)
+
+        # Convert YAML string to a Python dict
+        clean_dict = yaml.safe_load(clean_yaml_str)
+
+        with open(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+                                                        os.getenv("CREW_NAME") + "/src/" + 
+                                                        os.getenv("CREW_NAME") + 
+                                                        "/config/tasks.yaml")), 'w') as file:
+            yaml.safe_dump(clean_dict, file, default_flow_style=False, sort_keys=False)
+
+    except Exception as e:
+        raise Exception(f"Error creating task YAML file: {e}")    
+
+    clean_all_python_files(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+                                                        os.getenv("CREW_NAME") + "/src/")))
+
+    # run_new_crew(os.path.abspath(os.path.join(__file__, "../../../../..")))
     
 def clean_folders() -> None:
     """
     Eliminate folders not needed for the execution.
     """
     
-    crew_name = os.getenv("CREW_NAME")
-    
     eliminate_folder(os.path.join(__file__, "../../../..", "db"))
     eliminate_folder(os.path.join(__file__, "../../../..", "output"))
-    eliminate_folder(os.path.join(__file__, "../../../../..", crew_name))
+    eliminate_folder(os.path.join(__file__, "../../../../..", os.getenv("CREW_NAME")))
     

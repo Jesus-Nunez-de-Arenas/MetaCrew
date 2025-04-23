@@ -1,53 +1,46 @@
 {
     "experts": [
         {
+            "name": "Alice Smith",
+            "role": "Creative Writer",
+            "goal": "Generate innovative and engaging story ideas that will captivate audiences.",
+            "backstory": "Alice has been writing creatively for over a decade, contributing to various anthologies and magazines. Her passion for storytelling began in childhood when she was inspired by her grandmother's tales. With a keen sense of fantasy and adventure, she excels at brainstorming unique ideas that drive narratives."
+        },
+        {
+            "name": "John Doe",
+            "role": "Character Development Specialist",
+            "goal": "Create multifaceted characters that audiences can connect with and invest in emotionally.",
+            "backstory": "With a background in psychology, John specializes in character development. He has worked on multiple projects that focus on fine-tuning characters' personalities, backstories, and motivations. His understanding of human behavior allows him to craft characters that are relatable and authentic."
+        },
+        {
             "name": "Emily Johnson",
-            "role": "Creative Director",
-            "goal": "To innovate and generate unique story ideas.",
-            "backstory": "With over 10 years in creative writing and storytelling, Emily has led various successful projects that blend traditional narratives with modern themes.",
-            "assigned_subtask": "Develop a Story Concept"
+            "role": "Setting Designer",
+            "goal": "Define the story's environment, ensuring it enhances the narrative and resonates with the storyline.",
+            "backstory": "Emily has a degree in environmental design and has worked on various projects in both film and fiction. Her love for history and culture informs her ability to build rich, immersive settings that transport readers into the world of the story."
         },
         {
-            "name": "Michael Smith",
-            "role": "Outline Specialist",
-            "goal": "To create structured outlines that guide the story development process.",
-            "backstory": "Having authored multiple critically acclaimed novels, Michael specializes in transforming complex ideas into clear, concise outlines.",
-            "assigned_subtask": "Create an Outline"
+            "name": "Michael Brown",
+            "role": "Plot Consultant",
+            "goal": "Outline a compelling sequence of events that creates a thrilling, engaging story arc.",
+            "backstory": "Michael has spent years analyzing story structures in literature and film. His innovative approaches to plot development have led to successful narratives in both media, helping creators outline conflicts and resolutions that maintain audience interest."
         },
         {
-            "name": "Sarah Davis",
-            "role": "Stylistic Consultant",
-            "goal": "To develop a cohesive style guide that defines the voice and tone of the project.",
-            "backstory": "As a former editor at a major publishing house, Sarah has a keen eye for stylistic consistency and has helped numerous authors strengthen their narrative voice.",
-            "assigned_subtask": "Style Guide Development"
+            "name": "Sarah Wilson",
+            "role": "Lead Writer",
+            "goal": "Compose the initial draft of the story, following the outlined plot and character profiles.",
+            "backstory": "Sarah is an experienced writer with numerous published works. Her expertise lies in translating outlines and character sketches into vivid and immersive prose, ensuring that the story flows naturally and maintains a strong voice."
         },
         {
-            "name": "Carlos Martinez",
-            "role": "Character Developer",
-            "goal": "To create compelling, multidimensional characters that resonate with readers.",
-            "backstory": "Carlos has worked as a character consultant for various films and novels, blending psychological insights with narrative needs.",
-            "assigned_subtask": "Character Development"
-        },
-        {
-            "name": "Linda Green",
-            "role": "Story Writer",
-            "goal": "To turn the outline and character profiles into a full draft.",
-            "backstory": "An experienced author with several bestsellers, Linda is known for her ability to draft engaging narratives swiftly and with attention to detail.",
-            "assigned_subtask": "Drafting the Story"
-        },
-        {
-            "name": "Tom Williams",
+            "name": "David Clark",
             "role": "Editor",
-            "goal": "To refine the draft through constructive feedback and edits.",
-            "backstory": "An editor with a passion for storytelling, Tom has worked on projects that span multiple genres, ensuring narrative clarity and quality.",
-            "assigned_subtask": "Revising and Editing"
+            "goal": "Polish the initial draft to enhance clarity, coherence, and grammatical accuracy.",
+            "backstory": "David has edited works across various genres and has a meticulous eye for detail. His experience helps him identify areas for improvement, ensuring stories are not only well-written but also resonate with their intended audience."
         },
         {
-            "name": "Sophia Lee",
-            "role": "Format Specialist",
-            "goal": "To ensure the final manuscript is polished and prepared for publication.",
-            "backstory": "Sophia has years of experience in formatting manuscripts for both print and digital, making her adept at ensuring stories meet industry standards.",
-            "assigned_subtask": "Finalizing and Formatting"
+            "name": "Laura Green",
+            "role": "Final Review Specialist",
+            "goal": "Conduct a thorough final review of the story before it is published or shared.",
+            "backstory": "Laura has a background in publishing and has overseen the final stages of numerous book releases. She understands the importance of a polished product and focuses on fine-tuning details to make the story publication-ready."
         }
     ]
 }

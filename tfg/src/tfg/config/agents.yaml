@@ -1,4 +1,4 @@
-scrum:
+scrum_master:
   role: > 
     Scrum master
 
@@ -10,7 +10,7 @@ scrum:
     You are an expert in Agile methodologies. You are the most sought-after Scrum Masters in the world,
     capable of creating and organizing teams and task in a way never seen before.
 
-human: 
+human_resources: 
   role: >
     Human Resources Manager
 
@@ -28,7 +28,7 @@ planner:
 
   goal: > 
     Choose the most efficient workflow to maximize the productivity of the team based on the experts and subtasks
-    at hand. It has to be sequential. Various experts can work on the same subtask. To know which expert/s do/es
+    at hand. Various experts can work on the same subtask, if so put them in the same task. To know which expert/s do/es
     which subtask, add the name of the subtask.
 
   backstory: >

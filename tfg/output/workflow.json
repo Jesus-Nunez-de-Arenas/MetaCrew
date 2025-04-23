@@ -1,36 +1,78 @@
-```json
 {
     "workflow": [
         {
-            "expert": "Emily Johnson",
-            "role": "Creative Director",
-            "subtask": "Develop a Story Concept"
+            "task": "Outline Creation",
+            "expert": [
+                {
+                    "name": "Alice Smith",
+                    "role": "Creative Writer"
+                },
+                {
+                    "name": "Michael Brown",
+                    "role": "Plot Consultant"
+                }
+            ],
+            "subtask": "Creating the skeletal framework of the story, involving basic structure and key plot points."
         },
         {
-            "expert": "Michael Smith",
-            "role": "Outline Specialist",
-            "subtask": "Create an Outline"
+            "task": "Character Development",
+            "expert": [
+                {
+                    "name": "John Doe",
+                    "role": "Character Development Specialist"
+                }
+            ],
+            "subtask": "Developing characters in depth, including their profiles, motivations, and arcs."
         },
         {
-            "expert": "Carlos Martinez",
-            "role": "Character Developer",
-            "subtask": "Character Development"
+            "task": "Setting Design",
+            "expert": [
+                {
+                    "name": "Emily Johnson",
+                    "role": "Setting Designer"
+                }
+            ],
+            "subtask": "Designing the environment where the story takes place, creating a vivid backdrop."
         },
         {
-            "expert": "Linda Green",
-            "role": "Story Writer",
-            "subtask": "Drafting the Story"
+            "task": "Plot Structuring",
+            "expert": [
+                {
+                    "name": "Michael Brown",
+                    "role": "Plot Consultant"
+                }
+            ],
+            "subtask": "Structuring the plot and identifying key elements based on previous inputs."
         },
         {
-            "expert": "Tom Williams",
-            "role": "Editor",
-            "subtask": "Revising and Editing"
+            "task": "Draft Assembly",
+            "expert": [
+                {
+                    "name": "Sarah Wilson",
+                    "role": "Lead Writer"
+                }
+            ],
+            "subtask": "Compiling all components into a cohesive narrative, translating the outline and character sketches."
         },
         {
-            "expert": "Sophia Lee",
-            "role": "Format Specialist",
-            "subtask": "Finalizing and Formatting"
+            "task": "Editing Process",
+            "expert": [
+                {
+                    "name": "David Clark",
+                    "role": "Editor"
+                }
+            ],
+            "subtask": "Reviewing and refining the narrative for clarity, coherence, and style."
+        },
+        {
+            "task": "Final Review",
+            "expert": [
+                {
+                    "name": "Laura Green",
+                    "role": "Final Review Specialist"
+                }
+            ],
+            "subtask": "Conducting a final quality check before publication, ensuring the product is polished."
         }
     ]
 }
-```

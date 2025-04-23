@@ -1,21 +1,47 @@
 #!/usr/bin/env python
 import sys
 import os
+import logging
+from datetime import datetime
 import warnings
 from tfg.crew import TfgCrew
-from tfg.utils.utils import clean, new_crew, clean_folders
+from tfg.utils.utils import new_crew, clean_folders
 from time import sleep
+import atexit
 
 ############################################################################
-# ----------------------- Environment Variables -------------------------- #
+# ------------------------ Logging Setup --------------------------------- #
 ############################################################################
 
-os.environ["OPENAI_MODEL_NAME"] = 'gpt-4o-mini'
-os.environ["OPENAI_EMBEDDING_MODEL_NAME"] = 'text-embedding-3-small'
-os.environ["CREWAI_STORAGE_DIR"] = './storage/'
-os.environ["OUTPUT_DIR"] = './output/'
-os.environ["CREW_NAME"] = 'tfg_answer_crew'
-# os.environ["GOOGLE_MODEL_NAME"] = 'gemini-2.0-flash'
+# Create a logs folder if it doesn't exist
+log_dir = './logs'
+os.makedirs(log_dir, exist_ok=True)
+
+# Create a log file with a timestamp
+log_file = open(os.path.join(log_dir, f"log_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt"), 'w')
+
+class Tee:
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, data):
+        for stream in self.streams:
+            stream.write(data)
+            stream.flush()  # Ensure immediate writing
+
+    def flush(self):
+        for stream in self.streams:
+            stream.flush()
+
+# Redirect stdout and stderr to both terminal and log file
+sys.stdout = Tee(sys.stdout, log_file)
+sys.stderr = Tee(sys.stderr, log_file)
+
+# Ensure the log file is closed when the program exits
+@atexit.register
+def close_log_file():
+    log_file.close()
+
 
 ############################################################################
 # ------------------------ Warnings Supressions -------------------------- #
@@ -56,11 +82,9 @@ def run():
         'topic': 'Create a story'
     }
     
-    clean_folders()
+    #clean_folders()
     
-    TfgCrew().crew().kickoff(inputs=inputs)
-    
-    #clean(os.getenv("OUTPUT_DIR"))
+    #TfgCrew().crew().kickoff(inputs=inputs)
     
     new_crew()
     

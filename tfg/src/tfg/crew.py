@@ -14,10 +14,6 @@ import os
 # ---------------------------- Other Imports ----------------------------- #
 ############################################################################
 
-from typing import List, Optional
-from pydantic import BaseModel, Field
-import yaml
-from tfg.tools.custom_tool import CleanJSON
 import sqlite3
 
 
@@ -25,6 +21,7 @@ import sqlite3
 # --------------------------------- Code --------------------------------- #
 ############################################################################
 
+# Needed when using Gemini
 # llm = LLM(
 #     api_key=os.getenv("GOOGLE_API_KEY"),
 #     model="gemini/gemini-2.0-flash",
@@ -69,7 +66,7 @@ class TfgCrew():
 
 
 	@agent
-	def scrum(self) -> Agent:
+	def scrum_master(self) -> Agent:
 		"""
 		Creates the scrum master agent.
 		This agent is responsible for managing the tasks of the crew.
@@ -79,20 +76,20 @@ class TfgCrew():
 		"""
      
 		scrum_master = Agent(
-			config=self.agents_config['scrum'],
+			config=self.agents_config['scrum_master'],
 			verbose=True,
 			tools=[
-				JSONSearchTool(json_path=os.getenv("OUTPUT_DIR") + 'subtasks.json')
+				JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
 			]
 		)
   
 		# There seems to be an error in the constructors, so we need to set the config manually
-		scrum_master.config = self.agents_config['scrum']
+		scrum_master.config = self.agents_config['scrum_master']
   
 		return scrum_master
   
 	@agent
-	def human(self) -> Agent:
+	def human_resources(self) -> Agent:
 		"""
 		Creates the human resources agent.
 		This agent is responsible for managing the human resources of the crew.
@@ -101,18 +98,18 @@ class TfgCrew():
 			Agent: The human resources agent.
 		"""
   
-		human = Agent(
-			config=self.agents_config['human'],
+		human_resources = Agent(
+			config=self.agents_config['human_resources'],
 			verbose=True,
 			tools=[
-				JSONSearchTool(json_path=os.getenv("OUTPUT_DIR") + 'subtasks.json')
+				JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
 			]
 		)
   
 		# There seems to be an error in the constructors, so we need to set the config manually
-		human.config = self.agents_config['human']
+		human_resources.config = self.agents_config['human_resources']
 
-		return human
+		return human_resources
   
 	@agent
 	def planner(self) -> Agent:
@@ -144,7 +141,7 @@ class TfgCrew():
 		This task is responsible for creating the subtasks of the crew.
   
 		Returns:
-			Task: The subtasks task.
+			Task: The subtasks division task.
 		"""
   
 		subtasks = Task(
@@ -163,7 +160,7 @@ class TfgCrew():
 		This task is responsible for creating the experts of the crew.
   
 		Returns:
-			Task: The experts task.
+			Task: The experts recruitment task.
 		"""
 
 		experts = Task(
@@ -182,7 +179,7 @@ class TfgCrew():
 		This task is responsible for creating the workflow of the crew.
   
 		Returns:
-			Task: The workflow task.
+			Task: The workflow management task.
 		"""
 		workflow = Task(
 			config=self.tasks_config['workflow'],
@@ -208,32 +205,48 @@ class TfgCrew():
 					db_path=self.db_path,
 				)
 			),
-			short_term_memory=ShortTermMemory(
-				storage=RAGStorage(
-					crew=self,
-					type="short_term",
-					path=os.getenv("CREWAI_STORAGE_DIR") + "short_term/",
-					embedder_config={
-						"provider": "openai",
-						"config": {
-							"model": 'text-embedding-3-small',
-							"api_key": os.getenv("OPENAI_API_KEY")
-						}
-					},
-				),
-			),
-			entity_memory=EntityMemory(
-				storage=RAGStorage(
-					crew=self,
-					type="entities",
-					path=os.getenv("CREWAI_STORAGE_DIR") + "entities/",
-					embedder_config={
-						"provider": "openai",
-						"config": {
-							"model": 'text-embedding-3-small',
-       						"api_key": os.getenv("OPENAI_API_KEY")
-						}
-					},
-				),
-			)
+			# short_term_memory=ShortTermMemory(
+			# 	storage=RAGStorage(
+			# 		crew=self,
+			# 		type="short_term",
+			# 		path=os.getenv("CREWAI_STORAGE_DIR") + "short_term/",
+			# 		embedder_config={
+			# 			"provider": "openai",
+			# 			"config": {
+			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
+			# 				"api_key": os.getenv("OPENAI_API_KEY")
+			# 			}
+			# 		},
+			# 	),
+			# 	crew=self,
+			# 	embedder_config={
+			# 			"provider": "openai",
+			# 			"config": {
+			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
+       		# 				"api_key": os.getenv("OPENAI_API_KEY")
+			# 			}
+			# 		},
+			# ),
+			# entity_memory=EntityMemory(
+			# 	storage=RAGStorage(
+			# 		crew=self,
+			# 		type="entities",
+			# 		path=os.getenv("CREWAI_STORAGE_DIR") + "entities/",
+			# 		embedder_config={
+			# 			"provider": "openai",
+			# 			"config": {
+			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
+       		# 				"api_key": os.getenv("OPENAI_API_KEY")
+			# 			}
+			# 		},
+			# 	),
+			# 	crew=self,
+			# 	embedder_config={
+			# 			"provider": "openai",
+			# 			"config": {
+			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
+       		# 				"api_key": os.getenv("OPENAI_API_KEY")
+			# 			}
+			# 		},
+			# )
 		)

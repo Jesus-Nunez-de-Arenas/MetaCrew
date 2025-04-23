@@ -1,50 +1,39 @@
 {
     "subtasks": [
         {
-            "name": "Develop a Story Concept",
-            "description": "Define the core idea and themes of the story.",
-            "challenges": "Balancing originality and audience expectations.",
-            "estimated_duration": "1 week"
+            "name": "Brainstorming Ideas",
+            "description": "Generate and gather initial ideas and concepts for the story.",
+            "expected_output": "A list of potential story ideas."
         },
         {
-            "name": "Create an Outline",
-            "description": "Structure the narrative arc, including exposition, rising action, climax, and falling action.",
-            "challenges": "Ensuring coherent transitions and pacing.",
-            "estimated_duration": "1 week"
+            "name": "Creating Characters",
+            "description": "Develop character profiles and traits for the main characters in the story.",
+            "expected_output": "Detailed character profiles."
         },
         {
-            "name": "Style Guide Development",
-            "description": "Specify tone, voice, and stylistic elements (e.g., descriptive language, dialogue format).",
-            "challenges": "Maintaining consistency throughout different sections.",
-            "estimated_duration": "3 days",
-            "feedback_mechanisms": "Review sessions with peers to align on style."
+            "name": "Establishing Setting",
+            "description": "Define the time, place, and environment where the story takes place.",
+            "expected_output": "A concise description of the setting."
         },
         {
-            "name": "Character Development",
-            "description": "Create detailed profiles for main and supporting characters.",
-            "challenges": "Making characters relatable and multidimensional.",
-            "estimated_duration": "1 week"
+            "name": "Plot Development",
+            "description": "Outline the sequence of events and conflicts that will drive the story.",
+            "expected_output": "A structured plot outline."
         },
         {
-            "name": "Drafting the Story",
-            "description": "Write the initial draft based on the outline.",
-            "challenges": "Staying motivated and managing writer's block.",
-            "estimated_duration": "2-4 weeks",
-            "feedback_mechanisms": "Beta readers to provide insights on the draft."
+            "name": "Writing the First Draft",
+            "description": "Compose the initial version of the story based on the outline and character profiles.",
+            "expected_output": "The first draft of the story written."
         },
         {
-            "name": "Revising and Editing",
-            "description": "Polish the manuscript, focusing on language, grammar, and narrative coherence.",
-            "challenges": "Noticing inconsistencies or pacing issues.",
-            "estimated_duration": "1-2 weeks",
-            "feedback_mechanisms": "Peer review or professional editor's input."
+            "name": "Editing and Revising",
+            "description": "Review and revise the first draft for clarity, coherence, and grammatical accuracy.",
+            "expected_output": "A polished version of the story."
         },
         {
-            "name": "Finalizing and Formatting",
-            "description": "Prepare the manuscript for publication or submission.",
-            "challenges": "Adhering to publishing guidelines.",
-            "estimated_duration": "1 week",
-            "feedback_mechanisms": "Final checks can involve input from publishing experts."
+            "name": "Final Review",
+            "description": "Conduct a final review before publishing or sharing the story.",
+            "expected_output": "A final draft ready for publication."
         }
     ]
 }

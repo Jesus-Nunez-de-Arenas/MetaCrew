@@ -3,6 +3,9 @@ import os
 import shutil
 import subprocess
 import yaml
+from unstructured.partition.auto import partition
+import json
+import csv
 
 
 ############################################################################
@@ -119,7 +122,13 @@ def clean_all_python_files(storage_path: str) -> None:
         
         raise Exception(f"Error cleaning Python files in {storage_path}: {e}")
 
-        
+def strip_markdown_fencing(yaml_string: str) -> str:
+    if yaml_string.strip().startswith("```yaml"):
+        return "\n".join(
+            line for line in yaml_string.strip().splitlines()
+            if not line.strip().startswith("```")
+        )
+    return yaml_string
     
     
 ############################################################################
@@ -130,7 +139,7 @@ def clean_all_python_files(storage_path: str) -> None:
 #                                                                          #
 ############################################################################
     
-def initialize_crew(crew_path, crew_name):
+def initialize_crew(crew_path):
     
     """
     Initializes the crew using the crewai CLI.
@@ -147,7 +156,7 @@ def initialize_crew(crew_path, crew_name):
     try:
         provider_choice = "1\n3\n" + os.getenv("OPENAI_API_KEY") + "\n"
         subprocess.run(
-            ["crewai", "create", "crew", crew_name], 
+            ["crewai", "create", "crew", os.getenv("CREW_NAME")], 
             cwd=crew_path, 
             input=provider_choice.encode(),
             check=True
@@ -206,7 +215,7 @@ def create_agent_yaml(json_path: str, yaml_path: str) -> None:
         raise Exception(f"Error creating agents.yaml file: {e}")
 
 
-def create_task_yaml(task_path: str, expert_path: str, workflow_path: str, yaml_path: str) -> None:
+def create_task_yaml(task_path: str, expert_path: str, yaml_path: str) -> None:
     """
     Creates a tasks.yaml file with the tasks created.
     The tasks come from the subtasks.json file created by the crew.
@@ -273,10 +282,18 @@ def create_task_yaml(task_path: str, expert_path: str, workflow_path: str, yaml_
 
 
 def create_single_crew():
+    """
+    Creates a crew where the agents have each one task.
+    
+    """
     pass
 
 
 def create_multi_crews():
+    """
+    Creates a crew where the agents have multiple tasks or a task has multiple agents.
+    
+    """
     pass
 
 
@@ -323,3 +340,62 @@ def run_new_crew(crew_path):
             )
     except subprocess.CalledProcessError as e:
         raise Exception(f"Failed to run the new crew: {e}")
+    
+############################################################################
+#                                                                          #
+#                                                                          #
+#                           LANGCHAIN PREPROCESSING                        #
+#                                                                          #
+#                                                                          #
+############################################################################
+
+def extract_text_from_file(file_path):
+    _, ext = os.path.splitext(file_path)
+    ext = ext.lower()
+
+    if ext == ".json":
+        return extract_from_json(file_path)
+    elif ext in [".yaml", ".yml"]:
+        return extract_from_yaml(file_path)
+    elif ext == ".csv":
+        return extract_from_csv(file_path)
+    else:
+        return extract_from_unstructured(file_path)
+
+def extract_from_json(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        return flatten_json(data)
+
+def extract_from_yaml(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+        return flatten_json(data)
+
+def extract_from_csv(file_path):
+    rows = []
+    with open(file_path, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            rows.append(row)
+    return flatten_json(rows)
+
+def extract_from_unstructured(file_path):
+    elements = partition(file_path)
+    return "\n".join([el.text for el in elements if el.text])
+
+def flatten_json(y):
+    out = []
+
+    def flatten(x, name=''):
+        if isinstance(x, dict):
+            for a in x:
+                flatten(x[a], f'{name}{a}_')
+        elif isinstance(x, list):
+            for i, a in enumerate(x):
+                flatten(a, f'{name}{i}_')
+        else:
+            out.append(f"{name[:-1]}: {x}")
+
+    flatten(y)
+    return "\n".join(out)

@@ -1,24 +1,26 @@
-character_development:
-  description: Create detailed profiles for main and supporting characters.
-  expected_output: No expected output provided.
-create_an_outline:
-  description: Structure the narrative arc, including exposition, rising action, climax,
-    and falling action.
-  expected_output: No expected output provided.
-develop_a_story_concept:
-  description: Define the core idea and themes of the story.
-  expected_output: No expected output provided.
-drafting_the_story:
-  description: Write the initial draft based on the outline.
-  expected_output: No expected output provided.
-finalizing_and_formatting:
-  description: Prepare the manuscript for publication or submission.
-  expected_output: No expected output provided.
-revising_and_editing:
-  description: Polish the manuscript, focusing on language, grammar, and narrative
-    coherence.
-  expected_output: No expected output provided.
-style_guide_development:
-  description: Specify tone, voice, and stylistic elements (e.g., descriptive language,
-    dialogue format).
-  expected_output: No expected output provided.
+Brainstorming_Ideas:
+  description: "Generate and gather initial ideas and concepts for the story.  \n"
+  expected_output: "A list of potential story ideas.  \n"
+Creating_Characters:
+  description: "Develop character profiles and traits for the main characters in the\
+    \ story.  \n"
+  expected_output: "Detailed character profiles.  \n"
+Establishing_Setting:
+  description: "Define the time, place, and environment where the story takes place.\
+    \  \n"
+  expected_output: "A concise description of the setting.  \n"
+Plot_Development:
+  description: "Outline the sequence of events and conflicts that will drive the story.\
+    \  \n"
+  expected_output: "A structured plot outline.  \n"
+Writing_the_First_Draft:
+  description: "Compose the initial version of the story based on the outline and\
+    \ character profiles.  \n"
+  expected_output: "The first draft of the story written.  \n"
+Editing_and_Revising:
+  description: "Review and revise the first draft for clarity, coherence, and grammatical\
+    \ accuracy.  \n"
+  expected_output: "A polished version of the story.  \n"
+Final_Review:
+  description: "Conduct a final review before publishing or sharing the story.  \n"
+  expected_output: A final draft ready for publication.
