@@ -13,7 +13,7 @@ from langchain_community.document_loaders import (
 )
 from langchain.schema import SystemMessage, Document
 from langchain.prompts import PromptTemplate
-from .util_functions import extract_text_from_file
+from .langchain_promts import main_prompt_template_single, crew_prompt_template_single
 import yaml
 
 
@@ -66,6 +66,21 @@ Only output the YAML. Here is the input text:
 	return yaml_str
 
 
+# @tool
+# def update_python_code(base_code: str, context_info: str) -> str:
+#     """Returns modified Python code based on context information."""
+#     prompt = f"""You're an AI code editor. Given the original Python code and new context, adapt the code accordingly.
+
+#     Context Info:
+#     {context_info}
+
+#     Original Code:
+#     {base_code}
+
+#     Updated Python Code:"""
+    
+#     return llm.invoke(prompt)
+
 def load_file_content(file_path: str) -> str:
 	"""
  	Load the content of a file based on its extension.
@@ -93,6 +108,11 @@ def load_file_content(file_path: str) -> str:
 		loader = UnstructuredMarkdownLoader(file_path)
 	elif ext == '.xml':
 		loader = UnstructuredXMLLoader(file_path)
+	elif ext == '.py':
+		loader = TextLoader(file_path)
+	elif ext == '.yaml' or ext == '.yml':
+		with open(file_path, 'r') as file:
+			return yaml.safe_load(file)
 	else:
 		raise ValueError(f"Unsupported file type: {ext}")
 
@@ -141,3 +161,89 @@ def run_subtask_agent_on_file(file_path) -> str:
 	yaml_output = agent.invoke(f"extract_subtask_yaml: {raw_text}")
   
 	return yaml_output['output']
+
+def modify_single_main_python_code(file_path_python: str, file_path_context: str) -> str:
+	"""
+	Modify Python code based on context information.
+
+	Args:
+		file_path_python (str): path to the Python file
+		file_path_context (str): path to the context file
+
+	Returns:
+		str: modified Python code as a string
+	"""
+ 
+	base_code = load_file_content(file_path_python)
+	context_info = load_file_content(file_path_context)
+	main_example = load_file_content(os.path.abspath(os.path.join("./src/tfg/", "main.py")))
+ 
+	tools = []
+ 
+	agent = initialize_agent(
+		tools, llm, agent="structured-chat-zero-shot-react-description", verbose=True
+	)
+ 
+	inputs = os.getenv("INPUTS")
+ 
+	log_utils_path = os.path.abspath(os.path.join(__file__, "../../../../../" +
+		os.getenv("CREW_NAME") + "/src/" + 
+		os.getenv("CREW_NAME") + "/utils/logging_utils.py"))
+
+	main_prompt = main_prompt_template_single.format(
+		file_path_context=file_path_context,
+		file_path_python=file_path_python,
+		inputs=inputs,
+		logging_utils=log_utils_path,
+		base_code=base_code,
+		context_info=context_info, 
+		main_example=main_example
+	)
+
+	modified_code = agent.run(main_prompt)
+	# modified_code = agent.invoke(f"update_python_code: {base_code} {context_info}")
+	
+
+	print(f"Modified main code: {modified_code}")
+
+	return modified_code
+
+def modify_single_crew_python_code(file_path_python: str, file_path_context_task: str, file_path_context_agents: str) -> str:
+	"""
+	Modify Python code based on context information.
+
+	Args:
+		file_path_python (str): path to the Python file
+		file_path_context (str): path to the context file
+
+	Returns:
+		str: modified Python code as a string
+	"""
+	base_code = load_file_content(file_path_python)
+	tasks_context_info = load_file_content(file_path_context_task)
+	agents_context_info = load_file_content(file_path_context_agents)
+	crew_example = load_file_content(os.path.abspath(os.path.join("./src/tfg/", "crew.py")))
+ 
+	tools = []
+ 
+	agent = initialize_agent(
+		tools, llm, agent="structured-chat-zero-shot-react-description", verbose=True
+	)
+ 
+	crew_prompt_template = crew_prompt_template_single.format(
+		file_path_context_task=file_path_context_task,
+  		file_path_context_agents=file_path_context_agents,
+		file_path_python=file_path_python,
+		inputs=os.getenv("INPUTS"),
+		base_code=base_code,
+		tasks_context_info=tasks_context_info, 
+		agents_context_info=agents_context_info,
+		crew_example=crew_example
+	)
+
+	modified_code = agent.run(crew_prompt_template)
+	# modified_code = agent.invoke(f"update_python_code: {base_code} {context_info}")
+	
+	print(f"Modified crew code: {modified_code}")
+ 
+	return modified_code

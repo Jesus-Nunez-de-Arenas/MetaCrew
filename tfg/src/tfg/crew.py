@@ -4,7 +4,6 @@
 
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai.project import CrewBase, agent, crew, task
-from crewai.memory.storage.rag_storage import RAGStorage
 from crewai.memory.storage.ltm_sqlite_storage import LTMSQLiteStorage
 from crewai.memory import LongTermMemory, ShortTermMemory, EntityMemory
 from crewai_tools import JSONSearchTool
@@ -15,6 +14,8 @@ import os
 ############################################################################
 
 import sqlite3
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
 
 
 ############################################################################
@@ -27,6 +28,20 @@ import sqlite3
 #     model="gemini/gemini-2.0-flash",
 # )
 
+embedding_model = OpenAIEmbeddings(
+    model=os.getenv("OPENAI_EMBEDDING_MODEL_NAME", "text-embedding-ada-002"),
+    openai_api_key=os.getenv("OPENAI_API_KEY")
+)
+
+vectorstore_entity = Chroma(
+    embedding_function=embedding_model,
+    persist_directory= os.getenv("CREWAI_STORAGE_DIR") + "./entity/chroma_db"
+)
+
+vectorstore_short_term = Chroma(
+	embedding_function=embedding_model,
+	persist_directory= os.getenv("CREWAI_STORAGE_DIR") + "./short_term/chroma_db"
+)
 
 def create_manager_agent() -> Agent:
 		"""
@@ -199,54 +214,31 @@ class TfgCrew():
    			manager_agent=create_manager_agent(),
 			process=Process.hierarchical,
 			verbose=True,
-			memory=True,
 			long_term_memory=LongTermMemory(
 				storage=LTMSQLiteStorage(
 					db_path=self.db_path,
 				)
 			),
-			# short_term_memory=ShortTermMemory(
-			# 	storage=RAGStorage(
-			# 		crew=self,
-			# 		type="short_term",
-			# 		path=os.getenv("CREWAI_STORAGE_DIR") + "short_term/",
-			# 		embedder_config={
-			# 			"provider": "openai",
-			# 			"config": {
-			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
-			# 				"api_key": os.getenv("OPENAI_API_KEY")
-			# 			}
-			# 		},
-			# 	),
-			# 	crew=self,
-			# 	embedder_config={
-			# 			"provider": "openai",
-			# 			"config": {
-			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
-       		# 				"api_key": os.getenv("OPENAI_API_KEY")
-			# 			}
-			# 		},
-			# ),
-			# entity_memory=EntityMemory(
-			# 	storage=RAGStorage(
-			# 		crew=self,
-			# 		type="entities",
-			# 		path=os.getenv("CREWAI_STORAGE_DIR") + "entities/",
-			# 		embedder_config={
-			# 			"provider": "openai",
-			# 			"config": {
-			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
-       		# 				"api_key": os.getenv("OPENAI_API_KEY")
-			# 			}
-			# 		},
-			# 	),
-			# 	crew=self,
-			# 	embedder_config={
-			# 			"provider": "openai",
-			# 			"config": {
-			# 				"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
-       		# 				"api_key": os.getenv("OPENAI_API_KEY")
-			# 			}
-			# 		},
-			# )
+			short_term_memory=ShortTermMemory(
+				storage=vectorstore_short_term,
+				crew=self,
+				embedder_config={
+						"provider": "openai",
+						"config": {
+							"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
+       						"api_key": os.getenv("OPENAI_API_KEY")
+						}
+					},
+			),
+			entity_memory=EntityMemory(
+				storage=vectorstore_entity,
+				crew=self,
+				embedder_config={
+						"provider": "openai",
+						"config": {
+							"model": os.getenv("OPENAI_EMBEDDING_MODEL_NAME"),
+       						"api_key": os.getenv("OPENAI_API_KEY")
+						}
+					},
+			)
 		)

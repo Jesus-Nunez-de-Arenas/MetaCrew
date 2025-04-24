@@ -7,6 +7,7 @@ from datetime import datetime
 import warnings
 from tfg.crew import TfgCrew
 from tfg.utils.utils import new_crew, clean_folders
+from tfg.utils.logging_utils import close_log_file, setup_logging
 from time import sleep
 import atexit
 
@@ -20,41 +21,18 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, module="pydantic"
 warnings.filterwarnings("ignore", category=DeprecationWarning, module="chromadb")
 warnings.filterwarnings("ignore", category=DeprecationWarning, module="langchain")
 
+
 ############################################################################
-# ------------------------ Logging Setup --------------------------------- #
+# ------------------------ Global Logging Setup -------------------------- #
 ############################################################################
 
-# Create a logs folder if it doesn't exist
-log_dir = './logs/' + datetime.now().strftime('%Y-%m-%d') + '/' + datetime.now().strftime('%H') + '/'
-os.makedirs(log_dir, exist_ok=True)
-
-# Create a log file with a timestamp
-log_file = open(os.path.join(log_dir, f"log_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt"), 'w')
-
-class Tee:
-    def __init__(self, *streams):
-        self.streams = streams
-
-    def write(self, data):
-        for stream in self.streams:
-            stream.write(data)
-            stream.flush()  # Ensure immediate writing
-
-    def flush(self):
-        for stream in self.streams:
-            stream.flush()
-
-# Redirect stdout and stderr to both terminal and log file
-sys.stdout = Tee(sys.stdout, log_file)
-sys.stderr = Tee(sys.stderr, log_file)
+# Set up logging
+log_file, log_file_path = setup_logging()
 
 # Ensure the log file is closed when the program exits
 @atexit.register
-def close_log_file():
-    if not log_file.closed:
-        log_file.close()
-
-
+def cleanup():
+    close_log_file(log_file)
 
 ############################################################################
 # --------------------------------- Code --------------------------------- #
@@ -73,15 +51,20 @@ def run():
     """
     Run the crew.
     """
-    inputs = {
-        'topic': 'Create a story'
-    }
-    
-    clean_folders()
-    
-    TfgCrew().crew().kickoff(inputs=inputs)
-    
-    new_crew()
+    try:
+        inputs = {
+            'topic': 'Create a story'
+        }
+        
+        clean_folders()
+        
+        TfgCrew().crew().kickoff(inputs=inputs)
+        
+        new_crew()
+    except Exception as e:
+        raise Exception(f"An error occurred while running the crew: {e}")
+
+    sys.exit(0)
     
     
 ############################################################################
@@ -105,6 +88,8 @@ def train():
 
     except Exception as e:
         raise Exception(f"An error occurred while training the crew: {e}")
+    
+    sys.exit(0)
 
 
 ############################################################################
@@ -125,6 +110,8 @@ def replay():
 
     except Exception as e:
         raise Exception(f"An error occurred while replaying the crew: {e}")
+    
+    sys.exit(0)
 
 
 ############################################################################
@@ -147,3 +134,5 @@ def test():
 
     except Exception as e:
         raise Exception(f"An error occurred while replaying the crew: {e}")
+
+    sys.exit(0)

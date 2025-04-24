@@ -1,26 +1,39 @@
 {
-  "workflow": {
-    "steps": [
-      {
-        "task": "Identify and outline the main themes of the story.",
-        "expert": "Alice Thompson",
-        "subtask": "Theme Analysis"
-      },
-      {
-        "task": "Clarify the story's purpose.",
-        "expert": "David Brown",
-        "subtask": "Purpose Clarification"
-      },
-      {
-        "task": "Create profiles for the main characters.",
-        "expert": "Mark Johnson",
-        "subtask": "Character Development"
-      },
-      {
-        "task": "Determine the time and place for the story.",
-        "expert": "Laura Smith",
-        "subtask": "Setting Creation"
-      }
+    "workflow": [
+        {
+            "task": "Generate unique story concepts",
+            "expert": "Creative Writer",
+            "subtask": "Story Concept Generation"
+        },
+        {
+            "task": "Design compelling characters",
+            "expert": "Character Development Specialist",
+            "subtask": "Character Design"
+        },
+        {
+            "task": "Structure the narrative arc",
+            "expert": "Plot Developer",
+            "subtask": "Plot Structuring"
+        },
+        {
+            "task": "Create detailed settings",
+            "expert": "Worldbuilder",
+            "subtask": "Setting Creation"
+        },
+        {
+            "task": "Write the first complete version of the story",
+            "expert": "Novelist",
+            "subtask": "First Draft Writing"
+        },
+        {
+            "task": "Refine the manuscript for clarity, engagement, and accuracy",
+            "expert": "Editor",
+            "subtask": "Manuscript Editing"
+        },
+        {
+            "task": "Prepare the manuscript for submission",
+            "expert": "Publishing Consultant",
+            "subtask": "Manuscript Preparation"
+        }
     ]
-  }
 }

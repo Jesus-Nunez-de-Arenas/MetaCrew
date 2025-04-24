@@ -18,7 +18,7 @@ import csv
 ############################################################################
 #                                                                          #
 #                                                                          #
-#                         CLEAN FOLDERS AND FILES                          #
+#                            FOLDERS AND FILES                             #
 #                                                                          #
 #                                                                          #
 ############################################################################
@@ -122,13 +122,40 @@ def clean_all_python_files(storage_path: str) -> None:
         
         raise Exception(f"Error cleaning Python files in {storage_path}: {e}")
 
-def strip_markdown_fencing(yaml_string: str) -> str:
+def strip_markdown_fencing_yaml(yaml_string: str) -> str:
     if yaml_string.strip().startswith("```yaml"):
         return "\n".join(
             line for line in yaml_string.strip().splitlines()
             if not line.strip().startswith("```")
         )
     return yaml_string
+
+def strip_markdown_fencing_python(text: str) -> str:
+    if text.strip().startswith("```python"):
+        return "\n".join(
+            line for line in text.strip().splitlines()
+            if not line.strip().startswith("```")
+        )
+    return text
+    
+def copy_file(src: str, dst: str) -> None:
+    """
+    Copy a file from source to destination.
+
+    Args:
+        src (str): The path to the source file.
+        dst (str): The path to the destination file.
+        
+        
+    Raises:
+        Exception: If the file cannot be copied, an exception is raised with the error message.
+    """
+    
+    try:
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        shutil.copy(src, dst)
+    except Exception as e:
+        raise Exception(f"Error copying file from {src} to {dst}: {e}")
     
     
 ############################################################################
@@ -139,7 +166,7 @@ def strip_markdown_fencing(yaml_string: str) -> str:
 #                                                                          #
 ############################################################################
     
-def initialize_crew(crew_path):
+def initialize_crew(crew_path) -> None:
     
     """
     Initializes the crew using the crewai CLI.
@@ -169,118 +196,6 @@ def create_workflow():
     pass
 
 
-def create_agent_yaml(json_path: str, yaml_path: str) -> None:
-    """
-    Creates an agents.yaml file with the agents created.
-    The agents come from the experts.json file created by the crew.
-    The agents.yaml file is created in the output folder.
-    
-    Args:
-        json_path (str): The path to the experts.json file.
-        yaml_path (str): The path to the agents.yaml file.
-        
-    Raises:
-        Exception: If the agents.yaml file cannot be created, an exception is raised with the error message.
-
-    """
-    try:
-        # Load experts.json
-        with open(json_path, 'r') as file:
-            try:
-                experts = json.load(file)
-            except json.JSONDecodeError:
-                clean_json_file(json_path)
-                with open(json_path, 'r') as file:
-                    experts = json.load(file)
-
-        # Eliminate the first level of the JSON if necessary
-        if isinstance(experts, dict):
-            experts = experts.get(next(iter(experts)), experts)
-
-        # Transform experts into the agents.yaml structure
-        agents = {}
-        for expert in experts:
-            name = expert["name"].lower().replace(" ", "_")
-            agents[name] = {
-                "role": f"{expert['role']}",
-                "goal": f"The main task is {{topic}}. {expert['goal']}",
-                "backstory": f"{expert['backstory']}"
-            }
-
-        # Overwrite the agents.yaml file
-        with open(yaml_path, 'w') as file:
-            yaml.safe_dump(agents, file, default_flow_style=False)
-
-    except Exception as e:
-        raise Exception(f"Error creating agents.yaml file: {e}")
-
-
-def create_task_yaml(task_path: str, expert_path: str, yaml_path: str) -> None:
-    """
-    Creates a tasks.yaml file with the tasks created.
-    The tasks come from the subtasks.json file created by the crew.
-    The tasks.yaml file is created in the output folder.
-    
-    Args:
-        task_path (str): The path to the subtasks.json file.
-        expert_path (str): The path to the experts.json file.
-        workflow_path (str): The path to the workflow.json file.
-        yaml_path (str): The path to the tasks.yaml file.
-        
-    Raises:
-        Exception: If the tasks.yaml file cannot be created, an exception is raised with the error message.
-        ValueError: If the tasks data is not a list or if the workflow data is not a dictionary or valid list.
-
-    """
-    try:
-        # Load experts.json
-        with open(expert_path, 'r') as file:
-            try:
-                experts = json.load(file)
-            except json.JSONDecodeError:
-                clean_json_file(expert_path)
-                with open(expert_path, 'r') as file:
-                    experts = json.load(file)
-
-        # Load subtasks.json
-        with open(task_path, 'r') as file:
-            try:
-                tasks = json.load(file)
-            except json.JSONDecodeError:
-                clean_json_file(task_path)
-                with open(task_path, 'r') as file:
-                    tasks = json.load(file)
-
-        # Eliminate the first level of the JSON if necessary
-        if isinstance(experts, dict):
-            experts = experts.get(next(iter(experts)), experts)
-
-        if isinstance(tasks, dict):
-            tasks = tasks.get(next(iter(tasks)), tasks)
-
-        # Ensure tasks is a list
-        if not isinstance(tasks, list):
-            raise ValueError("Tasks data is not a list. Please check the structure of subtasks.json.")
-
-        # Transform tasks into the tasks.yaml structure
-        tasks_yaml = {}
-        for task in tasks:
-            if not isinstance(task, dict):
-                raise ValueError("Each task must be a dictionary. Please check the structure of subtasks.json.")
-            name = task["name"].lower().replace(" ", "_")
-            tasks_yaml[name] = {
-                "description": task.get("description", "No description provided."),
-                "expected_output": task.get("expected_output", "No expected output provided."),
-            }
-
-        # Write the tasks.yaml file
-        with open(yaml_path, 'w') as file:
-            yaml.safe_dump(tasks_yaml, file, default_flow_style=False)
-
-    except Exception as e:
-        raise Exception(f"Error creating tasks.yaml file: {e}")
-
-
 def create_single_crew():
     """
     Creates a crew where the agents have each one task.
@@ -297,7 +212,7 @@ def create_multi_crews():
     pass
 
 
-def run_new_crew(crew_path):
+def run_new_crew(crew_path) -> None:
     """
     Run the new crew.
     
@@ -340,62 +255,3 @@ def run_new_crew(crew_path):
             )
     except subprocess.CalledProcessError as e:
         raise Exception(f"Failed to run the new crew: {e}")
-    
-############################################################################
-#                                                                          #
-#                                                                          #
-#                           LANGCHAIN PREPROCESSING                        #
-#                                                                          #
-#                                                                          #
-############################################################################
-
-def extract_text_from_file(file_path):
-    _, ext = os.path.splitext(file_path)
-    ext = ext.lower()
-
-    if ext == ".json":
-        return extract_from_json(file_path)
-    elif ext in [".yaml", ".yml"]:
-        return extract_from_yaml(file_path)
-    elif ext == ".csv":
-        return extract_from_csv(file_path)
-    else:
-        return extract_from_unstructured(file_path)
-
-def extract_from_json(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        return flatten_json(data)
-
-def extract_from_yaml(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
-        return flatten_json(data)
-
-def extract_from_csv(file_path):
-    rows = []
-    with open(file_path, newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            rows.append(row)
-    return flatten_json(rows)
-
-def extract_from_unstructured(file_path):
-    elements = partition(file_path)
-    return "\n".join([el.text for el in elements if el.text])
-
-def flatten_json(y):
-    out = []
-
-    def flatten(x, name=''):
-        if isinstance(x, dict):
-            for a in x:
-                flatten(x[a], f'{name}{a}_')
-        elif isinstance(x, list):
-            for i, a in enumerate(x):
-                flatten(a, f'{name}{i}_')
-        else:
-            out.append(f"{name[:-1]}: {x}")
-
-    flatten(y)
-    return "\n".join(out)
