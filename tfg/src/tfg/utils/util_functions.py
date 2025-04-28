@@ -6,7 +6,7 @@ import yaml
 from unstructured.partition.auto import partition
 import json
 import csv
-
+from .langchain_utils import run_agent_on_file, run_subtask_agent_on_file, modify_single_main_python_code, modify_single_crew_python_code
 
 ############################################################################
 # --------------------------------- Code --------------------------------- #
@@ -22,6 +22,7 @@ import csv
 #                                                                          #
 #                                                                          #
 ############################################################################
+
 
 def clean_json_file(file_path: str) -> None:
     """
@@ -52,6 +53,38 @@ def clean_json_file(file_path: str) -> None:
     except Exception as e:
         raise Exception(f"Error cleaning JSON file {file_path}: {e}")
     
+    
+def clean_json(storage_path: str) -> None:
+    
+    """
+    Cleans the JSON files in the specified storage path.
+    This function removes unnecessary lines at the beginning and end of the JSON files,
+    and formats them properly.
+
+    Args:
+        storage_path (str): The path to the storage directory containing the JSON files to be cleaned.
+    """
+    
+    try:    
+        with open(os.path.join(storage_path, 'subtasks.json'), 'r') as file:
+            try: 
+                json.load(file)
+            except json.JSONDecodeError:
+                clean_json_file(os.path.join(storage_path, 'subtasks.json'))
+                
+        with open(os.path.join(storage_path, 'experts.json'), 'r') as file:
+            try: 
+                json.load(file)
+            except json.JSONDecodeError:
+                clean_json_file(os.path.join(storage_path, 'experts.json'))
+                
+        with open(os.path.join(storage_path, 'workflow.json'), 'r') as file:
+            try: 
+                json.load(file)
+            except json.JSONDecodeError:
+                clean_json_file(os.path.join(storage_path, 'workflow.json'))
+    except Exception as e:
+        raise Exception(f"Error cleaning JSON files: {e}")
     
     
 def eliminate_folder(storage_path: str) -> None:
@@ -225,15 +258,15 @@ def run_new_crew(crew_path) -> None:
     """
     
     # Set the environment variable for the crew path
-    try:
-        subprocess.run(
-            ["poetry", "lock"], 
-            cwd=crew_path, 
-            check=True
-            )   
+    # try:
+    #     subprocess.run(
+    #         ["poetry", "lock"], 
+    #         cwd=crew_path, 
+    #         check=True
+    #         )   
     
-    except subprocess.CalledProcessError as e:
-        raise Exception(f"Failed to run poetry: {e}")
+    # except subprocess.CalledProcessError as e:
+    #     raise Exception(f"Failed to run poetry: {e}")
     
     # Install the new crew using the crewai CLI
     try:
@@ -255,3 +288,164 @@ def run_new_crew(crew_path) -> None:
             )
     except subprocess.CalledProcessError as e:
         raise Exception(f"Failed to run the new crew: {e}")
+    
+############################################################################
+#                                                                          #
+#                                                                          #
+#                                    CREW                                  #
+#                                                                          #
+#                                                                          #
+############################################################################
+
+def single_main_code(workflow_path: str) -> None:
+    
+    try:
+    
+        main_code = modify_single_main_python_code(
+            file_path_python=os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                                        os.getenv("CREW_NAME") + "/src/" +
+                                                        os.getenv("CREW_NAME") + "/main.py")),
+            file_path_context=os.path.abspath(workflow_path)
+        )
+        try:
+            clean_main_code = strip_markdown_fencing_python(main_code)
+        except Exception as e:
+            clean_main_code = main_code
+        
+        with open(os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                os.getenv("CREW_NAME") + "/src/" + 
+                                os.getenv("CREW_NAME") + "/main.py")), 'w') as file:
+            file.write(clean_main_code)
+        
+    except Exception as e:
+        raise Exception(f"Error modifying main Python code: {e}")
+    
+
+def single_crew_code(task_yaml_path: str, agents_yaml_path: str) -> None:
+    try:
+        
+        crew_code = modify_single_crew_python_code(file_path_python=os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                                os.getenv("CREW_NAME") + "/src/" + 
+                                                os.getenv("CREW_NAME") + "/crew.py")), 
+                                            file_path_context_task=task_yaml_path,
+                                            file_path_context_agents=agents_yaml_path)
+        
+        try: 
+            clean_crew_code = strip_markdown_fencing_python(crew_code)
+        except Exception as e:
+            clean_crew_code = crew_code
+        
+        with open(os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                os.getenv("CREW_NAME") + "/src/" + 
+                                os.getenv("CREW_NAME") + "/crew.py")), 'w') as file:
+            file.write(clean_crew_code)
+            
+    except Exception as e:
+        raise Exception(f"Error modifying crew Python code: {e}")
+    
+def copy_logging_utils() -> None:
+    """
+    Copy the logging_utils.py file to the crew directory.
+    
+    Raises:
+        Exception: If the file cannot be copied, an exception is raised with the error message.
+    """
+    
+    try:
+        copy_file(
+            src=os.path.abspath(os.path.join(os.path.dirname(__file__), "logging_utils.py")),
+            dst=os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                              os.getenv("CREW_NAME") + "/src/" +
+                                              os.getenv("CREW_NAME") + "/utils/logging_utils.py"))
+        )
+    except Exception as e:
+        raise Exception(f"Error copying logging_utils.py: {e}")
+    
+def copy_pyproject() -> None:
+    """
+    Copy the pyproject.toml file to the crew directory.
+    
+    Raises:
+        Exception: If the file cannot be copied, an exception is raised with the error message.
+    """
+    
+    try:
+        copy_file(
+            src=os.path.abspath(os.path.join(__file__, "../../../../" + "pyproject.toml")),
+            dst=os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                              os.getenv("CREW_NAME") + "/pyproject.toml"))
+        )
+    except Exception as e:
+        raise Exception(f"Error copying pyproject.toml: {e}")
+    
+def copy_env() -> None:
+    """
+    Copy the .env file to the crew directory.
+    
+    Raises:
+        Exception: If the file cannot be copied, an exception is raised with the error message.
+    """
+    
+    try:
+        copy_file(
+            src=os.path.abspath(os.path.join(__file__, "../../../../" + ".env")),
+            dst=os.path.abspath(os.path.join(__file__, "../../../../../" +
+                                              os.getenv("CREW_NAME") + "/.env"))
+        )
+    except Exception as e:
+        raise Exception(f"Error copying .env: {e}")
+    
+def yaml_agents_tasks() -> None:
+    """
+    Create the YAML files for the agents and tasks.
+    
+    Raises:
+        Exception: If the YAML files cannot be created, an exception is raised with the error message.
+    """
+    
+    try:
+        # Run the agent on the file and get the YAML
+        agents_yaml = run_agent_on_file(file_path=os.getenv("OUTPUT_DIR") + 'experts.json')
+        
+        # Remove markdown-style triple backticks
+        clean_yaml_str = strip_markdown_fencing_yaml(agents_yaml)
+        
+        with open(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+                                    os.getenv("CREW_NAME") + "/src/" + 
+                                    os.getenv("CREW_NAME") + 
+                                    "/config/agents.yaml")), 'w') as file:
+            file.write(clean_yaml_str)
+            
+    except Exception as e:
+        raise Exception(f"Error creating agent YAML file: {e}")
+    try:
+        # Run the agent on the file and get the YAML
+        agents_yaml = run_agent_on_file(file_path=os.getenv("OUTPUT_DIR") + 'experts.json')
+
+        # Remove markdown-style triple backticks
+        clean_yaml_str = strip_markdown_fencing_yaml(agents_yaml)
+        
+        with open(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+                                os.getenv("CREW_NAME") + "/src/" + 
+                                os.getenv("CREW_NAME") + 
+                                "/config/agents.yaml")), 'w') as file:
+            file.write(clean_yaml_str)
+        
+    except Exception as e:
+        raise Exception(f"Error creating agent YAML file: {e}")
+        
+    try:
+        # Run the agent on the file and get the YAML
+        subtasks_yaml = run_subtask_agent_on_file(file_path=os.getenv("OUTPUT_DIR") + 'subtasks.json')
+        
+        # Remove markdown-style triple backticks
+        clean_yaml_str = strip_markdown_fencing_yaml(subtasks_yaml)
+
+        with open(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+                                os.getenv("CREW_NAME") + "/src/" + 
+                                os.getenv("CREW_NAME") + 
+                                "/config/tasks.yaml")), 'w') as file:
+            file.write(clean_yaml_str)
+
+    except Exception as e:
+        raise Exception(f"Error creating task YAML file: {e}")

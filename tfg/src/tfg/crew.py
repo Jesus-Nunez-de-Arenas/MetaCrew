@@ -17,7 +17,6 @@ import sqlite3
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 
-
 ############################################################################
 # --------------------------------- Code --------------------------------- #
 ############################################################################
@@ -27,6 +26,7 @@ from langchain_community.vectorstores import Chroma
 #     api_key=os.getenv("GOOGLE_API_KEY"),
 #     model="gemini/gemini-2.0-flash",
 # )
+
 
 embedding_model = OpenAIEmbeddings(
     model=os.getenv("OPENAI_EMBEDDING_MODEL_NAME", "text-embedding-ada-002"),

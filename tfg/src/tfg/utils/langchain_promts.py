@@ -14,6 +14,7 @@ main_prompt_template_single = PromptTemplate(input_variables=["file_path_context
     - Do not add a _main_ due to the fact that the code will be executed using a cli.
     - Add the necessary imports to the top of the file. Take into account the improrts that are already in {base_code}.
     - Do not add imports that are not used in the code.
+    - Use only Ascii characters in the code.
     
     Directory of context: {file_path_context}
     Directory of Python code: {file_path_python}
@@ -39,19 +40,25 @@ crew_prompt_template_single = PromptTemplate(input_variables=["file_path_context
     Instructions:
     - Load {file_path_context_task} and {file_path_context_agents} and update the Python code in {file_path_python} based on the 
         new agents and tasks.
-    - Try to modify the code as little as possible, taking into account that you will have to modify 
-        the name of the agents and tasks.
+    - Enviroment variables as in {crew_example} file will not be avaliable.
+    - Try to modify the code as little as possible.
     - Do not add a _main_ due to the fact that the code will be executed using a cli.
     - Add the necessary imports to the top of the file. Take into account the improrts that are already in {base_code}.
     - Do not add imports that are not used in the code.
-    - Based on the {file_path_context} file, modificate the code and create the new functions of agents and tasks.
+    - Based on the {file_path_context_task} and {file_path_context_agents} files, modificate the code 
+        and create the new functions of agents and tasks.
+    - For the each agent and task use the same format as in {crew_example} file, invoking the agent or task, modifying the
+        config and output file as in the {crew_example} file.
     - Add a manager like in {crew_example} file, out of the class and above it.
     - Change the process to hierarchical and add the manager agent.
     - Allow verbose mode in agents and crew.
+    - The output of the tasks will be an .md file.
+    - Use only Ascii characters in the code.
 
-    
-    Directory of context: {file_path_context}
     Directory of Python code: {file_path_python}
+    Directory of tasks context: {file_path_context_task}
+    Directory of agents context: {file_path_context_agents}
+    Directory of crew example: {crew_example}
     
     Additional instructions:
     Format the code like this:

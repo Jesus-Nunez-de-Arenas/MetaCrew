@@ -1,37 +1,54 @@
-[
-    {
-        "name": "Brainstorming Ideas",
-        "description": "Generate a list of ideas or themes for the story.",
-        "expected_output": "A diverse collection of story ideas or themes."
-    },
-    {
-        "name": "Creating Characters",
-        "description": "Develop the main and supporting characters with backstories, personalities, and motivations.",
-        "expected_output": "Detailed character profiles."
-    },
-    {
-        "name": "Outlining the Plot",
-        "description": "Craft an outline of the main plot points and structure of the story.",
-        "expected_output": "A clear plot outline with key events and turning points."
-    },
-    {
-        "name": "Setting the Scene",
-        "description": "Establish the setting where the story takes place, including time and location.",
-        "expected_output": "Description of the story's setting."
-    },
-    {
-        "name": "Writing the First Draft",
-        "description": "Compose the first version of the story, focusing on getting ideas down.",
-        "expected_output": "Complete first draft of the story."
-    },
-    {
-        "name": "Revising and Editing",
-        "description": "Review and refine the draft for coherence, grammar, and style.",
-        "expected_output": "Updated draft with revisions and corrections."
-    },
-    {
-        "name": "Finalizing the Manuscript",
-        "description": "Prepare the final version of the story for submission or publication.",
-        "expected_output": "Polished final manuscript."
-    }
-]
+{
+    "subtasks": [
+        {
+            "name": "Character Development",
+            "description": "Identify and outline the main characters, including their backgrounds, motivations, relationships, and growth throughout the story.",
+            "expected_output": {
+                "characters": [
+                    {
+                        "name": "Character Name",
+                        "background": "Brief background about the character",
+                        "motivation": "What drives the character",
+                        "relationships": "Key relationships with other characters",
+                        "growth": "How the character changes throughout the story"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Plot Structure",
+            "description": "Create an outline of the story's plot, detailing the beginning, middle, and end, as well as key events and turning points.",
+            "expected_output": {
+                "plot": {
+                    "beginning": "Setup and introduction of characters",
+                    "conflict": "Main conflict or problem introduced",
+                    "climax": "The turning point of the story",
+                    "resolution": "How the conflict is resolved"
+                }
+            }
+        },
+        {
+            "name": "Setting Definition",
+            "description": "Detail the setting, including time, place, and the environment's influence on the story and characters.",
+            "expected_output": {
+                "setting": {
+                    "time": "Time period of the story",
+                    "place": "Primary location(s) where the story takes place",
+                    "environment": "Description of the environment and its impact on the plot and characters"
+                }
+            }
+        },
+        {
+            "name": "Theme Exploration",
+            "description": "Identify the central themes and messages that the story aims to convey.",
+            "expected_output": {
+                "themes": [
+                    {
+                        "theme": "Theme concept",
+                        "description": "Explanation of how this theme is represented in the story"
+                    }
+                ]
+            }
+        }
+    ]
+}

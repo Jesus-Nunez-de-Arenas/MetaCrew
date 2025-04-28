@@ -1,39 +1,29 @@
 {
-    "workflow": [
-        {
-            "task": "Generate unique story concepts",
-            "expert": "Creative Writer",
-            "subtask": "Story Concept Generation"
-        },
-        {
-            "task": "Design compelling characters",
-            "expert": "Character Development Specialist",
-            "subtask": "Character Design"
-        },
-        {
-            "task": "Structure the narrative arc",
-            "expert": "Plot Developer",
-            "subtask": "Plot Structuring"
-        },
-        {
-            "task": "Create detailed settings",
-            "expert": "Worldbuilder",
-            "subtask": "Setting Creation"
-        },
-        {
-            "task": "Write the first complete version of the story",
-            "expert": "Novelist",
-            "subtask": "First Draft Writing"
-        },
-        {
-            "task": "Refine the manuscript for clarity, engagement, and accuracy",
-            "expert": "Editor",
-            "subtask": "Manuscript Editing"
-        },
-        {
-            "task": "Prepare the manuscript for submission",
-            "expert": "Publishing Consultant",
-            "subtask": "Manuscript Preparation"
-        }
-    ]
+  "workflow": [
+    {
+      "task": "Define the environment, time period, and cultural influences",
+      "expert": "Oliver Green",
+      "subtask": "World Building"
+    },
+    {
+      "task": "Create intricate character profiles that include backgrounds, motivations, and growth arcs",
+      "expert": "Alice Harper",
+      "subtask": "Character Design"
+    },
+    {
+      "task": "Outline the main components and structure of the story, ensuring a compelling narrative flow",
+      "expert": "Sophia Cheng",
+      "subtask": "Plot Strategy"
+    },
+    {
+      "task": "Ensure character consistency and depth throughout the narrative",
+      "expert": "James Bennett",
+      "subtask": "Character Consulting"
+    },
+    {
+      "task": "Identify and articulate the central themes and messages within the story",
+      "expert": "Emily Sanders",
+      "subtask": "Theme Analysis"
+    }
+  ]
 }
