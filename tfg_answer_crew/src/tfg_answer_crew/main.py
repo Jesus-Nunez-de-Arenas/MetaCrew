@@ -8,9 +8,14 @@ from tfg_answer_crew.utils.logging_utils import close_log_file, setup_logging
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
-# Global Logging Setup
+############################################################################
+# ------------------------ Global Logging Setup -------------------------- #
+############################################################################
+
+# Set up logging
 log_file, log_file_path = setup_logging()
 
+# Ensure the log file is closed when the program exits
 @atexit.register
 def cleanup():
     close_log_file(log_file)
@@ -20,7 +25,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'Create a story'
+        'topic': 'Solve the problem: A bottle and a cap cost 110€ together. The bottle costs 100€ more than the cap. How much does the cap cost?',
     }
     TfgAnswerCrew().crew().kickoff(inputs=inputs)
 
@@ -29,7 +34,7 @@ def train():
     Train the crew for a given number of iterations.
     """
     inputs = {
-        "topic": "Create a story"
+        "topic": "Solve the problem: A bottle and a cap cost 110€ together. The bottle costs 100€ more than the cap. How much does the cap cost?"
     }
     try:
         TfgAnswerCrew().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)

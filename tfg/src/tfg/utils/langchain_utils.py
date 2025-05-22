@@ -36,7 +36,7 @@ in the names, put a _ instead of a blank space, and return it in this exact(> sy
   backstory: >
     <backstory>
 
-Only output the YAML. Here is the input text:
+Only output the YAML on natural language. Here is the input text:
 {text}
 """
     response = llm.invoke(prompt)
@@ -58,7 +58,7 @@ in the names, put a _ instead of a blank space, and return it in this exact (> s
   expected_output: >
     <expected_output>
 
-Only output the YAML. Here is the input text:
+Only output the YAML on natural language. Here is the input text:
 {text}
 """
 	response = llm.invoke(prompt)

@@ -9,7 +9,7 @@ from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 
 embedding_model = OpenAIEmbeddings(
-    model=os.getenv("OPENAI_EMBEDDING_MODEL_NAME", "text-embedding-ada-002"),
+    model=os.getenv("OPENAI_EMBEDDING_MODEL_NAME", "text-embedding-3-small"),
     openai_api_key=os.getenv("OPENAI_API_KEY")
 )
 
@@ -42,7 +42,7 @@ def create_manager_agent() -> Agent:
     )
 
 @CrewBase
-class TfgCrew():
+class TfgAnswerCrew():
     """Tfg crew"""
 
     agents_config = 'config/agents.yaml'
@@ -60,78 +60,165 @@ class TfgCrew():
             pass  # The database file will be created if it doesn't exist
 
     @agent
-    def alice_harper(self) -> Agent:
-        return Agent(
-            role="Character Designer",
-            goal="To create intricate character profiles that include backgrounds, motivations, and growth arcs.",
-            backstory="Alice is a seasoned character designer who has worked on multiple best-selling novels. With a background in psychology, she deeply understands human behavior, allowing her to craft realistic and relatable characters.",
-            verbose=True
-        )
+    def Emily_Johnson(self) -> Agent:
+        """
+        Creates the scrum master agent.
+        This agent is responsible for managing the tasks of the crew.
 
+        Returns:
+            Agent: The scrum master agent.
+        """
+        Emily_Johnson = Agent(
+            config=self.agents_config['Emily_Johnson'],
+            verbose=True,
+            tools=[
+                JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
+            ]
+        )
+        Emily_Johnson.config = self.agents_config['Emily_Johnson']
+        return Emily_Johnson
+    
     @agent
-    def james_bennett(self) -> Agent:
-        return Agent(
-            role="Character Consultant",
-            goal="To ensure character consistency and depth throughout the narrative.",
-            backstory="With over 15 years in the industry, James has provided support for major film and TV franchises. His expertise lies in character motivation and interpersonal dynamics.",
-            verbose=True
-        )
+    def David_Smith(self) -> Agent:
+        """
+        Creates the developer agent.
+        This agent is responsible for developing the tasks of the crew.
 
+        Returns:
+            Agent: The developer agent.
+        """
+        David_Smith = Agent(
+            config=self.agents_config['David_Smith'],
+            verbose=True,
+            tools=[
+                JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
+            ]
+        )
+        David_Smith.config = self.agents_config['David_Smith']
+        return David_Smith
+    
     @agent
-    def sophia_cheng(self) -> Agent:
-        return Agent(
-            role="Plot Strategist",
-            goal="To outline the main components and structure of the story, ensuring a compelling narrative flow.",
-            backstory="A former screenwriter, Sophia has transitioned to plot strategy and has helped numerous authors outline their novels, ensuring key plot points resonate effectively with audiences.",
+    def Sarah_Lee(self) -> Agent:
+        """
+        Creates the tester agent.
+        This agent is responsible for testing the tasks of the crew.
+        Returns:
+            Agent: The tester agent.
+        """
+        Sarah_Lee = Agent(
+            config=self.agents_config['Sarah_Lee'],
             verbose=True
         )
-
+        Sarah_Lee.config = self.agents_config['Sarah_Lee']
+        return Sarah_Lee
+    
     @agent
-    def oliver_green(self) -> Agent:
-        return Agent(
-            role="World Builder",
-            goal="To define the environment, time period, and cultural influences that shape the narrative.",
-            backstory="Oliver has a background in anthropology and has traveled extensively, gathering insights that help him create rich and immersive settings that enhance the story's context.",
+    def Michael_Brown(self) -> Agent:
+        """
+        Creates the designer agent.
+        This agent is responsible for designing the tasks of the crew.
+        Returns:
+            Agent: The designer agent.
+        """
+        Michael_Brown = Agent(
+            config=self.agents_config['Michael_Brown'],
             verbose=True
         )
-
+        Michael_Brown.config = self.agents_config['Michael_Brown']
+        return Michael_Brown
+    
     @agent
-    def emily_sanders(self) -> Agent:
-        return Agent(
-            role="Theme Analyst",
-            goal="To identify and articulate the central themes and messages within the story.",
-            backstory="A literature professor, Emily specializes in thematic analysis and has published multiple papers on the role of themes in modern storytelling. Her insights help refine the story's core message.",
+    def Jessica_White(self) -> Agent:
+        """
+        Creates the project manager
+        This agent is responsible for managing the tasks of the crew.
+        Returns:
+            Agent: The project manager agent.
+        """
+        Jessica_White = Agent(
+            config=self.agents_config['Jessica_White'],
             verbose=True
         )
-
+        Jessica_White.config = self.agents_config['Jessica_White']
+        return Jessica_White
+  
     @task
-    def character_development(self) -> Task:
-        return Task(
-            config=self.tasks_config['Character_Development'],
-            output_file=os.getenv("OUTPUT_DIR") + 'character_development.md'
+    def Define_Variables(self) -> Task:
+        """
+        Creates the workflow task.
+        This task is responsible for creating the workflow of the crew.
+  
+        Returns:
+            Task: The workflow management task.
+        """
+        define_variables = Task(
+            config=self.tasks_config['Define_Variables'],
+            output_file=os.getenv("OUTPUT_DIR") + 'define_variables.md'
         )
-
+        define_variables.config = self.tasks_config['Define_Variables']
+        return define_variables
+    
     @task
-    def plot_structure(self) -> Task:
-        return Task(
-            config=self.tasks_config['Plot_Structure'],
-            output_file=os.getenv("OUTPUT_DIR") + 'plot_structure.md'
+    def Set_Up_Equations(self) -> Task:
+        """
+        Creates the workflow task.
+        This task is responsible for creating the workflow of the crew.
+  
+        Returns:
+            Task: The workflow management task.
+        """
+        set_up_equations = Task(
+            config=self.tasks_config['Set_Up_Equations'],
+            output_file=os.getenv("OUTPUT_DIR") + 'set_up_equations.md'
         )
-
+        set_up_equations.config = self.tasks_config['Set_Up_Equations']
+        return set_up_equations
+    
     @task
-    def setting_definition(self) -> Task:
-        return Task(
-            config=self.tasks_config['Setting_Definition'],
-            output_file=os.getenv("OUTPUT_DIR") + 'setting_definition.md'
+    def Substitute_and_Rearrange(self) -> Task:
+        """
+        Creates the workflow task.
+        This task is responsible for creating the workflow of the crew.
+        Returns:
+            Task: The workflow management task.
+        """
+        substitute_and_rearrange = Task(
+            config=self.tasks_config['Substitute_and_Rearrange'],
+            output_file=os.getenv("OUTPUT_DIR") + 'substitute_and_rearrange.md'
         )
-
+        substitute_and_rearrange.config = self.tasks_config['Substitute_and_Rearrange']
+        return substitute_and_rearrange
+    
     @task
-    def theme_exploration(self) -> Task:
-        return Task(
-            config=self.tasks_config['Theme_Exploration'],
-            output_file=os.getenv("OUTPUT_DIR") + 'theme_exploration.md'
+    def Solve_for_C(self) -> Task:
+        """
+        Creates the workflow task.
+        This task is responsible for creating the workflow of the crew.
+        Returns:
+            Task: The workflow management task.
+        """
+        solve_for_c = Task(
+            config=self.tasks_config['Solve_for_C'],
+            output_file=os.getenv("OUTPUT_DIR") + 'solve_for_c.md'
         )
-
+        solve_for_c.config = self.tasks_config['Solve_for_C']
+        return solve_for_c
+    
+    @task
+    def Confirm_Results(self) -> Task:
+        """
+        Creates the workflow task.
+        This task is responsible for creating the workflow of the crew.
+        Returns:
+            Task: The workflow management task.
+        """
+        confirm_results = Task(
+            config=self.tasks_config['Confirm_Result'],
+            output_file=os.getenv("OUTPUT_DIR") + 'confirm_results.md'
+        )
+        confirm_results.config = self.tasks_config['Confirm_Result']
+        return confirm_results
+  
     @crew
     def crew(self) -> Crew:
         """Creates the Tfg crew"""

@@ -1,34 +1,32 @@
-{
-  "experts": [
+[
     {
-      "name": "Alice Harper",
-      "role": "Character Designer",
-      "goal": "To create intricate character profiles that include backgrounds, motivations, and growth arcs.",
-      "backstory": "Alice is a seasoned character designer who has worked on multiple best-selling novels. With a background in psychology, she deeply understands human behavior, allowing her to craft realistic and relatable characters."
+        "name": "Emily Johnson",
+        "role": "Mathematician",
+        "goal": "To accurately define the variables involved in the cost analysis.",
+        "backstory": "With over 10 years of experience in mathematical modeling, Emily has worked on various financial problems, making her an expert in defining variables for equations."
     },
     {
-      "name": "James Bennett",
-      "role": "Character Consultant",
-      "goal": "To ensure character consistency and depth throughout the narrative.",
-      "backstory": "With over 15 years in the industry, James has provided support for major film and TV franchises. His expertise lies in character motivation and interpersonal dynamics."
+        "name": "David Smith",
+        "role": "Equation Analyst",
+        "goal": "To set up the correct equations that reflect the problem's conditions.",
+        "backstory": "David holds a PhD in Applied Mathematics and has spent years developing algorithms to form equations from word problems, ensuring clarity and correctness."
     },
     {
-      "name": "Sophia Cheng",
-      "role": "Plot Strategist",
-      "goal": "To outline the main components and structure of the story, ensuring a compelling narrative flow.",
-      "backstory": "A former screenwriter, Sophia has transitioned to plot strategy and has helped numerous authors outline their novels, ensuring key plot points resonate effectively with audiences."
+        "name": "Sarah Lee",
+        "role": "Algebra Specialist",
+        "goal": "To substitute and rearrange equations to isolate the variable representing the cap's cost.",
+        "backstory": "Sarah has a passion for algebra and has helped students and professionals simplify complex equations, making her an excellent fit for this subtask."
     },
     {
-      "name": "Oliver Green",
-      "role": "World Builder",
-      "goal": "To define the environment, time period, and cultural influences that shape the narrative.",
-      "backstory": "Oliver has a background in anthropology and has traveled extensively, gathering insights that help him create rich and immersive settings that enhance the story's context."
+        "name": "Michael Brown",
+        "role": "Financial Analyst",
+        "goal": "To calculate the final value representing the cap's cost.",
+        "backstory": "Michael has worked in finance for over 15 years, specializing in cost analysis. His expertise will ensure that the calculation of the cap's cost is accurate."
     },
     {
-      "name": "Emily Sanders",
-      "role": "Theme Analyst",
-      "goal": "To identify and articulate the central themes and messages within the story.",
-      "backstory": "A literature professor, Emily specializes in thematic analysis and has published multiple papers on the role of themes in modern storytelling. Her insights help refine the story's core message."
+        "name": "Jessica White",
+        "role": "Quality Assurance Specialist",
+        "goal": "To confirm that the calculations and assumptions made during the problem-solving process are valid.",
+        "backstory": "Jessica has a strong background in QA for financial projects, ensuring that results meet expected outcomes and making sense in real-world scenarios."
     }
-  ]
-}
+]

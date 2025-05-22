@@ -1,23 +1,25 @@
-Character_Development:
+Define_Variables:
   description: >
-    Identify and outline the main characters, including their backgrounds, motivations, relationships, and growth throughout the story.
+    Identify the variables for the cost of the bottle and the cap. Let C represent the cost of the cap and B represent the cost of the bottle.
   expected_output: >
-    {"characters": [{"name": "Character Name", "background": "Brief background about the character", "motivation": "What drives the character", "relationships": "Key relationships with other characters", "growth": "How the character changes throughout the story"}]}
-
-Plot_Structure:
+    Variables defined: C (cap cost), B (bottle cost)
+Set_Up_Equations:
   description: >
-    Create an outline of the story's plot, detailing the beginning, middle, and end, as well as key events and turning points.
+    Formulate the equations based on the problem statement: (1) B + C = 110 and (2) B = C + 100.
   expected_output: >
-    {"plot": {"beginning": "Setup and introduction of characters", "conflict": "Main conflict or problem introduced", "climax": "The turning point of the story", "resolution": "How the conflict is resolved"}}
-
-Setting_Definition:
+    Equations established: B + C = 110; B = C + 100
+Substitute_and_Rearrange:
   description: >
-    Detail the setting, including time, place, and the environment's influence on the story and characters.
+    Substitute the value of B from the second equation into the first equation and rearrange to solve for C.
   expected_output: >
-    {"setting": {"time": "Time period of the story", "place": "Primary location(s) where the story takes place", "environment": "Description of the environment and its impact on the plot and characters"}}
-
-Theme_Exploration:
+    Rearranged equation results in a single equation in C.
+Solve_for_C:
   description: >
-    Identify the central themes and messages that the story aims to convey.
+    Calculate the value of C, which represents the cost of the cap, using the rearranged equation.
   expected_output: >
-    {"themes": [{"theme": "Theme concept", "description": "Explanation of how this theme is represented in the story"}]}
+    C, the cost of the cap, determined.
+Confirm_Result:
+  description: >
+    Verify that the values of C and B satisfy both original equations and confirm that the solution makes sense in the context.
+  expected_output: >
+    Both original equations satisfied: B + C = 110 and B - C = 100.

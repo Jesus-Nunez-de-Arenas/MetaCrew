@@ -18,10 +18,10 @@ def new_crew() -> None:
     Creates the crew composed by the agents created.
     """
     
-    initialize_crew(os.path.abspath(os.path.join(__file__, "../../../../..")))
+    initialize_crew(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH"))))
     
     
-    eliminate_folder(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+    eliminate_folder(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") + 
                                                 os.getenv("CREW_NAME") + "/knowledge/")))
     
     clean_json(os.getenv("OUTPUT_DIR"))
@@ -36,29 +36,29 @@ def new_crew() -> None:
     
     
     # Clean the comments in the .py files
-    clean_all_python_files(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+    clean_all_python_files(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") + 
                                                         os.getenv("CREW_NAME") + "/src/")))
 
     # Modify the main.py file based on the context information
-    # single_main_code(workflow_path=workflow_path)
+    single_main_code(workflow_path=workflow_path)
     
-    task_yaml_path = os.path.abspath(os.path.join(__file__, "../../../../../" +
+    task_yaml_path = os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                                 os.getenv("CREW_NAME") + "/src/" + 
                                                 os.getenv("CREW_NAME") + "/config/tasks.yaml"))
     
-    agents_yaml_path = os.path.abspath(os.path.join(__file__, "../../../../../" +
+    agents_yaml_path = os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                                 os.getenv("CREW_NAME") + "/src/" + 
                                                 os.getenv("CREW_NAME") + "/config/agents.yaml"))
     
     # Modify the crew.py file based on the context information
-    # single_crew_code(task_yaml_path=task_yaml_path, 
-    #                  agents_yaml_path=agents_yaml_path)
+    single_crew_code(task_yaml_path=task_yaml_path, 
+                     agents_yaml_path=agents_yaml_path)
     
-    # copy_pyproject()
+    copy_pyproject()
     
     # copy_env()
 
-    # run_new_crew(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+    # run_new_crew(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") + 
     #                                             os.getenv("CREW_NAME"))))
     
     
@@ -67,7 +67,7 @@ def clean_folders() -> None:
     Eliminate folders not needed for the execution.
     """
     
-    eliminate_folder(os.path.join(__file__, "../../../..", "db"))
-    eliminate_folder(os.path.join(__file__, "../../../..", "output"))
-    eliminate_folder(os.path.join(__file__, "../../../../..", os.getenv("CREW_NAME")))
+    eliminate_folder(os.path.join(__file__, os.getenv("INSIDE_PATH"), "db"))
+    eliminate_folder(os.path.join(__file__, os.getenv("INSIDE_PATH"), "output"))
+    eliminate_folder(os.path.join(__file__, os.getenv("OUTPUT_PATH"), os.getenv("CREW_NAME")))
     

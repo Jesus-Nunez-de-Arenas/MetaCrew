@@ -53,7 +53,7 @@ def run():
     """
     try:
         inputs = {
-            'topic': 'Create a story'
+            'topic': 'Create a story',
         }
         
         clean_folders()

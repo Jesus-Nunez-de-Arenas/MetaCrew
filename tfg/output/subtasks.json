@@ -1,54 +1,27 @@
-{
-    "subtasks": [
-        {
-            "name": "Character Development",
-            "description": "Identify and outline the main characters, including their backgrounds, motivations, relationships, and growth throughout the story.",
-            "expected_output": {
-                "characters": [
-                    {
-                        "name": "Character Name",
-                        "background": "Brief background about the character",
-                        "motivation": "What drives the character",
-                        "relationships": "Key relationships with other characters",
-                        "growth": "How the character changes throughout the story"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Plot Structure",
-            "description": "Create an outline of the story's plot, detailing the beginning, middle, and end, as well as key events and turning points.",
-            "expected_output": {
-                "plot": {
-                    "beginning": "Setup and introduction of characters",
-                    "conflict": "Main conflict or problem introduced",
-                    "climax": "The turning point of the story",
-                    "resolution": "How the conflict is resolved"
-                }
-            }
-        },
-        {
-            "name": "Setting Definition",
-            "description": "Detail the setting, including time, place, and the environment's influence on the story and characters.",
-            "expected_output": {
-                "setting": {
-                    "time": "Time period of the story",
-                    "place": "Primary location(s) where the story takes place",
-                    "environment": "Description of the environment and its impact on the plot and characters"
-                }
-            }
-        },
-        {
-            "name": "Theme Exploration",
-            "description": "Identify the central themes and messages that the story aims to convey.",
-            "expected_output": {
-                "themes": [
-                    {
-                        "theme": "Theme concept",
-                        "description": "Explanation of how this theme is represented in the story"
-                    }
-                ]
-            }
-        }
-    ]
-}
+[
+    {
+        "name": "Define Variables",
+        "description": "Identify the variables for the cost of the bottle and the cap. Let C represent the cost of the cap and B represent the cost of the bottle.",
+        "expected_output": "Variables defined: C (cap cost), B (bottle cost)"
+    },
+    {
+        "name": "Set Up Equations",
+        "description": "Formulate the equations based on the problem statement: (1) B + C = 110 and (2) B = C + 100.",
+        "expected_output": "Equations established: B + C = 110; B = C + 100"
+    },
+    {
+        "name": "Substitute and Rearrange",
+        "description": "Substitute the value of B from the second equation into the first equation and rearrange to solve for C.",
+        "expected_output": "Rearranged equation results in a single equation in C."
+    },
+    {
+        "name": "Solve for C",
+        "description": "Calculate the value of C, which represents the cost of the cap, using the rearranged equation.",
+        "expected_output": "C, the cost of the cap, determined."
+    },
+    {
+        "name": "Confirm Result",
+        "description": "Verify that the values of C and B satisfy both original equations and confirm that the solution makes sense in the context.",
+        "expected_output": "Both original equations satisfied: B + C = 110 and B - C = 100."
+    }
+]

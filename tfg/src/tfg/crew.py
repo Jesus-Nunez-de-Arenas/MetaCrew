@@ -29,7 +29,7 @@ from langchain_community.vectorstores import Chroma
 
 
 embedding_model = OpenAIEmbeddings(
-    model=os.getenv("OPENAI_EMBEDDING_MODEL_NAME", "text-embedding-ada-002"),
+    model=os.getenv("OPENAI_EMBEDDING_MODEL_NAME", "text-embedding-3-small"),
     openai_api_key=os.getenv("OPENAI_API_KEY")
 )
 

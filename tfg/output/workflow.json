@@ -1,29 +1,29 @@
 {
-  "workflow": [
-    {
-      "task": "Define the environment, time period, and cultural influences",
-      "expert": "Oliver Green",
-      "subtask": "World Building"
-    },
-    {
-      "task": "Create intricate character profiles that include backgrounds, motivations, and growth arcs",
-      "expert": "Alice Harper",
-      "subtask": "Character Design"
-    },
-    {
-      "task": "Outline the main components and structure of the story, ensuring a compelling narrative flow",
-      "expert": "Sophia Cheng",
-      "subtask": "Plot Strategy"
-    },
-    {
-      "task": "Ensure character consistency and depth throughout the narrative",
-      "expert": "James Bennett",
-      "subtask": "Character Consulting"
-    },
-    {
-      "task": "Identify and articulate the central themes and messages within the story",
-      "expert": "Emily Sanders",
-      "subtask": "Theme Analysis"
-    }
-  ]
+    "workflow": [
+        {
+            "task": "Define the variables involved in the cost analysis.",
+            "expert": "Emily Johnson",
+            "subtask": "Define variables for bottle and cap costs"
+        },
+        {
+            "task": "Set up the correct equations that reflect the problem's conditions.",
+            "expert": "David Smith",
+            "subtask": "Create equations based on variables"
+        },
+        {
+            "task": "Substitute and rearrange equations to isolate the variable representing the cap's cost.",
+            "expert": "Sarah Lee",
+            "subtask": "Isolate cap cost in equations"
+        },
+        {
+            "task": "Calculate the final value representing the cap's cost.",
+            "expert": "Michael Brown",
+            "subtask": "Compute cap cost"
+        },
+        {
+            "task": "Confirm that the calculations and assumptions made are valid.",
+            "expert": "Jessica White",
+            "subtask": "Validate results of calculations"
+        }
+    ]
 }

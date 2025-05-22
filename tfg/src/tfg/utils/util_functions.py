@@ -302,7 +302,7 @@ def single_main_code(workflow_path: str) -> None:
     try:
     
         main_code = modify_single_main_python_code(
-            file_path_python=os.path.abspath(os.path.join(__file__, "../../../../../" +
+            file_path_python=os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                                         os.getenv("CREW_NAME") + "/src/" +
                                                         os.getenv("CREW_NAME") + "/main.py")),
             file_path_context=os.path.abspath(workflow_path)
@@ -312,7 +312,7 @@ def single_main_code(workflow_path: str) -> None:
         except Exception as e:
             clean_main_code = main_code
         
-        with open(os.path.abspath(os.path.join(__file__, "../../../../../" +
+        with open(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                 os.getenv("CREW_NAME") + "/src/" + 
                                 os.getenv("CREW_NAME") + "/main.py")), 'w') as file:
             file.write(clean_main_code)
@@ -324,7 +324,7 @@ def single_main_code(workflow_path: str) -> None:
 def single_crew_code(task_yaml_path: str, agents_yaml_path: str) -> None:
     try:
         
-        crew_code = modify_single_crew_python_code(file_path_python=os.path.abspath(os.path.join(__file__, "../../../../../" +
+        crew_code = modify_single_crew_python_code(file_path_python=os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                                 os.getenv("CREW_NAME") + "/src/" + 
                                                 os.getenv("CREW_NAME") + "/crew.py")), 
                                             file_path_context_task=task_yaml_path,
@@ -335,7 +335,7 @@ def single_crew_code(task_yaml_path: str, agents_yaml_path: str) -> None:
         except Exception as e:
             clean_crew_code = crew_code
         
-        with open(os.path.abspath(os.path.join(__file__, "../../../../../" +
+        with open(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                 os.getenv("CREW_NAME") + "/src/" + 
                                 os.getenv("CREW_NAME") + "/crew.py")), 'w') as file:
             file.write(clean_crew_code)
@@ -354,7 +354,7 @@ def copy_logging_utils() -> None:
     try:
         copy_file(
             src=os.path.abspath(os.path.join(os.path.dirname(__file__), "logging_utils.py")),
-            dst=os.path.abspath(os.path.join(__file__, "../../../../../" +
+            dst=os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                               os.getenv("CREW_NAME") + "/src/" +
                                               os.getenv("CREW_NAME") + "/utils/logging_utils.py"))
         )
@@ -371,8 +371,8 @@ def copy_pyproject() -> None:
     
     try:
         copy_file(
-            src=os.path.abspath(os.path.join(__file__, "../../../../" + "pyproject.toml")),
-            dst=os.path.abspath(os.path.join(__file__, "../../../../../" +
+            src=os.path.abspath(os.path.join(__file__, os.getenv("INSIDE_PATH") + "pyproject.toml")),
+            dst=os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                               os.getenv("CREW_NAME") + "/pyproject.toml"))
         )
     except Exception as e:
@@ -388,8 +388,8 @@ def copy_env() -> None:
     
     try:
         copy_file(
-            src=os.path.abspath(os.path.join(__file__, "../../../../" + ".env")),
-            dst=os.path.abspath(os.path.join(__file__, "../../../../../" +
+            src=os.path.abspath(os.path.join(__file__, os.getenv("INSIDE_PATH") + ".env")),
+            dst=os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                               os.getenv("CREW_NAME") + "/.env"))
         )
     except Exception as e:
@@ -410,7 +410,7 @@ def yaml_agents_tasks() -> None:
         # Remove markdown-style triple backticks
         clean_yaml_str = strip_markdown_fencing_yaml(agents_yaml)
         
-        with open(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+        with open(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") + 
                                     os.getenv("CREW_NAME") + "/src/" + 
                                     os.getenv("CREW_NAME") + 
                                     "/config/agents.yaml")), 'w') as file:
@@ -425,7 +425,7 @@ def yaml_agents_tasks() -> None:
         # Remove markdown-style triple backticks
         clean_yaml_str = strip_markdown_fencing_yaml(agents_yaml)
         
-        with open(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+        with open(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") + 
                                 os.getenv("CREW_NAME") + "/src/" + 
                                 os.getenv("CREW_NAME") + 
                                 "/config/agents.yaml")), 'w') as file:
@@ -441,7 +441,7 @@ def yaml_agents_tasks() -> None:
         # Remove markdown-style triple backticks
         clean_yaml_str = strip_markdown_fencing_yaml(subtasks_yaml)
 
-        with open(os.path.abspath(os.path.join(__file__, "../../../../../" + 
+        with open(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") + 
                                 os.getenv("CREW_NAME") + "/src/" + 
                                 os.getenv("CREW_NAME") + 
                                 "/config/tasks.yaml")), 'w') as file:

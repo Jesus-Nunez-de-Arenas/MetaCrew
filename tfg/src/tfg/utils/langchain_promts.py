@@ -48,12 +48,13 @@ crew_prompt_template_single = PromptTemplate(input_variables=["file_path_context
     - Based on the {file_path_context_task} and {file_path_context_agents} files, modificate the code 
         and create the new functions of agents and tasks.
     - For the each agent and task use the same format as in {crew_example} file, invoking the agent or task, modifying the
-        config and output file as in the {crew_example} file.
+        config and output file like it is done in the {crew_example} file.
     - Add a manager like in {crew_example} file, out of the class and above it.
     - Change the process to hierarchical and add the manager agent.
     - Allow verbose mode in agents and crew.
     - The output of the tasks will be an .md file.
     - Use only Ascii characters in the code.
+    
 
     Directory of Python code: {file_path_python}
     Directory of tasks context: {file_path_context_task}
