@@ -1,0 +1,22 @@
+The breakdown of the clues provides a comprehensive analysis leading to the conclusion that the person wearing running shoes resides in House 1. 
+
+1. **From Clue 1**, we establish that the person who is wearing running shoes lives in House 1. 
+
+2. **From Clue 6**, we learn that the person who owns an SUV lives in House 4. 
+
+3. **From Clue 5**, we infer that the person wearing running shoes (House 1) must be directly next to the person wearing boots, placing the boots in House 2, since House 1 is confirmed as having running shoes.
+
+4. **According to Clue 3**, the person who drives a minivan lives directly to the left of the person who is wearing high heels. Since House 3 cannot have high heels (as deduced later), House 2 must contain the minivan, leaving high heels for House 3.
+
+5. **From Clue 4**, the person wearing sandals must live directly to the left of the person driving a convertible. Given that House 3 has high heels and House 4 has an SUV, House 5 must have sandals, and consequently, House 4 must contain the convertible.
+
+6. **Applying Clue 2**, since the person owning a sedan does not live in House 3, the only remaining position for the sedan is House 3.
+
+Thus, the finalized distribution of attributes per house is:
+- **House 1**: Running Shoes, Truck  
+- **House 2**: Boots, Minivan  
+- **House 3**: Loafers, Sedan  
+- **House 4**: High Heels, SUV  
+- **House 5**: Sandals, Convertible  
+
+In conclusion, the number of the house where the person who is wearing running shoes lives is **1**.

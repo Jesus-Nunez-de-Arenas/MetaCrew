@@ -1,0 +1,6 @@
+The person who likes white lives in house number 3. The complete arrangement is as follows:  
+- **House 1**: Eats Apples, Likes Green  
+- **House 2**: Eats Oranges, Likes Blue  
+- **House 3**: Eats Kiwis, Likes White  
+
+Therefore, the number of the house where the person who likes white lives is **3**.

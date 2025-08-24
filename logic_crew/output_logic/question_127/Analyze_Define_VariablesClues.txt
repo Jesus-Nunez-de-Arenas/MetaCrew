@@ -1,0 +1,34 @@
+Variables in the problem statement:
+
+1. **n**: Represents the total number of houses. In this case, n = 5, meaning there are 5 houses in a row, numbered 1 to 5 from left to right.
+
+2. **houses**: The entities that need to be analyzed. Each house has a unique identifier (1, 2, 3, 4, 5), and each house is occupied by one person with distinct characteristics.
+
+3. **characteristics**: These are the attributes associated with each person living in the houses, which include:
+   - **Device**: One of the following items: radio, computer, gameboy, television, phone.
+   - **Car**: One of the following types: convertible, sedan, truck, SUV, minivan.
+   - **Flowers**: One of the following arrangements: carnations, lilies, tulips, rose bouquet, daffodils.
+   - **Pets**: One of the following types: cat, bird, horses, fish, dog.
+
+4. **clues**: The statements provided to deduce the relationships among the houses and their respective characteristics. Each clue gives specific information about the arrangement and helps in solving the puzzle. They include:
+   - Clue 1: Minivan does not occupy house 3.
+   - Clue 2: Gameboy is left of the radio.
+   - Clue 3: Dog owner is in house 2.
+   - Clue 4: Daffodils are left of the truck.
+   - Clue 5: Lilies are not in house 5.
+   - Clue 6: Fish enthusiast is in house 3.
+   - Clue 7: Gameboy is not in house 2.
+   - Clue 8: Truck is directly left of the computer.
+   - Clue 9: Gameboy is right of the bird keeper.
+   - Clue 10: Tulips are left of the horses.
+   - Clue 11: Tulips and convertible are neighbors.
+   - Clue 12: Two houses between truck and convertible.
+   - Clue 13: Minivan is right of the dog owner.
+   - Clue 14: Computer is not in house 5.
+   - Clue 15: Carnations and tulips are neighbors.
+   - Clue 16: Carnations are not in house 5.
+   - Clue 17: One house between television and SUV.
+
+These variables help in structuring the puzzle and are essential for deriving the final answer regarding the location of the person with the vase of tulips. 
+
+Based on the analysis of these clues, it can be determined that the house with the vase of tulips is number 4.

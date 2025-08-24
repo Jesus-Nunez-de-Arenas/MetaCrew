@@ -1,0 +1,19 @@
+The person who ate grilled cheese lives in house number 1. 
+
+Here’s the detailed layout based on the clues provided:
+
+| House Number | Lunch           | Device       | Pet       |
+|--------------|----------------|--------------|-----------|
+| 1            | Grilled Cheese  | Computer     | ?         |
+| 2            | Pizza          | Phone        | Fish      |
+| 3            | ?               | ?            | Cat       |
+| 4            | Spaghetti      | ?            | ?         |
+| 5            | Stew           | Gameboy      | Horses    |
+
+Summary of deductions:
+- Clue 11 establishes that the person who ate grilled cheese lives in House 1.
+- House 2 has the pizza (Clue 4) and next to House 1 has a phone (Clue 1).
+- The person in House 3 is confirmed as the cat lover (Clue 2).
+- Additional clues confirm the layout including who lives where based on pets and devices related to other lunch types. 
+
+This arrangement confirms that the individual who ate grilled cheese is residing in house 1.

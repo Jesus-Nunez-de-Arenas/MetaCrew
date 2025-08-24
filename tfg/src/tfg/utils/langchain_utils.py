@@ -14,6 +14,7 @@ from langchain_community.document_loaders import (
 from langchain.schema import SystemMessage, Document
 from langchain.prompts import PromptTemplate
 from .langchain_promts import main_prompt_template_single, crew_prompt_template_single
+#from .util_functions import modify_single_crew_code
 import yaml
 
 
@@ -243,6 +244,8 @@ def modify_single_crew_python_code(file_path_python: str, file_path_context_task
 
 	modified_code = agent.run(crew_prompt_template)
 	# modified_code = agent.invoke(f"update_python_code: {base_code} {context_info}")
+ 
+	# modified_code = modify_single_crew_code(tasks_context_info, agents_context_info, crew_example)
 	
 	print(f"Modified crew code: {modified_code}")
  

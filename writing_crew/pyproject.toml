@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "writing_crew"
+version = "0.1.0"
+description = "test using crewAI"
+authors = ["Jesus Nuñez de Arenas Llamas"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.67.1,<1.0.0" }
+unstructured = "^0.17.2"
+python-magic-bin = "^0.4.14"
+
+
+[tool.poetry.scripts]
+run_crew = "writing_crew.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

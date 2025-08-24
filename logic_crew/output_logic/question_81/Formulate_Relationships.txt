@@ -1,0 +1,18 @@
+The individual who consumed grilled cheese resides in **House 2**. 
+
+Here’s the detailed breakdown of the relationships among the houses and their respective characteristics:
+
+| House Number | Sport              | Lunch          | Flowers                |
+|--------------|--------------------|----------------|------------------------|
+| House 1      | Golfer             | Pizza          | Vase of Tulips         |
+| House 2      | Basketball Player   | Grilled Cheese  | Bouquet of Lilies      |
+| House 3      | Soccer Player       | Spaghetti      | Bouquet of Daffodils   |
+
+**Clue Analysis:**
+1. The golfer (House 1) lives directly left of the basketball player (House 2).
+2. The person with a bouquet of lilies (House 2) lives directly left of the person who ate grilled cheese (also House 2 - that means they are the same individual in House 2).
+3. The soccer player is confirmed to be located in the third house (House 3).
+4. The person who ate grilled cheese (House 2) lives somewhere to the left of the person who ate spaghetti (House 3).
+5. The person with a vase of tulips does not reside in House 3, hence confirming the tulips are in House 1.
+
+From this analysis, all clues accurately support the conclusion that the person who ate grilled cheese lives in **House 2**.

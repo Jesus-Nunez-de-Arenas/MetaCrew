@@ -1,0 +1,59 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 4. The houses are numbered from 1 to 4, with house number 1 on the left and house number 4 on the right.
+
+2. **houses**: There are 4 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Pets**: Each person has a different pet. The options are:
+     - Dog owner
+     - Bird keeper
+     - Cat lover
+     - Fish enthusiast
+   - **Car type**: Each person has a different kind of car. The options are:
+     - Convertible
+     - Truck
+     - SUV
+     - Minivan
+   - **Fruit**: Each person is eating a different kind of fruit. The options are:
+     - Oranges
+     - Grapes
+     - Mangos
+     - Kiwis
+   - **Flowers**: Each person has different types of flowers in their foyer. The options are:
+     - Rose bouquet
+     - Carnations arrangement
+     - Daffodils bouquet
+     - Lilies bouquet
+   - **Books**: Each person likes a different kind of book. The options are:
+     - Mystery book
+     - Romance book
+     - History book
+     - Fantasy book 
+
+4. **clues**: The problem provides several clues that establish relationships and positional context among the various characteristics:  
+   - Clue 1: The cat lover does not live in the third house.  
+   - Clue 2: The mystery book reader lives directly left of the person who drives a convertible.  
+   - Clue 3: The person who has a bouquet of daffodils lives somewhere to the left of the person who owns an SUV.  
+   - Clue 4: The person who is eating mangos lives directly left of the person who drives a convertible.  
+   - Clue 5: The person who owns an SUV lives in the third house.  
+   - Clue 6: The person who drives a minivan lives directly left of the dog owner.  
+   - Clue 7: There is one house between where the bird keeper lives and where the person who is eating oranges lives.  
+   - Clue 8: The bird keeper lives directly left of the person who has a carnations arrangement.  
+   - Clue 9: The person who drives a minivan and the history book buff live directly next to each other.  
+   - Clue 10: The person who has a bouquet of lilies lives directly left of the romance book lover.  
+   - Clue 11: The person who has a carnations arrangement lives somewhere to the left of the person who is eating grapes.  
+
+Through careful deduction using these clues, we can see that:
+- The person who owns an SUV must be in house 3 (from clue 5).
+- The person who has a bouquet of dafoddils must be in house 1 or 2 since they must be to the left of house 3 (from clue 3).
+- The cat lover cannot be in house 3 (clue 1) and thus must be in house 1 or 2.
+
+Continuing with the deductions:
+1. We establish configurations for each house based on the clues.
+2. Utilizing relationships such as the bird keeper's position relative to the carnations arrangement and their position relative to the person eating oranges helps delineate their locations more clearly.
+3. Eventually, through systematic elimination and by satisfying all clues, we ascertain the roles and positions of each resident.
+
+Upon resolving all characteristics and positions, we confirm that the house where the person who owns an SUV lives is house number **3**.

@@ -1,0 +1,19 @@
+The number of the house where the person who is wearing boots lives is House 2. 
+
+Here’s a structured approach to the solution, based on the analysis of the clues:
+
+| House Number | Car         | Color  | Shoes       |
+|--------------|-------------|--------|-------------|
+| 1            | Minivan    | Yellow | Loafers     |
+| 2            | Truck      | Green  | Boots       |
+| 3            | Sedan      | Red    | Sandals     |
+| 4            | Convertible | White | High Heels  |
+| 5            | SUV        | Blue   | Running Shoes|
+
+- **House 1**: The person wearing loafers has to be in a house that allows for a gap before the minivan (House 1 fits).
+- **House 2**: The boots are to the left of the truck, which is driven in House 2.
+- **House 3**: The sedan has to be there based on the spacing between colors.
+- **House 4**: White is fixed here as per the clues.
+- **House 5**: Blue is confirmed as per the clues.
+
+This visual representation confirms the position of each characteristic in relation to each other, leading to the firm conclusion about House 2 housing the occupant in boots.

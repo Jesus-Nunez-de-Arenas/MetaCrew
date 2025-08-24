@@ -1,0 +1,17 @@
+The person who owns an SUV lives in House 4.  
+
+| House Number | Car Type    | Device   |
+|--------------|-------------|----------|
+| 1            | Minivan     | ???      |
+| 2            | Convertible  | Computer |
+| 3            | Truck       | Gameboy  |
+| 4            | SUV         | Radio    |
+
+To summarize the deductions based on the clues provided:
+1. The person in House 3 has a gameboy.
+2. The person in House 1 drives a minivan.
+3. The person in House 2, who resides directly left of the SUV owner in House 4, has a phone.
+4. The radio owner in House 4 is to the right of the gameboy owner in House 3.
+5. The convertible driver is correctly placed in House 2 while House 1 does not have a computer.
+
+Therefore, all clues are satisfied. The conclusion is validated that the person who owns an SUV resides in House 4.

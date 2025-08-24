@@ -1,0 +1,36 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, specified as 3. It indicates the distinct living spaces occupied by individuals, numbered from 1 (leftmost) to 3 (rightmost).
+
+2. **houses**: This variable refers to the physical entities in the problem, representing the locations where individuals live. The houses are numbered as follows:
+   - House 1
+   - House 2
+   - House 3
+
+3. **characteristics**: This variable encompasses the unique attributes assigned to each occupant of the houses, which include:
+   - **Lunch**: The type of meal each individual had, which consists of:
+     - Spaghetti
+     - Stew
+     - Fried Rice
+   - **Sport**: The type of sport played by each individual, which includes:
+     - Swimmer
+     - Cricketer
+     - Tennis Player  
+
+4. **clues**: This variable consists of the logical statements provided to assist in establishing the relationships and arrangement of individuals within their households. The clues are as follows:
+   - Clue 1: The person who ate fried rice lives in the third house.
+   - Clue 2: The person who ate spaghetti lives directly left of the person who ate fried rice.
+   - Clue 3: The swimmer lives in the first house.
+   - Clue 4: The cricketer does not live in the third house.
+
+From the clues, we can derive the following:
+
+- From Clue 1, the person who ate fried rice is in **House 3**.
+- From Clue 2, since the person who ate fried rice lives in **House 3**, the person who ate spaghetti must be in **House 2** (directly left).
+- Clue 3 states the swimmer lives in **House 1**.
+- Clue 4 confirms the cricketer cannot be in **House 3**, so they must reside in **House 2**, leaving the tennis player in **House 3**.
+
+Putting these together:
+- **House 1**: Swimmer
+- **House 2**: Cricketer, eaten spaghetti
+- **House 3**: Tennis Player, eaten fried rice
+
+Thus, the number of the house where the person who ate spaghetti lives is **2**.

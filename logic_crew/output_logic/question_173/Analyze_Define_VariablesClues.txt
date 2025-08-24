@@ -1,0 +1,26 @@
+Variables in the problem statement:
+
+1. **n**: 
+   - Represents the total number of houses. In this scenario, n = 3, as there are three houses numbered 1, 2, and 3.
+
+2. **houses**: 
+   - There are three houses, labeled as House 1, House 2, and House 3. Each house contains one individual with distinct characteristics.
+
+3. **characteristics**: 
+   - These refer to the unique attributes of the individuals living in the houses. The characteristics can be broken down into four categories:
+     - **Musical instruments**: Flutist, percussionist, cellist.
+     - **Shoes**: Boots, high heels, loafers.
+     - **Devices**: Gameboy, phone, television.
+     - **Cars**: Convertible, minivan, truck.
+
+4. **clues**: 
+   - The clues provide logical relationships among the characteristics of the individuals in the houses:
+     - Clue 1: The person who has a phone lives somewhere to the left of the person who drives a minivan.
+     - Clue 2: The person who drives a truck and the person who has a gameboy live directly next to each other.
+     - Clue 3: The person who drives a minivan and the cellist live directly next to each other.
+     - Clue 4: The person who is wearing high heels and the person who has a television live directly next to each other.
+     - Clue 5: The person who drives a minivan lives somewhere to the right of the person who drives a truck.
+     - Clue 6: The flutist lives directly left of the person who drives a minivan.
+     - Clue 7: The person who is wearing boots lives somewhere to the right of the percussionist.
+
+These variables work together to create a logical framework that allows us to deduce the characteristics of each individual based on the clues provided. The objective is to determine the house number where the percussionist lives based on the relationships established by the clues.

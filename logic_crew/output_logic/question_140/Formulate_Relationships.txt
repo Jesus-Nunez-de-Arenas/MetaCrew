@@ -1,0 +1,12 @@
+The relationships between the houses and their respective characteristics can be structured as follows:
+
+| House Number | Favorite Drink  | Type of Shoes | Favorite Book Genre         |
+|--------------|-----------------|----------------|-----------------------------|
+| 1            | Coffee          | Loafers        | Science Fiction              |
+| 2            | Water           | Sandals        | Romance                     |
+
+1. Clue 2 states that the science fiction book fanatic lives in house 1.
+2. From Clue 1, since the coffee drinker lives somewhere to the left of the person who is wearing sandals, and with the coffee drinker in house 1 (who must also be the science fiction book fanatic), it confirms that the water drinker must be in house 2 who is wearing sandals.
+3. Consequently, the romance book lover, who is not in house 1, must be residing in house 2.
+
+Thus, the number of the house where the romance book lover lives is house number 2.

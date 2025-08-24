@@ -1,0 +1,1 @@
+The swimmer lives in House 3. This conclusion is based on the analysis of the given clues: The golfer resides in House 2, the history book buff is in House 1, and since there is one house (House 2) between the swimmer’s house and the science fiction book fanatic's house, the swimmer must live in House 3. Thus, the swimmer resides in **House 3**.

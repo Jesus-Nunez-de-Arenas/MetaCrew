@@ -1,0 +1,29 @@
+1. **n**: This variable represents the total number of houses, which is 4 in this scenario; they are numbered sequentially from House 1 (left) to House 4 (right).
+
+2. **houses**: The distinct locations where individuals reside are denoted by:
+   - House 1
+   - House 2
+   - House 3
+   - House 4
+
+3. **characteristics**: Each person living in these houses has unique attributes that can be classified into the following categories:
+   - **fruit**: The types of fruit being eaten include mangos, kiwis, oranges, and bananas.
+   - **pets**: The types of pets owned by the individuals consist of horses, dogs, birds, and cats.
+
+4. **clues**: The logical statements provided to assist in deducing the characteristics associated with each house are as follows:
+   - Clue 1: The person who is eating mangos lives in the first house.
+   - Clue 2: The person who owns horses does not live in the first house.
+   - Clue 3: The bird keeper and the person who is eating kiwis live directly next to each other.
+   - Clue 4: The person who is eating a banana does not live in the third house.
+   - Clue 5: The person who owns horses does not live in the second house.
+   - Clue 6: The person who is eating a banana lives directly left of the dog owner.
+
+Using logical deduction based on the clues:
+1. From Clue 1, we know that the person in House 1 is eating mangos.
+2. Clue 2 tells us that the horse owner cannot be in House 1, hence they could only be in House 3 or 4.
+3. Clue 3 indicates that the bird keeper and the kiwi eater must be adjacent, which further restricts assignments.
+4. Clue 4 rules out House 3 for the banana eater.
+5. Clue 5 confirms that the horse owner is not in House 2, so they must be in House 4, meaning House 3 must have the dog owner since a pet is assigned to each house.
+6. Thus, the only logical house assignments can be deduced, ultimately leading us to determine that the bird keeper lives in House 2.
+
+Therefore, after analyzing the clues, the house number where the bird keeper resides is **2**.

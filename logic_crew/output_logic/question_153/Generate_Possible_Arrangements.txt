@@ -1,0 +1,32 @@
+The number of the house where the person who had pizza lives is 1.  
+
+### Analysis and Deductions:
+- There are two houses, House 1 and House 2.
+- Each house has a unique occupant with distinct characteristics: a musician, a lunch preference, and a pet.
+
+### Clues Given:
+1. The person who ate grilled cheese lives somewhere to the right of the bird keeper.
+2. The percussionist does not live in the second house.
+
+### Step-by-Step Deductions:
+1. **From Clue 1**: "The person who ate grilled cheese lives somewhere to the right of the bird keeper."
+   - This implies that the bird keeper must live in House 1 because House 2 is to the right of House 1. Therefore, the person in House 1 is the bird keeper, and the person in House 2 is the one who ate grilled cheese.
+
+2. **From Clue 2**: "The percussionist does not live in the second house."
+   - Since the percussionist cannot be in House 2, the percussionist must reside in House 1.
+
+### Characteristics of Each House:
+| House | Musician       | Lunch          | Pet       |
+|-------|----------------|----------------|-----------|
+| 1     | Percussionist  | Unknown        | Bird      |
+| 2     | Guitarist      | Grilled Cheese  | Dog       |
+
+3. Since the percussionist is confirmed in House 1 and the bird keeper (also in House 1) cannot have eaten grilled cheese (because that is the lunch of the occupant in House 2), the only logical conclusion is:
+   - The person in House 1 (percussionist) must therefore have pizza for lunch.
+
+### Conclusion:
+- House 1 contains the percussionist who had pizza and owns a bird.
+- House 2 contains the guitarist who had grilled cheese and owns a dog.
+
+Thus, the final clarity is:
+**The number of the house where the person who had pizza lives is 1.**

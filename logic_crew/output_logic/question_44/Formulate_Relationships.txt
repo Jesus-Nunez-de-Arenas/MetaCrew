@@ -1,0 +1,18 @@
+The number of the house where the person who is wearing sandals lives is **2**. 
+
+To elaborate on the reasoning behind this conclusion, I created a structured approach based on the clues provided.
+
+Here’s a visual representation of the relationships between the houses and their respective characteristics:
+
+| House Number | Lunch         | Musical Instrument | Shoes   | Favorite Color | Car Type |
+|--------------|---------------|--------------------|---------|----------------|----------|
+| 1            | Spaghetti     | Flutist            | Loafers | Green          | SUV      |
+| 2            | Fried Rice    | Cellist            | Sandals | White          | Sedan    |
+
+**Clue Analysis:**
+1. From Clue 1, the person who ate fried rice does not live in the first house, so they must live in House 2.
+2. From Clue 2, since the owner of the SUV cannot be in House 2, the owner must be in House 1.
+3. Given Clue 3, the flutist must live directly left of the person who likes white. Hence, the flutist is in House 1 and the person who likes white (and thus is in House 2).
+4. Clue 4 states the person wearing loafers must also be in House 1, which is consistent as they must be directly left of the person who likes white in House 2.
+
+Thus, we conclude that the person who is wearing sandals lives in House 2. Therefore, the final answer confirms that the answer is **2**.

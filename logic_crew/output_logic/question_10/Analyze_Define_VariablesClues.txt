@@ -1,0 +1,22 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 2. The houses are numbered from 1 to 2, with house number 1 on the left and house number 2 on the right.
+
+2. **houses**: There are 2 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:
+   - House 1
+   - House 2
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Shoes**: Each person is wearing different kinds of shoes: one is wearing sandals and one is wearing boots.
+   - **Book preference**: Each person likes a different kind of book: one is a mystery book reader and one is a history book buff.
+   - **Car type**: Each person has a different kind of car: one drives a convertible and one drives a truck.
+
+4. **clues**: The problem provides a set of clues that establish relationships and positional context among the various characteristics:  
+   - Clue 1: The person who drives a convertible lives directly left of the history book buff.  
+   - Clue 2: The person who is wearing boots does not live in the first house.  
+
+Using the clues, we can analyze the following:  
+- From Clue 2, since the person wearing boots does not live in the first house, it must be the person in House 2 who is wearing boots.  
+- Thus, the person in House 1 must be wearing sandals.  
+- According to Clue 1, the person who drives a convertible lives directly left of the history book buff. If the mystery book reader is in House 1, that leaves the history book buff in House 2, which adheres to clue 1 as well.  
+- Therefore, the person in House 1 drives a convertible, and the person in House 2 drives a truck.  
+
+Conclusively, the number of the house where the person who is wearing sandals lives is **1**.

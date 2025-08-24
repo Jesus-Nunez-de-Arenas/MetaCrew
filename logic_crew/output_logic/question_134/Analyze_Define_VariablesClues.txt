@@ -1,0 +1,15 @@
+1. **n**: This variable represents the total number of houses in the problem, which is equal to 4.
+   
+2. **houses**: Houses are the physical locations where the people live, numbered from 1 to 4. Each house contains a unique person with different characteristics.
+
+3. **characteristics**: These are specific attributes assigned to the individuals living in the houses. The characteristics include:
+   - Device: Each person possesses a different device (gameboy, computer, television, radio).
+   - Favorite color: Each person has a favorite color (red, white, yellow, green).
+   - Lunch: Each person ate a different lunch (pizza, fried rice, grilled cheese, spaghetti).
+   - Pet: Each person has a different type of pet (cat, dog, horses, bird).
+
+4. **clues provided**: These are instructions that help to deduce the relationships and attributes of the individuals across the houses. The clues specify conditions such as adjacency, preferences, and orderly placements (e.g., clues indicate the bird keeper is next to the television owner, the person who likes green does not live in the second house, etc.).
+
+Overall, this breakdown highlights how n, houses, characteristics, and clues work together to form a logic problem that seeks to identify which house belongs to the person who has a specific favorite color, among other attributes. The ultimate goal is to determine which house the person who likes red lives in. 
+
+Upon solving the puzzle using the logical deductions from the provided clues, it becomes clear that the person who likes red lives in house number 3.

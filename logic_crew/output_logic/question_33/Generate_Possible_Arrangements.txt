@@ -1,0 +1,21 @@
+1. **House Number**: 1  
+   - **Shoes**: Running Shoes  
+   - **Car Type**: Truck  
+
+2. **House Number**: 2  
+   - **Shoes**: Boots  
+   - **Car Type**: Minivan  
+
+3. **House Number**: 3  
+   - **Shoes**: Loafers  
+   - **Car Type**: Sedan  
+
+4. **House Number**: 4  
+   - **Shoes**: High Heels  
+   - **Car Type**: SUV  
+
+5. **House Number**: 5  
+   - **Shoes**: Sandals  
+   - **Car Type**: Convertible  
+
+Based on the analysis of the clues provided, the systematic deductions lead us to confidently conclude that the person who is wearing running shoes lives in House 1.

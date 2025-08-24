@@ -1,0 +1,52 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, which is 4. The houses are numbered from 1 on the left to 4 on the right.
+
+2. **houses**: This variable refers to the physical entities in the problem, representing the locations where individuals live. The houses are numbered as follows:
+   - House 1
+   - House 2
+   - House 3
+   - House 4
+
+3. **characteristics**: This variable encompasses the unique attributes assigned to each occupant of the houses, which include:
+   - **Book Genre**: The type of book each individual prefers, consisting of:
+     - Mystery
+     - Fantasy
+     - History
+     - Science Fiction
+   - **Fruit**: The type of fruit each individual is eating, consisting of:
+     - Mangos
+     - Kiwis
+     - Bananas
+     - Apples
+   - **Footwear/Shoes**: The type of shoes each individual is wearing, consisting of:
+     - Sandals
+     - High Heels
+     - Running Shoes
+     - Boots
+
+4. **clues**: This variable consists of the logical statements provided to assist in establishing the relationships and arrangement of individuals within their households. The clues are as follows:
+   - Clue 1: The history book buff lives directly left of the fantasy book enthusiast.
+   - Clue 2: The science fiction book fanatic lives somewhere to the right of the fantasy book enthusiast.
+   - Clue 3: The person who is wearing running shoes lives directly left of the person who is eating apples.
+   - Clue 4: The person who is eating apples does not live in the third house.
+   - Clue 5: The person who is eating mangos lives directly left of the person who is wearing sandals.
+   - Clue 6: There is one house between where the person who is eating apples lives and where the person who is wearing boots lives.
+   - Clue 7: The fantasy book enthusiast lives in the third house.
+   - Clue 8: The person who is eating a banana lives somewhere to the right of the fantasy book enthusiast.
+
+Analyzing the clues:
+- From Clue 7, the fantasy book enthusiast lives in **House 3**.
+- Clue 1 states that the history book buff must live in **House 2** (directly left of House 3).
+- Clue 2 indicates that the science fiction book fanatic must live in either **House 3** (not possible, as it's the fantasy book enthusiast) or **House 4** (therefore, they live in House 4).
+- Clue 3 states that the person wearing running shoes lives directly left of the person eating apples. As such, they must be in **House 1** (which allows for the possibility of them eating kiwis).
+- Clue 4 indicates that the person eating apples cannot be in House 3; thus they must be in **House 4**.
+- According to Clue 5, the person eating mangos must be in **House 2** (the only position that allows for them to also be left of the sandals wearer).
+- Based on Clue 6, the only viable location for the boots wearer is **House 4**.
+- Finally, from Clue 8, the person eating a banana must live in **House 4**.
+
+Final arrangement:
+- **House 1**: Person in running shoes, eating kiwis (not yet identified).
+- **House 2**: History book buff, eating mangos, and wearing sandals.
+- **House 3**: Fantasy book enthusiast (already known).
+- **House 4**: Science fiction book fanatic, eating a banana, and wearing boots.
+
+Thus, the number of the house where the science fiction book fanatic lives is **4**.

@@ -1,0 +1,137 @@
+**Travel Budget Breakdown for the Vacation:**
+
+**Total Budget:** $8,000
+
+---
+
+### **Destination 1: Atlanta, Georgia**
+
+- **Transportation:**  
+  - **Flight Number:** F3491270  
+  - **Departure Time:** 06:30  
+  - **Arrival Time:** 08:09  
+  - **Cost:** $216 per person x 2 = $432  
+
+- **Accommodations:**  
+  - **Name:** Fantastic Room in Bushwick  
+  - **Price:** $1,069.00 per night (2 nights = $2,138.00)  
+  - **Room Type:** Private room  
+
+- **Dining Options:**  
+  - **Breakfast:** Saffron - $39 x 2 = $78  
+  - **Lunch:** Daawat-e-Kashmir - $19 x 2 = $38  
+  - **Dinner:** The Chinese & Thai Restaurant - $57 x 2 = $114  
+  - **Total Dining Cost:** $330  
+
+- **Attractions:**  
+  - **Georgia Aquarium**  
+    - **Cost:** $45 per person x 2 = $90  
+  - **Atlanta Botanical Garden**  
+    - **Cost:** $25 per person x 2 = $50  
+  - **Total Attractions Cost:** $140  
+
+---
+
+### **Destination 2: Decatur, Georgia**
+
+- **Transportation:**  
+  - **Self-driving from Atlanta to Decatur:**  
+    - **Duration:** 18 mins  
+    - **Cost:** $0  
+
+- **Accommodations:**  
+  - **Name:** Cozy Private Room  
+  - **Price:** $69.00 per night (2 nights = $138.00)  
+  - **Room Type:** Private room  
+
+- **Dining Options:**  
+  - **Breakfast:** Carnatic Cafe - $66 x 2 = $132  
+  - **Lunch:** Joey's Pizza - $69 x 2 = $138  
+  - **Dinner:** Hwealthcafe - $44 x 2 = $88  
+  - **Total Dining Cost:** $358  
+
+- **Attractions:**  
+  - **Decatur Square**  
+    - **Cost:** Free  
+  - **Waffle House Museum**  
+    - **Cost:** Free  
+  - **Total Attractions Cost:** $0  
+
+---
+
+### **Destination 3: Augusta, Georgia**
+
+- **Transportation:**  
+  - **Self-driving from Decatur to Augusta:**  
+    - **Duration:** 2 hours 17 mins  
+    - **Cost:** $11  
+
+- **Accommodations:**  
+  - **Name:** Perfect Chanukah apartment for the whole crew!  
+  - **Price:** $451.00 per night (3 nights = $1,353.00)  
+  - **Room Type:** Entire home/apt  
+
+- **Dining Options:**  
+  - **Breakfast:** Fish Tales Lakeside Grille - $37 x 2 = $74  
+  - **Lunch:** The Golden Dragon - $82 x 2 = $164  
+  - **Dinner:** Nikhil Food Point - $87 x 2 = $174  
+  - **Total Dining Cost:** $412  
+
+- **Attractions:**  
+  - **Augusta Riverwalk**  
+    - **Cost:** Free  
+  - **Augusta Museum of History**  
+    - **Cost:** $10 per person x 2 = $20  
+  - **Total Attractions Cost:** $20  
+
+---
+
+### **Return Trip:**
+
+- **Transportation:**  
+  - **Self-driving from Augusta to Fort Lauderdale:**  
+    - **Duration:** 8 hours 41 mins  
+    - **Cost:** $46  
+
+---
+
+### **Total Estimated Costs:**
+
+1. **Transportation Total:**  
+   - **Flights:** $432  
+   - **Self-Driving (Atlanta to Decatur):** $0  
+   - **Self-Driving (Decatur to Augusta):** $11  
+   - **Self-Driving (Augusta to Fort Lauderdale):** $46  
+   - **Total Transportation Cost:** $489  
+
+2. **Accommodation Total:**  
+   - **Atlanta:** $2,138  
+   - **Decatur:** $138  
+   - **Augusta:** $1,353  
+   - **Total Accommodation Cost:** $3,629  
+
+3. **Dining Total:**  
+   - **Atlanta:** $330  
+   - **Decatur:** $358  
+   - **Augusta:** $412  
+   - **Total Dining Cost:** $1,100  
+
+4. **Attractions Total:**  
+   - **Atlanta:** $140  
+   - **Decatur:** $0  
+   - **Augusta:** $20  
+   - **Total Attractions Cost:** $160  
+
+---
+
+### **Final Summary:**
+
+- **Total Transportation Cost:** $489  
+- **Total Accommodation Cost:** $3,629  
+- **Total Dining Cost:** $1,100  
+- **Total Attractions Cost:** $160  
+- **Grand Total:** $5,378  
+
+- **Remaining Budget:** $8,000 - $5,378 = $2,622
+
+This plan includes suitable accommodations, amazing dining options, and engaging attractions, all while staying well within the budget for the vacation.

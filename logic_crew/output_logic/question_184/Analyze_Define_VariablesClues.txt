@@ -1,0 +1,24 @@
+1. **n**: This variable represents the number of houses in the problem. In this scenario, n equals 5, as there are a total of 5 houses numbered from 1 to 5.
+
+2. **houses**: This variable denotes the specific locations where each person lives. The houses are numbered sequentially from 1 to 5, with house 1 on the leftmost side and house 5 on the rightmost side. Each house contains one person with unique characteristics.
+
+3. **characteristics**: This variable refers to the distinct traits assigned to each individual living in the houses. Each person has a favorite drink (tea, milk, water, coffee, root beer), flowers in their foyer (tulips, roses, lilies, daffodils, carnations), a lunch they ate (fried rice, pizza, spaghetti, stew, grilled cheese), and a favorite color (white, green, red, yellow, blue).
+
+4. **clues**: These are the provided statements that outline the relationships and positioning of the characteristics among the individuals living in the houses. Each clue aids in logically deducing which person occupies which house and their respective characteristics.
+
+- Clue 1: The person who likes blue lives directly left of the person who had pizza.
+- Clue 2: The tea drinker lives in the first house.
+- Clue 3: The tea drinker lives somewhere to the left of the person who has a rose bouquet.
+- Clue 4: The person who has a vase of tulips lives in the fifth house.
+- Clue 5: The person who has a bouquet of lilies lives in the second house.
+- Clue 6: There are two houses between where the person who ate fried rice lives and where the person who only drinks water lives.
+- Clue 7: The person who ate grilled cheese lives somewhere to the right of the person who ate spaghetti.
+- Clue 8: The person who has a bouquet of lilies lives somewhere to the left of the person who ate spaghetti.
+- Clue 9: The person who likes yellow and the person who likes red live directly next to each other.
+- Clue 10: There is one house between where the person who likes white lives and where the person who has a bouquet of daffodils lives.
+- Clue 11: The root beer lover does not live in the third house.
+- Clue 12: There is one house between where the person who ate fried rice lives and where the person who had stew lives.
+- Clue 13: The person who likes red lives directly left of the person who likes green.
+- Clue 14: The coffee drinker lives somewhere to the left of the person who likes yellow.
+
+All these variables interact to form a logic puzzle that requires careful deduction to solve for the desired outcome: the number of the house where the person who likes green lives.

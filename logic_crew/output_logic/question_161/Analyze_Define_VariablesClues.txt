@@ -1,0 +1,48 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, which is 3. The houses are sequentially numbered from 1 to 3, where house number 1 is on the left and house number 3 is on the right.
+
+2. **houses**: There are 3 distinct physical locations where individuals reside, denoted as:
+   - House 1
+   - House 2
+   - House 3
+
+3. **characteristics**: Each person living in these houses has unique attributes classified into three major categories:
+   - **Pets**: The types of pets owned by each person include:
+     - Bird
+     - Dog
+     - Horses
+   - **Cars**: The vehicles driven by the residents consist of:
+     - Convertible
+     - Truck
+     - Sedan
+   - **Fruits**: The types of fruit each person is eating include:
+     - Oranges
+     - Mangos
+     - Bananas
+
+4. **clues**: The logical statements provided serve to establish relationships and positional context among the various characteristics:
+   - Clue 1: The person who is eating oranges lives in the first house.
+   - Clue 2: The person who drives a truck lives directly left of the person who drives a convertible.
+   - Clue 3: The bird keeper lives somewhere to the right of the dog owner.
+   - Clue 4: The person who is eating mangos does not live in the third house.
+   - Clue 5: The person who owns horses lives in the third house.
+   - Clue 6: The person who is eating mangos and the person who drives a convertible live directly next to each other.
+
+From these clues, we can deduce the following arrangement:
+- House 1: The person is eating **oranges** (from Clue 1).
+- House 2: The person must be eating **mangos** (based on Clue 6 requiring adjacency to the convertible driver and Clue 4, eliminating the third house for mangos).
+- House 3: The person owns **horses** (from Clue 5).
+
+Next, analyzing the cars:
+- The truck must be in House 2 since it must be directly left of the convertible (per Clue 2).
+- Therefore, House 1 (eating oranges) cannot have the truck and must be deduced to have the **sedan**.
+- Consequently, House 3 (the horse owner) must then drive the **convertible**.
+
+Assigning:
+- House 1: Oranges, Sedan
+- House 2: Mangos, Truck
+- House 3: Horses, Convertible
+
+Final deductions reveal:
+The person driving the truck is in **House 2**.
+
+Thus, the number of the house where the person who drives a truck lives is **2**.

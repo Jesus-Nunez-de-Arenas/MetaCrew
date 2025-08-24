@@ -1,0 +1,9 @@
+After analyzing all the clues provided, I deduced the arrangements for the houses as follows:  
+
+1. The person who lives in house 1 likes blue, is a guitarist, and has a gameboy.  
+2. The person who lives in house 2 likes yellow, is a cellist, and has a radio.  
+3. The person who lives in house 3 likes green, is a percussionist, and has a television.  
+4. The person who lives in house 4 likes white, is a saxophonist, and has a computer.  
+5. The person who lives in house 5 likes red, is a violinist, and has a phone.  
+
+Thus, upon careful analysis, the saxophonist lives in house number 4.

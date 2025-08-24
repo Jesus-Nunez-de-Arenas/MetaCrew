@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Define Story Topic",
+        "description": "Identify the main topic for the story based on user input which will serve as the central theme.",
+        "expected_output": "A clear topic statement that encapsulates the essence of the story."
+    },
+    {
+        "name": "Collect Trivia Questions",
+        "description": "Gather 5 trivia questions provided by the user that will be incorporated into the story.",
+        "expected_output": "A list of 5 trivia questions including their correct answers."
+    },
+    {
+        "name": "Develop Story Structure",
+        "description": "Create an outline for the story based on the identified topic and incorporate the trivia responses at relevant points.",
+        "expected_output": "An outline of the story that maps out the beginning, middle, and end, highlighting where trivia will be included."
+    },
+    {
+        "name": "Draft the Story",
+        "description": "Write the actual story using the outline created in the previous subtask, ensuring to integrate the trivia questions naturally.",
+        "expected_output": "A complete draft of the story that integrates the trivia questions as intended."
+    },
+    {
+        "name": "Review and Edit the Story",
+        "description": "Proofread and edit the story draft for clarity, coherence, and engagement, making sure that all trivia questions are well-placed.",
+        "expected_output": "A polished final version of the story ready for presentation or publication."
+    }
+]

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mmmu_crew"
+version = "0.1.0"
+description = "test using crewAI"
+authors = ["Jesus Nuñez de Arenas Llamas"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = ">=0.67.1,<1.0.0" }
+unstructured = "^0.17.2"
+python-magic-bin = "^0.4.14"
+python-dotenv = "^1.0.0"
+datasets = "^4.0.0"
+tqdm = "^4.67.1"
+
+
+[tool.poetry.scripts]
+test = "mmmu_crew.main:run"
+run_crew = "mmmu_crew.main:run"
+train = "mmmu_crew.main:train"
+replay = "mmmu_crew.main:replay"
+test2 = "mmmu_crew.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

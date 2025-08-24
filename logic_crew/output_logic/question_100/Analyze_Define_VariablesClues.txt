@@ -1,0 +1,22 @@
+1. **n**: This represents the total number of houses in the row, which in this scenario is 4.
+   
+2. **houses**: There are 4 houses numbered from 1 to 4 arranged in a row. Each house has a unique resident and various characteristics associated with them.
+
+3. **characteristics**: Each resident of the houses possesses four different characteristics:
+   - **Shoes**: One person is wearing sandals, one is wearing boots, one is wearing running shoes, and one is wearing high heels.
+   - **Lunch**: One person had pizza, one ate grilled cheese, one ate fried rice, and one had stew.
+   - **Books**: One resident is a fantasy book enthusiast, one is a science fiction book fanatic, one is a history book buff, and one is a mystery book reader.
+   - **Car**: One owns an SUV, one drives a convertible, one owns a sedan, and one drives a truck.
+
+4. **Clues**: There are specific clues given to help deduce the arrangement of the characteristics among the houses:
+   - Clue 1: The person who had stew lives somewhere to the left of the science fiction book fanatic.
+   - Clue 2: The person who drives a truck lives directly left of the mystery book reader.
+   - Clue 3: The person who is wearing running shoes lives directly left of the person who is wearing high heels.
+   - Clue 4: The person who is wearing sandals lives somewhere to the right of the person who is wearing boots.
+   - Clue 5: The person who ate grilled cheese lives somewhere to the right of the history book buff.
+   - Clue 6: The person who owns an SUV lives directly left of the history book buff.
+   - Clue 7: The person who drives a convertible lives in the first house.
+   - Clue 8: The fantasy book enthusiast lives directly left of the person who ate fried rice.
+   - Clue 9: The person who drives a convertible lives somewhere to the left of the person who is wearing boots.
+
+These variables and clues are essential for analyzing the logic puzzle, ultimately leading us to determine the house number where the person who had pizza lives.

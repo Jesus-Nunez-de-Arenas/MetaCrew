@@ -1,0 +1,8 @@
+Based on the clues and the deductions made, the arrangement of the houses is as follows:
+
+| House Number | Favorite Drink | Musical Instrument | Pet        | Book Preference        |
+|--------------|----------------|---------------------|------------|-------------------------|
+| 1            | Tea            | Guitar              | Horses     | History book buff       |
+| 2            | Root Beer      | (Adjacent)          | Cat        | Mystery book reader     |
+
+Thus, the person who owns horses lives in house number 1.

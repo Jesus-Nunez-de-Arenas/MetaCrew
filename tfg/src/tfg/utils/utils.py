@@ -18,13 +18,15 @@ def new_crew() -> None:
     Creates the crew composed by the agents created.
     """
     
-    initialize_crew(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH"))))
+    # print("Creating the crew...")
+    
+    # initialize_crew(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH"))))
     
     
     eliminate_folder(os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") + 
                                                 os.getenv("CREW_NAME") + "/knowledge/")))
     
-    clean_json(os.getenv("OUTPUT_DIR"))
+    # clean_json(os.getenv("OUTPUT_DIR"))
     
     # Modifies the agents and tasks YAML files
     yaml_agents_tasks()
@@ -40,7 +42,7 @@ def new_crew() -> None:
                                                         os.getenv("CREW_NAME") + "/src/")))
 
     # Modify the main.py file based on the context information
-    single_main_code(workflow_path=workflow_path)
+    # single_main_code(workflow_path=workflow_path)
     
     task_yaml_path = os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                                 os.getenv("CREW_NAME") + "/src/" + 
@@ -51,10 +53,12 @@ def new_crew() -> None:
                                                 os.getenv("CREW_NAME") + "/config/agents.yaml"))
     
     # Modify the crew.py file based on the context information
-    single_crew_code(task_yaml_path=task_yaml_path, 
-                     agents_yaml_path=agents_yaml_path)
+    # single_crew_code(task_path=os.path.join(__file__, os.getenv("INSIDE_PATH") +
+    #                                             "/output/subtasks.json"), 
+    #                  agents_path=os.path.join(__file__, os.getenv("INSIDE_PATH") +
+    #                                             "/output/experts.json"))
     
-    copy_pyproject()
+    # copy_pyproject()
     
     # copy_env()
 
@@ -69,5 +73,5 @@ def clean_folders() -> None:
     
     eliminate_folder(os.path.join(__file__, os.getenv("INSIDE_PATH"), "db"))
     eliminate_folder(os.path.join(__file__, os.getenv("INSIDE_PATH"), "output"))
-    eliminate_folder(os.path.join(__file__, os.getenv("OUTPUT_PATH"), os.getenv("CREW_NAME")))
+    #eliminate_folder(os.path.join(__file__, os.getenv("OUTPUT_PATH"), os.getenv("CREW_NAME")))
     

@@ -1,0 +1,97 @@
+### Travel Budget Breakdown for 6 People from Billings to Arizona (March 21 - March 27, 2022)
+
+#### Transportation Costs:
+1. **Self-driving from Billings to Flagstaff**: 
+   - Duration: 16 hours 29 mins
+   - Distance: 1,719 km
+   - Cost: $85
+
+2. **Self-driving from Flagstaff to Yuma**: 
+   - Duration: 4 hours 46 mins
+   - Distance: 504 km
+   - Cost: $25
+
+3. **Flight from Yuma to Phoenix**: 
+   - Flight Number: F3815401
+   - Cost: $78  (lowest flight option)
+
+4. **Flight from Phoenix to Billings**: 
+   - Flight Number: F3581060
+   - Cost: $307 
+
+**Total Transportation Cost**: $85 + $25 + $78 + $307 = **$495**
+
+---
+
+#### Accommodation Costs:
+1. **Flagstaff (2 nights, 6 people)**: 
+   - Air-conditioned Excellent Private Room for 1
+   - Price: $185/night
+   - Total for 2 nights: $185 * 2 = $370
+
+2. **Yuma (3 nights, 6 people)**: 
+   - Cozy Centrally Located Private Room
+   - Price: $147/night
+   - Total for 3 nights: $147 * 3 = $441
+
+3. **Phoenix (3 nights, 6 people)**: 
+   - 1 BR in Carroll Gardens Townhouse
+   - Price: $397/night
+   - Total for 3 nights: $397 * 3 = $1191 
+
+**Total Accommodation Cost**: $370 + $441 + $1191 = **$2002**
+
+---
+
+#### Food Costs (2 meals per day at average cost):
+1. **Flagstaff (2 days)**:
+   - Day 1: Lunch ($49) + Dinner ($157) = $206
+   - Day 2: Lunch ($16) + Dinner ($77) = $93 
+   - Total for Flagstaff: $206 + $93 = $299
+
+2. **Yuma (3 days)**:
+   - Day 3: Breakfast (Subway, $10) + Lunch ($63) + Dinner ($73) = $146
+   - Day 4: Breakfast ($10) + Lunch ($32) + Dinner ($92) = $134 
+   - Total for Yuma: $146 + $134 = $280
+
+3. **Phoenix (3 days)**:
+   - Day 5: Breakfast ($10) + Lunch ($27) + Dinner ($41) = $78
+   - Day 6: Breakfast ($10) + Lunch ($88) + Dinner ($59) = $157
+   - Day 7: Breakfast ($10) + Lunch ($10) + Dinner ($20) = $40
+   - Total for Phoenix: $78 + $157 + $40 = $275 
+
+**Total Food Cost**: $299 + $280 + $275 = **$854**
+
+---
+
+#### Activities Costs (Estimates for group discounts):
+1. **Flagstaff** (2 activities):
+   - Riordan Mansion State Historic Park: Approx. $60
+   - Lowell Observatory: Approx. $36
+   - Total for Flagstaff: $60 + $36 = $96 
+
+2. **Yuma** (2 activities):
+   - Yuma Territorial Prison: Approx. $18
+   - Colorado River State Park: Approx. $20
+   - Total for Yuma: $18 + $20 = $38 
+
+3. **Phoenix** (3 activities):
+   - Phoenix Zoo: Approx. $96
+   - Desert Botanical Garden: Approx. $18
+   - Arizona Science Center: Approx. $24
+   - Total for Phoenix: $96 + $18 + $24 = $138 
+
+**Total Activities Cost**: $96 + $38 + $138 = **$272**
+
+---
+
+### Summary of Total Estimated Costs:
+- **Transportation**: $495
+- **Accommodation**: $2002
+- **Food**: $854
+- **Activities**: $272
+
+**Grand Total Estimated Cost**: $495 + $2002 + $854 + $272 = **$3623**  
+
+### Final Outcome Description:
+The total estimated budget for a week-long vacation for a group of 6 from Billings to Arizona, visiting Flagstaff, Yuma, and Phoenix is approximately **$3623.** This budget covers transportation, accommodation, meals, and activities, allowing for a memorable and financially feasible trip within the specified limits. The final costs also ensure a comfortable stay and enjoyable experiences in each city visited.

@@ -1,0 +1,11 @@
+The arrangements of the houses and their corresponding characteristics are as follows:
+
+| House Number | Lunch          | Pet            | Favorite Book      | Shoes        |
+|--------------|----------------|----------------|---------------------|--------------|
+| 1            | Spaghetti      | Cat            | Romance Book Lover   | Sandals      |
+| 2            | Fried Rice     | Horses         | History Book Buff    | Running Shoes |
+
+- Based on Clue 1: The person wearing sandals (House 1) lives directly left of the person who owns horses (House 2).
+- Based on Clue 2: The history book buff (House 2) lives to the right of the person who ate spaghetti (House 1).
+
+Thus, the person who ate fried rice lives in House 2, confirming that the final answer is 2.

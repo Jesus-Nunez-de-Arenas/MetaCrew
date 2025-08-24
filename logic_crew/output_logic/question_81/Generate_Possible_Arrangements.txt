@@ -1,0 +1,9 @@
+The person who ate grilled cheese lives in House 2. Below is the breakdown of the characteristics for each house:
+
+| House Number | Sport              | Lunch          | Flowers                |
+|--------------|--------------------|----------------|------------------------|
+| House 1      | Golfer             | Pizza          | Vase of Tulips         |
+| House 2      | Basketball Player   | Grilled Cheese  | Bouquet of Lilies      |
+| House 3      | Soccer Player       | Spaghetti      | Bouquet of Daffodils   |
+
+This arrangement meets all the clues given, confirming the logical deductions about each individual's characteristics based on the provided information.

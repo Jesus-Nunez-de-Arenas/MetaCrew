@@ -1,0 +1,37 @@
+To solve the problem, we can summarize the information as follows:
+
+We have three houses, labeled 1, 2, and 3. Each house has a resident with specific characteristics related to sports and book preferences. Utilizing the clues provided, we establish the relationships among the households:
+
+### Summary of Information:
+- **House 1**: 
+  - History book buff
+  - Sport: Unknown (Not the golfer)
+  
+- **House 2**: 
+  - Golfer
+  - Book: Unknown (Not the history buff, could be either science fiction or fantasy)
+  
+- **House 3**: 
+  - Resident: Unknown
+  - Book: Unknown
+
+### Relationships from Clues:
+1. **Clue 1**: There is one house between the swimmer's house and the science fiction book fanatic's house.
+2. **Clue 2**: The golfer lives in the second house.
+3. **Clue 3**: The history book buff lives in the first house.
+
+### Analysis:
+1. From **Clue 2**: The golfer is confirmed to be in **House 2**.
+2. From **Clue 3**: The history book buff is confirmed to be in **House 1**.
+3. The only remaining house is **House 3**, where the swimmer must live, since there is one house (House 2) between the swimmer and the science fiction book fanatic, who has to be in House 2 too.
+
+### Final Categorization Table:
+
+| House Number | Resident Type   | Book Preference       | Sport      |
+|--------------|------------------|-----------------------|------------|
+| 1            | History Book Buff | Unknown (not swimmer) | Unknown    |
+| 2            | Golfer            | Unknown (science fiction or fantasy)   | Golfer     |
+| 3            | Unknown           | Unknown (not science fiction, not golfer) | Swimmer    |
+
+### Conclusion:
+Thus, the number of the house where the swimmer lives is **3**. The relationships confirm that the swimmer must be in House 3.

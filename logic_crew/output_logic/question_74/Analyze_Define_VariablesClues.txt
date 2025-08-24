@@ -1,0 +1,50 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 4. The houses are numbered from 1 to 4, with house number 1 on the left and house number 4 on the right.
+
+2. **houses**: There are 4 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Car type**: Each person has a different kind of car: one drives a truck, one drives a convertible, one owns an SUV, and one drives a minivan.  
+   - **Device**: Each person has a different device: one has a computer, one has a phone, one has a gameboy, and one has a radio.  
+
+4. **clues**: The problem provides a set of clues that establish relationships and positional context among the various characteristics:  
+   - Clue 1: The person who has a gameboy lives in the third house.  
+   - Clue 2: The person who drives a minivan lives in the first house.  
+   - Clue 3: The person who has a phone lives directly left of the person who owns an SUV.  
+   - Clue 4: The person who has a radio lives somewhere to the right of the person who has a gameboy.  
+   - Clue 5: The person who drives a convertible does not live in the third house.  
+   - Clue 6: The person who has a computer does not live in the first house.  
+
+Using these clues, we can analyze the relationships and deduce the exact locations and characteristics of each person:  
+- From Clue 1, we know:  
+  - House 3 has the gameboy user.
+
+- From Clue 2, we know:  
+  - House 1 has the minivan driver.
+
+- From Clue 3, since there is a "directly left" relationship, it indicates at least House 2 must be a phone user and House 3 is the gameboy user, thus House 4 must belong to the SUV owner.
+
+- From Clue 4, since the radio owner lives to the right of the gameboy user, the radio user must be in House 4.
+
+- From Clue 5, since the convertible driver cannot be in House 3, House 2 must be the convertible owner, meaning House 1 has the minivan, House 2 has the convertible, House 3 has the gameboy, and House 4 has the SUV.
+
+- From Clue 6, since the computer owner does not live in House 1, the computer owner must be in House 2.
+
+Thus, our housing allocation looks like:
+- House 1: Minivan, ??? (device not determined yet)
+- House 2: Convertible, Computer
+- House 3: Gameboy, ??? (car not determined yet)
+- House 4: SUV, Radio
+
+Since the remaining car from the characteristics is the truck:
+- House 1: Minivan, ??? (unknown device)
+- House 2: Convertible, Computer
+- House 3: Gameboy, Truck
+- House 4: SUV, Radio
+
+Thus, the person who owns an SUV lives in House 4.
+
+So finally, the number of the house where the person who owns an SUV lives is **4**.

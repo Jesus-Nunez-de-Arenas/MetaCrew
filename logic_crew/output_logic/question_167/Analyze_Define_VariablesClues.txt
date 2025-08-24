@@ -1,0 +1,29 @@
+1. **n**: The number of houses in the arrangement. In this problem, n = 4, as there are four houses numbered 1 through 4.
+
+2. **houses**: The distinct locations where individuals reside. Each house corresponds to a person with unique characteristics. The houses are represented as 1, 2, 3, and 4, from left to right.
+
+3. **characteristics**: The different traits associated with each person living in the houses. The characteristics include:
+   - **device**: The technology each individual possesses, specifically one of the following - computer, television, gameboy, or phone.
+   - **shoes**: The type of footwear each person is wearing, which varies as sandals, loafers, boots, or high heels.
+   - **sport**: The type of sport played by each individual, with options being baseball player, cricketer, basketball player, or swimmer.
+   - **fruit**: The type of fruit each person is consuming, which can be oranges, banana, kiwis, or apples.
+   - **flowers**: The type of floral arrangement each person has in their foyer, which includes a vase of tulips, bouquet of daffodils, rose bouquet, or bouquet of lilies.
+
+4. **clues**: A series of statements provided to help deduce the arrangement of the individuals in the houses based on their conflicting characteristics. These clues guide the logical reasoning necessary to determine which person lives in which house.
+
+The clues provided are as follows:
+
+1. The person who is wearing high heels lives somewhere to the left of the person who has a vase of tulips.
+2. The person who is eating apples does not live in the third house.
+3. There is one house between where the person who is wearing boots lives and where the person who is eating kiwis lives.
+4. The swimmer lives in the fourth house.
+5. The person who is wearing loafers does not live in the second house.
+6. The person who has a vase of tulips lives directly left of the cricketer.
+7. The person who has a phone lives somewhere to the left of the person who is wearing sandals.
+8. The person who is eating oranges lives somewhere to the left of the person who has a computer.
+9. The person who has a bouquet of lilies does not live in the third house.
+10. The person who is wearing loafers does not live in the third house.
+11. The person who has a rose bouquet lives directly left of the person who is eating a banana.
+12. The person who has a gameboy lives somewhere to the left of the basketball player.
+
+From this analysis, the goal is to ascertain the house number where the individual wearing loafers resides, guided by the clues provided.

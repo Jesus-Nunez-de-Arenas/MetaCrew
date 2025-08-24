@@ -1,0 +1,21 @@
+- n: Represents the number of houses, which is 2 in this scenario.
+- houses: There are 2 houses numbered 1 and 2, where house 1 is on the left and house 2 is on the right.
+- characteristics: 
+  1. Favorite Drink: One person drinks tea, and the other enjoys root beer.
+  2. Musical Instrument: One person plays the cello, while the other plays the guitar.
+  3. Pets: One person owns horses, and the other has a cat.
+  4. Book Preference: One individual is a mystery book reader, and the other is a history book buff.
+  
+Clue Analysis:
+1. Clue 1 states that the cellist is to the left of the mystery book reader. This implies that the cellist must be in house 1, and the mystery book reader is in house 2.
+2. Clue 2 indicates that the history book buff lives to the left of the cat lover, meaning the history book buff must be in house 1 and the cat lover in house 2.
+3. Clue 3 specifies that the root beer lover (who has to be in house 2) is next to the guitarist, indicating that the guitarist is in house 1, as they are the ones who can be next to each other in the provided count of houses.
+
+Based on the deduced arrangements:
+- House 1: Guitarist, History book buff, Horse owner
+- House 2: Root beer lover, Mystery book reader, Cat lover
+
+The person who owns horses is in house 1. 
+
+Thus, the final answer regarding which house the person who owns horses lives in is: 
+House number is 1.

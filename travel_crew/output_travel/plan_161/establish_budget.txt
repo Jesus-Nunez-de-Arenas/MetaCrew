@@ -1,0 +1,68 @@
+### Detailed Budget Breakdown for Vacation  
+
+#### **Transportation Costs**  
+- **Day 1**: Self-driving from Pittsburgh to Rochester  
+  - Cost: **$22**  
+- **Day 3**: Self-driving from Rochester to Niagara Falls  
+  - Cost: **$6**  
+- **Day 5**: Self-driving from Niagara Falls to New York  
+  - Cost: **$32**  
+- **Day 7**: Self-driving from New York to Pittsburgh  
+  - Cost: **$29**  
+**Total Transportation Cost: $22 + $6 + $32 + $29 = $89**  
+
+#### **Accommodation Costs**  
+- **Night 1 & 2**: Artsy Bushwick NY (Entire home/apt)  
+  - Cost: **$1,128 (x2) = $2,256**  
+- **Night 3 & 4**: Sunny Bedroom In The Heart of Bushwick (Private room)  
+  - Cost: **$893 (x2) = $1,786**  
+- **Night 5 & 6**: Versatile private room in Harlem/Hamilton Heights (Private room)  
+  - Cost: **$398 (x2) = $796**  
+**Total Accommodation Cost: $2,256 + $1,786 + $796 = $4,838**  
+
+#### **Food Costs**  
+- **Day 1**:  
+  - Lunch: The Fisherman's Wharf, Rochester - **$14**  
+  - Dinner: Circus, Rochester - **$81**  
+**Total Day 1: $14 + $81 = $95**  
+
+- **Day 2**:  
+  - Lunch: Zunzi's, Rochester - **$18**  
+  - Dinner: Tandoori KnockOuts, Rochester - **$63**  
+**Total Day 2: $18 + $63 = $81**  
+
+- **Day 3**:  
+  - Lunch: Raju Dhaba, Niagara Falls - **$67**  
+  - Dinner: Izakaya Kikufuji, Niagara Falls - **$66**  
+**Total Day 3: $67 + $66 = $133**  
+
+- **Day 4**:  
+  - Lunch: Tony Roma's, Niagara Falls - **$47**  
+  - Dinner: Giani's, Niagara Falls - **$44**  
+**Total Day 4: $47 + $44 = $91**  
+
+- **Day 5**:  
+  - Lunch: Seasons 52 Fresh Grill, New York - **$30**  
+  - Dinner: Lord of the Drinks Forum, New York - **$71**  
+**Total Day 5: $30 + $71 = $101**  
+
+- **Day 6**:  
+  - Lunch: Green Chick Chop, New York - **$26**  
+  - Dinner: Shree Rathnam, New York - **$91**  
+**Total Day 6: $26 + $91 = $117**  
+
+- **Day 7**:  
+  - Meals: - (None)  
+**Total Day 7: $0**  
+
+**Total Food Cost: $95 + $81 + $133 + $91 + $101 + $117 + $0 = $618**  
+
+#### **Overall Budget Summary**  
+- **Total Transportation Cost**: **$89**  
+- **Total Accommodation Cost**: **$4,838**  
+- **Total Food Cost**: **$618**  
+
+**Grand Total**: **$89 + $4,838 + $618 = $5,545**  
+
+### Conclusion  
+With a total estimated budget of **$5,545**, this exceeds your initial budget of **$5,300** by **$245**. To stay within budget, consider adjusting your dining options or selecting less expensive accommodations.

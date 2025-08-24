@@ -1,0 +1,7 @@
+| House Number | Color  | Device    |
+|--------------|--------|-----------|
+| 1            | Yellow | Phone     |
+| 2            | Blue   | Gameboy   |
+| 3            | Green  | Computer   |
+
+The arrangement concludes that the person who has a computer lives in house number **3**.

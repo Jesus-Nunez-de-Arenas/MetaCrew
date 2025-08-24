@@ -1,0 +1,14 @@
+Based on the clues provided, we have established the following breakdown of the houses and their respective characteristics:
+
+| House Number | Lunch Eaten    | Book Preference                  |
+|--------------|----------------|----------------------------------|
+| 1            | Spaghetti      | Science Fiction Fanatic          |
+| 2            | Fried Rice     | Fantasy Book Enthusiast          |
+| 3            | Grilled Cheese  | Mystery Book Reader              |
+
+Through logical deduction:
+- The person who ate fried rice lives in house 2 and cannot be the fantasy book enthusiast, confirming that the fantasy enthusiast is in house 2.
+- This means house 1 must have the person who ate spaghetti and is the science fiction fanatic.
+- Consequently, house 3 is left with the grilled cheese eater who is the mystery reader.
+
+Thus, the number of the house where the person who ate grilled cheese lives is house number 3.

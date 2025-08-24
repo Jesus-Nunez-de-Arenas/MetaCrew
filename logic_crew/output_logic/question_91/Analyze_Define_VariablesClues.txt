@@ -1,0 +1,24 @@
+Variables in the problem statement:
+
+1. n: This variable represents the total number of houses, which is 3 in this scenario. The houses are numbered from 1 to 3, progressing from left to right.
+
+2. Houses: There are 3 distinct houses in a row, each identified by a unique number (1, 2, 3). Each house has one person living in it, and they differ based on specific characteristics, including the types of flowers they have in their foyer and their favorite drink.
+
+3. Characteristics: The characteristics of the individuals living in the houses include:
+   - Types of flowers in their foyer: The options are a bouquet of lilies, a vase of tulips, and a rose bouquet.
+   - Types of drinks: The options for favorite drinks are milk, root beer, and water.
+
+4. Clue(s): The clues provide critical information that can be used to determine the relationships between the people, their flowers, and their drinks:
+   1. There is one house between where the person who only drinks water lives and where the person who likes milk lives.
+   2. The person who only drinks water lives in the first house.
+   3. The person who has a bouquet of lilies lives somewhere to the right of the person who has a vase of tulips.
+   4. The person who has a bouquet of lilies lives in the second house.
+
+Each of these variables plays a crucial role in solving the puzzle, allowing for the identification of where each person lives, what flowers they possess, and what drinks they prefer. 
+
+Through the analysis of the clues:
+- The first house has the person who drinks water (Clue 2).
+- This implies the second house must be where the person with lilies lives (Clue 4), leaving the third house for the remaining person who has the rose bouquet.
+- Therefore, the person with the rose bouquet lives in House 3.
+
+Final answer concluded: The person who has a rose bouquet lives in House 3.

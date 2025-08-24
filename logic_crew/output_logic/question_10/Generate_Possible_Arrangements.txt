@@ -1,0 +1,11 @@
+- House 1:  
+  - Shoes: Sandals  
+  - Book Preference: Mystery  
+  - Car Type: Convertible  
+
+- House 2:  
+  - Shoes: Boots  
+  - Book Preference: History  
+  - Car Type: Truck  
+
+Therefore, the number of the house where the person who is wearing sandals lives is **1**.

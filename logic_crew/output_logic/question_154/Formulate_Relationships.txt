@@ -1,0 +1,18 @@
+Based on the analysis of the clues, the characteristics of each house and their residents have been determined as follows:
+
+| House Number | Pet Type         | Car Type     | Sport Type        |
+|--------------|-------------------|--------------|--------------------|
+| 1            | Fish enthusiast    | Minivan      | Soccer player       |
+| 2            | Cat lover          | Convertible  | Golfer              |
+| 3            | Bird keeper        | Sedan        | Basketball player    |
+| 4            | Horse owner        | Truck        | Baseball player      |
+
+**Key Points from the Clues:**
+- **Clue 2:** The bird keeper lives in the third house.  
+- **Clue 1:** The cat lover does not live in the second house.  
+- **Clue 8:** The soccer player lives to the left of the bird keeper (which means the soccer player must be in House 1 or House 2).  
+- **Clue 9:** The fish enthusiast lives to the left of the soccer player, leading to placing the fish enthusiast in House 1 and soccer player in House 2.  
+- **Clue 3:** The golfer (House 2) must be to the left of the truck driver (House 4).  
+- **Clue 7:** The person that owns a sedan (House 3) lives to the right of the baseball player (House 4).  
+
+Through this structured approach, it was confirmed that the bird keeper resides in House 3. Therefore, the number of the house where the bird keeper lives is **3**.

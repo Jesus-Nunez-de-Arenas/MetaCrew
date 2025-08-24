@@ -1,0 +1,24 @@
+1. **n**: This represents the total number of houses, which is 3 (numbered 1, 2, and 3).  
+2. **houses**: The entities in this problem, each representing a distinct living space occupied by individuals with unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+3. **characteristics**: The various traits attributed to each individual living in the houses. This includes:  
+   - **Device**: Each person owns a different device: phone, computer, or gameboy.  
+   - **Color**: Each person has a different favorite color: yellow, blue, or green.    
+4. **clues**: The given logical statements that help in deducing the arrangement of traits among the houses. The clues are as follows:  
+   - Clue 1: The person who likes green lives directly left of the person who has a gameboy.  
+   - Clue 2: The person who has a gameboy lives directly left of the person who has a computer.  
+   - Clue 3: The person who likes yellow does not live in the second house.  
+
+Analyzing the clues step by step:  
+- From Clue 1, if the person who likes green lives directly left of the gameboy owner, it indicates green cannot be in the last house (3). Thus, if the gameboy is in house 2, then green must be in house 1. This means the gameboy must be in house 2 and the computer must be in house 3.  
+- Clue 2 confirms this arrangement as the gameboy (house 2) must be directly left of the computer (house 3).  
+- From Clue 3, since yellow does not live in house 2, yellow must be assigned to house 1, making blue the color of the resident of house 2.
+
+Consequently, the arrangement based on the deductions is:  
+- House 1: Person who likes yellow (belongs to house 1)  
+- House 2: Person with the gameboy and who likes blue  
+- House 3: Person with a computer 
+
+Thus, the number of the house where the person who has a computer lives is house number **3**.

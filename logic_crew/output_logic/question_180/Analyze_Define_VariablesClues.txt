@@ -1,0 +1,21 @@
+The variables in the problem are defined as follows:
+
+1. **n (number of houses)**: There are 2 houses in total, specifically numbered as house 1 (on the left) and house 2 (on the right).
+
+2. **houses**: The two houses are house 1 and house 2. Each house contains one person, and they are distinguished by their characteristics and preferences.
+
+3. **characteristics**: Each person living in the houses possesses multiple characteristics, which are:
+   - Favorite drink: one person drinks tea and the other drinks water.
+   - Favorite kind of book: one enjoys romance novels and the other enjoys science fiction.
+   - Musical instrument played: one plays percussion while the other plays the saxophone.
+   - Sport played: one plays golf, and the other participates in baseball.
+   - Type of fruit eaten: one eats mangos, and the other eats grapes.
+
+4. **clues**: These are the logical clues provided for deducing the characteristics associated with each house:
+   - Clue 1: The tea drinker and the person who is eating grapes live directly next to each other.
+   - Clue 2: The saxophonist and the golfer live directly next to each other.
+   - Clue 3: The baseball player and the person who is eating grapes live directly next to each other.
+   - Clue 4: The saxophonist lives in the first house.
+   - Clue 5: The romance book lover and the golfer live directly next to each other.
+
+In conclusion, using the clues provided and eliminating possibilities based on the connections made, the person who eats mangos must reside in house number 2. Thus, the answer to the initial problem is now clear.

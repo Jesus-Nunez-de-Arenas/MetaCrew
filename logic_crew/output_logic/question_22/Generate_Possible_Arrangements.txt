@@ -1,0 +1,16 @@
+The bird keeper lives in House 4, and the reasoning is based on the following deductions from the clues provided:  
+
+1. **The baseball player lives in House 2** (Clue 3).
+2. **The basketball player cannot live in House 1** (Clue 1) and must live in House 3 because he is left of the swimmer (Clue 2) and House 2 is occupied by the baseball player.
+3. **This implies that the swimmer must live in House 4**.
+4. **The dog owner must be in House 3** (as the dog owner is left of the fish enthusiast) and therefore the basketball player in House 3 has a dog.
+5. **The fish enthusiast then must be in House 4**, leaving House 1 for the tennis player who lives directly left of the cat lover (Clue 6).
+6. **The bird keeper cannot live in House 1 or House 3** (Clue 5 and Clue 7), so they must be in House 4.
+
+Consequently, summarizing:
+- House 1: Tennis Player with a Dog
+- House 2: Baseball Player with a Cat
+- House 3: Basketball Player with a Fish
+- House 4: Swimmer with a Bird 
+
+Thus, the bird keeper indeed resides in House **4**.

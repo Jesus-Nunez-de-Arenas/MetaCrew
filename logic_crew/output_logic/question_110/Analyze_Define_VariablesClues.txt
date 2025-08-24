@@ -1,0 +1,55 @@
+In this puzzle, we identify several critical variables and their roles:
+
+1. **n**: The total number of houses, which is 4, numbered from 1 to 4.
+
+2. **houses**: 
+   - House 1
+   - House 2
+   - House 3
+   - House 4
+
+3. **characteristics**: Each house has a resident with distinct attributes. The characteristics we are analyzing include:
+
+   a. **Favorite Colors**: 
+   - Yellow 
+   - White 
+   - Blue 
+   - Green
+
+   b. **Sports Played**: 
+   - Soccer 
+   - Swimming 
+   - Cricket 
+   - Basketball 
+
+   c. **Cars Owned**: 
+   - SUV 
+   - Minivan 
+   - Convertible 
+   - Truck 
+
+   d. **Fruits Eaten**: 
+   - Kiwis 
+   - Mangos 
+   - Bananas 
+   - Oranges 
+
+4. **clue(s)**: The puzzle provides specific clues that guide our deductions about the arrangement of the characteristics in relation to each house. The clues are as follows:
+   1. The cricketer lives somewhere to the left of the person who drives a convertible.
+   2. The person who owns an SUV does not live in the third house.
+   3. The soccer player does not live in the fourth house.
+   4. The person who likes yellow lives in the first house.
+   5. The person who is eating a banana lives directly left of the person who likes white.
+   6. The swimmer lives somewhere to the left of the person who likes white.
+   7. The person who is eating mangos lives somewhere to the left of the person who is eating oranges.
+   8. The person who owns an SUV does not live in the second house.
+   9. The person who drives a convertible lives in the fourth house.
+   10. The person who owns an SUV and the person who is eating a banana live directly next to each other.
+   11. The person who drives a minivan lives directly left of the person who likes white.
+   12. The person who owns an SUV and the person who likes blue live directly next to each other.
+   13. The person who is eating kiwis lives in the first house.
+   14. There is one house between where the swimmer lives and where the cricketer lives.
+
+By analyzing these variables and clues systematically, we can derive the arrangement of each person’s characteristics across the houses. The goal is to determine which house the basketball player lives in based on the provided clues. After thorough deduction, it is inferred that the basketball player resides in House 2. 
+
+Thus, this detailed breakdown of variables and clues leads to a practical understanding of the puzzle structure and identification process.

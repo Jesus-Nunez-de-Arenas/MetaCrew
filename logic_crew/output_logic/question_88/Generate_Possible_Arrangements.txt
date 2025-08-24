@@ -1,0 +1,17 @@
+The arrangements of the houses and their corresponding characteristics, based on the clues provided, lead to the conclusion that the person who owns horses lives in House 2. 
+
+Here’s the detailed deduction of the possible arrangements:
+- **House 1**: Likes white, has a bouquet of daffodils, bird keeper, wearing boots.
+- **House 2**: Likes green, has a vase of tulips, horse owner, wearing running shoes.
+- **House 3**: Likes yellow, has a bouquet of lilies, dog owner, wearing sandals.
+
+This configuration meets all the clues as follow:
+1. The person who likes white (House 1) is next to the daffodils (House 1 has daffodils).
+2. The person wearing boots (House 1) does not live in the second house.
+3. The bird keeper (House 1) does not live in the third house.
+4. The person who likes green (House 2) is directly left of the person wearing running shoes (House 2 is wearing running shoes).
+5. The dog owner (House 3) lives somewhere to the right of the person who owns horses (House 2 owns horses).
+6. The person who owns horses (House 2) and the person with the bouquet of daffodils (House 1) live next to each other.
+7. The person wearing sandals (House 3) lives to the left of the person with tulips (House 2 has tulips).
+
+Thus, the arrangement adheres to all clues provided and confirms that the house number where the person who owns horses lives is House 2.

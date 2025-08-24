@@ -1,0 +1,16 @@
+The house number where the person who ate fried rice lives is **1**. Here is a breakdown of the clues and implications:
+
+1. From Clue 2, we know the person in House 1 likes white.
+2. From Clue 4, we learn that the person in House 2 likes green.
+3. Clue 3 states that the person who ate spaghetti does not live in House 2. Therefore, they must live in House 1 or House 3.
+4. Since the color of House 1 is white and cannot eat spaghetti, they must eat either fried rice or stew.
+5. Clue 7 indicates the person who had stew cannot be in House 2. Thus, the only available option for stew is House 3.
+6. Therefore, the person in House 1 must have had fried rice (since they can't have spaghetti), which leaves the person in House 2 with the spaghetti.
+7. According to Clue 1, the person wearing high heels does not live in House 3, so they must reside in House 2 as only House 1 is wearing boots.
+
+With this reasoning, we determine:
+- House 1: Likes white, eats fried rice, wears boots.
+- House 2: Likes green, eats spaghetti, wears high heels.
+- House 3: Likes red, eats stew, wears running shoes.
+
+Thus, the person who ate fried rice lives in **House 1**.

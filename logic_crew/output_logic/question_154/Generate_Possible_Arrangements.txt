@@ -1,0 +1,17 @@
+The bird keeper lives in House 3. Based on the clues provided and the logical deductions made, we established that:
+
+1. **House 1** is occupied by the fish enthusiast, who drives a minivan and plays soccer.
+2. **House 2** is home to the cat lover, who drives a convertible and is a golfer.
+3. **House 3** is where the bird keeper resides, driving a sedan and playing basketball.
+4. **House 4** belongs to the horse owner, who drives a truck and is a baseball player.
+
+Therefore, the arrangement of the residents in the houses is as follows:
+
+| House Number | Pet Type         | Car Type     | Sport Type        |
+|--------------|-------------------|--------------|--------------------|
+| 1            | Fish enthusiast    | Minivan      | Soccer player       |
+| 2            | Cat lover          | Convertible  | Golfer              |
+| 3            | Bird keeper        | Sedan        | Basketball player    |
+| 4            | Horse owner        | Truck        | Baseball player      |
+
+In conclusion, the number of the house where the bird keeper lives is **3**.

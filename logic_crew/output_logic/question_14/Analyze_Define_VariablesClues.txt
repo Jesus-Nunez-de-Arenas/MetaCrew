@@ -1,0 +1,32 @@
+1. **n**: This represents the total number of houses in the scenario, which is 4 (numbered 1, 2, 3, and 4).  
+
+2. **houses**: The houses are entities numbered from 1 to n (1, 2, 3, and 4). Each house contains one person with unique characteristics.  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+
+3. **characteristics**: There are several traits assigned to the individuals in the houses:  
+   - **color**: Each person has a favorite color: red, white, green, or yellow.  
+   - **drink**: Each person has a favorite drink: water, root beer, tea, or coffee.  
+   - **book**: Each person likes a different kind of book: mystery, history, romance, or science fiction.  
+
+4. **clues**: The logical statements provided assist in deducing the arrangement of traits among the houses:  
+   - Clue 1: There are two houses between where the person who likes white lives and where the coffee drinker lives.  
+   - Clue 2: The coffee drinker lives somewhere to the right of the person who likes green.  
+   - Clue 3: The history book buff does not live in the fourth house.  
+   - Clue 4: The romance book lover does not live in the first house.  
+   - Clue 5: The root beer lover lives in the third house.  
+   - Clue 6: The mystery book reader does not live in the fourth house.  
+   - Clue 7: The person who likes red lives in the third house.  
+   - Clue 8: The romance book lover lives directly left of the history book buff.  
+   - Clue 9: The tea drinker does not live in the second house.  
+
+Analyzing the clues step-by-step:
+- From Clue 5, the root beer lover lives in House 3. 
+- From Clue 7, the person who likes red also lives in House 3 (hence the drink must be root beer).
+- Therefore, the only remaining drinks for Houses 1, 2, and 4 are: water, tea, and coffee. 
+- Since the romance book lover does not live in House 1 (Clue 4) and the history book buff does not live in House 4 (Clue 3), the only possibilities remaining guide us to deduce the occupants of the houses by elimination.
+- By analyzing Clue 1, we need to recognize that Coffee must be in either House 2 or 4, however, since it must be after Green (Clue 2). Finally, we find that the only configuration left matches the clues, placing the Coffee Drinker in House 4.
+
+Thus, the number of the house where the coffee drinker lives is **4**.

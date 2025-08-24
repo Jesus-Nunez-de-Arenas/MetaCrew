@@ -1,0 +1,15 @@
+Based on the clues provided and their analysis, here are the arrangements of the houses and their corresponding characteristics:  
+
+- **House 1**:  
+  - Device: Phone  
+  - Shoes: High Heels  
+  - Drink: Tea  
+  - Fruit: Grapes  
+
+- **House 2**:  
+  - Device: Television  
+  - Shoes: Sandals  
+  - Drink: Water  
+  - Fruit: Kiwis  
+
+This means the person who is eating kiwis lives in House **2**. Thus, the answer is 2.

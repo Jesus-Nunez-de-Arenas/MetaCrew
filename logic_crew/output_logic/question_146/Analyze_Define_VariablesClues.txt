@@ -1,0 +1,18 @@
+1. **n**: This variable represents the total number of houses in the row. In this problem, n = 2, as there are two houses numbered from 1 to 2.
+
+2. **houses**: These are the physical locations where the people live, and they are arranged sequentially from 1 to 2. Each house corresponds to one resident with distinct characteristics.
+
+3. **characteristics**: This variable includes the specific traits of each resident in the houses. The characteristics are:
+   - **Flowers**: There are two types of flower arrangements:
+     - A carnations arrangement
+     - A vase of tulips
+   - **Pets**: The pets owned by the residents are:
+     - One person is a dog owner.
+     - The other person owns horses.
+
+4. **clue(s) provided**: These conditions help in establishing the relationships between the residents:
+   - **Clue 1**: The person who has a carnations arrangement lives somewhere to the left of the dog owner.
+
+Based on this clue, the arrangement of the houses must be analyzed. The person with a carnations arrangement must therefore live in House 1, as it is the only arrangement where they can live to the left of the dog owner, who must reside in House 2. 
+
+Thus, the number of the house where the person who has a carnations arrangement lives is **1**.

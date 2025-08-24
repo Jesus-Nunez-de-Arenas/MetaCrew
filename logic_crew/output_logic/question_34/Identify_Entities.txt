@@ -1,0 +1,28 @@
+The basketball player lives in House number 2. 
+
+Here's the breakdown of the clues and their implications leading to this conclusion:
+
+1. **Clue 2** states that the cricketer lives in the first house. Therefore:
+   - House 1: Cricketer
+
+2. **Clue 4** tells us that the person who owns horses lives directly left of the person who owns a sedan. Since the cricketer must be in House 1, the only option for the horse owner is:
+   - House 1: Cricketer with Horses
+   
+   Hence, the sedan must be in House 2:
+   - House 2: Sedan Owner
+  
+3. **Clue 3** indicates that the cat lover lives somewhere to the right of the person who owns a sedan. Since the sedan is in House 2, the cat lover must therefore be in House 3:
+   - House 3: Cat Lover
+
+4. Now applying **Clue 1**, the person who drives a truck lives somewhere to the right of the basketball player. The only remaining house (House 3) can only be the place for the person who owns the truck:
+   - House 3: Truck Owner (and this person is the cat lover)
+
+5. Since the only position left for the basketball player is House 2, we conclude:
+   - House 2: Basketball Player with Sedan
+
+Thus, the final arrangement of houses is:
+- House 1: Cricketer with Horses
+- House 2: Basketball Player with Sedan
+- House 3: Cat Lover with Truck
+
+Therefore, the confirmed answer is that the basketball player resides in House 2.

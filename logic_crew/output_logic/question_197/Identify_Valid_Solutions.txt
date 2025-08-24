@@ -1,0 +1,40 @@
+The person who has a computer lives in House **3**. 
+
+Here are the complete arrangements of each house based on the clues provided:
+
+**House 1**: 
+- Flowers: Rose bouquet 
+- Shoes: High heels 
+- Device: Gameboy 
+- Lunch: Fried rice 
+- Book: Fantasy book
+
+**House 2**: 
+- Flowers: Carnations arrangement 
+- Shoes: Boots 
+- Device: Phone 
+- Lunch: Stew 
+- Book: Mystery book
+
+**House 3**: 
+- Flowers: Vase of tulips 
+- Shoes: Loafers 
+- Device: Computer 
+- Lunch: Grilled cheese 
+- Book: Science fiction book
+
+**House 4**: 
+- Flowers: Bouquet of lilies 
+- Shoes: Running shoes 
+- Device: Television 
+- Lunch: Pizza 
+- Book: History book
+
+**House 5**: 
+- Flowers: Bouquet of daffodils 
+- Shoes: Sandals 
+- Device: Radio 
+- Lunch: Spaghetti 
+- Book: Romance book
+
+All arrangements satisfy all the clues provided, confirming that the correct location for the person with the computer is indeed House 3.

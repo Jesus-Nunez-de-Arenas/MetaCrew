@@ -1,0 +1,17 @@
+1. **n**: This represents the total number of houses in the problem, which is 5. The houses are numbered from 1 to 5, indicating their position in a row.
+   
+2. **houses**: These are the individual units of the problem where each person lives. Each house is associated with distinct characteristics of the residents. The houses are identified by their numerical order: House 1, House 2, House 3, House 4, and House 5.
+
+3. **characteristics**: Each resident of the houses has a set of differentiating attributes that are to be identified:
+   - **favorite drink**: Different drinks include tea, root beer, water, coffee, and milk.
+   - **fruit**: Each resident is eating one of the fruits: apples, grapes, kiwis, mangos, or oranges.
+   - **shoes**: Variations in footwear are sandals, boots, loafers, running shoes, and high heels.
+   - **sport**: The activities played by each individual are swimming, basketball, cricket, golf, and baseball.
+   - **flowers**: Each person has a different type of bouquet which includes lilies, roses, daffodils, carnations, and tulips.
+
+4. **clues**: These are the logical statements provided in the problem that help to deduce the correct arrangement of characteristics among the houses. The clues guide the identification of:
+   - Relationships among which house corresponds to which characteristics. 
+   - The relative positions of certain attributes, such as the location of the swimmer in relation to the person who likes milk or the positioning of the daffodil bouquet in comparison to other floral arrangements.
+   - Specific exclusions about which fruits cannot be consumed or where water drinkers cannot reside.
+
+Overall, these variables play a crucial role in solving the puzzle by providing a structured format to analyze and interrelate the details about the residents of the houses, allowing for deducing who lives where by leveraging the clues presented. Through systematic deduction, the correct house number for the person who owns a bouquet of lilies can ultimately be established.

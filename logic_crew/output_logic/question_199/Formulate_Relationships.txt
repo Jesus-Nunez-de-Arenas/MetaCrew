@@ -1,0 +1,53 @@
+To solve the problem systematically, let's analyze the clues methodically and create a structured representation of the relationships among the houses based on the clues provided.
+
+### Step-by-Step Analysis:
+1. **House Setup**: There are 3 houses (1, 2, and 3).
+2. **Clue 1**: The tea drinker lives in the third house.  
+   - House 3: Tea
+
+3. **Clue 4**: The person who has a carnations arrangement lives in the first house.  
+   - House 1: Carnations
+
+4. **Clue 5**: The person who has a vase of tulips lives in the second house.  
+   - House 2: Tulips
+
+5. **Current Status**:  
+   - House 1: Carnations  
+   - House 2: Tulips  
+   - House 3: Tea  
+
+6. **Clue 6**: The person who is wearing boots lives directly left of the person who likes green.  
+   This means:
+   - Boots must be in House 1 or House 2 (cannot be in House 3 because it would not have a 'left' house). 
+
+7. **Clue 7**: The person who is wearing running shoes lives in the first house.  
+   - House 1: Running Shoes, Carnations  
+   - This implies House 1 cannot have the boots. Thus, the boots must be in House 2, indicating that House 2 likes green.
+
+8. **Updated Status**:  
+   - House 1: Running Shoes, Carnations  
+   - House 2: Tulips, Boots, Likes Green  
+   - House 3: Tea  
+
+9. **Clue 2**: The person who is eating kiwis lives directly left of the person who likes blue.  
+   Thus, kiwis must be in House 2 (since House 1 is known) and the blue lover in House 3.
+   - House 2: Kiwis
+
+10. **Updated Status**:  
+    - House 1: Running Shoes, Carnations  
+    - House 2: Tulips, Boots, Likes Green, Kiwis  
+    - House 3: Tea, Likes Blue  
+
+11. **Clue 3**: The person who likes milk and the person who is eating apples live directly next to each other.  
+    Since House 2 has kiwis, House 1 must have apples.
+    - House 1: Apples, Milk
+
+12. **Final Result**:  
+    - House 1: Running Shoes, Carnations, Apples, Milk  
+    - House 2: Boots, Tulips, Kiwis, Likes Green  
+    - House 3: Tea, Likes Blue  
+
+### Final Evaluation:
+According to all deductions involving their respective attributes and distributions, it is clear that the person eating apples resides in **House 1**.
+
+Thus, the number of the house where the person who is eating apples lives is **1**.

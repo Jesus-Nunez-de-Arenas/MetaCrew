@@ -1,0 +1,48 @@
+1. **n**: This represents the total number of houses in the scenario, which is 5. The houses are numbered from 1 to 5, with house number 1 on the left and house number 5 on the right.
+
+2. **houses**: There are 5 houses in total, each occupied by one resident with unique characteristics. The houses are numbered as follows:
+   - House 1
+   - House 2
+   - House 3
+   - House 4
+   - House 5
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Drink**: The favorite beverages of the residents include:
+     - Milk
+     - Water
+     - Root Beer
+     - Tea
+     - Coffee
+   - **Lunch**: The different meals eaten by the residents include: 
+     - Pizza
+     - Stew
+     - Fried Rice
+     - Spaghetti
+     - Grilled Cheese
+
+4. **clues**: The provided clues help deduce the arrangement of the houses and their characteristics:
+   - Clue 1: The person who ate grilled cheese lives in the fifth house.
+   - Clue 2: The person who had pizza does not live in the first house.
+   - Clue 3: The root beer lover lives directly left of the person who had stew.
+   - Clue 4: The person who only drinks water lives in the fifth house.
+   - Clue 5: The coffee drinker lives directly left of the person who ate spaghetti.
+   - Clue 6: The person who ate spaghetti lives in the third house.
+   - Clue 7: The person who had stew and the person who likes milk live directly next to each other.
+
+By analyzing these clues, we can determine the arrangement of each person's drink and lunch:
+- From clue 1, we know that the grilled cheese eater is in house 5.
+- Clue 4 indicates that the person who drinks water also lives in house 5.
+- Clue 6 tells us the spaghetti lover is in house 3.
+- Clue 5 states that the coffee drinker is directly to the left of the person who ate spaghetti, thus coffee must be in house 2.
+- Clue 3, combined with the placement of coffee and water, derives that root beer must be in house 1 with stew in house 2.
+- This places the milk drinker in house 4.
+
+After cross-referencing the clues and eliminating impossibilities, we conclude:
+- House 1: Root Beer Lover (Fried Rice)
+- House 2: Coffee Drinker (Stew)
+- House 3: Tea Drinker (Spaghetti)
+- House 4: Milk Lover (Pizza)
+- House 5: Water Drinker (Grilled Cheese)
+
+Therefore, the answer to the question about which house the person who ate grilled cheese lives in is **5**.

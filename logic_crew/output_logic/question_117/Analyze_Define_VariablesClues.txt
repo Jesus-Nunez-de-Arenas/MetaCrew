@@ -1,0 +1,28 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 2. The houses are numbered from 1 to 2, with house number 1 on the left and house number 2 on the right.
+
+2. **houses**: There are 2 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **What they ate for lunch**: One ate fried rice and the other ate spaghetti.  
+   - **Pets**: One is a cat lover and the other owns horses.  
+   - **Favorite kind of book**: One is a history book buff and the other is a romance book lover.  
+   - **Type of shoes**: One is wearing sandals and the other is wearing running shoes.  
+
+4. **clues**: The provided clues establish relationships among the various characteristics:  
+   - Clue 1: The person who is wearing sandals lives directly left of the person who owns horses.  
+   - Clue 2: The history book buff lives somewhere to the right of the person who ate spaghetti.  
+
+To analyze the clues: 
+- From Clue 1, if the person wearing sandals is to the left of the person who owns horses, then the person with sandals must live in House 1, and thus the horse owner must live in House 2.
+- From Clue 2, if the history book buff lives to the right of the spaghetti eater, this means the spaghetti eater must reside in House 1, and thus the history book buff must be living in House 2.
+
+From the analysis, we can conclude:
+- House 1: Person who ate spaghetti, owns a cat, is either wearing sandals or running shoes (but must be sandals since the sandals wearer is to the left).
+- House 2: Person who ate fried rice, owns horses, is the history book buff, and is wearing running shoes.
+
+Consequently, the person who ate fried rice lives in House 2. 
+
+Thus, the answer is:  
+The number of the house where the person who ate fried rice lives is **2**.

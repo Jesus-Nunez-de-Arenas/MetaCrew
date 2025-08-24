@@ -1,0 +1,76 @@
+**Travel Plan**  
+
+**Day 1: March 12, 2022**  
+Current City: from Evansville to Texarkana  
+Transportation: Self-driving, Duration: 8 hours 45 mins, Distance: 889 km, Cost: $44  
+Attraction: Museum of Regional History, Address: 219 N State Line Ave, Texarkana, TX 75501, Phone: (903) 793-4831, Website: [Museum of Regional History](http://www.texarkanamuseums.org/)  
+Lunch: Big City Bread Cafe, Average Cost: $61, Cuisine: Cafe, Pizza, Bakery, BBQ, Rating: 4.3  
+Dinner: Columbia Restaurant, Average Cost: $91, Cuisine: Desserts, Tea, Pizza, Indian, Seafood, Rating: 4.4  
+Accommodation: Large 2.5 BR Apt In Park Slope, Price: $269, Room Type: Entire home/apt, House Rules: No smoking & No visitors, Minimum Nights: 1, Maximum Occupancy: 3, Review Rate: 1.0  
+
+**Day 2: March 13, 2022**  
+Current City: Texarkana  
+Transportation: -  
+Attraction: Four States Auto Museum, Address: 217 Laurel St, Texarkana, AR 71854, Phone: (870) 772-2886, Website: [Four States Auto Museum](http://www.fourstatesautomuseum.org/)  
+Lunch: Cafe Coffee Day, Average Cost: $28, Cuisine: Tea, Cafe, BBQ, Seafood, Rating: 0.0  
+Dinner: TGI Friday's, Average Cost: $27, Cuisine: Tea, Bakery, Pizza, Desserts, Rating: 3.5  
+Accommodation: Large 2.5 BR Apt In Park Slope, Price: $269, Room Type: Entire home/apt, House Rules: No smoking & No visitors, Minimum Nights: 1, Maximum Occupancy: 3, Review Rate: 1.0  
+
+**Day 3: March 14, 2022**  
+Current City: from Texarkana to Longview  
+Transportation: Self-driving, Duration: 1 hour 36 mins, Distance: 142 km, Cost: $7  
+Attraction: Longview World of Wonders, Address: 112 E Tyler St, Longview, TX 75601, Phone: (903) 212-4969, Website: [Longview World of Wonders](http://www.longviewwow.org/)  
+Lunch: Monster's Cafe, Average Cost: $94, Cuisine: Tea, Bakery, Fast Food, Cafe, American, Mediterranean, Rating: 3.5  
+Dinner: Domino's Pizza, Average Cost: $48, Cuisine: Tea, French, Bakery, Fast Food, Cafe, Rating: 2.3  
+Accommodation: Your home away from home, private cozy room, Price: $188, Room Type: Private room, House Rules: No children under 10 & No parties, Minimum Nights: 1, Maximum Occupancy: 2, Review Rate: 4.0  
+
+**Day 4: March 15, 2022**  
+Current City: Longview  
+Transportation: -  
+Attraction: Gregg County Historical Museum, Address: 214 N Fredonia St, Longview, TX 75601, Phone: (903) 753-5840, Website: [Gregg County Historical Museum](http://gregghistorical.org/)  
+Lunch: Subway, Average Cost: $82, Cuisine: Tea, Mexican, Bakery, BBQ, Fast Food, Chinese, Rating: 3.6  
+Dinner: Not Just Paranthas, Average Cost: $54, Cuisine: Desserts, Bakery, BBQ, Seafood, Rating: 3.7  
+Accommodation: Your home away from home, private cozy room, Price: $188, Room Type: Private room, House Rules: No children under 10 & No parties, Minimum Nights: 1, Maximum Occupancy: 2, Review Rate: 4.0  
+
+**Day 5: March 16, 2022**  
+Current City: from Longview to Evansville  
+Transportation: Self-driving, Duration: 10 hours 8 mins, Distance: 1,045 km, Cost: $52  
+Breakfast: Cooper's Old Time Pit Bar-B-Que, Average Cost: $30, Cuisine: American, BBQ, Rating: 4.5  
+Lunch: -  
+Dinner: -  
+Accommodation: -  
+
+**Cost Breakdown:**  
+- **Total Accommodation Cost:**  
+  - Day 1 & 2: $269 + $269 = $538  
+  - Day 3: $188  
+  - Day 4: $188  
+  - **Total Accommodation:** $538 + $188 + $188 = $914  
+
+- **Total Transportation Cost:**  
+  - Day 1: $44  
+  - Day 3: $7  
+  - Day 5: $52  
+  - **Total Transportation:** $44 + $7 + $52 = $103  
+
+- **Total Food Cost:**  
+  - Day 1: $61 (lunch) + $91 (dinner) = $152  
+  - Day 2: $28 (lunch) + $27 (dinner) = $55  
+  - Day 3: $94 (lunch) + $48 (dinner) = $142  
+  - Day 4: $82 (lunch) + $54 (dinner) = $136  
+  - Day 5: $30 (breakfast) = $30  
+  - **Total Food:** $152 + $55 + $142 + $136 + $30 = $515  
+
+- **Total Attractions Cost:**  
+  - **Total Attractions:** $0  
+
+**Grand Total:**  
+- Total Accommodation: $914  
+- Total Transportation: $103  
+- Total Food: $515  
+- **Grand Total:** $914 + $103 + $515 = $1,532  
+
+**Remaining Budget:**  
+- $9,500 - $1,532 = $7,968  
+
+This travel plan ensures an enjoyable experience in Texas's vibrant cities of Texarkana and Longview while providing a substantial remaining budget for any additional expenses or activities.

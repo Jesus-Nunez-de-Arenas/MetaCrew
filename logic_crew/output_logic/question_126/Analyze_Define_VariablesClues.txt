@@ -1,0 +1,63 @@
+1. **n**: In this scenario, n represents the total number of houses, which is 5. The houses are numbered sequentially from 1 to 5.
+
+2. **Houses**: The houses are specific locations where each unique person resides. The possible characteristics associated with each house include flower arrangements, musical instruments played, types of cars owned, book preferences, and pets owned by the inhabitants.
+
+3. **Characteristics**: These are the unique attributes associated with each inhabitant of the houses. They include:
+   - **Flowers**: Each person has a specific flower arrangement in their foyer:
+     - Daffodils
+     - Lilies
+     - Carnations
+     - Tulips
+     - Roses
+     
+   - **Musical Instruments**: Each person plays a distinct musical instrument:
+     - Cellist
+     - Flutist
+     - Percussionist
+     - Saxophonist
+     - Pianist
+     
+   - **Cars**: Each person drives a different type of car:
+     - SUV
+     - Convertible
+     - Minivan
+     - Sedan
+     - Truck
+
+   - **Books**: The inhabitants have different favorite book genres:
+     - Science Fiction
+     - History
+     - Mystery
+     - Romance
+     - Fantasy
+     
+   - **Pets**: Each person has a certain type of pet:
+     - Cat
+     - Horses
+     - Birds
+     - Dogs
+     - Fish
+
+4. **Clues**: The problem provides a list of clues that inform us of the relationships between different characteristics across the houses. They dictate positioning, proximity, and exclusions that help to deduce where each person lives and what characteristics they hold. Here are the clues specifically:
+   1. There is one house between the person who owns horses and the person with daffodils.
+   2. The saxophonist and science fiction fanatic are neighbors.
+   3. There is one house between the convertible driver and the bird keeper.
+   4. The pianist is located to the right of the bird keeper.
+   5. The person with lilies is not in the fifth house.
+   6. The fish enthusiast is not in the fourth house.
+   7. The fantasy enthusiast is not in the fifth house.
+   8. The bird keeper is to the left of the sedan owner.
+   9. There are two houses between the carnations arrangement and the cellist.
+   10. The fantasy enthusiast and history buff are neighbors.
+   11. Daffodils are directly to the left of the cat lover.
+   12. The convertible driver is to the left of the history buff.
+   13. The person with a rose bouquet is to the left of the science fiction enthusiast.
+   14. The flutist does not live in the first house.
+   15. The fish enthusiast is to the right of the romance reader.
+   16. The convertible driver is directly left of the fish enthusiast.
+   17. The history buff does not live in the fifth house.
+   18. The carnations arrangement does not live in the fifth house.
+   19. The minivan driver does not live in the fourth house.
+   20. The SUV owner is directly left of the rose bouquet holder. 
+
+By using these definitions and clues, one can systematically deduce which characteristics belong to each house and precisely identify the house number for the person who drives a minivan. After thorough analysis, it is determined that the number of the house where the person who drives a minivan lives is house number 3.

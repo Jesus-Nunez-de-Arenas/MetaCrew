@@ -1,0 +1,7 @@
+Here are all feasible arrangements of houses and their corresponding characteristics:
+
+- **House 1**: Mystery book reader, Cat lover  
+- **House 2**: Romance book lover, Bird keeper  
+- **House 3**: History book buff, Horse owner  
+
+Based on the clues provided, these arrangements satisfy all the constraints. Therefore, the romance book lover lives in **House 2**.

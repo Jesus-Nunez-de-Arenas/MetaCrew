@@ -1,0 +1,5 @@
+The arrangements of the houses and their corresponding characteristics based on the clues are as follows:  
+- **House 1**: Occupied by the history book reader who wears high heels.  
+- **House 2**: Occupied by the mystery book reader who wears loafers.  
+
+Thus, the number of the house where the person who is wearing loafers lives is **2**.

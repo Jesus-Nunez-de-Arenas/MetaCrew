@@ -1,0 +1,7 @@
+1. House 1: Tennis Player, Pianist, Kiwis, Bird Keeper, Grilled Cheese
+2. House 2: Basketball Player, Saxophonist, Apples, Dog Owner, Stew
+3. House 3: Baseball Player, Percussionist, Banana, Cat Lover, Fried Rice
+4. House 4: Swimmer, Cellist, Oranges, Fish Enthusiast, Pizza
+5. House 5: Golfer, Guitarist, Mangos, Horse Owner, Spaghetti
+
+The person who is eating a banana lives in house number 3.

@@ -1,0 +1,84 @@
+### Detailed Budget Breakdown for the 7-Day Vacation Itinerary
+
+**Total Budget: $5,000**
+__________________________________
+
+**Transportation Costs:**
+1. **Albuquerque to Houston (Self-driving)**  
+   Distance: 1,422 km  
+   Duration: 12 hours 51 mins  
+   Cost: **$71**
+
+2. **Houston to San Antonio (Self-driving)**  
+   Distance: 317 km  
+   Duration: 2 hours 56 mins  
+   Cost: **$15**
+
+3. **San Antonio to Dallas (Self-driving)**  
+   Distance: 440 km  
+   Duration: 4 hours 4 mins  
+   Cost: **$22**
+
+4. **Dallas to Albuquerque (Self-driving)**  
+   Distance: 1,045 km  
+   Duration: 9 hours 33 mins  
+   Cost: **$52**
+
+- **Total Transportation Cost: $71 + $15 + $22 + $52 = $160**  
+
+__________________________________
+
+**Accommodation Costs:**
+1. **Day 1 & Day 2 in Houston**  
+   Accommodation: 1BR, elevator, kitchen, doorman!  
+   Price: $475 per night  
+   Number of Nights: 2  
+   Total Cost in Houston: **$475 * 2 = $950**
+
+2. **Day 3 & Day 4 in San Antonio**  
+   Accommodation: Spacious, bright room, prime Williamsburg location  
+   Price: $900 per night  
+   Number of Nights: 2  
+   Total Cost in San Antonio: **$900 * 2 = $1,800**
+
+3. **Day 5, 6 in Dallas**  
+   Accommodation: 1BR, elevator, kitchen, doorman!  
+   Price: $475 per night  
+   Number of Nights: 2  
+   Total Cost in Dallas: **$475 * 2 = $950**
+
+- **Total Accommodation Cost: $950 (Houston) + $1,800 (San Antonio) + $950 (Dallas) = $3,700**
+
+__________________________________
+
+**Food Costs:**
+- **Day 1**: Lunch at Jalapenos: $57  
+- **Day 2**: Breakfast at Subway: Average Cost not available, assume $10. Lunch at The BrewMaster: $52, Dinner at Matchbox: $33  
+- **Day 3**: Breakfast at Olive Tree Cafe: Average Cost $10. Lunch at Martin's BBQ: $71, Dinner at Cafe Le Rue: $19  
+- **Day 4**: Breakfast at Minerva's: $99, Lunch at Big Jack's: $55, Dinner at Barbeque Nation: $16  
+- **Day 5**: Lunch at Pita Pit: $36, Dinner at 1918 Bistro: $90  
+- **Day 6**: Breakfast at Drifters Cafe: $21, Lunch at Coconuts Fish Cafe: $38, Dinner at Yanki Sizzlers: $96  
+
+- **Total Food Cost Calculation**:  
+  - Day 1: $57  
+  - Day 2: $10 + $52 + $33 = $95  
+  - Day 3: $10 + $71 + $19 = $100  
+  - Day 4: $99 + $55 + $16 = $170  
+  - Day 5: $36 + $90 = $126  
+  - Day 6: $21 + $38 + $96 = $155  
+  - **Total Food Cost: $57 + $95 + $100 + $170 + $126 + $155 = $703**
+
+__________________________________
+
+### Final Summary of Costs:
+- Transportation Cost: **$160**
+- Accommodation Cost: **$3,700**
+- Food Cost: **$703**
+
+### Overall Estimated Total:  
+- Total Vacation Cost = $160 (Transportation) + $3,700 (Accommodation) + $703 (Food) = **$4,563**
+
+### Remaining Budget:  
+- $5,000 (Total Budget) - $4,563 (Estimated Total) = **$437**  
+
+You have an enjoyable vacation planned with accommodations for your smoking preference, cultural attractions, and delightful dining, all while maintaining a budget well within your means.

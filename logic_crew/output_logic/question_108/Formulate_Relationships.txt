@@ -1,0 +1,12 @@
+| House Number | Flower          | Car Type |
+|--------------|------------------|----------|
+| 1            | Rose bouquet     | Sedan    |
+| 2            | Tulips           | SUV      |
+| 3            | Lilies           | Truck    |
+
+Based on the analysis of the clues provided:
+1. The person in House 1 has a rose bouquet and drives a sedan.
+2. The person in House 2 has tulips and owns an SUV.
+3. The person in House 3 has a bouquet of lilies and drives a truck.
+
+Therefore, the number of the house where the person who drives a truck lives is **3**.

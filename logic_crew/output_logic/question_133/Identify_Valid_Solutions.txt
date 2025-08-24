@@ -1,0 +1,1 @@
+The number of the house where the fantasy book enthusiast lives is 2. This conclusion is derived from the analysis of the provided clues. The person in House 1 is eating kiwis, while the occupant of House 2, who does not live in House 1, must be the fantasy book enthusiast, confirming that House 2 is where the fantasy book enthusiast resides.

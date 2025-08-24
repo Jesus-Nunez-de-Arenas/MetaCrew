@@ -1,0 +1,35 @@
+To determine the house where the science fiction book fanatic lives, we can summarize our findings based on the clues provided. 
+
+### Summary of Findings from Clues:
+1. **House 1**: 
+   - Wearing Running Shoes 
+   - Eating Kiwis  
+   - Book Genre: Mystery (since Fantasy is in House 3 and Science Fiction is in House 4)
+
+2. **House 2**: 
+   - Wearing Sandals 
+   - Eating Mangos  
+   - Book Genre: History (directly left of House 3)
+
+3. **House 3**: 
+   - Book Genre: Fantasy 
+   - Eating Apples (cannot be in House 4 as per clue) 
+   - Wearing High Heels 
+
+4. **House 4**: 
+   - Wearing Boots 
+   - Eating a Banana   
+   - Book Genre: Science Fiction (to the right of House 3)
+
+### Visual Representation of Houses:
+
+| House Number | Book Genre             | Fruit    | Shoes         |
+|--------------|------------------------|----------|---------------|
+| 1            | Mystery                | Kiwis    | Running Shoes  |
+| 2            | History                | Mangos   | Sandals       |
+| 3            | Fantasy                | Apples   | High Heels    |
+| 4            | Science Fiction        | Banana   | Boots         |
+
+Based on the aforementioned analysis, the science fiction book fanatic resides in **House 4**. 
+
+Thus, the final answer to the question regarding the house number where the science fiction book fanatic lives is **4**.

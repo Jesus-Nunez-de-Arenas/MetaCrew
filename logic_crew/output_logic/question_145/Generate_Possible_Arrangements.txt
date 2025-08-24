@@ -1,0 +1,9 @@
+House number 3 is where the person who ate grilled cheese lives. The complete arrangement of the houses and their characteristics is as follows:
+
+| House Number | Lunch Eaten    | Book Preference                  |
+|--------------|----------------|----------------------------------|
+| 1            | Spaghetti      | Science Fiction Fanatic          |
+| 2            | Fried Rice     | Fantasy Book Enthusiast          |
+| 3            | Grilled Cheese  | Mystery Book Reader              |  
+
+Thus, the person who ate grilled cheese resides in house number 3.

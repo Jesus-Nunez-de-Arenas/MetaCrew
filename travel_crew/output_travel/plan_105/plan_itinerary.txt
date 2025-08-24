@@ -1,0 +1,99 @@
+**Day 1:**  
+- **Current City:** from Monterey to Dallas  
+- **Transportation:** Flight Number: F4046679, from Monterey to Dallas, Departure Time: 14:02, Arrival Time: 19:18  
+- **Breakfast:** -  
+- **Attraction:** The Dallas World Aquarium, Address: 1801 N Griffin St, Dallas, TX 75202, Phone: (214) 720-2224, Website: [dwazoo](https://www.dwazoo.com/)  
+- **Lunch:** Coconuts Fish Cafe, Average Cost: $38 (Total for 4 people: $152)  
+- **Dinner:** Yanki Sizzlers, Average Cost: $96 (Total for 4 people: $384)  
+- **Accommodation:** Luxury Williamsburg duplex, Price: $241 (Total for 1 night)  
+
+**Day 1 Total:** $2674  
+
+---
+
+**Day 2:**  
+- **Current City:** Dallas  
+- **Transportation:** -  
+- **Breakfast:** McDonald's, Average Cost: $56 (Total for 4 people: $224)  
+- **Attraction:** The Sixth Floor Museum at Dealey Plaza, Address: 411 Elm St, Dallas, TX 75202, Phone: (214) 747-6660, Website: [jfk](https://www.jfk.org/)  
+- **Lunch:** Cafe Gatherings, Average Cost: $17 (Total for 4 people: $68)  
+- **Dinner:** Pind Balluchi, Average Cost: $90 (Total for 4 people: $360)  
+- **Accommodation:** Luxury Williamsburg duplex, Price: $241 (Total for 1 night)  
+
+**Day 2 Total:** $973  
+
+---
+
+**Day 3:**  
+- **Current City:** from Dallas to Del Rio  
+- **Transportation:** Flight Number: F3592397, from Dallas to Del Rio, Departure Time: 21:19, Arrival Time: 22:38  
+- **Breakfast:** Subway, Average Cost: $46 (Total for 4 people: $184)  
+- **Attraction:** Whitehead Memorial Museum, Address: 1308 S Main St, Del Rio, TX 78840, Phone: (830) 774-7568, Website: [whiteheadmuseum](http://www.whiteheadmuseum.org/)  
+- **Lunch:** HuHot Mongolian Grill, Average Cost: $71 (Total for 4 people: $284)  
+- **Dinner:** Amici Cafe, Average Cost: $96 (Total for 4 people: $384)  
+- **Accommodation:** 2 bedroom Kid Friendly Cobble Hill, Price: $129 (Total for 1 night)  
+
+**Day 3 Total:** $1576  
+
+---
+
+**Day 4:**  
+- **Current City:** Del Rio  
+- **Transportation:** -  
+- **Breakfast:** Gopala, Average Cost: $52 (Total for 4 people: $208)  
+- **Attraction:** Amistad National Recreation Area, Address: 4121 Veterans Blvd, Del Rio, TX 78840, Phone: (830) 775-7491, Website: [nps](https://www.nps.gov/amis/index.htm)  
+- **Lunch:** Jom Jom Malay, Average Cost: $78 (Total for 4 people: $312)  
+- **Dinner:** Side Wok, Average Cost: $95 (Total for 4 people: $380)  
+- **Accommodation:** 2 bedroom Kid Friendly Cobble Hill, Price: $129 (Total for 1 night)  
+
+**Day 4 Total:** $1029  
+
+---
+
+**Day 5:**  
+- **Current City:** from Del Rio to Amarillo  
+- **Transportation:** Self-driving from Del Rio to Amarillo, Duration: 7 hours, Distance: 754 km, Cost: $37  
+- **Breakfast:** Cafe Festa, Average Cost: $55 (Total for 4 people: $220)  
+- **Attraction:** Cadillac Ranch, Address: 13651 I-40 Frontage Rd, Amarillo, TX 79124, Phone: (833) 330-2650, Website: [facebook](https://www.facebook.com/1974cadillacranch/)  
+- **Lunch:** The Cinnamon Kitchen, Average Cost: $69 (Total for 4 people: $276)  
+- **Dinner:** Sigree Global Grill, Average Cost: $35 (Total for 4 people: $140)  
+- **Accommodation:** Gramercy Park restful, cozy, sun-filled home, Price: $968 (Total for 1 night)  
+
+**Day 5 Total:** $1840  
+
+---
+
+**Day 6:**  
+- **Current City:** Amarillo  
+- **Transportation:** -  
+- **Breakfast:** Subway, Average Cost: $92 (Total for 4 people: $368)  
+- **Attraction:** Amarillo Botanical Gardens, Address: 1400 Streit Dr, Amarillo, TX 79106, Phone: (806) 352-6513, Website: [amarillobotanicalgardens](http://www.amarillobotanicalgardens.org/)  
+- **Lunch:** Punjabi Chaap Corner, Average Cost: $62 (Total for 4 people: $248)  
+- **Dinner:** Delish BBQ, Average Cost: $92 (Total for 4 people: $368)  
+- **Accommodation:** Gramercy Park restful, cozy, sun-filled home, Price: $968 (Total for 1 night)  
+
+**Day 6 Total:** $1290  
+
+---
+
+**Day 7:**  
+- **Current City:** from Amarillo to Monterey  
+- **Transportation:** Self-driving from Amarillo to Monterey, Duration: 19 hours 21 mins, Distance: 2,104 km, Cost: $105  
+- **Breakfast:** -  
+- **Attraction:** -  
+- **Lunch:** -  
+- **Dinner:** -  
+- **Accommodation:** -  
+
+**Day 7 Total:** $105  
+
+---
+
+**Grand Total Budget Calculation:**  
+- **Total Transportation Cost:** $4950  
+- **Total Food Cost:** $5214  
+- **Total Accommodation Cost:** $4747  
+- **Total Attraction Cost:** Included within meals and activities mentioned above  
+- **Overall Total:** $17,911  
+
+**Outcome:** The budget exceeds the initial budget allocation of $15,600, so planning adjustments may be required to accommodate the desired travel itinerary, such as selecting cheaper accommodation options or food establishments with lower average costs.

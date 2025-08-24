@@ -1,0 +1,23 @@
+1. **n**: This variable represents the number of houses, which is 4 in this scenario. The houses are numbered 1, 2, 3, and 4 from left to right.
+
+2. **houses**: The houses are physical locations where individuals reside, specifically house number 1 (leftmost), house number 2 (middle left), house number 3 (middle right), and house number 4 (rightmost). Each house is occupied by one individual.
+
+3. **characteristics**: There are four distinct characteristics associated with each individual in the houses:
+   - **Drink**: The favorite drinks are water, tea, milk, and root beer, with each individual having a different preference.
+   - **Shoes**: The types of shoes worn are sandals, loafers, boots, and running shoes, with each individual sporting a different pair.
+   - **Instrument**: The musical instruments played are flute, cello, saxophone, and violin, with each individual playing a different instrument.
+   - **Lunch**: The different meals eaten are grilled cheese, stew, fried rice, and pizza, with each individual consuming a different dish.
+
+4. **Clues**: The provided clues serve as logical statements that help deduce the arrangements of the individuals in the houses based on their characteristics:
+   - Clue 1: The person who is wearing sandals lives somewhere to the left of the person who likes milk.
+   - Clue 2: The person who had pizza lives somewhere to the right of the person who is wearing running shoes.
+   - Clue 3: The saxophonist lives in the second house.
+   - Clue 4: The person who is wearing sandals lives somewhere to the right of the person who had stew.
+   - Clue 5: The cellist lives directly left of the tea drinker.
+   - Clue 6: The person who only drinks water lives directly left of the person who is wearing loafers.
+   - Clue 7: The cellist lives directly left of the person who ate fried rice.
+   - Clue 8: The person who had pizza lives somewhere to the right of the saxophonist.
+   - Clue 9: The flutist does not live in the fourth house.
+   - Clue 10: The tea drinker lives in the fourth house.
+
+By analyzing these clues, we can determine that the cellist lives in house number 2. These variables and clues collaborate to create a systematic approach to solve the puzzle, leading to identifying the characteristics of the individuals and the house they occupy.

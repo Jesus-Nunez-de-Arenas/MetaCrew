@@ -1,0 +1,25 @@
+1. **n**: This variable represents the total number of houses. In this scenario, n equals 5, as there are five houses numbered from 1 to 5.
+
+2. **houses**: This variable refers to the physical locations where each person lives. The houses are labeled with numbers 1 through 5, from left to right.
+
+3. **characteristics**: This variable encompasses the different attributes that each person in the houses possesses. The attributes consist of:
+   - **musical instruments**: Each person plays one of five distinct instruments: percussionist, violinist, flutist, cellist, and guitarist.
+   - **flowers**: The flowers in each person’s foyer include tulips, rose bouquets, carnations, lilies, and daffodils.
+   - **sports**: Each individual plays one of five different sports: cricketer, baseball player, swimmer, basketball player, and tennis player.
+   - **shoes**: The footwear each person wears includes running shoes, high heels, sandals, boots, and loafers.
+
+4. **clues**: These are the hints provided within the problem statement that guide the identification of the relationships and placements of the characteristics associated with each house. The clues are:
+   - Clue 1: The swimmer lives in the third house.
+   - Clue 2: The person who has a carnations arrangement lives somewhere to the right of the guitarist.
+   - Clue 3: The person who is wearing sandals lives directly left of the person who has a vase of tulips.
+   - Clue 4: The person who is wearing running shoes lives directly left of the person who has a bouquet of daffodils.
+   - Clue 5: The violinist lives in the second house.
+   - Clue 6: The basketball player lives directly left of the guitarist.
+   - Clue 7: The person who has a bouquet of lilies lives somewhere to the right of the person who is wearing high heels.
+   - Clue 8: The person who is wearing loafers lives directly left of the percussionist.
+   - Clue 9: The cricketer lives in the fourth house.
+   - Clue 10: The baseball player and the basketball player live directly next to each other.
+   - Clue 11: The person who has a bouquet of daffodils lives in the fifth house.
+   - Clue 12: There are two houses between where the person who is wearing sandals lives and where the cellist lives.
+
+These variables, along with the clues, form the basis for analyzing the relationships and determining the characteristics associated with each house.

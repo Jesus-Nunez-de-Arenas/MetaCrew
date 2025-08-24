@@ -1,0 +1,27 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 2. The houses are numbered from 1 to 2, with house number 1 on the left and house number 2 on the right.
+
+2. **houses**: There are 2 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **What they ate for lunch**: One ate fried rice and one ate spaghetti.  
+   - **Musical instrument**: One plays the flute and one plays the cello.  
+   - **Type of shoes**: One is wearing loafers and one is wearing sandals.  
+   - **Favorite color**: One likes white and one likes green.  
+   - **Car type**: One owns a sedan and one owns an SUV.  
+
+4. **clues**: The provided clues establish relationships among the various characteristics:  
+   - Clue 1: The person who ate fried rice does not live in the first house.  
+   - Clue 2: The person who owns an SUV does not live in the second house.  
+   - Clue 3: The flutist lives directly left of the person who likes white.  
+   - Clue 4: The person who is wearing loafers lives directly left of the person who likes white.  
+
+Using the clues, we can analyze the following:  
+- From Clue 1, since the person who ate fried rice does not live in House 1, they must live in House 2. Thus, the person in House 1 ate spaghetti.  
+- Clue 2 indicates that the person who owns an SUV does not live in House 2, therefore, the person with the SUV must live in House 1, as House 2 is the one who ate fried rice.
+- Continuing from this, if the flutist lives left of the person who likes white, the flutist must live in House 1 and must own the SUV (since the person who owns the SUV cannot live in House 2).  
+- Therefore, the person in House 2, who ate fried rice, must be wearing sandals and likes the color white.
+
+Finally, the person who is wearing sandals is in House 2. Thus, the answer is:  
+The number of the house where the person who is wearing sandals lives is **2**.

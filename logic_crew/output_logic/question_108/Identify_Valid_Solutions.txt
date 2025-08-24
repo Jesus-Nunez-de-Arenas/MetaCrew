@@ -1,0 +1,7 @@
+The person who drives a truck lives in House 3.  
+The arrangements of the houses based on the clues analyzed are as follows:  
+- House 1: Resident has a rose bouquet and drives a sedan.  
+- House 2: Resident has tulips and owns an SUV.  
+- House 3: Resident has a bouquet of lilies and drives a truck.  
+
+Thus, the comprehensive arrangement confirms that the truck driver resides in House 3.

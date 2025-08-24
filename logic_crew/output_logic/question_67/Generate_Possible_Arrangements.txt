@@ -1,0 +1,46 @@
+To determine the arrangement of the houses and their corresponding characteristics, we will analyze the clues one by one and systematically deduce the positions.
+
+1. **Clue 1**: The root beer lover lives somewhere to the right of the person who has a rose bouquet.
+   - This implies that the person with the rose bouquet must live in House 1, and thus the root beer lover must live in House 2. 
+
+2. **Clue 2**: The soccer player lives directly left of the mystery book reader.
+   - Therefore, since House 1 is to the left of House 2, the soccer player must reside in House 1 and the mystery book reader in House 2.
+
+3. **Clue 3**: The person who has a gameboy lives somewhere to the left of the mystery book reader.
+   - With the soccer player in House 1 and the mystery reader in House 2, this leaves the gameboy holder to be either in House 1 or not present in House 2; however, since the soccer player is in House 1, they must have the gameboy, and the mystery book reader in House 2 must be left with the phone.
+
+We can now assign the characteristics based on the deductions:
+
+- **House 1**:
+  - Sport: Soccer
+  - Book: Fantasy (since the mystery book reader is in House 2)
+  - Drink: Root Beer
+  - Device: Gameboy
+  - Flowers: Rose bouquet
+  
+- **House 2**:
+  - Sport: Swimming (the other sport)
+  - Book: Mystery
+  - Drink: Coffee
+  - Device: Phone
+  - Flowers: Tulips
+
+The final arrangements can be summarized as follows:
+
+1. **House 1**:
+   - Book: Fantasy
+   - Drink: Root Beer
+   - Sport: Soccer
+   - Device: Gameboy
+   - Flowers: Rose bouquet
+
+2. **House 2**:
+   - Book: Mystery
+   - Drink: Coffee
+   - Sport: Swimming
+   - Device: Phone
+   - Flowers: Tulips
+
+From this deduction, the person with the rose bouquet lives in **House 1**.
+
+Final findings indicate the number of the house where the person with the rose bouquet lives is **1**.

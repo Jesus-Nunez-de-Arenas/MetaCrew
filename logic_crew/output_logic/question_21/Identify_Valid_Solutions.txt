@@ -1,0 +1,14 @@
+The number of the house where the person who likes green lives is house number **3**. Here's the structured representation of the relationships between the houses and their respective characteristics:  
+
+| House Number | Shoes    | Fruit    | Lunch          | Device   | Color |
+|--------------|----------|----------|----------------|----------|-------|
+| 1            | Loafers  | Mangos   | Grilled Cheese  | Computer | Yellow|
+| 2            | Boots    | Grapes   | Fried Rice      | Phone    | Blue  |
+| 3            | Sandals  | Apples   | Pizza           | Radio    | Green |
+
+Based on the clues analyzed step by step:  
+- The person who ate grilled cheese and has a computer is in House 1.  
+- The person who has boots is in House 2, and thus, they also eat grapes and like blue.  
+- Finally, the person in House 3 likes green, eats apples, and has a radio.  
+
+This meticulous deduction through logic confirms that the person who likes green lives in House 3.

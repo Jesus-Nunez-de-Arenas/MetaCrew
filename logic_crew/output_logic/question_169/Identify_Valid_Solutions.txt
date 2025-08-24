@@ -1,0 +1,5 @@
+The occupant of House 2 is the romance book lover. Therefore, the number of the house where the romance book lover lives is **House 2**. The arrangements of houses and their corresponding characteristics are as follows:  
+- **House 1**: Mystery book reader, Cat lover  
+- **House 2**: Romance book lover, Bird keeper  
+- **House 3**: History book buff, Horse owner  
+All arrangements satisfy the provided clues.

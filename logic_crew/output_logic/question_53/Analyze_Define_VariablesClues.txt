@@ -1,0 +1,19 @@
+1. **n (Number of Houses)**: The total number of houses is 3.  
+2. **houses (Structure)**: A sequence of house numbers from 1 to 3, indicating the order of the houses from left to right.  
+3. **Occupants (People)**: There is one person living in each house.  
+4. **characteristics (Attributes)**: Each person in the houses has distinct characteristics:  
+   - **Fruits**: Each person is eating a different kind of fruit:  
+     - Grapes  
+     - Oranges  
+     - Mangos  
+   - **Drinks**: Each person has a favorite drink:  
+     - Coffee  
+     - Root beer  
+     - Water  
+5. **clues (Information)**: These are critical statements that help narrow down the positions and characteristics:  
+   1. The coffee drinker lives somewhere to the left of the person who is eating mangos.  
+   2. The person who only drinks water lives somewhere to the right of the root beer lover.  
+   3. The root beer lover does not live in the second house.  
+   4. The person who is eating oranges does not live in the second house.  
+
+With this information, we can determine the arrangement of the houses and identify where the root beer lover lives. After analyzing the clues, we find that the root beer lover must be in House 1 or House 3, and through elimination based on the clues, we conclude that the root beer lover lives in House 1.

@@ -1,0 +1,40 @@
+To solve the arrangement of the houses and their corresponding characteristics, I analyzed the clues provided systematically:
+
+Based on the clues:
+1. The coffee drinker lives somewhere to the left of the person who is wearing sandals.
+2. The science fiction book fanatic lives in the first house.
+
+From Clue 2:
+- The science fiction book fanatic must live in House 1.
+
+From Clue 1:
+- This means that since the coffee drinker must live left of the person wearing sandals and House 1 is on the left, the person in House 1 must be the coffee drinker.
+
+Therefore, we have:
+- House 1: Coffee drinker, Science Fiction book fanatic.
+
+This implies:
+- The person in House 2, being to the right, must be drinking water and wearing sandals (since the coffee drinker is already in House 1).
+
+Now we can summarize the findings:
+
+1. House 1 characteristics:
+   - Favorite Drink: Coffee
+   - Type of Shoes: Loafers (because the person in House 2 is wearing sandals)
+   - Favorite Book Genre: Science Fiction
+
+2. House 2 characteristics:
+   - Favorite Drink: Water
+   - Type of Shoes: Sandals
+   - Favorite Book Genre: Romance (the only genre left for House 2).
+
+Thus, the complete arrangement of the houses is:
+
+| House Number | Favorite Drink | Type of Shoes | Favorite Book Genre       |
+|--------------|----------------|----------------|---------------------------|
+| 1            | Coffee         | Loafers        | Science Fiction            |
+| 2            | Water          | Sandals        | Romance                   |
+
+From this, it can be concluded that the number of the house where the romance book lover lives is House 2. Therefore, the answer is:
+
+2

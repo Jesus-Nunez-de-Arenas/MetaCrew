@@ -1,0 +1,38 @@
+1. Variables:
+   - **n**: Represents the total number of houses, which is 3 in this scenario.
+   - **houses**: The houses are numbered sequentially from 1 to 3, located in a row from left to right.
+   - **characteristics**: Each person living in the houses has two distinct attributes:
+     - Lunch eaten: 
+       - Fried rice
+       - Spaghetti
+       - Grilled cheese
+     - Book preference:
+       - Science fiction fanatic
+       - Fantasy book enthusiast
+       - Mystery book reader
+      
+2. Clues provided:
+   - **Clue 1**: The person who ate spaghetti lives somewhere to the left of the person who ate fried rice. 
+     - This establishes that the individual who had spaghetti cannot live in the same house as or to the right of the fried rice eater.
+   
+   - **Clue 2**: The person who ate fried rice lives somewhere to the right of the science fiction book fanatic.
+     - This indicates that the science fiction book fanatic must reside in a house that is numerically lower than the house of the fried rice eater.
+   
+   - **Clue 3**: The person who ate fried rice lives in the second house.
+     - This is a definite placement that confirms the house number of the fried rice eater.
+   
+   - **Clue 4**: The fantasy book enthusiast lives in the second house.
+     - Since fried rice is already assigned to the second house, this clue indicates that the fried rice eater is not the fantasy book enthusiast.
+
+Through logical deduction based on the clues, we can determine placements as follows:
+- House 2 has the person who ate fried rice and is not the fantasy book enthusiast, meaning they must prefer either science fiction or mystery. 
+- Since the fried rice eater lives to the right of the science fiction fanatic, the only possible arrangement is:
+  - House 1: Science Fiction fanatic + Spaghetti
+  - House 2: Fried Rice + Fantasy Enthusiast
+  - House 3: Grilled Cheese + Mystery Reader
+
+We conclude that the person who ate grilled cheese resides in house number 3.
+
+Thus the house number where the person who ate grilled cheese lives is:
+
+House number: 3

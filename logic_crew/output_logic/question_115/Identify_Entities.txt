@@ -1,0 +1,4 @@
+The swimmer lives in House 3. Here's the breakdown based on the clues provided:  
+1. **Clue 2** states that the golfer lives in **House 2**.  
+2. **Clue 3** states that the history book buff lives in **House 1**.  
+3. There is one house between the swimmer and the science fiction book fanatic from **Clue 1**. Since the golfer (who cannot be the science fiction book fanatic, as they live in **House 2**) occupies **House 2** and the history book buff is in **House 1**, the only possibility left is that the swimmer must live in **House 3**. Therefore, the swimmer resides in **House 3** and the science fiction book fanatic must be in **House 2** since there’s one occupied house between the swimmer and the fanatic, confirming all clues and relationships.

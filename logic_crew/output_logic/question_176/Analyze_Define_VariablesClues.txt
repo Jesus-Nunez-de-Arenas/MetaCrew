@@ -1,0 +1,38 @@
+In this logic puzzle, we can identify the following variables:
+
+1. **n (Number of Houses)**: 
+   - n is equal to 3, representing the total number of houses in a row. These houses are numbered from 1 on the left to 3 on the right.
+
+2. **Houses**:
+   - House 1: The leftmost house.
+   - House 2: The middle house.
+   - House 3: The rightmost house.
+
+3. **Characteristics**: 
+   - Each person living in the houses has the following different attributes:
+     - **Cars**: 
+       - Convertible 
+       - Minivan 
+       - Truck
+     - **Lunches**: 
+       - Grilled Cheese 
+       - Spaghetti 
+       - Stew
+     - **Favorite Colors**:
+       - Blue 
+       - Red 
+       - Green
+     - **Flowers**: 
+       - Rose Bouquet 
+       - Daffodils Bouquet 
+       - Lilies Bouquet
+
+4. **Clues**: These clues provide critical information that helps in deducing the characteristics of each person:
+   - Clue 1: The person who likes blue lives directly left of the person who ate spaghetti.
+   - Clue 2: The person who had stew lives somewhere to the left of the person who has a bouquet of lilies.
+   - Clue 3: The person who has a rose bouquet lives directly left of the person who drives a truck.
+   - Clue 4: The person who drives a minivan lives directly left of the person who had stew.
+   - Clue 5: The person who likes red does not live in the first house.
+   - Clue 6: The person who drives a minivan lives directly left of the person who has a bouquet of daffodils.
+
+Using the clues and the structure of the problem, we correlate each characteristic with one of the three houses to find the solution to the question about which house the person driving the truck resides in.

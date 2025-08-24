@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Research Destinations",
+        "description": "Identify and gather information about potential vacation destinations, including attractions, accommodations, and travel requirements.",
+        "expected_output": "A list of researched destinations with their key features and travel information."
+    },
+    {
+        "name": "Establish Budget",
+        "description": "Determine the overall budget for the vacation, including transportation, accommodation, food, and activities.",
+        "expected_output": "A detailed budget breakdown for the vacation."
+    },
+    {
+        "name": "Plan Itinerary",
+        "description": "Create a day-by-day itinerary that outlines the planned activities and travel logistics for the vacation.",
+        "expected_output": "A comprehensive itinerary detailing each day's activities and locations."
+    },
+    {
+        "name": "Book Accommodations",
+        "description": "Make reservations for accommodations according to the planned itinerary, ensuring they meet the budget and preferences.",
+        "expected_output": "Confirmed bookings for accommodations along with reservation details."
+    },
+    {
+        "name": "Arrange Transportation",
+        "description": "Organize transportation to and from the destination and within the destination, including flights, car rentals, or public transport.",
+        "expected_output": "A complete transportation plan including booking confirmations and schedules."
+    }
+]

@@ -1,0 +1,6 @@
+The number of the house where the person who has a television lives is 3. The complete arrangement of houses and their corresponding characteristics is as follows:  
+- House 1: The person who is eating Kiwis and has a Radio.  
+- House 2: The person who is wearing High Heels and is the Pianist (next to House 1).  
+- House 3: The person eating Oranges, who has a Television.  
+
+This arrangement satisfies all the provided clues and ensures that no conditions are violated. Therefore, the final conclusion is that the person with the television resides in House 3.

@@ -1,0 +1,17 @@
+[
+    {
+        "task": "Select Target Word",
+        "expert": "Emily Carter",
+        "subtask": "Identify the specific word from the user-provided list that will be the focus for finding associated words."
+    },
+    {
+        "task": "Identify Associated Words",
+        "expert": "Michael Bowen",
+        "subtask": "Analyze the selected target word and identify the three words that are best associated with it from the provided list."
+    },
+    {
+        "task": "Prepare Results",
+        "expert": "Sophia Thompson",
+        "subtask": "Compile the identified associated words into a formatted output for presentation."
+    }
+]

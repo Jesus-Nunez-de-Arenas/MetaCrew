@@ -1,0 +1,26 @@
+1. n: This variable represents the total number of houses in the row. In this scenario, n = 4.
+
+2. houses: A collection of four individual houses, numbered from 1 to 4, arranged consecutively from left to right. Each house hosts one person with distinct characteristics.
+
+3. characteristics: This set includes various attributes that differ among the residents of the houses. The characteristics are:
+   - Musical Instrument: Each person plays a different musical instrument, which can be one of the following: pianist, violinist, saxophonist, or percussionist.
+   - Favorite Color: The individuals have distinct favorite colors: blue, white, green, and red.
+   - Sport: Each person is identified by a unique sport they play: tennis, golf, swimming, or baseball.
+   - Fruit: Residents are consuming different fruits: grapes, apples, bananas, or oranges.
+   - Drink: Each individual prefers a different beverage: coffee, water, milk, or tea.
+
+4. Clue(s): These are the provided statements that aid in deducing the correct arrangement of the characteristics related to each house:
+   - Clue 1: There are two houses between the person who likes blue and the one who eats apples.
+   - Clue 2: The baseball player does not reside in the second house.
+   - Clue 3: The water drinker lives to the right of the person who likes white.
+   - Clue 4: The swimmer is positioned to the left of the water drinker.
+   - Clue 5: One house separates the individual eating grapes from the tennis player.
+   - Clue 6: A house separates the percussionist from the person who likes green.
+   - Clue 7: The saxophonist lives left of the tennis player.
+   - Clue 8: One house separates the person who likes blue from the individual eating oranges.
+   - Clue 9: One house separates the person who likes white from the tea drinker.
+   - Clue 10: The swimmer and the person who likes white are neighbors.
+   - Clue 11: The coffee drinker resides to the right of the pianist.
+   - Clue 12: The person who likes blue lives to the left of the tea drinker.
+
+These variables collectively establish the framework for solving the logic puzzle based on the clues and defining the relationships between different characteristics belonging to each house.

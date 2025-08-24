@@ -1,0 +1,29 @@
+{
+    "workflow": [
+        {
+            "task": "Identify Key Environmental Factors",
+            "expert": "Dr. Emily Carter",
+            "subtask": "Determine relevant environmental cues."
+        },
+        {
+            "task": "Assess Constraints",
+            "expert": "Mark Robinson",
+            "subtask": "Identify constraints influencing the problem-solving process."
+        },
+        {
+            "task": "Formulate Solution Strategy",
+            "expert": "Sarah Lewis",
+            "subtask": "Develop a strategy that considers identified factors and constraints."
+        },
+        {
+            "task": "Evaluate Solution Feasibility",
+            "expert": "Dr. James Pinto",
+            "subtask": "Analyze the practicality of the proposed solution."
+        },
+        {
+            "task": "Present Final Solution",
+            "expert": "Linda Green",
+            "subtask": "Compile findings into a coherent format."
+        }
+    ]
+}

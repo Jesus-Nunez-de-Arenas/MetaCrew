@@ -1,0 +1,9 @@
+The number of the house where the person who is wearing running shoes lives is 4. 
+
+This was deduced through the application of logical reasoning based on the provided clues, leading to the arrangement where:
+- House 1: wears boots, has lunch of grilled cheese, drinks milk.
+- House 2: wears sandals, has lunch of stew, drinks tea.
+- House 3: wears high heels, has lunch of fried rice, drinks water.
+- House 4: wears running shoes, has lunch of spaghetti, drinks root beer. 
+
+The configuration meets all conditions and relationships specified in the clues.

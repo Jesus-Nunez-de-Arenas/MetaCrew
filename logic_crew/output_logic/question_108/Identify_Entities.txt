@@ -1,0 +1,44 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is **3**. The houses are numbered from 1 on the left to 3 on the right.
+
+2. **houses**: There are 3 houses in total, each having one resident with unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Flowers**: The options are:
+     - Tulips
+     - Roses
+     - Lilies
+   - **Car Types**: The options are:
+     - Sedan
+     - SUV
+     - Truck
+
+4. **clues**: The clues establish relationships and positional context among the various characteristics:
+   - Clue 1: The person who has a vase of tulips does not live in the third house.  
+   - Clue 2: The person who owns an SUV lives directly left of the person who has a bouquet of lilies.  
+   - Clue 3: The person who owns a sedan and the person who has a rose bouquet live directly next to each other.  
+   - Clue 4: The person who has a rose bouquet does not live in the second house.  
+
+Using these clues, we can analyze the situation:
+
+- From Clue 1, since the tulip owner cannot be in the third house, they can either be in House 1 or House 2.
+- According to Clue 4, the person with the rose bouquet cannot be in House 2. Therefore, the rose bouquet must be in House 1 or House 3.
+- However, if the rose bouquet were in House 3, there would be no way for the person with the SUV, according to Clue 2, to live on the left and have the lilies, hence the rose bouquet must be in House 1.
+- Thus, the only possible arrangement left is:
+   - House 1: Rose bouquet
+   - House 2: Tulips
+   - House 3: Lilies
+- From Clue 3 and given that the person with the sedan is next to the person with the roses, the only configuration that satisfies all clues requires:
+   - House 1: Rose bouquet + Sedan
+   - House 2: Tulips + SUV
+   - House 3: Lilies + Truck 
+
+From the analysis, the arrangement becomes:
+- House 1: Rose bouquet, Sedan
+- House 2: Tulips, SUV
+- House 3: Lilies, Truck
+
+Thus, the answer to the query, "What is the number of the house where the person who drives a truck lives?" leads to:  
+The person who drives a truck lives in House **3**.

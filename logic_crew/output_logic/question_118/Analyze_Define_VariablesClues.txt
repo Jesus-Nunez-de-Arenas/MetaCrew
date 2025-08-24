@@ -1,0 +1,20 @@
+1. Variables:
+   - **n**: The number of houses, which is 2 in this scenario (House 1 and House 2).
+   - **houses**: Two houses labeled as House 1 (left) and House 2 (right).
+   - **characteristics**: Each person living in the houses has different combinations of flowers, musical instruments, and cars. The unique characteristics for each person are:
+     - Flowers: One person has a bouquet of lilies, and the other has a bouquet of daffodils.
+     - Musical instruments: One person is a flutist, and the other is a saxophonist.
+     - Cars: One person drives a convertible, and the other owns a sedan.
+
+2. Clues provided:
+   - **Clue 1**: The person who owns a sedan lives somewhere to the left of the person who has a bouquet of lilies. This suggests that the sedan owner must be in House 1 or House 2, and the owner of the lilies must be in House 2, making House 1 and the sedan inherently linked with the lilies being in House 2.
+   - **Clue 2**: The flutist does not live in the first house. Therefore, the person in House 1 cannot be the flutist; thus, the flutist must reside in House 2.
+
+Based on the clues and the roles of the variables, we conclude:
+- Since the person with the sedan lives to the left and the flutist lives in House 2, the person with the lilies must also be in House 2, making House 1 belong to the other characteristics. 
+
+In summary, the arrangement must be:
+- House 1: Sedan owner (daffodils, saxophonist)
+- House 2: Lilies owner (saxophonist, flutist)
+
+Thus, the number of the house where the person who has a bouquet of lilies lives is House 2.

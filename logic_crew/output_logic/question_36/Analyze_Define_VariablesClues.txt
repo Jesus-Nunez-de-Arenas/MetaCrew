@@ -1,0 +1,26 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 4. The houses are numbered from 1 to 4, with house number 1 on the left and house number 4 on the right.
+
+2. **houses**: There are 4 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Shoes**: Each person is wearing different kinds of shoes: one is wearing high heels, one is wearing boots, one is wearing loafers, and one is wearing running shoes.  
+   - **Car type**: Each person has a different kind of car: one owns a sedan, one drives a convertible, one drives a truck, and one owns an SUV.  
+   - **Lunch**: Each person ate something different for lunch: one had stew, one ate spaghetti, one ate fried rice, and one ate grilled cheese.  
+   - **Drink**: Each person has a favorite drink: one is a coffee drinker, one only drinks water, one likes milk, and one is a root beer lover.  
+
+4. **clues**: The problem provides a set of clues that establish relationships and positional context among the various characteristics:  
+   - Clue 1: The root beer lover and the person who ate fried rice live directly next to each other.  
+   - Clue 2: The person who is wearing loafers lives directly left of the person who ate grilled cheese.  
+   - Clue 3: The person who is wearing high heels does not live in the fourth house.  
+   - Clue 4: The person who likes milk lives in the third house.  
+   - Clue 5: The root beer lover lives directly left of the person who owns an SUV.  
+   - Clue 6: There are two houses between where the person who owns a sedan lives and where the person who only drinks water lives.  
+   - Clue 7: The person who is wearing running shoes lives in the second house.  
+   - Clue 8: The person who drives a convertible lives directly left of the person who only drinks water.  
+   - Clue 9: The person who ate spaghetti does not live in the first house.  
+
+Using these clues, we can analyze the relationships and deduce the locations of each individual based on their characteristics. Through this detailed analysis, I conclude that the person who owns a sedan resides in House 3.

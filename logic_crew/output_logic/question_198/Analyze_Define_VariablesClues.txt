@@ -1,0 +1,43 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 3. The houses are numbered from 1 to 3, with house number 1 on the left and house number 3 on the right.
+
+2. **houses**: There are 3 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Shoes**: One person is wearing boots, one is wearing high heels, and one is wearing running shoes.  
+   - **Cars**: One person owns a sedan, one owns an SUV, and one drives a truck.  
+   - **Pets**: One is a cat lover, one is a fish enthusiast, and one is a dog owner.  
+
+4. **clues**: The problem provides a set of clues that establish relationships and positional context among the various characteristics:  
+   - **Clue 1**: The person who is wearing boots lives in the second house.  
+   - **Clue 2**: The person who is wearing high heels lives directly left of the dog owner.  
+   - **Clue 3**: The person who owns a sedan lives in the third house.  
+   - **Clue 4**: The person who owns an SUV lives directly left of the person who is wearing boots.  
+   - **Clue 5**: The cat lover lives in the first house.  
+
+**Analyzing the clues**:  
+
+- From **Clue 1**, the person wearing boots lives in House 2.  
+
+- From **Clue 5**, we understand that the cat lover must reside in House 1.  
+
+- According to **Clue 4**, since the person who owns an SUV lives directly left of the person wearing boots (who is in House 2), it means that the SUV owner must be in House 1, leaving House 3 for the sedan owner.  
+
+- This also implies that House 1 (the cat lover) must own the SUV, and the only other shoe option left is the running shoes for House 3.  
+
+- Using **Clue 2**, since the person wearing high heels lives directly left of the dog owner, and the cat lover (in House 1) can’t be the dog owner, the dog owner must be in House 3, meaning the person in House 2 (who wears boots) should be the fish enthusiast, confirming the shoe-shoe relationships. 
+
+**Summary of characteristics per house**:  
+- **House 1**:  
+  - Shoes: SUV  
+  - Pet: Cat  
+- **House 2**:  
+  - Shoes: Boots  
+  - Pet: Fish  
+- **House 3**:  
+  - Shoes: Running Shoes  
+  - Pet: Dog  
+
+Thus, the number of the house where the person who is wearing running shoes lives is **3**.

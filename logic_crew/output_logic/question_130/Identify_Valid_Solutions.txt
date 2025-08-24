@@ -1,0 +1,9 @@
+After processing all the clues and using logical deductions, we can piece together the information. Here is the arrangement of the houses based on the clues provided:
+
+- **House 1**: Person with carnations arrangement, percussionist, eating bananas, had grilled cheese.
+- **House 2**: Person with daffodils bouquet, violinist, eating kiwis, had stew.
+- **House 3**: Person with lilies bouquet, pianist, eating apples, had fried rice.
+- **House 4**: Person with tulips vase, guitarist, eating grapes, had pizza.
+- **House 5**: Person with rose bouquet, saxophonist, eating mangos, had spaghetti.
+
+According to the clues, the person who had pizza lives in **House 4**. Hence, the final answer is that the person who had pizza lives in **House 4**.

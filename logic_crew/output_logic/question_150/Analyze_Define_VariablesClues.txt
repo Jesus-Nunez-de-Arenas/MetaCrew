@@ -1,0 +1,46 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 5. The houses are numbered from 1 on the left to 5 on the right.
+
+2. **houses**: There are 5 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+   - House 5  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Favorite Drink**: One person likes milk, another is a root beer lover, another is a coffee drinker, another is a tea drinker, and one only drinks water.  
+   - **Shoes**: One person is wearing boots, one is wearing running shoes, one is wearing high heels, one is wearing sandals, and one is wearing loafers.  
+
+4. **clues**: The problem provides a set of clues that establish relationships and positional context among the various characteristics:  
+   - Clue 1: The person who is wearing sandals lives in the third house.  
+   - Clue 2: The person who is wearing running shoes does not live in the first house.  
+   - Clue 3: The person who is wearing sandals lives directly left of the person who only drinks water.  
+   - Clue 4: The tea drinker lives in the fifth house.  
+   - Clue 5: There is one house between where the coffee drinker lives and where the person who is wearing loafers lives.  
+   - Clue 6: The person who only drinks water lives somewhere to the left of the person who is wearing boots.  
+   - Clue 7: The person who likes milk lives in the third house.  
+
+**Analyzing the clues**:
+
+From the given clues, we deduce the following:
+
+- From **Clue 1**, the person in House 3 is wearing sandals.  
+- From **Clue 7**, the person who likes milk also lives in House 3. Therefore, they wear sandals and like milk.  
+- From **Clue 3**, the person who wears sandals (milk drinker) is directly to the left of the person who drinks only water. This means the person who drinks water must live in House 4.  
+- From **Clue 4**, the tea drinker lives in House 5.  
+- From **Clue 2**, the person wearing running shoes does not live in House 1—which means they must live in either House 4 or House 5. However, since House 5 has the tea drinker, they must live in House 4.
+- From **Clue 5**, since there is one house between where the coffee drinker lives and where the person wearing loafers lives, and with only Houses 1, 2, and 3 remaining, one of them must be fitting this description.
+- From **Clue 6**, the person who only drinks water lives somewhere to the left of the person who is wearing boots. Hence, the water drinker cannot reside in House 5, as it has already been determined that the tea drinker is located there.  
+
+By this analysis:
+- **House 1** must be left with the boots wearer or coffee drinker. That would imply the only drink possible left is root beer, which means their properties can be deduced as well.
+- **House 2** has to host the coffee drinker since the person who drinks milk is in House 3, and boots must occupy the first house.  
+
+After resolving these clues systematically, we conclude the following:
+- House 1: Drinks root beer and wears boots.  
+- House 2: Drinks coffee and wears loafers.  
+- House 3: Drinks milk and wears sandals.  
+- House 4: Drinks water and wears running shoes.  
+- House 5: Drinks tea and wears high heels.  
+
+Thus, the number of the house where the person who only drinks water lives is **4**.

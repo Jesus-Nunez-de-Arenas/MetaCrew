@@ -1,0 +1,6 @@
+1. **House 1**: Blue | Water  
+2. **House 2**: Green | Root Beer  
+3. **House 3**: Yellow | Tea  
+4. **House 4**: White | Milk  
+
+This arrangement satisfies all the given clues, confirming that the person who likes blue lives in house 1.

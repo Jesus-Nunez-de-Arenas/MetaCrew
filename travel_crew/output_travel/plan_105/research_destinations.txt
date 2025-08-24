@@ -1,0 +1,64 @@
+**Day 1:**
+- Current City: from Monterey to Dallas  
+- Transportation: Flight Number: F4046679, from Monterey to Dallas, Departure Time: 14:02, Arrival Time: 19:18  
+- Breakfast: -  
+- Attraction: The Dallas World Aquarium, Address: 1801 N Griffin St, Dallas, TX 75202, USA, Phone: (214) 720-2224, Website: [dwazoo](https://www.dwazoo.com/)  
+- Lunch: Coconuts Fish Cafe, Average Cost: $38, Cuisines: Cafe, BBQ, Mediterranean, Fast Food, Aggregate Rating: 4.5  
+- Dinner: Yanki Sizzlers, Average Cost: $96, Cuisines: Cafe, French, Tea, Mediterranean, Aggregate Rating: 4.1  
+- Accommodation: Luxury Williamsburg duplex, private roof terrace, Price: $241, Room Type: Entire home/apt, House Rules: No visitors, Minimum Nights: 4, Maximum Occupancy: 3, Review Rate Number: 5, City: Dallas  
+
+**Day 2:**  
+- Current City: Dallas  
+- Transportation: -  
+- Breakfast: McDonald's, Average Cost: $56, Cuisines: Cafe, Seafood, Aggregate Rating: 3.5  
+- Attraction: The Sixth Floor Museum at Dealey Plaza, Address: 411 Elm St, Dallas, TX 75202, USA, Phone: (214) 747-6660, Website: [jfk](https://www.jfk.org/)  
+- Lunch: Cafe Gatherings, Average Cost: $17, Cuisines: Bakery, Indian, Desserts, Aggregate Rating: 4.4  
+- Dinner: Pind Balluchi, Average Cost: $90, Cuisines: Indian, BBQ, Aggregate Rating: 3.8  
+- Accommodation: Luxury Williamsburg duplex, private roof terrace, Price: $241  
+
+**Day 3:**  
+- Current City: from Dallas to Del Rio  
+- Transportation: Flight Number: F3592397, from Dallas to Del Rio, Departure Time: 21:19, Arrival Time: 22:38  
+- Breakfast: Subway, Average Cost: $46, Cuisines: Fast Food, Aggregate Rating: 3.4  
+- Attraction: Whitehead Memorial Museum, Address: 1308 S Main St, Del Rio, TX 78840, USA, Phone: (830) 774-7568, Website: [whiteheadmuseum](http://www.whiteheadmuseum.org/)  
+- Lunch: HuHot Mongolian Grill, Average Cost: $71, Cuisines: Cafe, Bakery, BBQ, Fast Food, Aggregate Rating: 4.0  
+- Dinner: Amici Cafe, Average Cost: $96, Cuisines: Cafe, Mexican, Bakery, Aggregate Rating: 3.8  
+- Accommodation: 2 bedroom Kid Friendly Cobble Hill, Price: $129, Room Type: Entire home/apt, House Rules: No visitors & No smoking, Minimum Nights: 3, Maximum Occupancy: 1  
+
+**Day 4:**  
+- Current City: Del Rio  
+- Transportation: -  
+- Breakfast: Gopala, Average Cost: $52, Cuisines: Bakery, Indian, Mediterranean, Aggregate Rating: 3.2  
+- Attraction: Amistad National Recreation Area, Address: 4121 Veterans Blvd, Del Rio, TX 78840, USA, Phone: (830) 775-7491, Website: [nps](https://www.nps.gov/amis/index.htm)  
+- Lunch: Jom Jom Malay, Average Cost: $78, Cuisines: Chinese, Indian, Desserts, Fast Food, Aggregate Rating: 4.4  
+- Dinner: Side Wok, Average Cost: $95, Cuisines: Bakery, Pizza, Desserts, Aggregate Rating: 3.9  
+- Accommodation: 2 bedroom Kid Friendly Cobble Hill, Price: $129  
+
+**Day 5:**  
+- Current City: from Del Rio to Amarillo  
+- Transportation: Self-driving from Del Rio to Amarillo, Duration: 7 hours, Distance: 754 km, Cost: $37  
+- Breakfast: Cafe Festa, Average Cost: $55, Cuisines: Pizza, Italian, Mexican, Bakery, Aggregate Rating: 3.2  
+- Attraction: Cadillac Ranch, Address: 13651 I-40 Frontage Rd, Amarillo, TX 79124, USA, Phone: (833) 330-2650, Website: [facebook](https://www.facebook.com/1974cadillacranch/)  
+- Lunch: The Cinnamon Kitchen, Average Cost: $69, Cuisines: Desserts, Tea, Pizza, Chinese, Seafood, Aggregate Rating: 3.4  
+- Dinner: Sigree Global Grill, Average Cost: $35, Cuisines: Chinese, BBQ, Cafe, Desserts, Aggregate Rating: 4.1  
+- Accommodation: Gramercy Park restful, cozy, sun-filled home, Price: $968, Room Type: Entire home/apt, House Rules: No parties, Minimum Nights: 2, Maximum Occupancy: 8  
+
+**Day 6:**  
+- Current City: Amarillo  
+- Transportation: -  
+- Breakfast: Subway, Average Cost: $92, Cuisines: Desserts, BBQ, Fast Food, Indian, Mediterranean, Aggregate Rating: 2.8  
+- Attraction: Amarillo Botanical Gardens, Address: 1400 Streit Dr, Amarillo, TX 79106, USA, Phone: (806) 352-6513, Website: [amarillobotanicalgardens](http://www.amarillobotanicalgardens.org/)  
+- Lunch: Punjabi Chaap Corner, Average Cost: $62, Cuisines: Desserts, Pizza, Italian, Bakery, Fast Food, Aggregate Rating: 3.5  
+- Dinner: Delish BBQ, Average Cost: $92, Cuisines: Mexican, Bakery, Desserts, Seafood, Aggregate Rating: 3.9  
+- Accommodation: Gramercy Park restful, cozy, sun-filled home, Price: $968  
+
+**Day 7:**  
+- Current City: from Amarillo to Monterey  
+- Transportation: Self-driving from Amarillo to Monterey, Duration: 19 hours 21 mins, Distance: 2,104 km, Cost: $105  
+- Breakfast: -  
+- Attraction: -  
+- Lunch: -  
+- Dinner: -  
+- Accommodation: -  
+
+This travel plan includes activities with a focus on French and Chinese cuisines while providing options for sightseeing, dining, and accommodations for the entire trip.

@@ -1,0 +1,76 @@
+**Travel Budget for 5-Day Trip to Texas (March 14 - March 18, 2022)**  
+
+**Total Budget**: $3,900  
+
+### **Expense Breakdown**
+
+1. **Transportation**:
+   - **Self-driving from Manhattan to Texarkana**:  
+     - Duration: 20 hours 36 mins  
+     - Distance: 2,218 km  
+     - Cost: $110  
+   - **Flight from Texarkana to Dallas**:  
+     - Flight Number: F3599899  
+     - Departure Time: 10:15  
+     - Arrival Time: 11:16  
+     - Cost: $70  
+   - **Flight from Dallas to Manhattan**:  
+     - Flight Number: F3608417  
+     - Departure Time: 17:04  
+     - Arrival Time: 18:35  
+     - Cost: $121  
+
+   **Total Transportation Cost**: $110 + $70 + $121 = **$301**
+
+2. **Accommodation**:
+   - **Large 2.5 BR Apt In Park Slope**  
+     - Duration: 2 nights (March 14-15)  
+     - Price: $269 per night  
+     - Total: $269 * 2 = **$538**  
+   - **1BR, elevator, kitchen, doorman!**  
+     - Duration: 2 nights (March 16-17)  
+     - Price: $475 per night  
+     - Total: $475 * 2 = **$950**  
+
+   **Total Accommodation Cost**: $538 + $950 = **$1,488**
+
+3. **Food**:
+   - **Day 1 (March 14)**:  
+     - Lunch: Big City Bread Cafe - $61  
+     - Dinner: Columbia Restaurant - $91  
+   - **Day 2 (March 15)**:  
+     - Lunch: Cafe Coffee Day - $28  
+     - Dinner: TGI Friday's - $27  
+   - **Day 3 (March 16)**:  
+     - Lunch: Coconuts Fish Cafe - $38  
+     - Dinner: 1918 Bistro & Grill - $90  
+   - **Day 4 (March 17)**:  
+     - Lunch: Yanki Sizzlers - $96  
+     - Dinner: L'Opera - $77  
+   - **Day 5 (March 18)**:  
+     - Breakfast: Cooper's Old Time Pit Bar-B-Que - $30  
+
+   **Total Food Cost**: $61 + $91 + $28 + $27 + $38 + $90 + $96 + $77 + $30 = **$440**
+
+4. **Attractions**:
+   - Day 1: Museum of Regional History - Free  
+   - Day 2: Four States Auto Museum - Free  
+   - Day 3: The Dallas Arboretum and Botanical Garden - Free  
+   - Day 4: The Dallas World Aquarium - Free  
+
+   **Total Attractions Cost**: **$0**  
+
+### **Grand Total Expense Calculation**  
+- Total Transportation Cost: $301  
+- Total Accommodation Cost: $1,488  
+- Total Food Cost: $440  
+- Total Attractions Cost: $0  
+
+**Grand Total**: $301 + $1,488 + $440 + $0 = **$2,229**  
+
+### **Remaining Budget**:  
+- Budget: $3,900  
+- Expenses: $2,229  
+- Remaining: $3,900 - $2,229 = **$1,671**  
+
+This detailed travel budget outlines all planned expenses for the trip, ensuring that the trip remains enjoyable while within financial limits, leaving a remaining balance of $1,671 for additional activities or unforeseen expenses.

@@ -1,0 +1,31 @@
+- From the clues, we will break down the information step by step:
+
+1. **Clue 5** states: The golfer lives in the first house.
+   - **House 1**: Golfer
+
+2. **Clue 2** states: The basketball player does not live in the fourth house. This means the basketball player can live in House 1, 2, or 3.
+
+3. **Clue 4** states: The swimmer does not live in the third house. Thus, the swimmer can be in House 1, 2, or 4. Since House 1 is occupied by the golfer, the swimmer must be in House 2 or 4.
+
+4. **Clue 1** states: The swimmer lives directly left of the romance book lover. This means:
+   - If the swimmer is in House 2, then the romance book lover must be in House 3. 
+   - If the swimmer were in House 4, there wouldn't be a house to the right for the romance book lover, so the swimmer has to be in House 2.
+
+5. Thus we have:
+   - **House 1**: Golfer
+   - **House 2**: Swimmer
+   - **House 3**: Romance book lover
+
+6. Now applying **Clue 3**: The mystery book reader lives directly left of the history book buff. Since we have determined that House 3 is the romance book lover (not fitting these criteria), House 4 must be occupied by the history book buff, making House 3 the mystery book reader.
+
+Final arrangement would be:
+- **House 1**: Golfer
+- **House 2**: Swimmer, this is directly before:
+- **House 3**: Mystery book reader
+- **House 4**: History book buff (no relationship here to the romance book lover). 
+
+Since Clue 2 specifies that the basketball player cannot be in House 4 and only House 3 is left, the basketball player must be in **House 4**.
+
+Thus, the house where the basketball player resides is **3**.
+
+Therefore, the final structured answer based on the inferences is that the basketball player lives in **House 3**.

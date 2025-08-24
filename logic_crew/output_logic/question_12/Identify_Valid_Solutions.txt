@@ -1,0 +1,20 @@
+The number of the house where the mystery book reader lives is **3**. 
+
+Here is the detailed breakdown of the relationships between the houses and their respective characteristics:
+
+| House Number | Shoe Type   | Book Preference          |
+|--------------|-------------|--------------------------|
+| House 1      | Sandals     | Fantasy Book Enthusiast  |
+| House 2      | Loafers     | Romance Book Lover       |
+| House 3      | High Heels  | Mystery Book Reader      |
+| House 4      | Boots       | History Book Buff        |
+
+**Explanation of deductions**:
+
+1. From Clue 3, it is established that the mystery book reader lives in **House 3**.
+2. According to Clue 1, the person who is wearing high heels does not live in House 2. Clue 4 further confirms that this person cannot live in House 4 either; hence, high heels must be in House 1 or House 3, but since House 3 is already occupied by the mystery book reader, they must wear high heels in House 1.
+3. Clue 2 indicates that the history book buff lives to the right of the person wearing loafers; therefore, the loafers must be placed in House 2 (the only option left), and the history book buff must be in House 4.
+4. Finally, Clue 5 states that the person wearing sandals must live directly left of the romance book lover, verifying the arrangement where House 1 has sandals and House 2 has the romance book lover.
+
+This leads us directly to the conclusion that:
+- The Mystery Book Reader resides in **House 3**.

@@ -1,0 +1,27 @@
+[
+    {
+        "task": "Define Story Topic",
+        "expert": "Alice Thompson",
+        "subtask": "Identify the main topic for the story based on user input which will serve as the central theme."
+    },
+    {
+        "task": "Collect Trivia Questions",
+        "expert": "Bob Johnson",
+        "subtask": "Gather 5 trivia questions provided by the user that will be incorporated into the story."
+    },
+    {
+        "task": "Develop Story Structure",
+        "expert": "Catherine Lee",
+        "subtask": "Create an outline for the story based on the identified topic and incorporate the trivia responses at relevant points."
+    },
+    {
+        "task": "Draft the Story",
+        "expert": "David Kim",
+        "subtask": "Write the actual story using the outline created in the previous subtask, ensuring to integrate the trivia questions naturally."
+    },
+    {
+        "task": "Review and Edit the Story",
+        "expert": "Eva Martinez",
+        "subtask": "Proofread and edit the story draft for clarity, coherence, and engagement, making sure that all trivia questions are well-placed."
+    }
+]

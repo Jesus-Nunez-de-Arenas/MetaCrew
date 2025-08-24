@@ -1,0 +1,53 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 4. The houses are numbered from 1 to 4, with house number 1 on the left and house number 4 on the right.
+
+2. **houses**: There are 4 houses, each inhabited by one individual, and numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+
+3. **characteristics**: Each resident has unique attributes categorized into five distinct groups:  
+   - **Car**: The types of cars driven by the residents include:
+     - Convertible
+     - Minivan
+     - SUV
+     - Truck  
+   - **Lunch**: Each person had a different meal for lunch. The options are:
+     - Stew
+     - Fried Rice
+     - Spaghetti
+     - Pizza  
+   - **Flowers**: Each individual has a specific type of flowers in their foyer:
+     - Tulips
+     - Rose bouquet
+     - Lilies bouquet
+     - Carnations arrangement  
+   - **Fruit**: Each resident is eating a different type of fruit, specifically:
+     - Mangoes
+     - Grapes
+     - Apples
+     - Oranges  
+   - **Favorite Color**: Each person has a distinct favorite color:
+     - Green
+     - White
+     - Red
+     - Blue  
+
+4. **clues**: The following clues establish relationships and characteristics assigned to each house:  
+   - Clue 1: The person who likes green lives in the first house.  
+   - Clue 2: The person who had pizza lives directly left of the person who likes blue.  
+   - Clue 3: The person who likes red lives somewhere to the right of the person who has a carnations arrangement.  
+   - Clue 4: The person who ate fried rice lives in the fourth house.  
+   - Clue 5: The person who drives a truck does not live in the third house.  
+   - Clue 6: The person who is eating mangos lives directly left of the person who likes red.  
+   - Clue 7: The person who drives a truck lives directly left of the person who has a bouquet of lilies.  
+   - Clue 8: The person who ate spaghetti lives somewhere to the right of the person who drives a minivan.  
+   - Clue 9: The person who is eating mangos lives directly left of the person who had pizza.  
+   - Clue 10: The person who likes red lives somewhere to the left of the person who is eating grapes.  
+   - Clue 11: The person who had pizza and the person who has a rose bouquet live directly next to each other.  
+   - Clue 12: The person who likes blue and the person who owns an SUV live directly next to each other.  
+   - Clue 13: The person who had pizza and the person who is eating apples live directly next to each other.  
+
+Through careful analysis and deduction using the provided clues, we can determine that the person who had pizza lives in House 3, as it satisfies the relationships presented in the clues. The placement of the other individuals based on their characteristics also supports this conclusion.
+
+Thus, the number of the house where the person who had pizza lives is House **3**.

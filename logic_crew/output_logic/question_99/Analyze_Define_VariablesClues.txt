@@ -1,0 +1,26 @@
+1. Variables:
+   - n (Number of Houses): Represents the total number of houses in the row, which is 4, numbered from 1 (leftmost) to 4 (rightmost).
+   - Houses: Denoted as House 1, House 2, House 3, and House 4; each house contains one individual with unique characteristics.
+  
+2. Characteristics:
+   - Favorite Colors: Each individual has a different preferred color among yellow, red, blue, and white. These colors describe the association of each individual with a visual trait.
+   - Lunch Items: Each individual eats a distinct lunch consisting of spaghetti, grilled cheese, stew, or pizza. This indicates their meal preference and dietary choices.
+   - Fruits: Each individual consumes a different type of fruit—specifically oranges, grapes, mangos, or apples—indicating their snack preference.
+   - Favorite Drinks: Each individual has a different beverage preference which consists of tea, water, root beer, or milk. This summarizes their preferred drink choice.
+
+3. Clue Analysis:
+   - Clue 1 establishes a relationship between the root beer lover and the milk drinker, indicating proximity in houses.
+   - Clue 2 outlines the position of the pizza eater relative to the tea drinker.
+   - Clue 3 shows a distance of two houses between the root beer lover and the grilled cheese eater.
+   - Clue 4 identifies a spacing relationship between the yellow and red enthusiasts.
+   - Clue 5 establishes a spacing relationship between the consumers of mangos and oranges.
+   - Clue 6 indicates the pizza eater is immediately to the left of the yellow preference.
+   - Clue 7 states that the oranges are eaten by someone immediately to the left of someone eating apples.
+   - Clue 8 states the stew eater cannot be in the third house.
+   - Clue 9 affirms that the stew eater is immediately to the left of the water drinker.
+   - Clue 10 suggests that the white color preference is positioned to the right of the stew eater.
+   - Clue 11 establishes the position of the apple eater being to the right of the pizza eater.
+
+By analyzing these variables, the characteristics, and the provided clues, we determine the arrangement of people within the houses which ultimately allows us to identify the house number of the person who is eating apples. Based on the deductions derived from the clues and logical positioning:
+
+The number of the house where the person who is eating apples lives is 4.

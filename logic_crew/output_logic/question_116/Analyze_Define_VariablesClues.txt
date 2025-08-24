@@ -1,0 +1,24 @@
+1. Variables:
+   - n (number of houses): The total number of houses is 4, numbered from 1 to 4.
+   - houses: Refers to the four distinct living spaces where the individuals reside, specifically labeled as House 1, House 2, House 3, and House 4.
+   - characteristics: Comprise various attributes associated with each person living in the houses, which include:
+     a. Sport played (baseball, golf, soccer, swimming)
+     b. Lunch eaten (spaghetti, stew, fried rice, pizza)
+     c. Fruit eaten (oranges, apples, banana, grapes)
+     d. Pets owned (fish, cat, horses, birds)
+     e. Book preference (fantasy, science fiction, history, romance)
+
+2. Clues provided:
+   1. The swimmer lives directly left of the person who is eating apples.
+   2. The romance book lover lives somewhere to the right of the swimmer.
+   3. The fantasy book enthusiast lives directly left of the person who owns horses.
+   4. The person who ate fried rice does not live in the fourth house.
+   5. The cat lover lives directly left of the person who ate spaghetti.
+   6. The person who ate spaghetti lives somewhere to the left of the history book buff.
+   7. The person who is eating a banana lives directly left of the soccer player.
+   8. The bird keeper lives in the third house.
+   9. The science fiction book fanatic lives directly left of the person who had pizza.
+   10. The person who is eating grapes lives somewhere to the left of the fantasy book enthusiast.
+   11. The person who had pizza lives somewhere to the left of the baseball player.
+
+The problem revolves around leveraging these clues to deduce the specific house number where the person who had stew resides. After analyzing the puzzle, the conclusion indicates that the individual who had stew is located in House 2.

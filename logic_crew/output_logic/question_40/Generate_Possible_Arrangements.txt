@@ -1,0 +1,11 @@
+- **House 1**: 
+  - Color: Yellow
+  - Book Genre: Romance
+- **House 2**: 
+  - Color: Red
+  - Book Genre: Mystery
+- **House 3**: 
+  - Color: White
+  - Book Genre: Fantasy  
+  
+The number of the house where the fantasy book enthusiast lives is **3**.

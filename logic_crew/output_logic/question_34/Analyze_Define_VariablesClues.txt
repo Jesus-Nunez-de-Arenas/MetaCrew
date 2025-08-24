@@ -1,0 +1,31 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 3. The houses are numbered from 1 to 3, with house number 1 on the left and house number 3 on the right.  
+
+2. **houses**: There are 3 houses where the residents live, each having distinct characteristics. The houses are numbered as follows:
+   - House 1
+   - House 2
+   - House 3
+
+3. **characteristics**: Each resident of these houses possesses unique traits that can be categorized into three separate classifications:
+   - **Pets**: One individual owns horses, one is a cat lover, and one is a bird keeper.
+   - **Sports**: One person is a basketball player, one is a cricketer, and one is a soccer player.
+   - **Cars**: One person drives a sedan, one drives an SUV, and one drives a truck.
+
+4. **clues**: The problem provides a series of logical statements that help to deduce the arrangement of the various characteristics among the residents:
+   - Clue 1: The person who drives a truck lives somewhere to the right of the basketball player.
+   - Clue 2: The cricketer lives in the first house.
+   - Clue 3: The cat lover lives somewhere to the right of the person who owns a sedan.
+   - Clue 4: The person who owns horses lives directly left of the person who owns a sedan.
+
+By analyzing these clues:
+- From Clue 2, we know the cricketer is in House 1.
+- From Clue 4, the person who owns horses must be in House 1 or House 2, as they live directly left of the sedan owner, who cannot be in House 1 (since the cricketer lives there). Hence, horses must be in House 1 (Cricketer) and sedan in House 2.
+- This places the cat lover in House 3 (to the right of the sedan owner per Clue 3).
+- With House 1 as the cricketer with horses, House 2 must be the sedan owner (leaving them as the only possible pet owner who is not a cat lover). Thus, House 2 is left with the SUV (since it cannot be sedan) and the truck must reside in House 3 (to the right of the basketball player per Clue 1).
+- Therefore, the basketball player must be in House 2.
+
+Conclusively, we have:
+- House 1: Cricketer with horses
+- House 2: Basketball player with sedan
+- House 3: Cat lover with truck
+
+Thus, we can see that the basketball player lives in House number **2**.

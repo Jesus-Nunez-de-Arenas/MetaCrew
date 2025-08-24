@@ -1,0 +1,11 @@
+- **House 1**: 
+  - Pet: Dog owner
+  - Lunch: Stew
+  - Shoes: High heels
+
+- **House 2**: 
+  - Pet: Fish enthusiast
+  - Lunch: Grilled cheese
+  - Shoes: Sandals
+
+The number of the house where the person who had stew lives is **1**.

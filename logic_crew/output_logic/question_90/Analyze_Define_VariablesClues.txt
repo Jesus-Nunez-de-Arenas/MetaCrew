@@ -1,0 +1,36 @@
+1. **n (Number of Houses):** This variable represents the total number of houses in the scenario. In this case, n equals 3, indicating there are 3 distinct houses numbered 1 on the left, 2 in the middle, and 3 on the right.
+
+2. **Houses:** This variable refers to the three physical entities where individuals live. The houses are:
+   - House 1 (left)
+   - House 2 (middle)
+   - House 3 (right)
+
+3. **Characteristics:** This variable encompasses the unique attributes assigned to each occupant of the houses. The characteristics include:
+   - **Shoes**: One resident is wearing boots, one is wearing running shoes, and one is wearing loafers.
+   - **Flowers**: One resident has a carnations arrangement, one has a vase of tulips, and one has a bouquet of lilies.
+   - **Favorite Color**: One resident likes red, one likes green, and one likes white.
+   - **Book Preference**: One is a fantasy book enthusiast, one is a history book buff, and one is a science fiction book fanatic.
+
+4. **Clue(s):** This variable consists of the logical statements provided to aid in establishing relationships between the individuals and their attributes. The clues are:
+   - Clue 1: The science fiction book fanatic lives in the second house.
+   - Clue 2: The person who is wearing loafers and the person who likes red live directly next to each other.
+   - Clue 3: The person who likes white lives directly left of the person who has a vase of tulips.
+   - Clue 4: The person who has a carnations arrangement lives in the first house.
+   - Clue 5: The person who is wearing boots does not live in the third house.
+   - Clue 6: The history book buff lives somewhere to the right of the person who has a vase of tulips.
+   - Clue 7: The person who has a vase of tulips lives somewhere to the left of the person who likes red.
+
+Based on the clues provided, we derive the following conclusions:
+- From Clue 4, House 1 has a carnations arrangement.
+- Clue 1 states the science fiction book fanatic lives in House 2.
+- Clue 5 tells us the person wearing boots cannot live in House 3, which must mean they live in House 1 or 2. Since House 2 is already occupied by the science fiction fanatic, they must live in House 1, thereby confirming the occupant in House 1 is wearing boots.
+- As each house must have a unique arrangement, the only arrangement left for House 3, since House 1 has carnations and House 2 has tulips (Clue 6), is a bouquet of lilies.
+
+By evaluating all characteristics per house and applying the clues properly:
+- House 1: Boots, Carnations, (Color - Green or Red), (Book - Fantasy or History)
+- House 2: (Shoes - Running Shoes), (Flowers - Tulips), (Color - White), (Book - Science Fiction)
+- House 3: (Shoes - Loafers), (Flowers - Lilies), (Color - Red or Green), (Book - History or Fantasy)
+  
+From Clue 2, since the person in House 3 (who is wearing loafers) must be next to the person liking red: the person who must like red in House 3 is the history book buff.
+
+Conclusively, the number of the house where the person who is wearing boots lives is **1**.

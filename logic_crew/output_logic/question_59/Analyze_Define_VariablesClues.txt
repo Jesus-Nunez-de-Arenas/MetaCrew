@@ -1,0 +1,23 @@
+1. **n**: This variable represents the total number of houses, which is 4 in this scenario, numbered from 1 to 4.
+2. **houses**: These are the physical locations where individuals reside, numbered 1 to 4, with each house having its own unique resident who possesses distinct traits.
+3. **characteristics**: Each person living in the houses has specific attributes categorized into five groups:
+   - **Favorite Color**: Four colors are available: yellow, white, blue, and red. Each person has a unique favorite color.
+   - **Shoes**: The types of shoes worn by each individual include high heels, running shoes, sandals, and boots, with no two people wearing the same type.
+   - **Favorite Drink**: The drink preferences of each person consist of milk, water, coffee, and root beer, with one person having a unique drink preference.
+   - **Musical Instrument**: The musical capability of each resident is described by the instruments: cello, piano, violin, and flute, with no repetitions among individuals.
+   - **Sport**: Each individual participates in a distinct sport, which includes golf, basketball, tennis, and cricket.
+4. **Clue(s)**: The following clues provide necessary conditions for deducing the characteristics associated with each house:
+   - Clue 1: The golfer does not live in the fourth house.
+   - Clue 2: The violinist does not live in the fourth house.
+   - Clue 3: The person who is wearing high heels does not live in the fourth house.
+   - Clue 4: The cellist lives in the first house.
+   - Clue 5: The basketball player lives somewhere to the left of the person who likes red.
+   - Clue 6: The flutist lives somewhere to the right of the person who is wearing boots.
+   - Clue 7: The flutist lives somewhere to the left of the person who likes yellow.
+   - Clue 8: The basketball player lives somewhere to the right of the person who is wearing running shoes.
+   - Clue 9: The person who likes yellow lives directly left of the person who likes milk.
+   - Clue 10: The flutist lives somewhere to the right of the cricketer.
+   - Clue 11: The person who likes blue lives somewhere to the right of the root beer lover.
+   - Clue 12: The person who only drinks water lives somewhere to the left of the coffee drinker.
+
+Based on the analysis of the clues, the conclusion is drawn that the person who only drinks water resides in house number 2.

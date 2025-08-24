@@ -1,0 +1,11 @@
+The person who is wearing boots lives in House 1. The analysis of the clues reveals that:  
+- From Clue 3, we know that the person in House 1 is wearing boots.  
+- Clue 4 indicates that this person (in House 1) also has a bouquet of daffodils.  
+- Clue 1 suggests that the person with lilies cannot be in House 2, thus they must be in House 3.  
+- Clue 2 states that the person wearing high heels cannot be in House 2; they must also inhabit House 3.  
+Hence, the characteristics assigned to each house are:  
+- House 1: Boots and Daffodils  
+- House 2: High Heels and Roses  
+- House 3: Running Shoes and Lilies  
+
+Conclusively, the number of the house where the person who is wearing boots lives is **1**.

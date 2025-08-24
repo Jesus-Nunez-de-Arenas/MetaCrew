@@ -1,0 +1,25 @@
+1. n: This refers to the total number of houses in the scenario. In this case, n = 5, representing five houses arranged from left to right, numbered 1 to 5.
+
+2. Houses: The houses are numbered sequentially from 1 to n (5). Each house has a unique resident with distinct characteristics. Each house corresponds to an index that allows for identifying individuals and their attributes.
+
+3. Characteristics: There are three main categories of characteristics assigned to each person living in the houses. These characteristics include:
+   - Shoes: Each person is wearing a different type of footwear: loafers, sandals, running shoes, high heels, and boots.
+   - Cars: Each person has a different kind of car: convertible, sedan, truck, SUV, and minivan.
+   - Pets: Each person has a different type of pet: dog, horses, bird, cat, and fish.
+
+4. Clues: The clues serve as logical constraints or conditions that provide insights into the arrangement of the residents and their respective characteristics. These clues help reveal relationships between the houses and the individuals, ultimately leading to the solution of who lives where and what their preferences are. The clues provided are:
+   - Clue 1: The person who is wearing running shoes lives in the first house.
+   - Clue 2: The person who owns a sedan lives in the third house.
+   - Clue 3: The dog owner does not live in the third house.
+   - Clue 4: The person who is wearing sandals lives somewhere to the left of the bird keeper.
+   - Clue 5: There are two houses between where the person who is wearing running shoes lives and where the bird keeper lives.
+   - Clue 6: The person who is wearing high heels does not live in the fourth house.
+   - Clue 7: The fish enthusiast lives somewhere to the right of the person who owns an SUV.
+   - Clue 8: The fish enthusiast does not live in the third house.
+   - Clue 9: The person who is wearing high heels lives directly left of the person who drives a truck.
+   - Clue 10: The person who is wearing loafers does not live in the fifth house.
+   - Clue 11: The fish enthusiast does not live in the fifth house.
+   - Clue 12: The dog owner does not live in the first house.
+   - Clue 13: The person who owns horses lives somewhere to the right of the person who drives a minivan.
+
+By analyzing these variables and clues systematically, I can deduce the answer to the initial question regarding the house number of the person who owns horses. After analyzing the clues, it has been deduced that the person who owns horses lives in house number 4.

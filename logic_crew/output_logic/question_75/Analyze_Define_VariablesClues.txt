@@ -1,0 +1,20 @@
+Variables in the problem statement:
+
+1. n: This variable represents the total number of houses, which is 5 in this scenario. The houses are numbered from 1 to 5, progressing from left to right.
+
+2. Houses: There are 5 distinct houses in a row, each identified by a unique number (1, 2, 3, 4, 5). Each house has one person living in it, and they differ based on certain characteristics, such as the flowers they have in their foyer and the devices they own.
+
+3. Characteristics: The characteristics of the individuals living in the houses include:
+   - Types of flowers in their foyer: The options are a vase of tulips, a bouquet of lilies, a carnations arrangement, a rose bouquet, and a bouquet of daffodils.
+   - Types of devices owned: The options include a gameboy, a phone, a computer, a radio, and a television.
+
+4. Clue(s): The clues provide critical information that can be used to deduce the relationships between the people, their flowers, and their devices:
+   1. The person who has a bouquet of lilies lives somewhere to the right of the person who has a phone.
+   2. The person who has a phone lives directly left of the person who has a television.
+   3. The person who has a vase of tulips lives in the third house.
+   4. The person who has a bouquet of daffodils lives somewhere to the right of the person who has a radio.
+   5. The person who has a bouquet of daffodils does not live in the fourth house.
+   6. The person who has a computer lives in the second house.
+   7. The person who has a rose bouquet lives directly left of the person who has a carnations arrangement.
+
+Each of these variables plays a crucial role in solving the puzzle, allowing for the identification of where each person lives and what flowers and devices they possess.

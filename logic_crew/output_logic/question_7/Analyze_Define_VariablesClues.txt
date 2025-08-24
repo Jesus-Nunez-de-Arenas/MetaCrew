@@ -1,0 +1,33 @@
+1. **n (number of houses)**: 
+   - In this scenario, n equals 3, representing the total number of houses lined up in a row.
+
+2. **houses**: 
+   - The houses are numbered 1, 2, and 3 from left to right. Each house contains one person with distinctive characteristics.
+
+3. **characteristics**:
+   The characteristics that vary among the individuals living in the houses are as follows:
+   - **Musical Instruments**: 
+     - One person is a percussionist, another a saxophonist, and the third a violinist.
+   - **Flower Arrangements**: 
+     - One person has a carnations arrangement, another has a vase of tulips, and the third has a bouquet of daffodils.
+   - **Book Preferences**: 
+     - One individual is a science fiction book fanatic, another enjoys mystery novels, and the third is a history book buff.
+   - **Lunch Choices**: 
+     - One person had pizza, another ate fried rice, and the last one had spaghetti.
+   - **Devices**: 
+     - One person has a radio, one has a television, and one has a phone.
+
+4. **Clues**: 
+   The following clues are provided to help identify the relationships between these characteristics:
+   - **Clue 1**: The person who ate spaghetti does not live in the second house.
+   - **Clue 2**: The person who ate fried rice lives somewhere to the right of the percussionist.
+   - **Clue 3**: The person who has a bouquet of daffodils lives somewhere to the left of the percussionist.
+   - **Clue 4**: The mystery book reader lives somewhere to the left of the science fiction book fanatic.
+   - **Clue 5**: There is one house between where the person who has a radio lives and where the history book buff lives.
+   - **Clue 6**: The person who has a vase of tulips and the person who has a phone live directly next to each other.
+   - **Clue 7**: The violinist lives in the first house.
+   - **Clue 8**: The history book buff lives somewhere to the right of the person who has a vase of tulips.
+
+Based on the clues and analysis, we can deduce that the person who has a vase of tulips lives in House 2.
+
+The complete analysis shows that the identification of entities and their respective characteristics leads us to understand the relationships needed to answer the question. Thus, the person who has a vase of tulips resides in House 2.

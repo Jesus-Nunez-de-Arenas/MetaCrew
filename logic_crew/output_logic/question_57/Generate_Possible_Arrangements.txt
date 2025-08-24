@@ -1,0 +1,11 @@
+1. House 1: 
+   - Book Preference: Mystery 
+   - Sport: Golf 
+   - Occupant: Mystery book reader who plays golf.
+
+2. House 2: 
+   - Book Preference: Fantasy 
+   - Sport: Tennis 
+   - Occupant: Fantasy book enthusiast who plays tennis. 
+
+Thus, the number of the house where the fantasy book enthusiast lives is **2**.

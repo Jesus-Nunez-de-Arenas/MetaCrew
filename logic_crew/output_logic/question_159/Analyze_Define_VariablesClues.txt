@@ -1,0 +1,20 @@
+1. `n` - This variable represents the total number of houses available in the scenario, which is 3. 
+   
+2. `houses` - The houses are numbered 1, 2, and 3, where house 1 is on the leftmost side, and house 3 is on the rightmost side. Each house houses one distinct person with unique characteristics.
+
+3. `characteristics` - These entail:
+   - **Shoes**: There are three types of shoes (loafers, running shoes, and boots) worn by the residents of the houses.
+   - **Drinks**: Each person has a favorite drink (water, tea, and milk).
+   - **Fruits**: The fruits consumed by the residents are kiwis, grapes, and mangos.
+   - **Devices**: Each person uses a different device (gameboy, computer, and phone).
+
+4. `clues`: The clues provided to relate these characteristics to the respective houses include:
+   - Clue 1: The person who is wearing loafers lives in the first house.
+   - Clue 2: The person who has a phone lives somewhere to the left of the person who is eating mangos.
+   - Clue 3: The person who is eating grapes lives directly left of the person who only drinks water.
+   - Clue 4: The person who is wearing boots does not live in the third house.
+   - Clue 5: The person who is eating kiwis lives directly left of the person who likes milk.
+   - Clue 6: The person who is wearing boots lives somewhere to the right of the person who has a gameboy.
+   - Clue 7: The person who is eating kiwis does not live in the first house.
+
+These variables and clues together facilitate the analysis of the relationships between the residents of the houses, the shoes they wear, their drinks, fruits they eat, and their devices, ultimately aiding in the solution of the logical puzzle concerning the location of the person with the computer.

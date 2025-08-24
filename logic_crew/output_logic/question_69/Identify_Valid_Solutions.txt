@@ -1,0 +1,13 @@
+The arrangement that satisfies all the clues is as follows:  
+1. **House 1**: Blue | Water  
+2. **House 2**: Green | Root Beer  
+3. **House 3**: Yellow | Tea  
+4. **House 4**: White | Milk  
+
+This arrangement meets all the specified criteria:  
+- The person who likes blue (House 1) is to the left of all other colors and drinks.  
+- The person who likes yellow (House 3) lives in the third house, which is also to the left of the person who likes milk (House 4).  
+- The root beer lover (House 2) is correctly placed in the second house.  
+- The person who likes white (House 4) is located to the right of the person who drinks water (House 1).  
+
+Therefore, the number of the house where the person who likes blue lives is **1**.

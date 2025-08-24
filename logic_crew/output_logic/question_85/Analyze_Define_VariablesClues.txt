@@ -1,0 +1,25 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, which is 2. The houses are numbered from 1 on the left to 2 on the right.
+
+2. **houses**: This variable refers to the two physical entities in the problem, representing the locations where individuals live. The houses are identified as follows:
+   - House 1 (left)
+   - House 2 (right)
+
+3. **characteristics**: This variable encompasses the unique attributes assigned to each occupant of the houses. The characteristics include:
+   - **Lunch**: The type of meal each individual had, consisting of:
+     - One person had pizza.
+     - The other person had fried rice.
+   - **Book Preference**: The type of book each individual prefers, consisting of:
+     - One is a science fiction book fanatic.
+     - The other is a history book buff.
+
+4. **clue(s)**: This variable consists of the logical statement provided to aid in establishing the relationships between the individuals and their attributes. The clues are:
+   - Clue 1: The person who ate fried rice lives somewhere to the right of the science fiction book fanatic.
+
+Analyzing the clues:
+- From Clue 1, since the person who ate fried rice lives somewhere to the right of the science fiction book fanatic, and there are only two houses, it implies that the science fiction book fanatic must live in **House 1** and the person who ate fried rice must live in **House 2**.
+
+Consequently, we can conclude:
+- **House 1**: Science Fiction Book Fanatic (who had pizza)
+- **House 2**: Fried Rice Eater (who is the History Book Buff)
+
+Thus, the number of the house where the science fiction book fanatic lives is **1**.

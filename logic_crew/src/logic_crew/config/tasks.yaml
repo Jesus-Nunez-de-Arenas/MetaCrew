@@ -1,0 +1,25 @@
+Define_Variables:
+  description: >
+    {topic} Identify the variables in the problem statement including 'n', 'houses', 'characteristics', and any clues provided. The houses are in numeric order from 1 to n. 
+  expected_output: >
+    A clear definition of each variable and its role within the problem. 
+Analyze_Clues:
+  description: >
+    {topic} Examine the clues provided to extract actionable information that will help in solving the puzzle regarding the houses and their occupants. The houses are in numeric order from 1 to n.
+  expected_output: >
+    A breakdown of clues and their implications for the attributes of each house. 
+Formulate_Relationships:
+  description: >
+    {topic} Establish the relationships between houses based on the characteristics and analysis of the clues to create a structured approach to the solution. The houses are in numeric order from 1 to n.
+  expected_output: >
+    A visual representation or table outlining the relationships between the houses and their respective characteristics.
+Generate_Possible_Arrangements:
+  description: >
+    {topic} Create all possible arrangements of the houses by applying the identified relationships and constraints from the previous subtasks. The houses are in numeric order from 1 to n.
+  expected_output: >
+    A list of all feasible arrangements of houses and their corresponding characteristics.
+Identify_Valid_Solutions:
+  description: >
+    {topic} {choices} Assess the generated arrangements to determine which configurations meet the requirements of the clues and characteristics.
+  expected_output: >
+    A filtered list of valid house arrangements that satisfy all conditions and the solution to the question.

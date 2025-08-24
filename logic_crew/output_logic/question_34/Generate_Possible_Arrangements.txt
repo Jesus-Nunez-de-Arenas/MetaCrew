@@ -1,0 +1,5 @@
+- House 1: Cricketer with Horses  
+- House 2: Basketball Player with Sedan  
+- House 3: Cat Lover with Truck  
+
+Thus, the basketball player lives in House number **2**.

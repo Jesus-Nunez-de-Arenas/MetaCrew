@@ -1,0 +1,14 @@
+- **House 1**:  
+  - Shoes: High Heels  
+  - Car: SUV  
+  - Pet: Cat  
+- **House 2**:  
+  - Shoes: Boots  
+  - Car: Truck  
+  - Pet: Fish  
+- **House 3**:  
+  - Shoes: Running Shoes  
+  - Car: Sedan  
+  - Pet: Dog  
+
+The number of the house where the person who is wearing running shoes lives is **3**.

@@ -1,0 +1,26 @@
+1. Variables:
+   - n: The number of houses, which is 5.
+   - houses: The arrangement of houses numbered from 1 to 5, representing the locations where each person lives.
+   - characteristics: The different attributes assigned to each resident of the houses, which include:
+     a. Lunch items: Spaghetti, grilled cheese, pizza, stew, fried rice.
+     b. Footwear: Loafers, running shoes, high heels, boots, sandals.
+     c. Sports played: Golf, soccer, tennis, cricket, basketball.
+     d. Favorite drinks: Water, coffee, milk, tea, root beer.
+
+2. Clues provided:
+   1. The coffee drinker does not live in the fourth house.
+   2. The root beer lover lives directly left of the person who is wearing high heels.
+   3. The basketball player and the tennis player live directly next to each other.
+   4. The person who ate spaghetti lives directly left of the person who is wearing loafers.
+   5. The tea drinker lives directly left of the person who had pizza.
+   6. The soccer player lives somewhere to the right of the person who had stew.
+   7. The person who had pizza lives somewhere to the left of the cricketer.
+   8. The person who ate grilled cheese does not live in the fifth house.
+   9. The person who only drinks water lives somewhere to the left of the tea drinker.
+   10. The person who only drinks water lives somewhere to the left of the person who ate grilled cheese.
+   11. The cricketer lives somewhere to the right of the person who is wearing sandals.
+   12. The root beer lover lives somewhere to the left of the person who only drinks water.
+   13. The person who is wearing boots lives directly left of the basketball player.
+   14. The person who had stew lives somewhere to the left of the tennis player.
+
+These variables and clues define the conditions under which I will determine where the tea drinker lives. By using logical deduction based on these elements, the final answer to the house where the tea drinker resides can be deduced from the given clues.

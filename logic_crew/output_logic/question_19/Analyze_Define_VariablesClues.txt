@@ -1,0 +1,54 @@
+1. **Variable 'n'**: This represents the total number of houses in the row. In this scenario, n = 4, as there are four houses numbered 1 to 4.
+
+2. **Variable 'houses'**: These are distinct locations where each person lives. They are designated by their positions in a row, labeled as House 1, House 2, House 3, and House 4. Each house will eventually house one of the residents with specific characteristics.
+
+3. **Variable 'characteristics'**: This includes two primary attributes that define each resident:
+   - **Pets**: The different pets owned by the residents. The options presented are:
+     - Horses
+     - Dogs
+     - Cats
+     - Fish
+   - **Flowers**: The types of floral arrangements found in the foyers of each house. The options presented are:
+     - Vase of tulips
+     - Bouquet of lilies
+     - Carnations arrangement
+     - Bouquet of daffodils
+
+4. **Clue 1**: The person who has a vase of tulips lives directly left of the dog owner.
+   - This establishes a direct left-right relationship between two residents based on their floral arrangement and pet.
+
+5. **Clue 2**: The person who has a bouquet of daffodils does not live in the second house.
+   - This eliminates the second house as a possibility for this specific floral arrangement.
+
+6. **Clue 3**: There is one house between where the person who owns horses lives and where the person who has a carnations arrangement lives.
+   - This indicates a separation of one house between these two specific residents.
+
+7. **Clue 4**: The person who has a bouquet of lilies lives somewhere to the right of the person who owns horses.
+   - This conveys the positioning of the horse owner relative to the resident with lilies.
+
+8. **Clue 5**: The cat lover lives in the first house.
+   - This provides a definitive assignment of one resident's characteristic to a specific house.
+
+By analyzing the clues systematically:
+
+- We know from clue 5 that the cat lover (who is not the dog owner) lives in house 1.
+- From clue 1, since the tulips owner is directly left of the dog owner, house 2 must either be the tulips owner or the dog owner.
+- Given clue 2, the daffodils owner cannot be in house 2; therefore, they must be in house 3 or 4.
+- Following clue 4, since the owner of horses must be to the left of someone with lilies, horses cannot be in house 4.
+
+As a result:
+1. House 1 - Cat lover
+2. House 2 - Owner of tulips
+3. House 3 - Owner of horses
+4. House 4 - Owner of dogs (from deduction of other clues)
+
+The only remaining pet, fish, must belong to house 3. Thus, the only possible configuration leads to:
+
+- House 1: Cat lover (no specified flowers)
+- House 2: Tulips owner (no specified pet)
+- House 3: Horses owner (no specified flowers)
+- House 4: Dog owner (no specified flowers)
+
+Conclusively, the house that the fish enthusiast occupies must be house 2, as it’s the only arrangement left. Thus, through elimination and logical deduction:
+
+The number of the house where the fish enthusiast lives is 4.

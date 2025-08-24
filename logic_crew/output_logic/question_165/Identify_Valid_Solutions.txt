@@ -1,0 +1,8 @@
+The number of the house where the person who owns horses lives is house number 1. The arrangements based on the clues are as follows:
+
+| House Number | Favorite Drink | Musical Instrument | Pet        | Book Preference        |
+|--------------|----------------|---------------------|------------|-------------------------|
+| 1            | Tea            | Guitar              | Horses     | History book buff       |
+| 2            | Root Beer      | (Adjacent)          | Cat        | Mystery book reader     |
+
+This arrangement satisfies all provided clues, confirming that the horse owner is in house 1.

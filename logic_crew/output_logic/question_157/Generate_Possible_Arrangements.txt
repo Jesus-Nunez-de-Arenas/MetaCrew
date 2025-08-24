@@ -1,0 +1,15 @@
+House 1:
+- Lunch: Stew  
+- Pet: Horses  
+- Fruit: Oranges  
+- Book Preference: Mystery  
+- Footwear: Sandals  
+
+House 2:
+- Lunch: Fried Rice  
+- Pet: Cat Lover  
+- Fruit: Apples  
+- Book Preference: Science Fiction  
+- Footwear: Running Shoes  
+
+The number of the house where the person who had stew lives is **1**.

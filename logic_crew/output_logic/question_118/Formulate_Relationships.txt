@@ -1,0 +1,12 @@
+The arrangement of the houses and their respective characteristics is as follows:
+
+| House Number | Flowers    | Musical Instrument | Car         |
+|--------------|------------|--------------------|-------------|
+| House 1      | Daffodils  | Saxophonist        | Sedan       |
+| House 2      | Lilies     | Flutist            | Convertible  |
+
+Based on the clues:
+- The person who owns a sedan (House 1) is to the left of the person with the bouquet of lilies (House 2).
+- The flutist does not live in House 1, which means the flutist must be in House 2.
+
+Thus, the number of the house where the person who has a bouquet of lilies lives is House 2.

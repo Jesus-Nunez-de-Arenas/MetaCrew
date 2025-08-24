@@ -1,0 +1,43 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, which is specified as 3. It indicates the distinct living spaces occupied by individuals, numbered from 1 (leftmost) to 3 (rightmost).
+
+2. **houses**: This variable refers to the physical entities in the problem, representing the locations where individuals live. There are three houses with the following identifiers:
+   - House 1
+   - House 2
+   - House 3
+
+3. **characteristics**: This variable encompasses the unique attributes assigned to each occupant of the houses, divided into three categories:
+   - **Sport**: Each person plays a different sport:
+     - Golfer
+     - Basketball Player
+     - Soccer Player
+   - **Lunch**: The type of lunch each individual had, which consists of:
+     - Grilled Cheese
+     - Spaghetti
+     - Pizza
+   - **Flowers**: Different types of flowers in their foyer:
+     - Bouquet of Lilies
+     - Bouquet of Daffodils
+     - Vase of Tulips
+
+4. **clues**: This variable consists of logical statements provided to help establish the relationships and arrangement of individuals within their houses:
+   - Clue 1: The golfer lives directly left of the basketball player.
+   - Clue 2: The person who has a bouquet of lilies lives directly left of the person who ate grilled cheese.
+   - Clue 3: The soccer player lives in the third house.
+   - Clue 4: The person who ate grilled cheese lives somewhere to the left of the person who ate spaghetti.
+   - Clue 5: The person who has a vase of tulips does not live in the third house.
+
+From the clues, we deduce the following:
+
+- From Clue 3, the soccer player is in House 3.
+- From Clue 1, since the golfer must be directly to the left of the basketball player, the only valid arrangement is:
+  - The golfer is in House 1, and the basketball player is in House 2.
+- From Clue 5, the person with a vase of tulips cannot be in House 3. Therefore, House 3 must have either the lilies or the daffodils, and thus House 1 must have the tulips (since it is the only option left).   
+- Based on Clue 2, the person with the bouquet of lilies must be in House 2 (therefore, one can conclude they are also the one who ate grilled cheese).
+- According to Clue 4, since the person who ate grilled cheese (House 2) lives left of the one who ate spaghetti, this means House 1 ate pizza since House 3 is taken by the soccer player, who then cannot be the one eating spaghetti.
+
+Thus, we break down the houses as follows:
+- **House 1**: Golfer, Pizza, Vase of Tulips
+- **House 2**: Basketball Player, Grilled Cheese, Bouquet of Lilies
+- **House 3**: Soccer Player, Spaghetti, Bouquet of Daffodils 
+
+Consequently, the individual who consumed grilled cheese resides in **House 2**.

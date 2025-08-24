@@ -1,0 +1,37 @@
+1. **n**: This variable represents the total number of houses in the row. In this problem, n = 3, as there are three houses numbered from 1 to 3.
+
+2. **houses**: These are the physical locations where the people live, and they are numbered sequentially from 1 to n (1, 2, 3). Each house corresponds to one resident with distinct characteristics.
+
+3. **characteristics**: This variable encompasses the unique traits of each resident in the houses. Three main categories of characteristics are present in this puzzle:
+   - **Flowers**: Each person has different types of flowers in their foyer:
+     - A bouquet of lilies
+     - A vase of tulips
+     - A bouquet of daffodils
+   - **Favorite Colors**: Each person has a favorite color:
+     - Green
+     - White
+     - Yellow
+   - **Pets**: Each person has a different pet:
+     - A bird keeper
+     - A horse owner
+     - A dog owner
+   - **Shoes**: Each person is wearing different shoes:
+     - Boots
+     - Running shoes
+     - Sandals
+
+4. **clues provided**: These are the conditions that need to be satisfied and help in identifying the relationships between the residents’ characteristics:
+   - **Clue 1**: The person who likes white lives in the first house.
+   - **Clue 2**: The person who is wearing boots does not live in the second house.
+   - **Clue 3**: The bird keeper does not live in the third house.
+   - **Clue 4**: The person who likes white and the person who has a bouquet of daffodils live directly next to each other.
+   - **Clue 5**: The person who likes green lives directly left of the person who is wearing running shoes.
+   - **Clue 6**: The dog owner lives somewhere to the right of the person who owns horses.
+   - **Clue 7**: The person who owns horses and the person who has a bouquet of daffodils live directly next to each other.
+   - **Clue 8**: The person who is wearing sandals lives somewhere to the left of the person who has a vase of tulips.
+
+By analyzing these variables and the clues, we can deduce the arrangement of individuals, their flowers, favorite colors, pets, and shoes to answer the main question about the house number where the person who owns horses lives. 
+
+Based on the provided clues, we can derive that the person who owns horses lives in **House 2**. 
+
+The number of the house where the person who owns horses lives is **2**.

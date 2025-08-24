@@ -1,0 +1,28 @@
+The arrangement of the houses and their corresponding characteristics is as follows:
+
+House 1:
+- Shoes: Running shoes
+- Car: Minivan
+- Pet: Cat
+
+House 2:
+- Shoes: Sandals
+- Car: SUV
+- Pet: Dog
+
+House 3:
+- Shoes: Loafers
+- Car: Sedan
+- Pet: Fish
+
+House 4:
+- Shoes: High heels
+- Car: Truck
+- Pet: Horses
+
+House 5:
+- Shoes: Boots
+- Car: Convertible
+- Pet: Bird
+
+Thus, the person who owns horses lives in house number **4**.

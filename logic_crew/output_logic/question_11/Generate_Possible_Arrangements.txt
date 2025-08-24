@@ -1,0 +1,15 @@
+| House Number | Resident Characteristics                       |
+|--------------|-----------------------------------------------|
+| 1            | Golfer                                        |
+| 2            | Swimmer, Mystery Book Reader                  |
+| 3            | Basketball Player, Romance Book Lover         |
+| 4            | History Book Buff                             |
+
+Based on the logical deductions made from the clues provided:
+- The golfer resides in House 1.
+- The swimmer, who must live directly left of the romance book lover, is placed in House 2.
+- The romance book lover then occupies House 3.
+- Subsequently, the history book buff is in House 4 to align with the clues stated.
+- The basketball player, therefore, must reside in House 3, as all other options are filled.
+
+Thus, the house number where the basketball player lives is **3**.

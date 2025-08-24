@@ -1,0 +1,24 @@
+The number of the house where the person who is eating apples lives is **1**. Here’s the complete arrangement of each house's characteristics:
+
+- **House 1**:
+  - Flowers: Carnations
+  - Shoes: Running Shoes
+  - Fruit: Apples
+  - Drink: Milk
+  - Color: White
+
+- **House 2**:
+  - Flowers: Tulips
+  - Shoes: Boots
+  - Fruit: Kiwis
+  - Drink: Coffee
+  - Color: Green
+
+- **House 3**:
+  - Flowers: Lilies
+  - Shoes: High Heels
+  - Fruit: Oranges
+  - Drink: Tea
+  - Color: Blue
+
+This arrangement satisfies all the clues and constraints provided in the puzzle.

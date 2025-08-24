@@ -1,0 +1,27 @@
+1. n: This refers to the total number of houses in the scenario. In this case, n = 4, representing four houses arranged from left to right, numbered 1 to 4.
+
+2. Houses: The houses are numbered sequentially from 1 to n (4). Each house has a unique resident with distinct characteristics. Each house corresponds to an index that allows for identifying individuals and their attributes.
+
+3. Characteristics: There are various attributes assigned to each person living in the houses. These characteristics include:
+   - Pets: Each person has a pet type which can be one of the following: a dog, horses, a cat, or fish.
+   - Shoes: Each person is wearing a different type of footwear: high heels, running shoes, sandals, or loafers.
+   - Drinks: Each person has a favorite beverage: water, coffee, root beer, or milk.
+   - Color: Each person favors a color: yellow, green, white, or red.
+   - Cars: Each person drives a different type of car: a sedan, a convertible, an SUV, or a minivan.
+
+4. Clues: The clues serve as logical constraints or conditions that provide insights into the arrangement of the residents and their respective characteristics. These clues help reveal relationships between the houses and the individuals, ultimately leading to the solution of who lives where and what their preferences are. The clues provided are:
+   - Clue 1: The person who likes yellow does not live in the fourth house.
+   - Clue 2: The dog owner lives directly left of the person who only drinks water.
+   - Clue 3: There is one house between where the person who likes red lives and where the person who owns an SUV lives.
+   - Clue 4: The dog owner lives in the third house.
+   - Clue 5: There are two houses between where the person who likes milk lives and where the person who owns a sedan lives.
+   - Clue 6: The person who drives a minivan lives directly left of the person who is wearing sandals.
+   - Clue 7: The person who is wearing loafers does not live in the first house.
+   - Clue 8: The person who owns horses lives in the fourth house.
+   - Clue 9: The root beer lover lives somewhere to the left of the coffee drinker.
+   - Clue 10: The person who is wearing high heels lives somewhere to the left of the dog owner.
+   - Clue 11: The person who owns an SUV lives somewhere to the right of the person who is wearing loafers.
+   - Clue 12: The person who likes white lives in the third house.
+   - Clue 13: The fish enthusiast lives in the first house.
+
+By analyzing these variables and clues systematically, I can deduce the answer to the initial question regarding the house number of the person who likes red.

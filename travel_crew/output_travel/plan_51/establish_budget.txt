@@ -1,0 +1,100 @@
+**Overall Vacation Budget Breakdown**
+
+**Total Budget:** $6,500
+
+### Transportation:
+1. **Flight from Indianapolis to Charlotte:**
+   - Flight Number: F3659001
+   - Cost: $105
+
+2. **Flight from Charlotte to Wilmington:**
+   - Flight Number: F3666307
+   - Cost: $87
+
+3. **Self-driving from Wilmington to Asheville:**
+   - Distance: 541 km
+   - Cost: $27 
+
+4. **Self-driving from Asheville to Indianapolis:**
+   - Distance: 757 km
+   - Cost: $37 
+
+**Total Transportation Cost:** 
+- $105 + $87 + $27 + $37 = **$256**
+
+### Accommodation:
+1. **Charlotte Stay:** Affordable Spacious Refurbished Room in Bushwick!
+   - Cost per night: $274 
+   - Duration: 2 nights 
+   - Total: $548 
+
+2. **Wilmington Stay:** Prime East Village location w/backyard garden!
+   - Cost per night: $978 
+   - Duration: 2 nights 
+   - Total: $1,956 
+
+3. **Asheville Stay:** Beautiful 2BR Apt, 1 Min Walk to Major Subway!
+   - Cost per night: $182 
+   - Duration: 2 nights 
+   - Total: $364 
+
+**Total Accommodation Cost:** 
+- $548 + $1,956 + $364 = **$2,868**
+
+### Food:
+1. **Charlotte:**
+   - Breakfast: - (Included in accommodation)
+   - Lunch (Day 1): Cafe Maple Street - Cost: $91
+   - Dinner (Day 1): Bombay Vada Pav - Cost: $33 
+   - Breakfast (Day 2): Olive Tree Cafe - Cost: $23 
+   - Lunch (Day 2): Birbal Ji Dhaba - Cost: $40
+   - Dinner (Day 2): Pind Balluchi - Cost: $42 
+
+2. **Wilmington:**
+   - Breakfast (Day 3): Nagaland's Kitchen - Cost: $73 
+   - Lunch (Day 3): Taco Bus - Cost: $59 
+   - Dinner (Day 3): Azteca - Cost: $56 
+   - Breakfast (Day 4): Dunkin' Donuts - Cost: $25 
+   - Lunch (Day 4): Bandit Burrito - Cost: $26 
+   - Dinner (Day 4): Rose Cafe - Cost: $96 
+
+3. **Asheville:**
+   - Breakfast (Day 5): Glen's Bakehouse - Cost: $22 
+   - Lunch (Day 5): Vince's Restaurant & Pizzeria - Cost: $71
+   - Dinner (Day 5): Captain Grub - Cost: $61 
+   - Breakfast (Day 6): - (Included in accommodation)
+   - Lunch (Day 6): Sachdeva Chicken Corner - Cost: $52 
+   - Dinner (Day 6): Pizza Hut - Cost: $11 
+
+**Total Food Cost:** 
+- $91 + $33 + $23 + $40 + $42 + $73 + $59 + $56 + $25 + $26 + $96 + $22 + $71 + $61 + $52 + $11 = **$496**
+
+### Activities:
+1. **Charlotte:**
+   - Attraction (Day 1): The Charlotte Museum of History - Cost: Free
+   - Attractions (Day 2): NASCAR Hall of Fame - Cost: Free; Levine Museum of the New South - Cost: Free 
+
+2. **Wilmington:**
+   - Attractions (Day 3): Wilmington Riverwalk - Cost: Free
+   - Attractions (Day 4): Battleship North Carolina - Cost: Free; Bellamy Mansion Museum - Cost: Free 
+
+3. **Asheville:**
+   - Attraction (Day 5): Biltmore - Cost: Free 
+   - Attractions (Day 6): Botanical Gardens at Asheville - Cost: Free; Asheville Pinball Museum - Cost: Free 
+
+**Total Activities Cost:**
+- All attractions listed are free, so **$0.**
+
+### Summary of All Costs:
+- **Transportation:** $256  
+- **Accommodation:** $2,868  
+- **Food:** $496  
+- **Activities:** $0  
+
+**Grand Total:** 
+- $256 + $2,868 + $496 + $0 = **$3,620**
+
+**Remaining Budget:** 
+- $6,500 - $3,620 = **$2,880** 
+
+This detailed breakdown provides clarity on how the vacation budget is allocated across various essential components, ensuring an enjoyable week-long trip through North Carolina within the specified budget.

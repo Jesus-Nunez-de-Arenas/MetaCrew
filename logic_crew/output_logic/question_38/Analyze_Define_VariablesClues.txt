@@ -1,0 +1,43 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 4. The houses are numbered from 1 to 4, with house number 1 on the left and house number 4 on the right.
+
+2. **houses**: There are 4 houses in total, each having one resident who possesses unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Sport**: Each person plays a different sport: one is a swimmer, one is a soccer player, one is a tennis player, and one is a basketball player.  
+   - **Car type**: Each person has a different kind of car: one owns a sedan, one drives an SUV, one drives a truck, and one drives a minivan.  
+   - **Drink**: Each person has a favorite drink: one only drinks water, one is a tea drinker, one is a root beer lover, and one is a coffee drinker.  
+   - **Flowers**: Each person has different flowers in their foyer: one has a carnations arrangement, one has a bouquet of lilies, one has a bouquet of daffodils, and one has a rose bouquet.  
+
+4. **clues**: The problem provides a set of clues that establish relationships and positional context among the various characteristics:  
+   - Clue 1: There is one house between where the coffee drinker lives and where the tennis player lives.  
+   - Clue 2: The person who has a bouquet of daffodils and the person who has a bouquet of lilies live directly next to each other.  
+   - Clue 3: The swimmer lives directly left of the person who owns a sedan.  
+   - Clue 4: The person who drives a truck lives directly left of the person who has a carnations arrangement.  
+   - Clue 5: The person who has a bouquet of lilies lives somewhere to the right of the basketball player.  
+   - Clue 6: The tennis player lives somewhere to the left of the tea drinker.  
+   - Clue 7: The swimmer does not live in the first house.  
+   - Clue 8: The basketball player lives directly left of the person who drives a truck.  
+   - Clue 9: The person who drives a minivan lives in the fourth house.  
+   - Clue 10: The root beer lover lives in the third house.  
+
+Using these clues, we can analyze the relationships and deduce the locations of each individual based on their characteristics. After carefully processing the information:
+
+- The root beer lover lives in House 3 (Clue 10).
+- The minivan is driven by the person in House 4 (Clue 9).
+- The swimmer must be in House 2 (as House 1 is ruled out and must be left of the person who owns a sedan, thus far only House 3 is taken).
+- Basketball player in House 1 (left of the Truck driver who is in House 2).
+- The person who drinks coffee must then live in House 1 (Clue 6 indicates the tennis player must be right of the coffee drinker, but House 1 is the only option left).
+- The carnations arrangement cannot be in House 2 or House 3, thus must be in House 1.
+- This places the tennis player in House 2 with teedrinker while leaving daffodils and lilies to House 3 and House 2 directly next together.
+
+Ultimately, this reasoning concludes that the truck will reside in House 2 and the final arrangement is:
+1. House 1: Basketball Player - Coffee - Carnations - SUV
+2. House 2: Tennis Player - Tea - Daffodils - Truck
+3. House 3: Root Beer Lover - Sedans - Lilies - Swimmer
+4. House 4: Soccer Player - Water - Roses - Minivan
+
+Thus, the number of the house where the person who drives a truck lives is **2**.

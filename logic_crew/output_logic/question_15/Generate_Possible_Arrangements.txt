@@ -1,0 +1,55 @@
+To solve the puzzle involving the two houses, we need to carefully analyze the provided clues and make deductions step by step, culminating in the assignment of characteristics to each house.
+
+### 1. Initial Setup of Houses:
+- **House 1**: Unknown characteristics
+- **House 2**: Unknown characteristics
+
+### 2. Characteristics Categories:
+- **Devices**: Phone, Radio
+- **Books**: Mystery, Fantasy
+- **Lunches**: Pizza, Spaghetti
+- **Colors**: Green, Yellow
+- **Pets**: Cat, Fish
+
+### 3. Analyzing the Clues:
+1. **Clue 1**: The person who likes green lives directly left of the person who has a radio.
+   - This indicates that the green color preference must belong to the person in House 1, with the radio owner in House 2.
+
+2. **Clue 2**: The fantasy book enthusiast lives in the first house.
+   - Therefore, House 1 features a person who enjoys reading fantasy books.
+
+3. **Clue 3**: The fish enthusiast does not reside in the first house.
+   - Thus, the fish enthusiast will live in House 2.
+
+4. **Clue 4**: The person who had pizza does not live in the first house.
+   - This indicates that the person who had pizza is also in House 2.
+
+### 4. Deductions from the Clues:
+- Since House 1 has a fantasy book reader who enjoys green, that person must have a phone (as the radio is in House 2). 
+- Consequently, House 2 will have a person who has the radio, enjoys reading mystery books, ate pizza, and has a fish as a pet.
+- Given that House 1 has no fish enthusiast, that means House 1’s pet is a cat.
+
+### 5. Final Characteristics Assignment:
+- **House 1**: 
+   - Color: Green
+   - Device: Phone
+   - Book: Fantasy
+   - Lunch: Spaghetti (since House 2 has pizza)
+   - Pet: Cat 
+
+- **House 2**:
+   - Color: Yellow
+   - Device: Radio
+   - Book: Mystery
+   - Lunch: Pizza
+   - Pet: Fish
+
+### 6. Overview of Assignments:
+| House | Color  | Device | Book    | Lunch     | Pet  |
+|-------|--------|--------|---------|-----------|------|
+| 1     | Green  | Phone  | Fantasy  | Spaghetti  | Cat  |
+| 2     | Yellow | Radio  | Mystery   | Pizza      | Fish |
+
+After reviewing all clues and assignments, we can conclude that the cat lover resides in **House 1**.
+
+Therefore, the number of the house where the cat lover lives is **1**.

@@ -1,0 +1,19 @@
+1. **House 1**: Based on Clue 4, the mystery book reader lives in the first house. Therefore, the occupant of House 1 must be the person who loves mystery books.
+
+2. **Clue Analysis**:
+   - From Clue 1, the romance book lover cannot be in House 3.
+   - From Clue 2, the person who owns horses cannot live in House 3.
+   - Since the mystery book reader is in House 1, the occupant of House 2 must be either the history book buff or the romance book lover.
+
+3. **Position of Bird Keeper and History Buff**:
+   - According to Clue 3, the bird keeper lives directly left of the history book buff. Given that there are only three houses, and house 1 is assigned to the mystery book reader, the only possible arrangement is for the bird keeper to be in House 2 and the history book buff to be in House 3.
+
+4. **Final Composition of Each House**:
+   - House 1: Mystery book reader, who, according to Clue 2, must have a cat (since the horse owner and the bird keeper cannot occupy this house).
+   - House 2: Bird keeper, therefore can only be the romance book lover, who reads romance books.
+   - House 3: History book buff, who must be the one that owns horses.
+
+5. **Conclusion**:
+   - Therefore, the occupant of House 2 is the romance book lover.
+
+Thus, the number of the house where the romance book lover lives is **House 2**.

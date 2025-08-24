@@ -1,0 +1,39 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, which is 3. The houses are numbered from 1 (left) to 3 (right).
+
+2. **houses**: This variable refers to the physical locations where individuals live. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+
+3. **characteristics**: Each person living in the houses has various attributes categorized as follows:  
+   - **Lunch**: The meals eaten by the individuals are spaghetti, fried rice, and stew.  
+   - **Favorite Color**: The favorite colors of the individuals are white, green, and red.  
+   - **Type of Shoes**: The types of shoes worn by the individuals include high heels, running shoes, and boots.  
+
+4. **clues**: The logical statements provided are essential in determining the relationships and arrangement of individuals in their respective households. The clues are as follows:  
+   - Clue 1: The person who is wearing high heels does not live in the third house.  
+   - Clue 2: The person who likes white lives in the first house.  
+   - Clue 3: The person who ate spaghetti does not live in the second house.  
+   - Clue 4: The person who likes green lives in the second house.  
+   - Clue 5: The person who is wearing boots lives directly left of the person who is wearing high heels.  
+   - Clue 6: The person who is wearing boots lives somewhere to the left of the person who had stew.  
+   - Clue 7: The person who had stew does not live in the second house.  
+
+Using the clues, we analyze the situation systematically:
+
+- From Clue 2, we know the person in House 1 likes white. 
+- From Clue 4, the person in House 2 likes green.
+- Clue 3 stipulates that the person who ate spaghetti does not live in House 2. Therefore, they must live in House 1 or House 3.
+- Since the color of the person in House 1 is white, they cannot eat spaghetti; hence they must have had either fried rice or stew.
+- Clue 7 indicates the person who had stew cannot be in House 2, and since the only remaining house for stew would be House 3, this must be the case. Therefore, the person in House 3 had stew.
+- By elimination, the person in House 1 who cannot have spaghetti must then have had fried rice, leaving the person in House 2 to eat spaghetti.
+- According to Clue 1, since the person in House 3 has stew, the person in House 2 must wear high heels (because they cannot be in House 1).
+- Clue 5 indicates that the person wearing boots (House 1) must be directly left of the person wearing high heels (House 2).
+- As a result, the order of characteristics is as follows:
+   - House 1: Likes white, ate fried rice, wearing boots. 
+   - House 2: Likes green, ate spaghetti, wearing high heels.
+   - House 3: Likes red, ate stew, wearing running shoes.
+
+Thus, the person who ate fried rice lives in **House 1**. 
+
+Therefore, the house number where the person who ate fried rice lives is **1**.

@@ -1,0 +1,27 @@
+1. **n**: This variable represents the total number of houses in the row. In this problem, n = 4, as there are four houses numbered from 1 to 4.
+
+2. **houses**: These are the physical locations where the people live, and they are numbered sequentially from 1 to n (1, 2, 3, 4). Each house corresponds to one resident with distinct characteristics.
+
+3. **characteristics**: This variable encompasses the unique traits of each resident in the houses. Two main categories of characteristics are present in this puzzle:
+   - **Flowers**: Each person has different types of flowers in their foyer: 
+     - A carnations arrangement
+     - A bouquet of daffodils
+     - A vase of tulips
+     - A bouquet of lilies
+   - **Musical instruments**: Each person plays a different musical instrument:
+     - A guitarist
+     - A pianist
+     - A percussionist
+     - A flutist
+  
+4. **clues provided**: These are the conditions that need to be satisfied and help in identifying the relationships between the residents’ characteristics:
+   - **Clue 1**: The flutist lives in the second house.
+   - **Clue 2**: The person who has a vase of tulips lives directly left of the guitarist.
+   - **Clue 3**: The person who has a bouquet of lilies lives directly left of the person who has a carnations arrangement.
+   - **Clue 4**: There is one house between where the flutist lives and where the pianist lives.
+
+By analyzing these variables and the clues, we can deduce the arrangement of individuals, their flowers, and instruments to answer the main question about the house number where the person with the vase of tulips resides. 
+
+After careful consideration of the clues, we find that the person with the vase of tulips lives in **House 1**.
+
+The number of the house where the person who has a vase of tulips lives is **1**.

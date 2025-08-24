@@ -1,0 +1,8 @@
+The number of the house where the person who drives a truck lives is **2**. After analyzing the clues step-by-step, we determined the following arrangement:
+
+1. **House 1**: The basketball player lives here, drinks coffee, has a carnations arrangement, and drives an SUV.  
+2. **House 2**: The tennis player lives here, drinks tea, has a bouquet of daffodils, and drives a truck.  
+3. **House 3**: The root beer lover lives here, drives a sedan, has a bouquet of lilies, and is also the swimmer.  
+4. **House 4**: The soccer player lives here, drinks water, has a rose bouquet, and drives a minivan.  
+
+Thus, based on the clues and the derived characteristics, the truck is associated with House 2.

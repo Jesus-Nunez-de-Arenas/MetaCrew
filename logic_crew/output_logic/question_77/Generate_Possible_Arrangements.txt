@@ -1,0 +1,16 @@
+The person who had pizza lives in house number **2**.
+
+Here’s the complete breakdown of the characteristics for each house based on the clues provided:
+
+| House Number | Drink     | Fruit   | Lunch  | Car     | Device   |
+|--------------|-----------|---------|--------|---------|----------|
+| 1            | Water     | Grapes  | Stew   | Minivan | Radio    |
+| 2            | Root Beer | Banana  | Pizza  | Truck   | Computer |
+
+### Justification of Clues:
+1. **Clue 1**: The person who has a radio (House 1) and the person who drives a truck (House 2) live directly next to each other. This aligns with the setup.
+2. **Clue 2**: The person who has a radio (House 1) lives to the left of the person who had pizza (House 2), confirming their locations.
+3. **Clue 3**: The root beer lover (House 2) does not live in House 1, which confirms the drink associated with that house.
+4. **Clue 4**: The person eating grapes (House 1) lives directly left of the person who has a computer (House 2), indicating the arrangement is correct.
+
+Thus, according to the deductions and clues, the person who had pizza resides in house number **2**.

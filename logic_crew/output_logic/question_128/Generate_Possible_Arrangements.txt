@@ -1,0 +1,5 @@
+- House 1: (Basketball player, Saxophonist, Water-drinker, Cat lover)
+- House 2: (Cricketer, Guitarist, Stew-eater, Fish enthusiast)
+- House 3: (Tennis player, Dog owner, Milk-drinker)
+
+The dog owner lives in house **3**.

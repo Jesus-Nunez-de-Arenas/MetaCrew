@@ -1,0 +1,20 @@
+To clarify the characteristics of the two houses based on the provided clues, we can outline the relationships in a structured approach:
+
+| House Number | Flower Arrangement       | Pet Owner     |
+|--------------|--------------------------|---------------|
+| 1            | Carnations arrangement    | Horses        |
+| 2            | Tulips                   | Dog Owner     |
+
+1. There are two houses labeled as House 1 (on the left) and House 2 (on the right).
+2. Each house has a different flower arrangement:
+   - House 1 has a carnations arrangement.
+   - House 2 has a vase of tulips.
+3. The pet ownership differs as well:
+   - House 1's resident owns horses.
+   - House 2's resident is the dog owner.
+
+**Clue Analysis**:
+1. The clue states that "the person who has a carnations arrangement lives somewhere to the left of the dog owner." 
+   - This means the person with the carnations must be in House 1, placing them to the left of House 2, where the dog owner resides. 
+
+Given this arrangement, the number of the house where the person who has a carnations arrangement lives is **1**.

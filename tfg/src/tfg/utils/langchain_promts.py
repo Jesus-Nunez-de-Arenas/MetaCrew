@@ -45,14 +45,36 @@ crew_prompt_template_single = PromptTemplate(input_variables=["file_path_context
     - Do not add a _main_ due to the fact that the code will be executed using a cli.
     - Add the necessary imports to the top of the file. Take into account the improrts that are already in {base_code}.
     - Do not add imports that are not used in the code.
-    - Based on the {file_path_context_task} and {file_path_context_agents} files, modificate the code 
-        and create the new functions of agents and tasks.
-    - For the each agent and task use the same format as in {crew_example} file, invoking the agent or task, modifying the
-        config and output file like it is done in the {crew_example} file.
     - Add a manager like in {crew_example} file, out of the class and above it.
     - Change the process to hierarchical and add the manager agent.
     - Allow verbose mode in agents and crew.
-    - The output of the tasks will be an .md file.
+    - Based on the {file_path_context_task} and {file_path_context_agents} files, modificate the code 
+        and create the new functions of agents and tasks using the templates.
+    - Template for the new agents and tasks naming from the context files {file_path_context_agents} and {file_path_context_task}:
+        @agent
+        def <agent_name>(self) -> Agent:
+            <agent_name> = Agent(
+            config=self.agents_config['<agent_name>'],
+            verbose=True,
+            tools=[
+                JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
+            ]
+            )
+
+            <agent_name>.config = self.agents_config['<agent_name>']
+        
+            return <agent_name>
+        
+        @task
+        def <task_name>(self) -> Task:
+            <task_name> = Task(
+                config=self.tasks_config['<task_name>'],
+                output_file= os.getenv("OUTPUT_DIR") + '<task_name>.md'
+            )
+    
+            <task_name>.config = self.tasks_config['<task_name>']
+    
+            return <task_name>
     - Use only Ascii characters in the code.
     
 
@@ -66,8 +88,11 @@ crew_prompt_template_single = PromptTemplate(input_variables=["file_path_context
     ```python
     {base_code}
     ```
+
     
-    
+    DO NOT COPY THE TEMPLATE, JUST USE IT TO CREATE THE NEW AGENTS AND TASKS.
+    DO NOT COPY the agents and tasks from {crew_example}, just use it as a reference for the manager agent and process.
+    The code should be a valid Python code.
     Return ONLY the modified code without any other text.
     
     """

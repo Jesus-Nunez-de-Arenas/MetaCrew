@@ -1,0 +1,49 @@
+1. **n**: This represents the total number of houses in the scenario, which is 5.
+
+2. **houses**: The houses are numbered from 1 to 5 (1, 2, 3, 4, and 5). Each house contains one person with unique characteristics.
+
+3. **characteristics**: Each person has different attributes categorized into specific groups:
+   - **Fruit**: Each person eats a different kind of fruit. The options include:
+     - Kiwis
+     - Banana
+     - Oranges
+     - Apples
+     - Grapes
+   - **Pets**: Each person has a different pet. The options are:
+     - Dog
+     - Cat
+     - Fish
+     - Bird
+     - Horses
+   - **Device**: Each person has a different device. The options include:
+     - Television
+     - Computer
+     - Gameboy
+     - Phone
+     - Radio
+   - **Flowers**: Each person has different types of flowers in their foyer. The options are:
+     - Daffodils
+     - Roses
+     - Tulips
+     - Lilies
+     - Carnations
+
+4. **clues**: Specific clues that establish relationships and positional context among the various characteristics:
+   - Clue 1: The person who has a carnations arrangement lives somewhere to the right of the fish enthusiast.
+   - Clue 2: The person who has a radio does not live in the fourth house.
+   - Clue 3: There is one house between where the dog owner lives and where the person who has a phone lives.
+   - Clue 4: The dog owner lives directly left of the person who has a bouquet of lilies.
+   - Clue 5: The person who owns horses lives somewhere to the left of the person who is eating grapes.
+   - Clue 6: The person who has a gameboy lives directly left of the person who has a rose bouquet.
+   - Clue 7: The person who is eating apples lives directly left of the cat lover.
+   - Clue 8: The person who owns horses lives in the third house.
+   - Clue 9: The person who has a radio and the person who has a carnations arrangement live directly next to each other.
+   - Clue 10: There is one house between where the person who is eating a banana lives and where the person who has a carnations arrangement lives.
+   - Clue 11: The person who has a bouquet of daffodils does not live in the first house.
+   - Clue 12: There is one house between where the person who is eating apples lives and where the person who is eating oranges lives.
+   - Clue 13: There are two houses between where the person who is eating a banana lives and where the cat lover lives.
+   - Clue 14: The person who has a computer does not live in the fifth house.
+
+Through careful deduction of the clues and relationships laid out, we can determine the arrangement of individuals in their respective houses. The logical analysis will lead us to conclude where each individual resides according to their characteristics. 
+
+Eventually, deducing from the details and clue interactions, the house where the person who has a phone resides is determined to be house number **3**.

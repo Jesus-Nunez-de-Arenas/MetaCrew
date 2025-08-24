@@ -1,0 +1,10 @@
+The person who has a gameboy lives in House **3**. Here’s the complete arrangement of houses and their characteristics based on the clues provided:
+
+| House Number | Shoes Worn      | Device Owned  |
+|--------------|----------------|---------------|
+| 1            | Boots          | Radio         |
+| 2            | Loafers        | Phone         |
+| 3            | Running Shoes   | Gameboy       |
+| 4            | Sandals        | Television     |
+
+This arrangement satisfies all the clues given in the problem.

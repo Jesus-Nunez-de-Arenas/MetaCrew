@@ -1,0 +1,22 @@
+Variables in the problem statement:
+
+1. **n**: Represents the total number of houses, which in this case is 2 (houses numbered 1 and 2).
+
+2. **houses**: Refers to the locations where the two different individuals reside. Each house is numbered sequentially from 1 (leftmost) to 2 (rightmost).
+
+3. **characteristics**: Each individual in the houses has distinct attributes that need to be discerned:
+   - **Favorite drink**: One person drinks coffee and the other drinks water.
+   - **Type of shoes**: One person wears loafers and the other wears sandals.
+   - **Favorite book genre**: One person is a science fiction book fanatic and the other is a romance book lover.
+
+4. **clues**: The clues provided serve as rules or information to deduce the characteristics of each person in their respective houses:
+   - Clue 1: The coffee drinker lives somewhere to the left of the person who is wearing sandals.
+   - Clue 2: The science fiction book fanatic lives in the first house (house 1).
+
+The overall goal of these variables and clues is to systematically deduce the arrangement of drinks, shoes, and book preferences for each of the two houses, leading to the conclusion of where the romance book lover resides.
+
+By following the clues, we know that:
+- Since the science fiction book fanatic lives in house 1, we deduce they must be the coffee drinker (house 1), as the coffee drinker must be left of the person who wears sandals, who must therefore live in house 2.
+- Consequently, the romance book lover must live in house 2.
+
+Therefore, the number of the house where the romance book lover lives is house number 2.

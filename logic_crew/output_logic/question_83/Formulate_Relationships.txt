@@ -1,0 +1,15 @@
+Based on the analysis of all the clues provided, we can establish the following relationships between the houses and their respective characteristics:
+
+| House Number | Type of Shoes  | Lunch          | Favorite Drink |
+|--------------|----------------|----------------|-----------------|
+| 1            | Boots          | Grilled Cheese | Milk            |
+| 2            | Sandals        | Stew           | Tea             |
+| 3            | High Heels     | Fried Rice     | Water           |
+| 4            | Running Shoes   | Spaghetti      | Root Beer       |
+
+Following the clues step-by-step led us to this conclusion:
+- The tea drinker is confirmed in House 3.
+- The person who had stew must be to the left of the spaghetti eater, which places them in House 2.
+- The person in House 4 is wearing running shoes and loves root beer.
+
+Thus, the person who is wearing running shoes lives in House **4**.

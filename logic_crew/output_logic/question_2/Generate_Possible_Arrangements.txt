@@ -1,0 +1,21 @@
+The number of the house where the cellist lives is 2.  
+
+Here’s the reasoning behind the answer:
+
+1. **House 1 must contain the person who likes green and eats kiwis** (from clues 5 and 8). This means:
+   - House 1: Green, Kiwis, (unknown drink, instrument, device)
+  
+2. **Clue 3 states the person who drinks water lives left of the root beer lover**. Thus, the possible options for House 1 or House 2 may be water, and the root beer lover must be in House 2 or House 3.
+
+3. **From Clue 6, the person who likes blue and the gameboy owner live next to one another.** This means blue can only be associated with House 2 or 3.
+
+4. **Clue 4 notes there is one house between the cellist and the gameboy owner**. This means that if we place the cellist in House 2, then the gameboy must be in House 3, or vice versa.
+
+5. The only placement that maintains all clues is as follows:
+   - **House 1**: Green, Kiwis, (Water drinker, unknown instrument, unknown device)
+   - **House 2**: Unknown color, Unknown fruit (Root beer drinker, must be the cellist, not in House 3)
+   - **House 3**: Unknown color, (Grapes or Oranges) (Gameboy user, non-cellist)
+
+6. By deduction and the provided clues, House 2 is indeed the home of the cellist. 
+
+Thus, the ultimate conclusion derived from the analysis of the clues leads to the fact that the cellist resides in house 2.

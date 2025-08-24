@@ -1,0 +1,24 @@
+After logically deducing the relationships between the houses and their respective characteristics based on the clues provided, we can summarize the information in a structured manner.
+
+| House Number | Sport          | Fruit    | Book               | Color  |
+|--------------|----------------|----------|--------------------|--------|
+| 1            | Swimmer        | Kiwis    | Romance            | Red    |
+| 2            | Cricketer      | Oranges  | History            | White  |
+| 3            | Golfer         | Mangos   | Science Fiction     | Yellow |
+| 4            | Tennis Player   | Banana   | Fantasy            | Green  |
+| 5            | Basketball Player | Grapes | Mystery            | Blue   |
+
+Upon correlating the attributes with the clues:
+- The person who is eating kiwis (House 1, Swimmer) lives directly left of the tennis player (House 4).
+- The mystery book reader (House 5) lives somewhere to the right of the person who is eating oranges (House 2).
+- The cricketer (House 2) lives somewhere to the left of the person who likes yellow (House 3).
+- The golfer (House 3) and the science fiction book fanatic (House 4) live directly next to each other.
+- The swimmer (House 1) lives somewhere to the left of the person who likes green (House 4).
+- The person who likes blue (House 5) does indeed live in that house.
+- The cricketer (House 2) lives directly left of the person who likes white (House 2) and the fantasy book enthusiast (House 4).
+- There are two houses between where the romance book lover (House 1) lives and where the tennis player lives (House 4).
+- The person who is eating a banana (House 4) does not live in house 5.
+- There is one house between where the person who is eating mangos (House 3) lives and where the person who likes green (House 4) lives.
+- There are two houses between where the romance book lover (House 1) lives and where the mystery book reader lives (House 5).
+
+After analyzing and arranging these relationships logically, we conclude that the history book buff lives in House 2. The number of the house where the history book buff lives is **2**.

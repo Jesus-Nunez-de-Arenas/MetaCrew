@@ -1,0 +1,25 @@
+1. n: This represents the total number of houses. In this case, n = 5, indicating there are five houses arranged in a row.
+2. houses: These refer to the individual locations where people live, numbered from 1 to 5, from left to right. Each house contains one person with distinct characteristics.
+3. characteristics: This includes different attributes associated with each person living in the houses, which can be categorized as follows:
+   - Fruit: Each person is eating a different kind of fruit (apples, oranges, bananas, grapes, and mangos).
+   - Musical instrument: Each person plays a different musical instrument (violin, saxophone, piano, percussion, and cello).
+   - Shoes: Each person wears a different type of shoes (sandals, boots, loafers, running shoes, and high heels).
+   - Favorite color: Each person has a favorite color (yellow, red, green, blue, and white).
+   - Book genre: Each person enjoys a different genre of books (romance, science fiction, fantasy, mystery, and history).
+4. Clue(s): These are instructions provided to deduce the arrangement of people based on their characteristics. The clues help in logically determining where each person belongs based on the connections between attributes:
+   - Clue 1: The person who likes green lives directly left of the person who likes blue.
+   - Clue 2: The person who is eating apples lives directly left of the mystery book reader.
+   - Clue 3: There are two houses between the pianist and the person wearing sandals.
+   - Clue 4: The person who is eating grapes does not live in the first house.
+   - Clue 5: The person who is eating oranges lives somewhere to the right of the person who likes green.
+   - Clue 6: There are two houses between the romance book lover and the person who likes yellow.
+   - Clue 7: The fantasy book enthusiast lives somewhere to the left of the saxophonist.
+   - Clue 8: The person who likes white lives somewhere to the left of the person eating a banana.
+   - Clue 9: The person eating oranges and the person wearing loafers live directly next to each other.
+   - Clue 10: The person eating grapes lives somewhere to the left of the history book buff.
+   - Clue 11: The person who likes yellow lives to the left of the person wearing high heels.
+   - Clue 12: The person eating apples lives in the fourth house.
+   - Clue 13: The person eating oranges lives directly left of the fantasy book enthusiast.
+   - Clue 14: The saxophonist lives somewhere to the left of the percussionist.
+   - Clue 15: The person wearing running shoes lives in the first house.
+   - Clue 16: The science fiction book fanatic and the cellist live directly next to each other.

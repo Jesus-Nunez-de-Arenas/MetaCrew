@@ -1,0 +1,7 @@
+**The bird keeper lives in House 2.**
+  
+Complete arrangements are as follows:
+- **House 1**: Grilled Cheese, Guitarist, Carnations, Cat Lover
+- **House 2**: Fried Rice, Bird Keeper, Tulips
+- **House 3**: Spaghetti, Dog Owner, Lilies
+- **House 4**: Pizza, Horses, Roses

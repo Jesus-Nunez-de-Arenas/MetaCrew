@@ -1,0 +1,10 @@
+Here’s the structured representation of the houses and their respective characteristics based on the clues provided:
+
+| House Number | Shoes Worn | Device Owned |
+|--------------|------------|--------------|
+| 1            | Boots      | Radio        |
+| 2            | Loafers    | Phone        |
+| 3            | Running Shoes | Gameboy    |
+| 4            | Sandals    | Television    |
+
+- The person who has a gameboy lives in House **3**.

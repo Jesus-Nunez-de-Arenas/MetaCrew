@@ -7,6 +7,7 @@ from unstructured.partition.auto import partition
 import json
 import csv
 from .langchain_utils import run_agent_on_file, run_subtask_agent_on_file, modify_single_main_python_code, modify_single_crew_python_code
+import re
 
 ############################################################################
 # --------------------------------- Code --------------------------------- #
@@ -321,14 +322,14 @@ def single_main_code(workflow_path: str) -> None:
         raise Exception(f"Error modifying main Python code: {e}")
     
 
-def single_crew_code(task_yaml_path: str, agents_yaml_path: str) -> None:
+def single_crew_code(task_path: str, agents_path: str) -> None:
     try:
         
         crew_code = modify_single_crew_python_code(file_path_python=os.path.abspath(os.path.join(__file__, os.getenv("OUTPUT_PATH") +
                                                 os.getenv("CREW_NAME") + "/src/" + 
                                                 os.getenv("CREW_NAME") + "/crew.py")), 
-                                            file_path_context_task=task_yaml_path,
-                                            file_path_context_agents=agents_yaml_path)
+                                            file_path_context_task=task_path,
+                                            file_path_context_agents=agents_path)
         
         try: 
             clean_crew_code = strip_markdown_fencing_python(crew_code)
@@ -449,3 +450,40 @@ def yaml_agents_tasks() -> None:
 
     except Exception as e:
         raise Exception(f"Error creating task YAML file: {e}")
+    
+    
+def modify_single_crew_code(tasks_context_info, agents_context_info, crew_example) -> str:
+    """
+    Modify the crew code based on context information.
+    
+    Args:
+        base_code (str): The base crew code.
+        tasks_context_info (str): The context information for tasks.
+        agents_context_info (str): The context information for agents.
+        
+    Returns:
+        str: The modified crew code as a string.
+    """
+    modified_code = crew_example
+
+    # Eliminate code between the first @agent and @crew
+    pattern = r'@agent[\s\S]*?@crew'
+    modified_code = re.sub(pattern, '@crew', modified_code)
+
+    # Add the agents
+    agent_code = ''
+    for agent_name in agents_context_info:
+        agent_decorator = f"@agent\n"
+        agent_function = f"def {agent_name}():\n    {agent_name} = Agent(\n config=self.agents_config['{agent_name}'],\n   verbose=True,\n    tools=[\n        JSONSearchTool(json_path=os.getenv('OUTPUT_DIR'))\n    ]\n)\n\n    {agent_name}.config = self.agents_config['{agent_name}']\n\n    return {agent_name}\n"
+        agent_code += f"\n{agent_decorator}{agent_function}"
+    modified_code = modified_code.replace('@crew', agent_code + '\n@crew')
+    
+    # Add the tasks
+    task_code = ''
+    for task_name in tasks_context_info:
+        task_decorator = f"@task\n"
+        task_function = f"def {task_name}():\n    {task_name} = Task(\n config=self.tasks_config['{task_name}'],\n   output_file=os.getenv('OUTPUT_DIR') + '{task_name}.md'\n)\n\n    {task_name}.config = self.tasks_config['{task_name}']\n\n    return {task_name}\n"
+        task_code += f"\n{task_decorator}{task_function}"
+    modified_code = modified_code.replace('@crew', task_code + '\n@crew')
+
+    return modified_code

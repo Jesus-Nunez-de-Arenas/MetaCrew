@@ -1,0 +1,61 @@
+1. **n**: This variable represents the total number of houses in the scenario, which is 3. The houses are numbered from 1 on the left to 3 on the right.
+
+2. **houses**: There are 3 houses in total, each with one resident possessing unique characteristics. The houses are numbered as follows:
+   - House 1
+   - House 2
+   - House 3
+
+3. **characteristics**: Each resident has different attributes categorized as follows:  
+   - **Flowers**: Each resident has different kinds of flowers in their foyer. The options are:
+     - Lilies
+     - Carnations
+     - Daffodils
+   - **Favorite Color**: Each resident has a favorite color. The options are:
+     - Green
+     - Blue
+     - Yellow
+   - **Footwear/Shoes**: Each resident is wearing different types of shoes. The options are:
+     - Boots
+     - Loafers
+     - High Heels
+   - **Book Preferences**: Each resident likes a different kind of book. The options are:
+     - Romance
+     - History
+     - Science Fiction
+
+4. **clues**: The following clues are provided to establish relationships and positions among the characteristics:
+   - **Clue 1**: The person who likes blue lives somewhere to the right of the person who is wearing high heels.
+   - **Clue 2**: The person who likes yellow does not live in the first house.
+   - **Clue 3**: The history book buff lives in the second house.
+   - **Clue 4**: The person who likes yellow does not live in the third house.
+   - **Clue 5**: The person who has a bouquet of lilies lives somewhere to the right of the science fiction book fanatic.
+   - **Clue 6**: The person who is wearing loafers lives in the third house.
+   - **Clue 7**: The person who has a bouquet of daffodils lives in the second house.
+   - **Clue 8**: The person who is wearing boots and the person who likes yellow live directly next to each other.
+
+Through analyzing these clues, we deduce the arrangement of the individuals:
+
+- From **Clue 3**, the history book buff must be in House 2.
+- **Clue 7** states the person with daffodils is also in House 2.
+- Therefore, House 2 must have the person who has daffodils and is the history book buff.
+- **Clue 6** confirms that House 3 has the person wearing loafers.
+- **Clue 1** states that the blue lover must be to the right of someone wearing high heels. Since high heels must therefore be in House 1, we can assert:
+  - House 1: High Heels, ... (not blue, not yellow) 
+  - House 2: History book buff, Daffodils
+  - House 3: Loafers, not yellow
+  
+Since the person in House 1 wears high heels and cannot have blue or yellow (thus must be green), it follows that:
+- House 1: High Heels, Green
+- House 2: History book buff, Daffodils
+- House 3: Must be Yellow + Loafers
+
+The only remaining flower arrangement is lilies which must then occupy House 3 with the blue lover:
+
+- House 1: High Heels, Green
+- House 2: History book buff, Daffodils, (possibly yellow)
+- House 3: Boots, Blue
+
+With these arrangements confirmed, we conclude that:
+- The person who likes green lives in House **1**.
+
+So, the number of the house where the person who likes green lives is **1**.

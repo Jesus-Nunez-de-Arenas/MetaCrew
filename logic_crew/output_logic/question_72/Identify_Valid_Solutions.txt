@@ -1,0 +1,19 @@
+The number of the house where the history book buff lives is **2**. 
+
+Here’s the complete arrangement of the houses with the corresponding characteristics:
+
+| House Number | Sport            | Fruit    | Book               | Color  |
+|--------------|------------------|----------|--------------------|--------|
+| 1            | Swimmer          | Kiwis    | Romance            | Red    |
+| 2            | Cricketer        | Oranges  | History            | White  |
+| 3            | Golfer           | Mangos   | Science Fiction     | Yellow |
+| 4            | Tennis Player    | Banana   | Fantasy            | Green  |
+| 5            | Basketball Player | Grapes   | Mystery            | Blue   |
+
+Through logical deductions based on the provided clues:
+- The swimmer (House 1) is eating kiwis and lives directly left of the tennis player (House 4).
+- The cricketer (House 2) is to the left of the fantasy book enthusiast (House 4) and the person who likes white (House 3).
+- The person eating oranges (House 2) is to the left of the mystery book reader (House 5).
+- There are two houses between the romance book lover (House 1) and the tennis player (House 4), consistent with House 2 being the history book buff.
+
+Considering all conditions, it has been conclusively determined that the history book buff resides in **House 2**.

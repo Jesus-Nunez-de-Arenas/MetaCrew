@@ -1,0 +1,24 @@
+1. **n**: This represents the total number of houses in the scenario, which is 3.
+   
+2. **houses**: The houses are numbered from 1 to n (1, 2, and 3). Each house contains one person with unique characteristics.
+
+3. **characteristics**: There are several characteristics attributed to the individuals in the houses:
+   - **fruit**: Each person eats a different fruit: kiwis, grapes, or oranges.
+   - **drink**: Each person has a different favorite drink: coffee, root beer, or water.
+   - **color**: Each person has a different favorite color: blue, white, or green.
+   - **musical instrument**: Each person plays a different instrument: guitar, cello, or percussion (drums).
+   - **device**: Each person has a different device: television, phone, or gameboy.
+
+4. **clues**: Specific clues provided that help in determining the arrangement of the characteristics:
+   - Clue 1: The root beer lover lives somewhere to the left of the person who is eating grapes.
+   - Clue 2: The person who has a television lives somewhere to the left of the root beer lover.
+   - Clue 3: The person who only drinks water lives somewhere to the left of the root beer lover.
+   - Clue 4: There is one house between where the cellist lives and where the person who has a gameboy lives.
+   - Clue 5: The person who likes green lives in the first house.
+   - Clue 6: The person who likes blue and the person who has a gameboy live directly next to each other.
+   - Clue 7: The percussionist does not live in the second house.
+   - Clue 8: The person who is eating kiwis lives in the first house.
+
+Through analyzing the clues and piecing together the information, we can deduce where each person lives and their respective characteristics. By considering the position of the cellist in relation to the gameboy owner and other entities, we conclude that the cellist lives in house number 2.
+
+Thus, the number of the house where the cellist lives is **2**.

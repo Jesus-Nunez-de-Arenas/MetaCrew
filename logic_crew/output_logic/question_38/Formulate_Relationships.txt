@@ -1,0 +1,10 @@
+Based on the analysis of the clues provided, we have derived the following attributes for each house:
+
+| House Number | Resident        | Sport          | Drink     | Car      | Flowers            |
+|--------------|-----------------|----------------|-----------|----------|--------------------|
+| 1            | Basketball Player| Basketball      | Coffee    | SUV      | Carnations          |
+| 2            | Tennis Player    | Tennis         | Tea       | Truck    | Daffodils           |
+| 3            | Swimmer          | Swimming       | Root Beer | Sedan    | Lilies              |
+| 4            | Soccer Player    | Soccer         | Water     | Minivan  | Roses               |
+
+From this arrangement, we can conclude that the person who drives a truck lives in House 2. Thus, the number of the house where the person who drives a truck lives is **2**.

@@ -1,0 +1,8 @@
+| House Number | Car Type    | Device   |
+|--------------|-------------|----------|
+| 1            | Minivan     | ???      |
+| 2            | Convertible  | Computer |
+| 3            | Truck       | Gameboy  |
+| 4            | SUV         | Radio    |
+
+Thus, the person who owns an SUV lives in **House 4**.

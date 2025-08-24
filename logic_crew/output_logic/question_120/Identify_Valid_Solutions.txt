@@ -1,0 +1,33 @@
+The person who has a vase of tulips lives in House number 4. Here's the complete arrangement of the houses and their characteristics:
+
+House 1:
+- Drink: Root Beer
+- Device: Radio
+- Flowers: Rose bouquet
+- Instrument: Saxophone
+
+House 2:
+- Drink: Water
+- Device: Gameboy
+- Flowers: Daffodils
+- Instrument: Cello
+
+House 3:
+- Drink: Coffee
+- Device: Computer
+- Flowers: Carnations
+- Instrument: Violin
+
+House 4:
+- Drink: Tea
+- Device: Phone
+- Flowers: Tulips
+- Instrument: Percussion
+
+House 5:
+- Drink: Milk
+- Device: Television
+- Flowers: Lilies
+- Instrument: Flute
+
+Based on the clues, the above characteristics were logically deduced, confirming that the person who has a vase of tulips indeed lives in House number 4.

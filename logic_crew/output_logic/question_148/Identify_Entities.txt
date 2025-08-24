@@ -1,0 +1,35 @@
+To solve this puzzle based on the clues provided, let's break down each clue and analyze their implications step-by-step:
+
+1. **Understanding the Layout**:
+   - There are 2 houses: House 1 (left) and House 2 (right). 
+   - Each house has a unique occupant with distinct characteristics.
+
+2. **Clue Analysis**:
+   - **Clue 1**: "The person who is wearing high heels lives somewhere to the left of the person who is wearing sandals."
+     - This indicates that the person in House 1 (left) could be wearing high heels and the person in House 2 (right) is wearing sandals.
+     - Alternatively, if the sandals are in House 1, then high heels would not be possible in House 2 based on this clue.
+
+   - **Clue 2**: "The person who is eating grapes and the person who is wearing sandals live directly next to each other."
+     - This means that if House 2 has the person wearing sandals, then House 1 must have the person eating grapes.
+
+   - **Clue 3**: "The tea drinker lives somewhere to the left of the person who has a television."
+     - This means that the tea drinker must be in House 1 if the television is in House 2.
+
+3. **Combining Clues**:
+   From Clue 1 and Clue 3, we establish:
+   - If House 1 has the tea drinker, then it aligns with the person wearing high heels; thus House 1 must have the high heels wearing tea drinker, and the person in House 2 would be wearing sandals, and since they must be neighbors, they could be eating grapes.
+   - This means: 
+     - House 1: High Heels, Tea Drinkers, Grapes
+     - House 2: Sandals, Television, Kiwis or Water
+   Or, House 1 could contain the person with sandals leading to the ideal case of failing clue 3.
+
+4. **Conclusion**:
+Finally, we combine all implications:
+   - House 1 would have the person eating grapes, hence:
+     - House 1: High Heels, Tea, Grapes 
+     - House 2 must therefore accumulate other properties:
+       - With water or maybe Kiwis.
+
+Given the clues and constraints, the most consistent arrangement would imply House 1 contains the person eating grapes and House 2 consequently houses kiwis.
+
+Thus, the number of the house where the person who is eating kiwis lives is **2**.

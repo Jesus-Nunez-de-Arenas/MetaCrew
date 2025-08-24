@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Select Target Word",
+        "description": "Identify the specific word from the user-provided list that will be the focus for finding associated words.",
+        "expected_output": "The selected target word that will be analyzed."
+    },
+    {
+        "name": "Identify Associated Words",
+        "description": "Analyze the selected target word and identify the three words that are best associated with it from the provided list.",
+        "expected_output": "A list of three words that are best associated with the target word."
+    },
+    {
+        "name": "Prepare Results",
+        "description": "Compile the identified associated words into a formatted output for presentation.",
+        "expected_output": "A structured response containing the target word and its three associated words."
+    }
+]

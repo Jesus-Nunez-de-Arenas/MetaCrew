@@ -1,0 +1,9 @@
+The person who has a gameboy lives in House 1. The complete arrangements of the houses and their corresponding characteristics are detailed below:
+
+| House Number | Device      | Flowers               | Instrument   | Pet        | Book                  |
+|--------------|-------------|-----------------------|--------------|------------|-----------------------|
+| 1            | Gameboy     | Carnations            | Percussionist| Horses     | History book buff     |
+| 2            | Computer    | Lilies                | Flutist      | Bird       | Mystery book reader    |
+| 3            | Phone       | Rose bouquet          | Cellist      | Fish       | Romance book lover    |
+
+Thus, the correct house where the person who owns a gameboy resides is House 1.

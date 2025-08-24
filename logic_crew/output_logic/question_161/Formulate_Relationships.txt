@@ -1,0 +1,17 @@
+To summarize the information based on the clues provided, here’s how the arrangement of houses and their respective characteristics looks:
+
+| House Number | Fruit    | Car       | Pet       |
+|--------------|----------|-----------|-----------|
+| 1            | Oranges  | Sedan     | Dog       |
+| 2            | Mangos   | Truck     | Bird      |
+| 3            | Bananas  | Convertible| Horses    |
+
+Based on the clues:
+1. The person who is eating oranges lives in the first house. (Confirmed)
+2. The person who drives a truck lives directly left of the person who drives a convertible. (House 2 has the truck and House 3 has the convertible)
+3. The bird keeper lives somewhere to the right of the dog owner. (House 1 has the dog)
+4. The person who is eating mangos does not live in the third house. (House 2 has mangos)
+5. The person who owns horses lives in the third house. (Confirmed in House 3)
+6. The person who is eating mangos and the person who drives a convertible live directly next to each other. (House 2 and House 3)
+
+Thus, the number of the house where the person who drives a truck lives is **2**.

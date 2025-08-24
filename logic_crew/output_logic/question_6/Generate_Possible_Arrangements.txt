@@ -1,0 +1,13 @@
+The number of the house where the person who has a bouquet of daffodils lives is 3. The possible arrangements of the houses with their characteristics are: 
+
+1. House 1: Soccer Player, Eating Mangos, Vase of Tulips
+2. House 2: Basketball Player, Eating Oranges, Bouquet of Lilies
+3. House 3: Swimmer, Eating Bananas, Bouquet of Daffodils
+
+This arrangement satisfies all clues:
+- The soccer player (House 1) is to the left of the person eating oranges (House 2).
+- The swimmer (House 3) is next to the person with the bouquet of daffodils (House 3).
+- The person with the vase of tulips (House 1) is to the right of the person eating mangos (House 1).
+- The person with the bouquet of daffodils (House 3) is to the right of the person eating oranges (House 2). 
+
+Thus, the final deduction confirms that the bouquet of daffodils is in House 3.

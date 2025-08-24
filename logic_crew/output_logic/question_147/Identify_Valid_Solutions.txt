@@ -1,0 +1,10 @@
+The person wearing high heels lives in House 2. To elaborate on the solution: Based on the clues provided:  
+1. The person who drinks water must live in House 1 (directly left of the person wearing high heels).  
+2. The person who wears sandals must live in House 1 (directly left of the person who likes yellow).  
+3. The individual eating kiwis resides in House 2.  
+  
+From the deductions, we have established that:  
+- House 1 has the person drinking water, wearing sandals, and eating grapes.  
+- House 2 has the person drinking milk, wearing high heels, and eating kiwis.  
+  
+This leads us to the conclusion that the person wearing high heels indeed lives in House 2.

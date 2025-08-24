@@ -1,0 +1,9 @@
+The number of the house where the person who only drinks water lives is **4**. The arrangement of houses and their corresponding characteristics is as follows:
+
+| House Number | Shoes         | Favorite Drink |
+|--------------|---------------|----------------|
+| 1            | Boots         | Root Beer      |
+| 2            | Loafers       | Coffee         |
+| 3            | Sandals       | Milk           |
+| 4            | Running Shoes  | Water          |
+| 5            | High Heels    | Tea            |

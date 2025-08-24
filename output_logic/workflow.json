@@ -1,0 +1,7 @@
+[
+    {"task": "Identify Variables", "expert": "Oliver Smith", "subtask": "Define Variables"},
+    {"task": "Analyze Clues", "expert": "Clara Watson", "subtask": "Analyze Clues"},
+    {"task": "Formulate Relationships", "expert": "Emily Davis", "subtask": "Formulate Relationships"},
+    {"task": "Generate Possible Arrangements", "expert": "Michael Brown", "subtask": "Generate Possible Arrangements"},
+    {"task": "Identify Valid Solutions", "expert": "Sophia Green", "subtask": "Identify Valid Solutions"}
+]

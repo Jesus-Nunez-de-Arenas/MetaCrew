@@ -1,0 +1,15 @@
+Select_Target_Word:
+  description: >
+    {topic} Identify the specific word from the user-provided list that will be the focus for finding associated words.
+  expected_output: >
+    The selected target word that will be analyzed.
+Identify_Associated_Words:
+  description: >
+    {topic} Analyze the selected target word and identify the three words that are best associated with it from the provided list.
+  expected_output: >
+    A list of three words that are best associated with the target word.
+Prepare_Results:
+  description: >
+    {topic} Compile the identified associated words into a formatted output for presentation.
+  expected_output: >
+    A structured response containing the target words.

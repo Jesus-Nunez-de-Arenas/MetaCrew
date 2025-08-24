@@ -1,0 +1,45 @@
+1. **n**: This represents the total number of houses, which is 4 (numbered 1, 2, 3, and 4).  
+2. **houses**: The entities in this problem, each representing a distinct living space occupied by individuals with unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+   - House 4  
+3. **characteristics**: The various traits attributed to each individual living in the houses. This includes:  
+   - **Device**: Each person owns a different device: radio, phone, television, or gameboy.  
+   - **Shoes**: Each person has a different type of shoes: boots, sandals, loafers, or running shoes.  
+4. **clues**: The given logical statements that help in deducing the arrangement of traits among the houses. The clues are as follows:  
+   - Clue 1: The person who has a television lives in the fourth house.  
+   - Clue 2: The person who is wearing loafers lives in the second house.  
+   - Clue 3: The person who has a phone does not live in the second house.  
+   - Clue 4: The person who is wearing boots lives somewhere to the left of the person who is wearing loafers.  
+   - Clue 5: There are two houses between where the person who has a radio lives and where the person who is wearing sandals lives.  
+
+Analyzing the clues step by step:  
+- From Clue 1, we know that the television is in House 4.  
+- Clue 2 tells us that loafers are in House 2.  
+- Clue 3 indicates that the phone cannot be in House 2, meaning the phone is either in House 1 or House 3 (House 4 has the television).  
+- Clue 4 states that boots must be to the left of the loafers in House 2. Hence, boots must be in House 1, as it is the only house to the left of House 2.  
+- Therefore:  
+  - House 1: Boots  
+  - House 2: Loafers  
+  - House 3: ?   
+  - House 4: Television  
+
+Now analyzing Clue 5:  
+- There are two houses between the person with a radio and the person with sandals. Given that House 1 has boots and House 2 has loafers, the only arrangement that works is if House 1 has the radio and House 4 has televisions, then House 3 must have sandals.  
+
+Conclusively, we find that:  
+- House 1: Boots (Radio)  
+- House 2: Loafers (Person must be either Phone or Sandals)   
+- House 3: Sandals (Person must be either Phone or Gameboy)  
+- House 4: Television (Person must have Gameboy)  
+
+Since we've already established positions for the television, the only device left for House 3 is the phone:  
+- House 1: Radio & Boots  
+- House 2: Loafers  
+- House 3: Phone & Sandals  
+- House 4: Television (Gameboy)
+
+After clarifying the final assignment, the only house without an assigned device is House 3 occupied with the Gameboy.  
+
+Final result shows the house with the gameboy as House **3**.

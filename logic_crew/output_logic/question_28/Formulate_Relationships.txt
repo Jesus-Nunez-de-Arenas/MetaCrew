@@ -1,0 +1,14 @@
+Based on the clues provided and the deductions made, here's the structured analysis of the houses and their respective characteristics:
+
+| House Number | Lunch       | Sport      |
+|--------------|-------------|------------|
+| 1            | Unknown     | Swimmer    |
+| 2            | Spaghetti   | Cricketer  |
+| 3            | Fried Rice  | Tennis Player |
+
+From the deductions:
+- The person living in **House 1** is the Swimmer with an unknown type of lunch.
+- The person living in **House 2** is the Cricketer who ate Spaghetti.
+- The person living in **House 3** is the Tennis Player who had Fried Rice.
+
+Thus, the number of the house where the person who ate spaghetti lives is **2**.

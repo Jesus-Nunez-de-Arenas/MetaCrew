@@ -1,0 +1,35 @@
+1. **n**: This variable represents the total number of houses in a row. In this specific problem, n = 3, as there are three houses numbered from 1 to 3.
+
+2. **houses**: These are the physical locations where the individuals live. They are numbered sequentially from 1 to n (1, 2, 3), with each house corresponding to one resident who has distinct characteristics.
+
+3. **characteristics**: This variable encompasses the unique traits of each resident in the houses. There are three main categories of characteristics present in this puzzle:
+   - **Sports**: Each person plays a different sport:
+     - A soccer player
+     - A basketball player
+     - A swimmer
+   - **Fruits**: Each person is eating a different kind of fruit:
+     - A banana
+     - Mangos
+     - Oranges
+   - **Flowers**: Each person has different types of flowers in their foyer:
+     - A vase of tulips
+     - A bouquet of lilies
+     - A bouquet of daffodils
+
+4. **clues provided**: These clues outline conditions that must be satisfied, aiding in identifying relationships among the residents' characteristics:
+   - **Clue 1**: The soccer player lives somewhere to the left of the person who is eating oranges.
+   - **Clue 2**: The swimmer and the person who has a bouquet of daffodils live directly next to each other.
+   - **Clue 3**: The person who has a vase of tulips lives somewhere to the right of the person who is eating mangos.
+   - **Clue 4**: The person who has a bouquet of daffodils lives somewhere to the right of the person who is eating oranges.
+
+By analyzing these variables and the clues, we can deduce the arrangement of individuals, their fruits, and flowers. 
+
+From the clues:
+- **Clue 1** indicates the soccer player must be in house 1 or 2 (because they are left of someone eating oranges).
+- **Clue 4** suggests the person eating oranges must be in house 1 or 2 (since the daffodil person must be to their right).
+- Since the daffodil person must be adjacent to the swimmer (Clue 2), and knowing the fruit arrangements from Clue 4, we find that:
+  - The swimmer must be in House 3 (next to the daffodils).
+  
+Putting it all together, through deduction based on placement rules, we find that the person with the bouquet of daffodils must reside in **House 3**.
+
+Thus, the number of the house where the person who has a bouquet of daffodils lives is **3**.

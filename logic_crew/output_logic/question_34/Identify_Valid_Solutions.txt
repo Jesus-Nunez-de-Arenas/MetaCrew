@@ -1,0 +1,6 @@
+The basketball player lives in House number 2. The arrangements are as follows:  
+- House 1: Cricketer with Horses  
+- House 2: Basketball Player with Sedan  
+- House 3: Cat Lover with Truck  
+
+All clues are satisfied with this arrangement, confirming that the basketball player resides in House 2.

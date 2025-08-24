@@ -1,0 +1,5 @@
+The number of the house where the person who ate fried rice lives is **2**. 
+
+This conclusion is derived from analyzing the clues provided. Specifically, we determined that the person in House 1 must be the one who ate spaghetti, owns a cat, is a romance book lover, and is wearing sandals. Consequently, the person in House 2, who must eat fried rice, own horses, be a history book buff, and wear running shoes, confirms that the answer is **2**. 
+
+At every step, the arrangements were validated against the clues: the person wearing sandals from House 1 lives directly left of the horse owner in House 2, and the history book buff in House 2 lives to the right of the spaghetti eater in House 1. All characteristics were accounted for without discrepancies, leading to this final conclusion.

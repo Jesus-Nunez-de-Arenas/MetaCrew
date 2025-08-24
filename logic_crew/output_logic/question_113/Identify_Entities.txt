@@ -1,0 +1,19 @@
+Based on the analysis of the clues provided:  
+- From Clue 1, we know that the fantasy book enthusiast lives in House 1.  
+- Clue 2 states that the cellist also lives in House 1.  
+- Then, Clue 3 tells us that the person who likes green must live to the left of the person who likes red. Since House 1 is on the left and House 2 is on the right, the person in House 1 must like green and the person in House 2 must like red.  
+
+Knowing that House 1 contains both the fantasy book enthusiast and the cellist, we can conclude that:  
+- House 1 has:  
+    - Musical instrument: Cellist  
+    - Favorite color: Green  
+    - Book preference: Fantasy   
+
+And therefore, House 2 must have the mystery book reader. The breakdown for House 2 will be:  
+- House 2 has:  
+    - Musical instrument: Pianist  
+    - Favorite color: Red  
+    - Book preference: Mystery  
+
+Thus, the mystery book reader lives in House 2.  
+Therefore, the number of the house where the mystery book reader lives is House 2.

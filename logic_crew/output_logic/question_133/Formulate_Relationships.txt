@@ -1,0 +1,10 @@
+Based on the clues provided, the analysis shows the following structure concerning the houses and their characteristics:
+
+| House Number | Fruit Being Eaten | Book Preference              |
+|--------------|--------------------|-------------------------------|
+| 1            | Kiwis              | History Book Buff             |
+| 2            | Oranges            | Fantasy Book Enthusiast       |
+
+From Clue 1, the fantasy book enthusiast does not live in House 1, which means they must live in House 2. From Clue 2, the person eating kiwis is in House 1, which confirms that the occupant of House 2 is indeed the fantasy book enthusiast.
+
+Thus, the fantasy book enthusiast lives in House **2**.

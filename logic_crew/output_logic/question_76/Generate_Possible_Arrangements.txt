@@ -1,0 +1,28 @@
+The number of the house where the dog owner lives is House 3. 
+
+Here’s the detailed arrangement based on the clues:
+
+| House Number | Pet            | Sport            | Shoes         |
+|--------------|----------------|------------------|---------------|
+| 1            | Bird Keeper    | [Unknown]        | High Heels    |
+| 2            | Fish Enthusiast| Cricketer        | Loafers       |
+| 3            | Dog Owner      | Tennis Player     | Sandals       |
+| 4            | [Unknown]      | Golfer           | Boots         |
+| 5            | [Unknown]      | Baseball Player   | Running Shoes  |
+
+Explanation of deductions leading to this arrangement:
+
+1. **Bird Keeper in House 1**: Clue 6 states the bird keeper lives in the first house.
+2. **Cricketer and Fish Enthusiast in House 2**: Clue 1 indicates that the cricketer lives in the second house and Clue 5 confirms that the fish enthusiast lives there as well.
+3. **Golfer in House 4**: Clue 2 states the golfer lives in the fourth house.
+4. **Tennis Player in House 3**: Clue 3 specifies that the tennis player lives left of the person wearing sandals, which leads to placement in house 3.
+5. **Baseball Player in House 5**: The baseball player must be in house 5 as they live to the right of the person wearing sandals (in house 3).
+6. **Shoes Assignments**:
+    - Since footwear must be distinct for each house, and considering the clues, high heels must belong to the bird keeper in House 1.
+    - The cricketer in House 2, according to Clue 7, wears loafers as it directly relates to neighboring arrangement.
+    - The tennis player in House 3 wears sandals as established in prior deductions.
+    - Thus the golfer in House 4 must wear boots and the baseball player in House 5 wears running shoes, confirming all characteristics are accounted for respectively.
+
+Each piece of information aligns to show the dog owner resides in House 3, thereby placing all individuals and their respective characteristics in harmony with the provided clues.
+
+In conclusion, the house number for the dog owner is House **3**.

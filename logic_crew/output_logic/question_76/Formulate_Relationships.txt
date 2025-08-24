@@ -1,0 +1,20 @@
+The number of the house where the dog owner lives is House 3. 
+
+Here’s the final arrangement confirmed through analysis of clues:
+
+| House Number | Pet            | Sport            | Shoes         |
+|--------------|----------------|------------------|---------------|
+| 1            | Bird Keeper    | [Unknown]        | High Heels    |
+| 2            | Fish Enthusiast| Cricketer        | Loafers       |
+| 3            | Dog Owner      | Tennis Player     | Sandals       |
+| 4            | [Unknown]      | Golfer           | Boots         |
+| 5            | [Unknown]      | Baseball Player   | Running Shoes  |
+
+- Bird Keeper (House 1) has high heels and is to the left of the sandals (House 3).
+- Cricketer (House 2) is next to the person with loafers.
+- Fish Enthusiast is confirmed in House 2.
+- The Golfer is in House 4.
+- The Tennis Player is in House 3, allowing for the arrangement of sandals.
+- The Baseball Player in House 5 is to the right of the sandals, confirming this arrangement.
+
+All clues lead consistently to the conclusion that the Dog Owner lives in House 3.

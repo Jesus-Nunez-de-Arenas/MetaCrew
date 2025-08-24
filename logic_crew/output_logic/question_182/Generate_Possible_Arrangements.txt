@@ -1,0 +1,5 @@
+House 1: Boots, Daffodils  
+House 2: High Heels, Roses  
+House 3: Running Shoes, Lilies  
+
+The number of the house where the person who is wearing boots lives is **1**.

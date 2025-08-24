@@ -1,0 +1,21 @@
+1. **n**: The total number of houses in the scenario is 2.
+
+2. **houses**: There are 2 houses, specifically numbered 1 on the left and 2 on the right.
+
+3. **characteristics**:
+   - Each person living in the houses is eating a different kind of fruit: one is eating kiwis and one is eating oranges.
+   - Each person has different book preferences: one is a history book buff and the other is a fantasy book enthusiast.
+
+4. **clue(s) provided**:
+   - **Clue 1**: The fantasy book enthusiast does not live in the first house.
+   - **Clue 2**: The person who is eating kiwis lives in the first house.
+
+By analyzing the clues:
+- From **Clue 2**, we know that the person in the first house (House 1) is eating kiwis.
+- From **Clue 1**, since the fantasy book enthusiast does not live in House 1, they must live in House 2.
+
+Therefore, based on the logical deduction from the given clues:
+- The occupant of House 1 is eating kiwis and cannot be the fantasy book enthusiast.
+- Consequently, the occupant of House 2 must be the fantasy book enthusiast.
+
+Thus, the number of the house where the fantasy book enthusiast lives is **2**.

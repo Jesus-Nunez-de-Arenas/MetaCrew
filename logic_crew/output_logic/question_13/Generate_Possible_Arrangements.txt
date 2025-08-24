@@ -1,0 +1,36 @@
+1. **n**: The total number of houses, which is 3 (numbered 1, 2, and 3).
+
+2. **houses**: The entities in this problem represent distinct living spaces occupied by individuals with unique characteristics. The houses are numbered as follows:
+   - House 1
+   - House 2
+   - House 3
+
+3. **characteristics**: The various traits attributed to each individual living in the houses include:
+   - **Device**: Each person has a different device: phone, computer, or gameboy.
+   - **Color**: Each person has a different favorite color: yellow, blue, or green.
+
+4. **clues**: The given logical statements are used to deduce the arrangement of traits among the houses. The clues are as follows:  
+   - Clue 1: The person who likes green lives directly left of the person who has a gameboy.
+   - Clue 2: The person who has a gameboy lives directly left of the person who has a computer.
+   - Clue 3: The person who likes yellow does not live in the second house.
+
+By analyzing the clues step-by-step:
+
+- From **Clue 1**, since the person who likes green lives directly left of the person with the gameboy, and there are only three houses, the only possible arrangement for green and gameboy could be:
+  - Green must be in House 1, and the gameboy must be in House 2 (as the person who has a gameboy can't be in House 3).
+  
+- Following **Clue 2**, since the person with the gameboy lives directly left of the person with the computer, the arrangement entails:
+  - Gameboy in House 2, and therefore, Computer must be in House 3.
+
+- From **Clue 3**, since the person who likes yellow does not live in the second house, it only leaves the following logic:
+  - House 1 must be yellow (because House 2 has the gameboy and must be blue), and thus the color of the person in House 2 (who has the gameboy) must be blue, with the remaining color (green) assigned to House 3 (which has the computer).
+
+Arranging all this information, we find the following:
+
+| House Number | Color  | Device    |
+|--------------|--------|-----------|
+| 1            | Yellow | Phone     |
+| 2            | Blue   | Gameboy   |
+| 3            | Green  | Computer   |
+
+Thus, the number of the house where the person who has a computer lives is house number **3**.

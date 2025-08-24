@@ -1,0 +1,12 @@
+- **n**: This represents the number of houses in the problem, which is 4. The houses are numbered from 1 to 4, in a linear arrangement from left to right.
+- **houses**: There are 4 distinct houses, each identified by a number (1 through 4) and occupied by a person with unique characteristics.
+- **characteristics**: Each person living in the houses has different attributes, which include:
+  1. Musical Instruments: Options available are a guitarist, a violinist, a saxophonist, and a pianist.
+  2. Shoes: Each person is wearing different types of shoes, namely boots, sandals, running shoes, and loafers.
+  3. Lunch: The lunch choices consist of fried rice, pizza, stew, and spaghetti.
+  4. Flowers: The types of flowers include a rose bouquet, a bouquet of daffodils, a bouquet of lilies, and a carnations arrangement.
+  5. Favorite Color: The available favorite colors are white, yellow, green, and blue.
+
+- **Clues Provided**: The puzzle provides 13 clues that guide the identification and arrangement of the characteristics of each person in the houses. These clues establish relationships among characteristics and indicate positioning relative to each other. 
+
+Through these variables and clues, we can analyze and categorize each person per house and ultimately determine the house number of the individual who likes white.

@@ -166,3 +166,6 @@ privateParameters.py
 .env
 __pycache__/
 logs/
+MMMU/
+temporal_database/
+database/

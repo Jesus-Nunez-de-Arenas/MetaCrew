@@ -1,0 +1,4 @@
+The dog owner lives in house 3. The house arrangements are as follows:  
+- House 1: Basketball player, Saxophonist, Water-drinker, Cat lover  
+- House 2: Cricketer, Guitarist, Stew-eater, Fish enthusiast  
+- House 3: Tennis player, Dog owner, Milk-drinker

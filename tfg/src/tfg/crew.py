@@ -21,12 +21,6 @@ from langchain_community.vectorstores import Chroma
 # --------------------------------- Code --------------------------------- #
 ############################################################################
 
-# Needed when using Gemini
-# llm = LLM(
-#     api_key=os.getenv("GOOGLE_API_KEY"),
-#     model="gemini/gemini-2.0-flash",
-# )
-
 
 embedding_model = OpenAIEmbeddings(
     model=os.getenv("OPENAI_EMBEDDING_MODEL_NAME", "text-embedding-3-small"),
@@ -57,7 +51,7 @@ def create_manager_agent() -> Agent:
 			backstory="""You're an experienced project manager, skilled in overseeing complex projects and guiding teams to success. 
 			Your role is to coordinate the efforts of the crew members, ensuring that each task is completed on time 
 			and to the highest standard.""",
-			verbose=True,
+			verbose=False,
 			allow_delegation=True,
 		)
 
@@ -92,13 +86,12 @@ class TfgCrew():
      
 		scrum_master = Agent(
 			config=self.agents_config['scrum_master'],
-			verbose=True,
+			verbose=False,
 			tools=[
 				JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
 			]
 		)
   
-		# There seems to be an error in the constructors, so we need to set the config manually
 		scrum_master.config = self.agents_config['scrum_master']
   
 		return scrum_master
@@ -115,13 +108,12 @@ class TfgCrew():
   
 		human_resources = Agent(
 			config=self.agents_config['human_resources'],
-			verbose=True,
+			verbose=False,
 			tools=[
 				JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
 			]
 		)
   
-		# There seems to be an error in the constructors, so we need to set the config manually
 		human_resources.config = self.agents_config['human_resources']
 
 		return human_resources
@@ -138,13 +130,12 @@ class TfgCrew():
   
 		workflow_planner = Agent(
 			config=self.agents_config['planner'],
-			verbose=True,
+			verbose=False,
 			tools=[
 				JSONSearchTool(json_path=os.getenv("OUTPUT_DIR"))
 			]
 		)
   
-		# There seems to be an error in the constructors, so we need to set the config manually
 		workflow_planner.config = self.agents_config['planner']
   
 		return workflow_planner
@@ -213,12 +204,13 @@ class TfgCrew():
 			tasks=self.tasks, # Automatically created by the @task decorator
    			manager_agent=create_manager_agent(),
 			process=Process.hierarchical,
-			verbose=True,
-			long_term_memory=LongTermMemory(
-				storage=LTMSQLiteStorage(
-					db_path=self.db_path,
-				)
-			),
+			verbose=False,
+			# verbose=True, # Uncomment for debugging
+			# long_term_memory=LongTermMemory(
+			# 	storage=LTMSQLiteStorage(
+			# 		db_path=self.db_path,
+			# 	)
+			# ),
 			short_term_memory=ShortTermMemory(
 				storage=vectorstore_short_term,
 				crew=self,

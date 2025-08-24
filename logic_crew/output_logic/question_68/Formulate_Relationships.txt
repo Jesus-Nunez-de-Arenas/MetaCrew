@@ -1,0 +1,10 @@
+Based on the clues provided, we can categorize the residents of each house as follows:
+
+| House Number | Car Type | Pet Owner      |
+|--------------|----------|----------------|
+| 1            | Truck    | Horse Owner     |
+| 2            | Sedan    | Cat Lover       |
+| 3            | SUV      | Fish Enthusiast |
+| 4            | Minivan  | Dog Owner       |
+
+Thus, the dog owner lives in House number **4**.

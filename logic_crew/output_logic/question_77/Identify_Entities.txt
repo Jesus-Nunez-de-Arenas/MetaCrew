@@ -1,0 +1,31 @@
+The person who had pizza lives in house number **2**. 
+
+**Breakdown and Implications**:  
+1. **Clue 1**: The person who has a radio and the person who drives a truck live directly next to each other.  
+   - This means one person in house 1 has a radio or truck, and one in house 2 has the opposite.
+
+2. **Clue 2**: The person who has a radio lives somewhere to the left of the person who had pizza.  
+   - Since there are only two houses, this means the radio owner must be in house 1, and therefore, the pizza eater must be in house 2.
+
+3. **Clue 3**: The root beer lover does not live in the first house.  
+   - This indicates that the root beer lover must be in house 2. Therefore, the water drinker must be in house 1.
+
+4. **Clue 4**: The person who is eating grapes lives directly left of the person who has a computer.  
+   - The only configuration that satisfies this with two houses is that the grapes eater is in house 1 (and must have a radio) and the person with the computer is in house 2. 
+
+From this, we summarize the houses:  
+- **House 1**:  
+   - Drink: Water  
+   - Fruit: Grapes  
+   - Lunch: Stew (only remaining option)  
+   - Car: Minivan (since house 2 must drive the truck)  
+   - Device: Radio  
+
+- **House 2**:  
+   - Drink: Root Beer  
+   - Fruit: Banana (only remaining option)  
+   - Lunch: Pizza  
+   - Car: Truck  
+   - Device: Computer  
+
+Hence the person who had pizza lives in house number **2**.

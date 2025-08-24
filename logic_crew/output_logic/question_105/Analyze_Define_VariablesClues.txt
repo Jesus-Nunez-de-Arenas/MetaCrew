@@ -1,0 +1,13 @@
+1. `n`: The total number of houses, which is 4 in this scenario. The houses are numbered from 1 to 4.
+   
+2. `houses`: Refers to the individual houses under consideration, numbered as 1, 2, 3, and 4. Each house has one occupant with different attributes.
+
+3. `characteristics`: These include the various unique attributes associated with the people living in the houses. The characteristics can be categorized into four distinct groups:
+   - **Flowers**: Types of arrangements present in each house, which are tulips, carnations, daffodils, and roses.
+   - **Devices**: The types of devices owned by each person, which include a phone, a television, a radio, and a gameboy.
+   - **Shoes**: Different footwear worn by the occupants, including boots, running shoes, high heels, and sandals.
+   - **Lunch**: The meals each person had, which are stew, pizza, fried rice, and spaghetti.
+
+4. `clue(s)`: There are 10 clues that provide relationships between the various characteristics and help narrow down the possibilities for each house and person. Each clue serves as a logical statement that either indicates a direct relation between two houses or positions of one characteristic relative to another.
+
+These variables work together to create a logical framework from which we can deduce the assignments of each person with respect to their house, allowing us to eventually identify the house number where the person who had pizza lives based on the characteristics and clues provided.

@@ -1,0 +1,30 @@
+1. n: This represents the total number of houses in the row, which is 5.
+
+2. houses: The houses are numbered from 1 to 5, indicating their positions in the row from left to right.
+
+3. characteristics: The specific attributes that each person in the houses possesses, which include:
+   - Shoes: There are five different types of shoes indicated: 
+     - boots
+     - high heels
+     - loafers
+     - running shoes
+     - sandals
+
+   - Flowers: There are five different types of flower arrangements in the foyers, which include:
+     - rose bouquet
+     - bouquet of lilies
+     - bouquet of daffodils
+     - carnations arrangement
+     - vase of tulips
+
+4. clues: The logical hints provided to determine the relationships between the attributes of the people living in the houses:
+   - Clue 1: The person who is wearing boots and the person who has a carnations arrangement live directly next to each other.
+   - Clue 2: The person who has a vase of tulips lives directly left of the person who is wearing loafers.
+   - Clue 3: The person who is wearing sandals does not live in the fifth house.
+   - Clue 4: There is one house between where the person who is wearing running shoes lives and where the person who has a bouquet of lilies lives.
+   - Clue 5: The person who has a vase of tulips lives somewhere to the right of the person who has a bouquet of daffodils.
+   - Clue 6: The person who has a vase of tulips does not live in the fourth house.
+   - Clue 7: The person who has a carnations arrangement lives in the fifth house.
+   - Clue 8: The person who has a bouquet of daffodils and the person who is wearing running shoes live directly next to each other.
+
+These variables and clues play essential roles in deducing which person lives in which house and their respective characteristics. The analysis will ultimately reveal the house number of the person who has a bouquet of lilies.

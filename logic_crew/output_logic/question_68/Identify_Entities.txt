@@ -1,0 +1,20 @@
+The dog owner lives in House number 4. 
+
+To break down the clues and reasoning:
+
+1. **Clue 3** indicates that since the person who drives a truck must live directly left of the person who owns a sedan, the possible arrangements for the truck and sedan are limited to Houses 1-2 or 2-3. House 4 cannot be the truck owner due to the number of houses.
+
+2. **Clue 2** specifies there are two houses between the truck owner and the dog owner. The only way this can be satisfied with 4 houses is if the truck driver is in House 1 and the dog owner is in House 4.
+
+3. With the truck owner in House 1 and the dog owner in House 4, **Clue 4** states that the fish enthusiast must live directly left of the dog owner, so the fish enthusiast occupies House 3. 
+
+4. This positioning leads to the truck owner being in House 1, the fish enthusiast in House 3, and the dog owner in House 4, making it clear the sedan driver must be in House 2 (due to remaining arrangements based on Clue 3).
+
+5. Finally, applying **Clue 5**, where the cat lover is not in House 2, we confirm that the only remaining option for House 2's occupant must be the sedan driver, which resolves all placements:
+
+   - **House 1**: Truck driver (Horse owner)
+   - **House 2**: Sedan driver (Cat lover)
+   - **House 3**: Fish enthusiast
+   - **House 4**: Dog owner
+
+Through the closure of this reasoning process, it concludes with the dog owner living in House number **4**.

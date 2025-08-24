@@ -1,0 +1,13 @@
+The person who is wearing loafers lives in House 3. Here's the breakdown of the clues and the logical deductions made:
+
+1. **House Assignments from Clue 3**: The person who ate spaghetti is confirmed to live in House 1.
+2. **Fried Rice Location from Clue 1**: The person who ate fried rice cannot be in House 2, meaning they must be in either House 1 or House 3. Since House 1 is occupied by the spaghetti eater, the person who ate fried rice must live in House 3.
+3. **Boots Placement from Clue 2**: The person wearing boots lives directly left of the fried rice eater. Thus, the only option left is for the person with boots to live in House 2, making it a straightforward conclusion that House 3 must contain fried rice.
+4. **Loafers Location from Clue 4**: The person wearing loafers cannot inhabit House 1, which only leaves House 2 and House 3. Since House 2 is occupied by the boots wearer, the person in loafers must resolve into House 3.
+
+From the deductions, here are the final assignments:
+- **House 1**: Person who ate spaghetti, shoe type unknown (not loafers).
+- **House 2**: Person wearing boots, who must have eaten pizza.
+- **House 3**: Person who ate fried rice and is thus wearing loafers.
+
+Therefore, the answer is that the person who is wearing loafers lives in House **3**.

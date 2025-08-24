@@ -1,0 +1,11 @@
+- **House 1**:  
+  - Shoes: Boots  
+  - Pet: Dog  
+  - Device: Phone  
+
+- **House 2**:  
+  - Shoes: High Heels  
+  - Pet: Horses  
+  - Device: Radio  
+
+Thus, the number of the house where the person who is wearing high heels lives is **2**.

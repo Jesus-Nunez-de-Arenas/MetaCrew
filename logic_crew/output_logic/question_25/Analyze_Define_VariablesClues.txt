@@ -1,0 +1,40 @@
+1. **n (Number of Houses)**: The total number of houses is 3.
+
+2. **houses (Structure)**: A sequence of house numbers from 1 to 3, indicating the order of the houses from left to right.
+
+3. **Occupants (People)**: There is one person living in each house.
+
+4. **characteristics (Attributes)**: Each person in the houses has distinct characteristics:
+   - **Musical Instruments**: 
+     - Pianist
+     - Violinist
+     - Percussionist
+   - **Shoes**: 
+     - Running Shoes
+     - High Heels
+     - Boots
+   - **Fruits**: 
+     - Oranges
+     - Banana
+     - Kiwis
+   - **Devices**: 
+     - Television
+     - Phone
+     - Radio
+
+5. **clues (Information)**: These are critical statements that help narrow down the positions and characteristics:
+   1. The pianist does not live in the first house.
+   2. The person who is eating oranges lives somewhere to the right of the person who is eating kiwis.
+   3. The person who is wearing high heels and the pianist live directly next to each other.
+   4. The person who is wearing running shoes and the percussionist live directly next to each other.
+   5. The person who is eating kiwis lives somewhere to the left of the person who is wearing boots.
+   6. The person who has a radio lives somewhere to the left of the person who is wearing high heels.
+   7. The person who is eating oranges lives directly left of the person who has a television.
+
+Through analyzing the clues systematically, we can derive the arrangement of the houses and the characteristics of their occupants. After piecing together the relationships and characteristics, we find:
+
+- House 1: The person who eats Kiwis and has a Radio.
+- House 2: The person who wears High Heels and is the Pianist (next to House 1).
+- House 3: The person eating Oranges, has a Television.
+
+Thus, the number of the house where the person who has a television lives is **3**.

@@ -1,0 +1,24 @@
+1. Variables:
+   - **n**: Number of houses, which is 3 in this case.
+   - **houses**: Three houses in numeric order: House 1, House 2, House 3.
+   
+2. **Characteristics**: Each person living in the houses has unique characteristics categorized into five attributes:
+   - **Favorite drink**: Possible drinks include tea, milk, and coffee.
+   - **Shoes**: Types of shoes worn include running shoes, boots, and high heels.
+   - **Fruit**: The fruits being eaten are apples, kiwis, and oranges.
+   - **Flowers**: The flowers in the foyer are lilies, tulips, and carnations.
+   - **Favorite color**: The favorite colors are green, white, and blue.
+
+3. **Clues Provided**:
+   - **Clue 1**: The tea drinker lives in the third house.
+   - **Clue 2**: The person who is eating kiwis lives directly left of the person who likes blue.
+   - **Clue 3**: The person who likes milk and the person who is eating apples live directly next to each other.
+   - **Clue 4**: The person who has a carnations arrangement lives in the first house.
+   - **Clue 5**: The person who has a vase of tulips lives in the second house.
+   - **Clue 6**: The person who is wearing boots lives directly left of the person who likes green.
+   - **Clue 7**: The person who is wearing running shoes lives in the first house.
+   - **Clue 8**: The person who is eating oranges does not live in the third house.
+
+Using these variables and clues, we can logically deduce the arrangement of attributes for each house and find out where the person who is eating apples lives. After careful reasoning based on the clues, it is determined that the person eating apples resides in House 2. 
+
+Thus, the number of the house where the person who is eating apples lives is **2**.

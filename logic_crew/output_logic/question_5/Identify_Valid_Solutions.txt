@@ -1,0 +1,9 @@
+| House Number | Favorite Drink | Lunch         |
+|--------------|----------------|---------------|
+| House 1      | Root Beer      | Fried Rice    |
+| House 2      | Coffee         | Stew          |
+| House 3      | Tea            | Spaghetti     |
+| House 4      | Milk           | Pizza         |
+| House 5      | Water          | Grilled Cheese |
+
+The person who ate grilled cheese lives in House 5.

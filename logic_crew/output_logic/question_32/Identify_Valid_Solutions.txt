@@ -1,0 +1,26 @@
+The person who likes green lives in House 1. Here’s the complete breakdown of the arrangements for each house:
+
+- **House 1**: 
+  - Flowers: (Must have boots or high heels) → High Heels
+  - Favorite Color: Green
+  - Shoes: High Heels
+  - Book Preference: (Must be either romance or history) → Romance (since history is in House 2) 
+
+- **House 2**: 
+  - Flowers: Daffodils (from Clue 7)
+  - Favorite Color: Yellow (it can't be green or blue)
+  - Shoes: (Must be either loafers or boots) → Boots
+  - Book Preference: History (from Clue 3)
+
+- **House 3**: 
+  - Flowers: Lilies (since that’s the only one left that can’t be in House 2)
+  - Favorite Color: Blue (the only remaining color)
+  - Shoes: Loafers (from Clue 6)
+  - Book Preference: Science Fiction (the only remaining book choice)
+
+Thus, the complete arrangement is:
+- **House 1**: High Heels, Green, Romance
+- **House 2**: Daffodils, Yellow, Boots, History
+- **House 3**: Lilies, Blue, Loafers, Science Fiction
+
+Therefore, the number of the house where the person who likes green lives is 1.

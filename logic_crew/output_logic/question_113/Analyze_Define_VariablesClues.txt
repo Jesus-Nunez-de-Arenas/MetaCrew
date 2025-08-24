@@ -1,0 +1,19 @@
+1. **n**: The number of houses in the scenario, which is 2.
+   
+2. **houses**: There are 2 houses, numbered 1 (on the left) and 2 (on the right).
+
+3. **characteristics**:
+   - **Musical instruments**: There are two instruments being played by the residents - one is a pianist and the other is a cellist.
+   - **Favorite colors**: Each resident has a favorite color, with one liking red and the other liking green.
+   - **Book preferences**: There are two types of books that the residents prefer - one reads mystery books and the other enjoys fantasy books.
+
+4. **clue(s) provided**:
+   - **Clue 1**: The fantasy book enthusiast lives in the first house (House 1).
+   - **Clue 2**: The cellist lives in the first house (House 1).
+   - **Clue 3**: The person who likes green lives somewhere to the left of the person who likes red (implying the person liking green must live in House 1 since there are only two houses, and thus House 2 must have the person who likes red).
+
+Based on these clues and conditions, we can analyze the characteristics in relation to each house, determining that:
+- House 1 (left) has the fantasy book enthusiast who is also the cellist.
+- House 2 (right) must be where the mystery book reader lives (noting that there is only one left for this preference), and therefore also must be the pianist.
+
+Thus, the number of the house where the mystery book reader lives is House 2.

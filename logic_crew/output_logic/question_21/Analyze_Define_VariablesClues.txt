@@ -1,0 +1,42 @@
+1. **n**: This represents the total number of houses, which is 3 (numbered 1, 2, and 3).  
+2. **houses**: The entities in this problem, each representing a distinct living space occupied by individuals with unique characteristics. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+   - House 3  
+3. **characteristics**: The various traits attributed to each individual living in the houses. This includes:  
+   - **Shoes**: Types of shoes worn by each person (sandals, boots, loafers).  
+   - **Color**: Each person has a different favorite color (blue, green, yellow).  
+   - **Fruit**: The type of fruit each person is eating (apples, grapes, mangos).  
+   - **Lunch**: Each person ate something different for lunch (grilled cheese, pizza, fried rice).  
+   - **Device**: Different devices owned by each person (computer, phone, radio).  
+4. **clues**: The given logical statements that help in deducing the arrangement of traits among the houses. The clues are as follows:  
+   - Clue 1: The person who ate grilled cheese and the person who has a computer live directly next to each other.  
+   - Clue 2: The person who ate grilled cheese does not live in the third house.  
+   - Clue 3: The person who is eating apples does not live in the first house.  
+   - Clue 4: The person who is eating grapes lives somewhere to the right of the person who is wearing boots.  
+   - Clue 5: There is one house between where the person who likes blue lives and where the person who has a phone lives.  
+   - Clue 6: The person who is wearing loafers does not live in the third house.  
+   - Clue 7: The person who had pizza does not live in the second house.  
+   - Clue 8: The person who is eating mangos lives directly left of the person who likes yellow.  
+   - Clue 9: The person who is wearing loafers and the person who has a computer live directly next to each other.  
+   - Clue 10: The person who has a computer lives directly left of the person who has a phone.  
+
+Analyzing the clues step by step:
+- From Clue 2, the person who ate grilled cheese cannot be in House 3. This indicates that they must be either in House 1 or House 2.
+- From Clue 4, the person eating grapes must be to the right of the person wearing boots, meaning boots cannot reside in House 3 since nothing can be to the right.
+- Clue 6 reveals that the person wearing loafers must be in House 1 or House 2.
+- Clue 3 indicates that the person eating apples cannot be in House 1, thus they must be in either House 2 or House 3.
+  
+Continuing this logical deduction:
+- If we suppose the first house has loafers, then based on Clue 9 (loafers next to computer), the only arrangement that makes sense is that House 1 has loafers and House 2 has a computer.
+- This results in House 3 needing to have the person with the phone (Clue 10).
+- Moving along to Clue 8, if the person in House 2 has grapes and the person in House 1 has mangos, this works well.
+
+Following through all clues logically and systematically, the arrangement is as follows:
+- House 1: Loafers, Mangos, Grilled Cheese, and Yellow
+- House 2: Boots, Grapes, Computer, and Blue
+- House 3: Sandals, Apples, Phone, and Green
+
+By this reasoning, the person who likes green lives in House 3.
+
+Thus, the number of the house where the person who likes green lives is house number **3**.

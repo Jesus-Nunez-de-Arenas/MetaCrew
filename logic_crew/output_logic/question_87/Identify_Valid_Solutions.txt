@@ -1,0 +1,8 @@
+Based on the clues provided and the deductive reasoning applied, the arrangement of the houses can be established as follows:
+
+- House 1: Science Fiction Book Fanatic, Fried Rice, Saxophonist  
+- House 2: Romance Book Lover, Stew, Guitarist  
+- House 3: Fantasy Book Enthusiast, Spaghetti, Percussionist  
+- House 4: History Book Buff, Pizza, Violinist  
+
+In this arrangement, the percussionist lives in house number **3**, fulfilling all the requisite conditions from the clues provided. Each characteristic aligns with the clues effectively, leading to a clear conclusion that the number of the house where the percussionist lives is **3**.

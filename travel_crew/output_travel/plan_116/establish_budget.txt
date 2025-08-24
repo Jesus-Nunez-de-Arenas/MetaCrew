@@ -1,0 +1,87 @@
+### Overall Budget Breakdown for 7-day Travel Plan (March 22-28, 2022) for 5 People from Provo, UT to California
+
+#### 1. Transportation
+- **Provo to San Diego**
+  - **Travel Option:** Self-Driving
+  - **Distance:** 1,137 km
+  - **Duration:** 10 hours 13 minutes
+  - **Cost:** $56
+- **San Diego to Santa Ana**
+  - **Travel Option:** Self-Driving
+  - **Distance:** 144 km
+  - **Duration:** 1 hour 26 minutes
+  - **Cost:** $7
+- **Santa Ana to Bakersfield**
+  - **Travel Option:** Self-Driving
+  - **Distance:** 231 km
+  - **Duration:** 2 hours 31 minutes
+  - **Cost:** $11
+- **Bakersfield to Provo**
+  - **Travel Option:** Self-Driving
+  - **Distance:** 1,063 km
+  - **Duration:** 9 hours 34 minutes
+  - **Cost:** $53
+
+**Total Transportation Cost:**
+- $56 + $7 + $11 + $53 = **$127**
+
+#### 2. Accommodation 
+- **San Diego (4 nights)**:  
+  - **Accommodation:** Luxury 4BR Home, Spacious & Central to Trains
+  - **Cost per Night:** $392 
+  - **Total Cost:** $392 * 4 = **$1,568**
+
+- **Santa Ana (2 nights)**:  
+  - **Accommodation:** Sun-filled Artist Home 1BR in convenient L.I.C
+  - **Cost per Night:** $1,065 
+  - **Total Cost:** $1,065 * 2 = **$2,130**
+
+- **Bakersfield (1 night)**:  
+  - **Accommodation:** DaDukes Dreams
+  - **Cost:** **$491**
+
+**Total Accommodation Cost:**
+- $1,568 + $2,130 + $491 = **$4,189**
+
+#### 3. Food
+- **Food Budget (per day for 5 people)**: $50 per meal * 3 meals * 7 days = **$1,050**
+
+#### 4. Activities
+- **San Diego Attractions:**
+  - Cabrillo National Monument: **Free**
+  - La Jolla Shores Park: **Free**
+  - SeaWorld San Diego: **$90 per person** * 5 people = **$450**
+  - San Diego Zoo: **$60 per person** * 5 people = **$300**
+  
+  **Total Activity Cost in San Diego:** $0 + $0 + $450 + $300 = **$750**
+  
+- **Santa Ana Attractions:**
+  - Bowers Museum: **$15 per person** * 5 people = **$75**
+  - Santa Ana Zoo: **$10 per person** * 5 people = **$50**
+  - Discovery Science Center: **$15 per person** * 5 people = **$75**
+  
+  **Total Activity Cost in Santa Ana:** $75 + $50 + $75 = **$200**
+
+- **Bakersfield Attractions:**
+  - Kern County Museum: **$10 per person** * 5 people = **$50**
+  - Buena Vista Museum: **$10 per person** * 5 people = **$50**
+  - California Living Museum: **$10 per person** * 5 people = **$50**
+  
+  **Total Activity Cost in Bakersfield:** $50 + $50 + $50 = **$150**
+
+**Total Activity Cost:**
+- San Diego + Santa Ana + Bakersfield = $750 + $200 + $150 = **$1,100**
+
+### Total Estimated Vacation Cost
+- Transportation: **$127**
+- Accommodation: **$4,189**
+- Food: **$1,050**
+- Activities: **$1,100**
+
+**Total Cost:**  
+$127 + $4,189 + $1,050 + $1,100 = **$6,466**
+
+**Budget:** $14,900  
+**Remaining Budget:** $14,900 - $6,466 = **$8,434** 
+
+This plan provides a detailed overview of the expenses for transportation, accommodation, food, and activities for a 7-day vacation for a group of 5, ensuring a memorable experience while staying well within the budget.

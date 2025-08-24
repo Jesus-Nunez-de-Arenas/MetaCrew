@@ -1,0 +1,27 @@
+The arrangement of the houses is as follows:
+
+- **House 1:**
+  - Color: Blue
+  - Lunch: Pizza
+  - Fruit: Oranges
+  - Drink: Root Beer
+
+- **House 2:**
+  - Color: Red
+  - Lunch: Grilled Cheese
+  - Fruit: Grapes
+  - Drink: Milk
+
+- **House 3:**
+  - Color: Yellow
+  - Lunch: Stew
+  - Fruit: Mangos
+  - Drink: Water
+
+- **House 4:**
+  - Color: White
+  - Lunch: Spaghetti
+  - Fruit: Apples
+  - Drink: Tea
+
+From this arrangement, the person who is eating apples lives in House 4.

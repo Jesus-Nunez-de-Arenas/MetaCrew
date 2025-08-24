@@ -1,0 +1,6 @@
+The number of the house where the person who is wearing boots lives is **1**. The analysis of the clues led to the following arrangement of characteristics:  
+- House 1: Boots and Daffodils  
+- House 2: High Heels and Roses  
+- House 3: Running Shoes and Lilies  
+
+This configuration satisfies all the given clues and relationships among the houses and their occupants.

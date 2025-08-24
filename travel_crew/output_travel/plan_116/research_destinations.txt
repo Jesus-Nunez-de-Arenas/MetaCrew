@@ -1,0 +1,45 @@
+### Destination 1: San Diego, California  
+- **Attractions:** 
+  - Cabrillo National Monument [Address: 1800 Cabrillo Memorial Dr, San Diego, CA 92106, USA; Phone: (619) 523-4285; Website: [nps.gov](https://www.nps.gov/cabr/index.htm)]
+  - La Jolla Shores Park [Address: 8300 Camino Del Oro, La Jolla, CA 92037, USA; Phone: (619) 221-8899; Website: [sandiego.gov](https://www.sandiego.gov/lifeguards/beaches/shores)]
+  - SeaWorld San Diego [Address: 500 Sea World Dr., San Diego, CA 92109, USA; Phone: (619) 222-4732; Website: [seaworld.com](https://seaworld.com/san-diego?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing)]
+  - San Diego Zoo [Address: 2920 Zoo Dr, San Diego, CA 92101, USA; Phone: (619) 231-1515; Website: [sandiegozoo.org](https://zoo.sandiegozoo.org/)]
+  
+- **Accommodations:** 
+  - Spacious Room in Large 2 Bedroom Prewar Apartment [Price: $585; Room Type: Private room; Minimum Nights: 1; Maximum Occupancy: 4; Review Rate: 4.0]
+  - Luxury 4BR Home, Spacious & Central to Trains [Price: $392; Room Type: Entire home/apt; Minimum Nights: 3; Maximum Occupancy: 5; Review Rate: 5.0]
+  
+- **Travel Requirements:**
+  - Travel Options: Self-driving from Provo to San Diego (Duration: 10 hours 13 minutes; Distance: 1,137 km; Cost: $56)
+
+### Destination 2: Santa Ana, California  
+- **Attractions:**
+  - Bowers Museum [Address: 2002 N Main St, Santa Ana, CA 92706, USA; Phone: (714) 567-3600; Website: [bowers.org](http://www.bowers.org/)]
+  - Santa Ana Zoo [Address: 1801 E Chestnut Ave, Santa Ana, CA 92701, USA; Phone: (714) 647-6575; Website: [santaanazoo.org](http://www.santaanazoo.org/)]
+  - Discovery Science Center [Address: 2500 N Main St, Santa Ana, CA 92705, USA; Phone: (714) 542-2823; Website: [discoverycube.org](https://www.discoverycube.org/)]
+  
+- **Accommodations:**
+  - Full 1-BR Apartment - Sunny, Cozy, and Eclectic [Price: $522; Room Type: Entire home/apt; Minimum Nights: 4; Maximum Occupancy: 3; Review Rate: 3.0]
+  - Sun-filled Artist Home 1BR in convenient L.I.C [Price: $1,065; Room Type: Entire home/apt; Minimum Nights: 2; Maximum Occupancy: 5; Review Rate: 5.0]
+
+- **Travel Requirements:**
+  - Travel Options: Self-driving from San Diego to Santa Ana (Duration: 1 hour 26 minutes; Distance: 144 km; Cost: $7) 
+
+### Destination 3: Bakersfield, California  
+- **Attractions:**
+  - Kern County Museum [Address: 3801 Chester Ave, Bakersfield, CA 93301, USA; Phone: (661) 437-3330; Website: [kerncountymuseum.org](http://kerncountymuseum.org/)]
+  - Buena Vista Museum of Natural History & Science [Address: 2018 Chester Ave, Bakersfield, CA 93301, USA; Phone: (661) 324-6350; Website: [buenavistamuseum.org](http://www.buenavistamuseum.org/)]
+  - California Living Museum [Address: 10500 Alfred Harrell Hwy, Bakersfield, CA 93306, USA; Phone: (661) 872-2256; Website: [calmzoo.org](http://calmzoo.org/)]
+  
+- **Accommodations:**
+  - DaDukes Dreams [Price: $491; Room Type: Private room; Minimum Nights: 1; Maximum Occupancy: 2; Review Rate: 2.0]
+  - Bright and Spacious Parkside Apartment [Price: $1,134; Room Type: Entire home/apt; Minimum Nights: 3; Maximum Occupancy: 11; Review Rate: 2.0]
+
+- **Travel Requirements:**
+  - Travel Options: Self-driving from Santa Ana to Bakersfield (Duration: 2 hours 31 minutes; Distance: 231 km; Cost: $11)
+
+### Return Travel
+- **Travel Requirements:** 
+  - Travel Options: Self-driving from Bakersfield to Provo (Duration: 9 hours 34 minutes; Distance: 1,063 km; Cost: $53)
+
+This travel plan outlines a great experience visiting three fantastic cities in California, ensuring to take advantage of unique attractions and suitable accommodations while keeping within the budget.

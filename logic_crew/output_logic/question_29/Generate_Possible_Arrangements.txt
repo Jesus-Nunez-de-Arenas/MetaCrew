@@ -1,0 +1,11 @@
+Based on the clues provided and by methodically analyzing the relationships between different characteristics of the houses, the final arrangement of houses with their corresponding characteristics is as follows:
+
+| House Number | Car         | Color  | Shoes       |
+|--------------|-------------|--------|-------------|
+| 1            | Minivan     | Yellow | Loafers     |
+| 2            | Truck       | Green  | Boots       |
+| 3            | Sedan       | Red    | Sandals     |
+| 4            | Convertible | White  | High Heels  |
+| 5            | SUV         | Blue   | Running Shoes|
+
+Thus, the person who is wearing boots lives in **House 2**.

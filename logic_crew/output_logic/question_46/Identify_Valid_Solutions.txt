@@ -1,0 +1,11 @@
+The person who is wearing loafers resides in House number 4. Based on the logical deductions from the clues provided, the complete arrangement of the houses is as follows:
+
+| House | Shoes         | Color  | Device     | Pet     | Lunch         |
+|-------|---------------|--------|------------|---------|---------------|
+| 1     | Boots         | Green  | Computer   | Cats    | Spaghetti     |
+| 2     | High Heels    | Yellow | Television  | Dogs    | Fried Rice    |
+| 3     | Sandals       | White  | Phone      | Birds   | Stew          |
+| 4     | Loafers       | Blue   | Gameboy    | Fish    | Grilled Cheese |
+| 5     | Running Shoes  | Red    | Radio      | Horses  | Pizza         |
+
+This arrangement satisfies all given clues, confirming that the person in the fourth house is indeed the one wearing loafers.

@@ -1,0 +1,19 @@
+1. **n**: This represents the total number of houses, which is 5 in this scenario. Each house is numerically represented from 1 on the left to 5 on the right.
+
+2. **houses**: There are 5 houses numbered 1 through 5. Each house consists of one person with distinct characteristics.
+
+3. **characteristics**: Each person living in the houses has the following attributes that need to be identified:
+   - **Lunch**: Each person ate a different type of lunch, which includes pizza, stew, grilled cheese, fried rice, and spaghetti.
+   - **Favorite Color**: Each person also has a different favorite color, which includes blue, yellow, white, green, and red.
+
+4. **clues**: There are specific clues provided that help to determine the relationships between the houses, lunches, and favorite colors:
+   - Clue 1: The person who likes green does not reside in the second house.
+   - Clue 2: The individual who had stew does not occupy the second house.
+   - Clue 3: The person who had stew does not live in the fourth house.
+   - Clue 4: The one who enjoys blue lives to the left of the person who ate spaghetti.
+   - Clue 5: The individual who had grilled cheese is located to the right of the person who likes white.
+   - Clue 6: The person who enjoys red lives directly to the left of the person who had stew.
+   - Clue 7: The person who ate fried rice resides in the third house.
+   - Clue 8: There is one house between the person who likes white and the person who likes yellow.
+
+These elements will be analyzed to determine the houses’ characteristics, particularly identifying the house number where the person who likes white lives.

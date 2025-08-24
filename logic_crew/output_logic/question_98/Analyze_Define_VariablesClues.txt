@@ -1,0 +1,35 @@
+In this logic puzzle, we have the following variables and their roles:
+
+1. **n (number of houses)**: The total number of houses is 4, numbered from 1 to 4, from left to right.
+
+2. **houses**: Each house is represented by its number (1, 2, 3, 4) and is inhabited by one person. Each house can be characterized by multiple attributes (device, instrument, fruit, shoes, and favorite book).
+
+3. **characteristics**: The characteristics that each person in the houses possesses include:
+   - Device: One of the persons has a computer, one has a phone, one has a radio, and one has a gameboy.
+   - Musical instrument: One plays the flute, one plays the guitar, one plays the saxophone, and one plays the percussion.
+   - Fruit: One person is eating mangos, one person is eating grapes, one is eating kiwis, and one is eating oranges.
+   - Shoes: The types of shoes include boots, running shoes, loafers, and high heels.
+   - Favorite book: Each person prefers a different book genre, specifically fantasy, science fiction, history, and romance.
+
+4. **clues**: The clues provided help to logically deduce the arrangement of attributes among the houses:
+   - Clue 1 (Grapes and Oranges): Shows that the person eating grapes is next to the one eating oranges.
+   - Clue 2 (Phone): The person in the third house has a phone.
+   - Clue 3 (Saxophonist and Boots): The saxophonist lives to the left of the person wearing boots.
+   - Clue 4 (Flutist in House 3): The third house occupant is a flutist.
+   - Clue 5 (Oranges and Boots): The person eating oranges is to the right of the person wearing boots.
+   - Clue 6 (Running Shoes): The third house occupant is also wearing running shoes.
+   - Clue 7 (Romance and Science Fiction): The romance book lover lives directly to the left of the science fiction book fanatic.
+   - Clue 8 (Loafers and First House): The person wearing loafers does not live in the first house.
+   - Clue 9 (Gameboy): The gameboy owner lives to the right of the flutist.
+   - Clue 10 (High Heels and Fantasy): There are two houses between the person wearing high heels and the fantasy book enthusiast.
+   - Clue 11 (History and Oranges): The history book buff is to the left of the person eating oranges.
+   - Clue 12 (Radio and Second House): The person with a radio does not live in the second house.
+   - Clue 13 (Kiwis and First House): The person eating kiwis does not live in the first house.
+   - Clue 14 (Percussionist in House 4): The percussionist lives in the fourth house.
+   - Clue 15 (Science Fiction and Running Shoes): The science fiction fanatic and the person wearing running shoes are next to each other.
+
+Using these clues, we can deduce the arrangement of the characteristics for each person in each house to find out which house the person who is eating oranges lives in. 
+
+Following logical deductions through each clue, it is determined that the person who is eating oranges resides in house number 4.
+
+Therefore, the final answer is house number 4.

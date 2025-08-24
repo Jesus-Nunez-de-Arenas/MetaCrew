@@ -1,0 +1,27 @@
+[
+    {
+        "task": "Research Destinations",
+        "expert": "Emily Johnson",
+        "subtask": "Identify and gather information about potential vacation destinations, including attractions, accommodations, and travel requirements."
+    },
+    {
+        "task": "Establish Budget",
+        "expert": "James Smith",
+        "subtask": "Determine the overall budget for the vacation, including transportation, accommodation, food, and activities."
+    },
+    {
+        "task": "Plan Itinerary",
+        "expert": "Samantha Brown",
+        "subtask": "Create a day-by-day itinerary that outlines the planned activities and travel logistics for the vacation."
+    },
+    {
+        "task": "Book Accommodations",
+        "expert": "David Lee",
+        "subtask": "Make reservations for accommodations according to the planned itinerary, ensuring they meet the budget and preferences."
+    },
+    {
+        "task": "Arrange Transportation",
+        "expert": "Rachel Green",
+        "subtask": "Organize transportation to and from the destination and within the destination, including flights, car rentals, or public transport."
+    }
+]

@@ -1,0 +1,20 @@
+1. **n (number of houses)**: This variable indicates the total number of houses, which is specifically 2 in this scenario, numbered as House 1 (left) and House 2 (right). 
+
+2. **houses**: The distinct physical locations where individuals reside are denoted by:
+   - House 1
+   - House 2
+
+3. **characteristics**: Each person living in these houses has unique attributes classified into three main categories:
+   - **Fruit**: The types of fruit they are eating consist of grapes and mangos.
+   - **Car**: The types of cars driven by the individuals include a convertible and a minivan.
+   - **Sport**: The sports played include cricket and baseball.
+
+4. **clues**: The logical statements provided to assist in deducing the characteristics associated with each house are:
+   - Clue 1: The person who is eating grapes does not live in the first house, which indicates they must be in House 2.
+   - Clue 2: The baseball player lives in the second house, reinforcing that this is where the person eating grapes resides.
+   - Clue 3: The person who drives a convertible also lives in the second house, confirming that both the baseball player and the grape eater reside here.
+
+From the clues, we can deduce that:
+- Since the person eating grapes is in House 2 and cannot be in House 1, the only logical conclusion is that the person eating mangos must live in House 1.
+
+Therefore, the number of the house where the person who is eating mangos lives is **1**.

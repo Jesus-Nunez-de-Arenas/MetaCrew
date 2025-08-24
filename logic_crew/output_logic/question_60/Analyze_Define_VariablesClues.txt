@@ -1,0 +1,18 @@
+1. **n**: This variable represents the total number of houses, which is 3 in this scenario, numbered from 1 to 3.
+2. **houses**: These are the physical locations where individuals reside, numbered 1 to 3, with each house having its own unique resident who possesses distinct traits.
+3. **characteristics**: Each person living in the houses has specific attributes categorized into five groups:
+   - **Favorite Color**: The available colors are yellow, white, and red. Each person has a unique favorite color.
+   - **Fruit**: The types of fruit being eaten include grapes, oranges, and apples, with each person enjoying a different kind.
+   - **Sport**: Each individual participates in a distinct sport: basketball, soccer, and cricket.
+   - **Device**: The devices owned by the individuals consist of a phone, a computer, and a radio, assigned uniquely to each.
+   - **Lunch**: The lunch choices consist of grilled cheese, stew, and pizza, with no overlap among individuals.
+4. **Clue(s)**: The following clues provide necessary conditions for deducing the characteristics associated with each house:
+   - Clue 1: The person who likes red lives in the first house.
+   - Clue 2: The person who had pizza lives somewhere to the left of the person who has a computer.
+   - Clue 3: The person who ate grilled cheese and the person who likes white live directly next to each other.
+   - Clue 4: There is one house between where the person who has a radio lives and where the person who has a computer lives.
+   - Clue 5: The soccer player lives somewhere to the right of the person who is eating apples.
+   - Clue 6: The person who ate grilled cheese lives directly left of the cricketer.
+   - Clue 7: The person who is eating grapes lives in the first house.
+
+Based on the clues, we can conclude that the person who likes red lives in house number 1.

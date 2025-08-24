@@ -1,0 +1,8 @@
+The number of the house where the person who has a carnations arrangement lives is **1**. This conclusion is based on the clue that states the person with the carnations arrangement lives to the left of the dog owner. Since there are only two houses, the only valid arrangement is for the person with the carnations to be in House 1, while the dog owner must reside in House 2. The characteristics can be summarized as follows:  
+
+| House Number | Flower Arrangement       | Pet Owner     |  
+|--------------|--------------------------|---------------|  
+| 1            | Carnations arrangement    | Horses        |  
+| 2            | Tulips                   | Dog Owner     |  
+
+This satisfies all the conditions given by the clues, confirming that the person with the carnations arrangement lives in House 1.

@@ -1,0 +1,21 @@
+1. Variables:
+   - n: The total number of houses in the scenario, which is 3.
+   - houses: Refers to the 3 houses arranged in a row, numbered 1, 2, and 3 from left to right.
+   - characteristics: Refers to the different attributes possessed by the inhabitants of the houses, which include:
+     - Shoes: High heels, running shoes, loafers
+     - Books: Mystery book reader, history book buff, science fiction book fanatic
+     - Lunch: Spaghetti, fried rice, stew
+     - Flowers: Rose bouquet, carnations arrangement, daffodils bouquet
+     - Sports: Baseball player, soccer player, golfer
+     
+2. Clues provided:
+   - Clue 1: The person who had stew lives somewhere to the right of the person who is wearing high heels.
+   - Clue 2: There is one house between where the person who has a bouquet of daffodils lives and where the golfer lives.
+   - Clue 3: The golfer lives somewhere to the right of the person who has a rose bouquet.
+   - Clue 4: The mystery book reader does not live in the second house.
+   - Clue 5: The person who had stew lives somewhere to the left of the history book buff.
+   - Clue 6: The person who has a rose bouquet lives directly left of the person who ate spaghetti.
+   - Clue 7: The person who is wearing running shoes lives somewhere to the right of the person who had stew.
+   - Clue 8: The soccer player lives in the second house.
+
+These variables and clues work together to create a complex logic puzzle that can be analyzed to determine the answers related to who lives in which house and their respective characteristics.

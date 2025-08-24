@@ -1,0 +1,21 @@
+1. **n**: This represents the total number of houses, which is 4 in this scenario. It spans from house 1 to house 4.
+
+2. **houses**: These are the individual entities where people live. They are numbered sequentially as follows:
+   - House 1
+   - House 2
+   - House 3
+   - House 4
+
+3. **characteristics**: There are two categories of characteristics that each person in the houses possesses:
+   - **Fruits**: The types of fruits being consumed are kiwis, grapes, mangos, and bananas. Each person is associated with exactly one fruit.
+   - **Colors**: The favorite colors of the individuals are green, yellow, red, and white. Each person has exactly one favorite color.
+
+4. **clues**: The clues provided help deduce the arrangements of individuals by linking their fruits and colors based on their living conditions within the houses:
+   - **Clue 1**: The individual who likes red is located in a house to the right of the individual eating kiwis.
+   - **Clue 2**: The person who favors green and the person who favors red are neighbors.
+   - **Clue 3**: There is a separation of one house between the individual who likes white and the one consuming a banana.
+   - **Clue 4**: The person enjoying green is positioned to the left of the person who likes yellow.
+   - **Clue 5**: There is also a separation of one house between the individual who favors white and the individual who favors red.
+   - **Clue 6**: The person consuming grapes resides in the second house, giving a specific location for one type of fruit.
+
+These variables and clues are crucial for deriving relationships among the residents' attributes, ultimately leading to the solution of identifying the house of the kiwi eater.

@@ -1,0 +1,29 @@
+1. **n (Number of Houses):** This variable represents the total number of houses in the scenario. In this case, n equals 3, indicating there are 3 distinct houses numbered 1 on the left, 2 in the middle, and 3 on the right.
+
+2. **Houses:** This variable refers to the three physical entities where individuals live. The houses are:
+   - House 1 (left)
+   - House 2 (middle)
+   - House 3 (right)
+
+3. **Characteristics:** This variable encompasses the unique attributes assigned to each occupant of the houses. The characteristics include:
+   - **Shoes**: One resident is wearing boots, one is wearing running shoes, and one is wearing high heels.
+   - **Flowers**: One resident has a bouquet of lilies, one has a bouquet of roses, and one has a bouquet of daffodils.
+
+4. **Clue(s):** This variable consists of the logical statements provided to aid in establishing relationships between the individuals and their attributes. The clues are:
+   - Clue 1: The person who has a bouquet of lilies does not live in the second house.
+   - Clue 2: The person who is wearing high heels does not live in the second house.
+   - Clue 3: The person who is wearing boots lives in the first house.
+   - Clue 4: The person who has a bouquet of daffodils lives in the first house.
+
+From analyzing the clues:
+- From Clue 3, we know that the person in House 1 is wearing boots.
+- Clue 4 indicates that this person (in House 1) also has a bouquet of daffodils.
+- Clue 1 suggests that the person with lilies cannot be in House 2, thereby they must be in House 3.
+- Clue 2 then indicates that the person wearing high heels cannot be in House 2; thus, they have to also be in House 3.
+
+As a result, the allocation of characteristics would be:
+- House 1: Boots, Daffodils
+- House 2: High Heels, (must have Roses, as the only flowers left)
+- House 3: Running Shoes, Lilies
+
+Conclusively, the number of the house where the person who is wearing boots lives is **1**.

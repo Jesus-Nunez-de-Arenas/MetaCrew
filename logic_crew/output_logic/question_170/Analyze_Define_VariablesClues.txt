@@ -1,0 +1,15 @@
+1. **n**: This variable represents the total number of houses in the row. In this scenario, n equals 4, as there are 4 houses numbered from 1 to 4.
+
+2. **houses**: This variable refers to the individual residences where the people live. Each house is assigned a number starting from 1 on the left to 4 on the right. The houses can be referenced as House 1, House 2, House 3, and House 4.
+
+3. **characteristics**: This variable encompasses the distinct traits of each individual living in the houses. Each person has a favorite drink and a type of fruit they are eating. The drinks available are root beer, coffee, water, and tea. The types of fruit are mangos, apples, kiwis, and grapes.
+
+4. **clues**: This variable includes the specific statements provided that help determine the arrangement of characteristics among the houses. The clues provided are:
+   - Clue 1: The coffee drinker lives in the second house.
+   - Clue 2: The person who is eating apples lives directly left of the person who only drinks water.
+   - Clue 3: The person who is eating mangos does not live in the first house.
+   - Clue 4: The person who is eating mangos does not live in the third house.
+   - Clue 5: The person who is eating apples lives somewhere to the left of the tea drinker.
+   - Clue 6: The person who is eating kiwis does not live in the third house. 
+
+These variables work together to create a logical framework for analyzing the placement of individuals, their drinks, and their fruits within the given houses.

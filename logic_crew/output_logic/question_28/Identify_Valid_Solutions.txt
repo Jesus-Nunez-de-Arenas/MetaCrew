@@ -1,0 +1,5 @@
+The number of the house where the person who ate spaghetti lives is **2**. The arrangements based on the clues satisfy the following criteria:  
+- **House 1**: Swimmer (lunch type unknown)  
+- **House 2**: Cricketer who ate Spaghetti  
+- **House 3**: Tennis Player who ate Fried Rice  
+Thus, confirming that the person who ate spaghetti indeed resides in House 2.

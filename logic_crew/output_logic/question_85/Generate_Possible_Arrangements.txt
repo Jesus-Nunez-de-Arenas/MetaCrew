@@ -1,0 +1,4 @@
+- **House 1**: Science Fiction Book Fanatic (who had pizza)  
+- **House 2**: Fried Rice Eater (who is the History Book Buff)  
+
+Thus, the science fiction book fanatic lives in House 1, confirming that House 1 is the correct answer.

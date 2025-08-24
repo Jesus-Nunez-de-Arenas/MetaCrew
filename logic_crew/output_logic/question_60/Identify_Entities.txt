@@ -1,0 +1,31 @@
+Based on the clues provided, we can make the following deductions:
+
+1. From Clue 1, we know that the person who likes red lives in House 1. Therefore, House 1's favorite color is red.
+  
+2. Clue 7 states that the person who is eating grapes also lives in House 1. Thus, House 1 has a resident who likes red and is eating grapes.
+
+3. Considering Clue 2, the person who had pizza must live left of the person who has a computer. This implies that the computer could either be in House 2 or 3.
+
+4. From Clue 3, the person who ate grilled cheese and the one who likes white must live next to each other. Thus, if House 1 has red and grapes, then we can't have white or grilled cheese in House 1, meaning House 1's neighbor (House 2) could have either white or grilled cheese.
+
+5. Clue 4 indicates that there's one house between the person with a radio and the person with a computer. This means that at least one house must be empty between them.
+
+6. Considering Clue 5, the soccer player lives somewhere to the right of the person eating apples, indicating apples are not in House 3.
+
+7. From Clue 6, the person who ate grilled cheese is directly left of the cricketer. For this to hold, if we assume House 2 has grilled cheese and House 3 the cricketer, House 2 must then have white to satisfy the adjacent condition from Clue 3.
+
+By deducing through the clues, we confirm that:
+- House 1 has the red-loving individual who eats grapes.
+- House 2 likely has the person with white who eats grilled cheese.
+- House 3 will contain the individual with a computer who doesn't eat pizza but must therefore eat either stew or left-over (not apple from House 1).
+
+Consolidating all findings:
+- House 1: Red, Grapes, (lunch eaten unaccounted), (sport unaccounted), (device unaccounted)
+- House 2: White, Grilled Cheese, (must accommodate for the cricketer). 
+- House 3: (implied colors must be arranged accordingly).
+
+Final deductions reaffirm the resident of House 1 with the characteristics confirmed living there is the individual who likes red.
+
+So, the number of the house where the person who likes red lives is House 1.
+
+Thus, the answer is choice: 1

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Identify Key Environmental Factors",
+        "description": "Determine the environmental cues that are relevant to the science-based problem and how they may affect the solution.",
+        "expected_output": "A list of key environmental factors identified from the cues."
+    },
+    {
+        "name": "Assess Constraints",
+        "description": "Identify constraints related to the problem that could influence the problem-solving process, based on the key factors.",
+        "expected_output": "A list of constraints that limit the possible solutions."
+    },
+    {
+        "name": "Formulate Solution Strategy",
+        "description": "Develop a strategy to address the science problem by considering the key factors and constraints previously identified.",
+        "expected_output": "A structured outline of the proposed solution strategy."
+    },
+    {
+        "name": "Evaluate Solution Feasibility",
+        "description": "Analyze the proposed solution to ensure it is feasible, given the constraints and environmental factors identified.",
+        "expected_output": "A feasibility report on the proposed solution with potential modifications."
+    },
+    {
+        "name": "Present Final Solution",
+        "description": "Compile the findings and proposed solution into a coherent presentation format for review or implementation.",
+        "expected_output": "A comprehensive presentation summarizing the problem-solving process and the final solution."
+    }
+]

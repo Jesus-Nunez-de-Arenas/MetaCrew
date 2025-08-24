@@ -1,0 +1,30 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, which is 2. The houses are numbered from 1 (left) to 2 (right).
+
+2. **houses**: This variable refers to the physical locations where individuals live. The houses are numbered as follows:  
+   - House 1  
+   - House 2  
+
+3. **characteristics**: Each person living in the houses has various attributes categorized as follows:  
+   - **Lunch**: This includes two unique meals: one person had stew, and the other ate spaghetti.  
+   - **Favorite Color**: Each individual favors a different color: one likes white, and the other likes red.  
+   - **Favorite Drink**: The drinks preferred by the individuals are one who drinks only water and the other who likes milk.  
+   - **Sport Played**: The sports played by each person means one is a baseball player, while the other is a swimmer.  
+   - **Type of Shoes**: The shoes worn by the individuals include running shoes for one and loafers for the other.  
+
+4. **clues**: The logical statements provided are essential in determining the relationships and arrangement of individuals in their respective households. The clues are as follows:  
+   - Clue 1: The person who is wearing running shoes does not live in house 1.  
+   - Clue 2: The person who likes white lives directly left of the person who ate spaghetti.  
+   - Clue 3: The baseball player and the person who ate spaghetti live directly next to each other.  
+   - Clue 4: The person who only drinks water and the person who ate spaghetti live directly next to each other.  
+
+Using the clues, we can derive the following conclusions:  
+- From Clue 1, since the person in running shoes cannot live in House 1, they must reside in House 2.  
+- According to Clue 2, the person who likes white must be in House 1, while the person eating spaghetti is in House 2 (since white is directly left of spaghetti).  
+- Clue 3 indicates that the baseball player (who must be in House 2) is adjacent to the person that ate spaghetti (who must also be in House 2).  
+- From Clue 4, we know the person who drinks only water must live next to the person who ate spaghetti, corroborating that both the person in House 1 drinks water, and House 2's occupant eats spaghetti.
+
+Final assignments:
+- House 1: Person who likes white, drinks water, plays swimmer, wears loafers, eats stew.
+- House 2: Person who likes red, drinks milk, plays baseball, wears running shoes, eats spaghetti.
+
+Thus, the number of the house where the person who is wearing loafers lives is **1**.

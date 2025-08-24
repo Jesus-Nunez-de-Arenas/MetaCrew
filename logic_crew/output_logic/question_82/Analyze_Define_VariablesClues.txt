@@ -1,0 +1,45 @@
+1. **n**: This variable represents the total number of houses, which is 5. The houses are numbered from 1 to 5, arranged linearly from left to right.
+  
+2. **houses**: The houses are physical locations where each individual resides. They include:
+   - House 1
+   - House 2
+   - House 3
+   - House 4
+   - House 5
+   Each house is occupied by one person, and each person has different characteristics.
+
+3. **characteristics**: There are three distinct characteristics associated with each individual living in the houses:
+   - **Lunch**: Each person has a unique lunch consisting of either: 
+     1. Spaghetti
+     2. Fried rice
+     3. Pizza
+     4. Stew
+     5. Grilled cheese
+   - **Favorite Color**: Each individual's favorite color is different, categorized as:
+     1. Green
+     2. White
+     3. Blue
+     4. Yellow
+     5. Red
+   - **Musical Instrument**: Each person plays a unique musical instrument:
+     1. Pianist
+     2. Saxophonist
+     3. Percussionist
+     4. Violinist
+     5. Cellist
+
+4. **Clues Provided**: The following clues guide the arrangement and identification of the characteristics for each individual in their respective houses:
+   - Clue 1: The saxophonist does not live in the fifth house.
+   - Clue 2: The person who ate spaghetti lives in the fourth house.
+   - Clue 3: The pianist lives in the third house.
+   - Clue 4: The person who had stew lives directly left of the person who likes yellow.
+   - Clue 5: The person who likes green does not live in the fourth house.
+   - Clue 6: The pianist lives somewhere to the right of the percussionist.
+   - Clue 7: The person who likes red lives in the third house.
+   - Clue 8: There are two houses between where the person who likes yellow lives and where the person who likes white lives.
+   - Clue 9: The person who ate fried rice lives in the third house.
+   - Clue 10: The percussionist and the cellist live directly next to each other.
+   - Clue 11: The percussionist lives somewhere to the left of the cellist.
+   - Clue 12: The person who had pizza lives somewhere to the right of the person who likes yellow.
+
+By analyzing these clues, we can deduce the arrangement of the houses, their occupants, and ultimately conclude that the person who ate fried rice lives in house number 3.

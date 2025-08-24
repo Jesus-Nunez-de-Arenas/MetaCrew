@@ -1,0 +1,32 @@
+1. **n (number of houses)**: This variable represents the total number of houses in the scenario, which is 2. The houses are numbered from 1 on the left to 2 on the right.
+
+2. **houses**: This variable refers to the two physical entities in the problem, representing the locations where individuals live. The houses are identified as follows:
+   - House 1 (left)
+   - House 2 (right)
+
+3. **characteristics**: This variable encompasses the unique attributes assigned to each occupant of the houses. The characteristics include:
+   - **Pets**: 
+     - One person is a dog owner.
+     - One person is a fish enthusiast.
+   - **Lunch**:
+     - One person had grilled cheese.
+     - One person had stew.
+   - **Shoes**:
+     - One person is wearing high heels.
+     - One person is wearing sandals.
+
+4. **clue(s)**: This variable consists of the logical statements provided to aid in establishing the relationships between the individuals and their attributes. The clues are:
+   - **Clue 1**: The person who is wearing high heels lives directly left of the fish enthusiast.
+   - **Clue 2**: The person who ate grilled cheese lives in the second house.
+
+**Analyzing the clues**:
+- From **Clue 1**, the individual in House 1 (wearing high heels) must be to the left of the fish enthusiast.
+- From **Clue 2**, we learn that the person in House 2 ate grilled cheese.
+
+Since House 2's occupant had grilled cheese, the fish enthusiast must be in House 2. Therefore, the person in House 1 must be the dog owner who had stew.
+
+Thus, we conclude:
+- **House 1**: Dog owner (who had stew and is wearing high heels)
+- **House 2**: Fish enthusiast (who ate grilled cheese and is wearing sandals)
+
+Based on this analysis, the number of the house where the person who had stew lives is **1**.

@@ -1,0 +1,24 @@
+The number of the house where the person who had stew lives is **1**. 
+
+To break down the arrangement based on the clues:
+
+1. **House 1** has the following characteristics: 
+   - Lunch: Stew
+   - Pet: Horses
+   - Fruit: Oranges
+   - Book Preference: Mystery
+   - Footwear: Sandals
+
+2. **House 2** has the following characteristics: 
+   - Lunch: Fried Rice
+   - Pet: Cat Lover
+   - Fruit: Apples
+   - Book Preference: Science Fiction
+   - Footwear: Running Shoes
+
+This arrangement satisfies all the clues provided:
+- The person in House 2, who wears running shoes, is indeed to the right of the person in House 1, who is eating oranges.
+- The mystery book reader (House 1) is directly left of the cat lover (House 2).
+- The mystery book reader (House 1) and the person who had stew (also in House 1) live directly next to each other. 
+
+Thus, the solution meets all criteria without errors, confirming the final answer.

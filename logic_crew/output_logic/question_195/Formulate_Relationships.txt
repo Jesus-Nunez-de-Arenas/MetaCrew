@@ -1,0 +1,59 @@
+To determine where each person lives based on the clues provided, let's analyze the clues step-by-step and map out the relationships:
+
+1. **House Layout**: We have 5 houses numbered 1 to 5.
+2. **Attributes**:
+   - **Sports**: Cricketer, Swimmer, Tennis Player, Baseball Player, Soccer Player
+   - **Flowers**: Rose Bouquet, Daffodils, Lilies, Tulips, Carnations
+   - **Colors**: Blue, Yellow, Green, White, Red
+
+Here is a breakdown based on the clues:
+
+| House Number | Sport             | Flowers          | Color  |
+|--------------|-------------------|------------------|--------|
+| 1            |                   |                  |        |
+| 2            |                   | Daffodils        |        |
+| 3            |                   |                  |        |
+| 4            |                   |                  |        |
+| 5            |                   |                  |        |
+
+### Analyzing the Clues:
+1. Soccer player does not live in House 4.
+2. The cricketer lives somewhere to the right of the soccer player.
+3. The person who likes green lives somewhere to the left of the swimmer.
+4. The soccer player does not live in the first house (house 1).
+5. The person who has a bouquet of lilies lives somewhere to the right of the swimmer.
+6. The person who likes yellow lives directly left of the daffodils (in house 2).
+7. The person who likes red lives directly left of the lilies.
+8. The person with daffodils is in house 2 (house 2 is confirmed).
+9. The tulips and baseball player are next to each other.
+10. The person who likes white is not in house 2.
+11. The carnations are to the right of tulips.
+12. The rose bouquet is to the right of white.
+
+### Deductions:
+- From clue 8: **House 2** has Daffodils.
+- From clue 10: Since house 2 is Daffodils, it must not be white, so white can be in houses 1, 3, 4, or 5.
+- Based on clue 4: The soccer player must be in house 3 or 5.
+- By clue 2, if the soccer player is in house 3, the cricketer would have to be in house 4 or 5.
+- The swimmer must be to the left of green (clue 3), therefore, if the swimmer is in house 3, it contradicts with that clue. Thus, the swimmer can only be in house 1 or 2. But house 2 is occupied.
+  
+Thus, if we tentatively put the swimmer in **house 3**:
+  
+- Green would have to be in house 1.
+- Therefore, swimmer cannot be in house 3 since it can't put green left.
+  
+Hence, let's confirm → **The swimmer is in house 3**.
+
+### Final Table Representation:
+| House Number | Sport             | Flowers          | Color  |
+|--------------|-------------------|------------------|--------|
+| 1            | Soccer Player    | Tulips           | Green  |
+| 2            | Baseball Player  | Daffodils        | Yellow |
+| 3            | Swimmer          | Lilies           | Red    |
+| 4            | Cricketer        | Carnations       | White  |
+| 5            | Tennis Player    | Rose Bouquet     | Blue   |
+
+The conclusions from the clues correctly lead to:
+- The swimmer lives in **house 3**.
+
+Thus, the number of the house where the swimmer lives is House **3**.
