@@ -1,1 +1,0 @@
-Variables defined: C (cap cost), B (bottle cost)

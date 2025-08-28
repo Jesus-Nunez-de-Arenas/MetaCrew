@@ -2,6 +2,29 @@
 
 Welcome to the Tfg Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
+## Schema
+tfg/ # MetaCrew code and agent implementations
+├── src/tfg/ # MetaCrew code and agent implementations
+│   ├── main.py
+│   ├── crew.py
+│   ├── config/ # Configuration files of the agents and tasks
+│   ├── tools/ # Tools used by the agents
+│   └── utils/ # Utils functions for future refinement
+│       ├── langchain_prompts.py # Unimplemented
+│       ├── langchain_utils.py # Unimplemented
+│       ├── logging_utils.py # Implemented for logging
+│       ├── utils_functions.py # Unimplemented
+│       └── utils.py # Unimplemented
+├── output/ # Output directoy of MetaCrew
+├── storage/ # Memory storage
+│   ├── entity/
+│   ├── short_term/
+│   └── long_term/
+├── pyproject.toml # Poetry configuration file
+├── .env
+└── README.md
+
+
 ## Installation
 
 Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [Poetry](https://python-poetry.org/) for dependency management and package handling, offering a seamless setup and execution experience.
@@ -14,41 +37,51 @@ pip install poetry
 
 Next, navigate to your project directory and install the dependencies:
 
-1. First lock the dependencies and install them by using the CLI command:
+1. First lock the dependencies and install them by using the Poetry command:
 ```bash
-crewai install
+poetry install
 ```
-### Customizing
+2. Customize the environment
 
 **Add your `OPENAI_API_KEY` into the `.env` file**
 
-- Modify `src/tfg/config/agents.yaml` to define your agents
-- Modify `src/tfg/config/tasks.yaml` to define your tasks
-- Modify `src/tfg/crew.py` to add your own logic, tools and specific args
-- Modify `src/tfg/main.py` to add custom inputs for your agents and tasks
+**Add your `CREW_NAME` into the `.env` file**
+
+**Add your `INSIDE_PATH` into the `.env` file**
+
+**Add your `OUTPUT_PATH` into the `.env` file**
+
+**Add your `OPENAI_MODEL_NAME` into the `.env` file**
+
+**Add your `OPENAI_EMBEDDING_MODEL_NAME` into the `.env` file**
+
+**Add your `CREWAI_STORAGE_DIR` into the `.env` file**
+
+**Add your `OUTPUT_DIR` into the `.env` file**
+
+**Add your `CREWAI_TELEMETRY_OPT_OUT` into the `.env` file**
+
+The .env used to run this project has the next values.
+
+OPENAI_MODEL_NAME='gpt-4o-mini'
+OPENAI_EMBEDDING_MODEL_NAME='text-embedding-3-small'
+CREWAI_STORAGE_DIR='./storage/'
+OUTPUT_DIR='./output/'
+CREW_NAME='logic_crew'
+INSIDE_PATH='../../../../'
+OUTPUT_PATH='../../../../../'
+CREWAI_TELEMETRY_OPT_OUT='true'
 
 ## Running the Project
 
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
-$ crewai run
+$ poetry run run_crew
 ```
 
-This command initializes the TFG Crew, assembling the agents and assigning them tasks as defined in your configuration.
+This command initializes the TFG Crew, assembling the agents and assigning them tasks guided by the manager.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+## Output
 
-## Understanding Your Crew
-
-The TFG Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the Tfg Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+The project will create .json with the output of each task. The outputs will decide the agents and tasks that will be used for each benchmark.

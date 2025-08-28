@@ -1,20 +1,39 @@
 # TFG
 Repository of the TFG of Jesús Núñez de Arenas Llamas
 
+# Structure of the project
 
-# How to execute the code
+## Schema
 
-The following commands take into account that you have already installed the CrewAI library and
-the enviroment is a powershell terminal.
-
-Navigate to the "/tfg" folder. Once there execute:
-
-```bash
-crewai install
+```
+TFG/
+├── tfg/ # MetaCrew code and agent implementations
+│   ├── src/
+│   ├── output/
+│   ├── storage/
+│   └── README.md
+├── Benchmarks/ # Benchmark definitions and crew outputs
+│   ├── Crews/ # Benchmark crews
+│   │   ├── codenames_crew/
+│   │   ├── logic_crew/
+│   │   ├── mmmu_crew/
+│   │   ├── scienceworld_crew/
+│   │   ├── travel_crew/
+│   │   └── writing_crew/
+│   └── Crews_creation/ # Files used to create the benchmark crews 
+│   │   ├── output_codenames/
+│   │   ├── output_logic/
+│   │   ├── output_mmmu/
+│   │   ├── output_scienceworld/
+│   │   ├── output_travel/
+│   │   └── output_writing/
+└── README.md
 ```
 
-After it is done to update and resolve the dependencies problems run:
+## tfg crew
 
-```bash
-crewai run
-```
+In the tfg folder we will encounter the code of MetaCrew. This code will be used to create the new group of agents that will tackle the different benchmarks.
+
+## Benchamrks
+
+In it we will encounter the different benchmarks, with its own crews created from the outputs of MetaCrew.
