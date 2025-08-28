@@ -3,6 +3,7 @@
 Welcome to the Creative Writing Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Schema
+```
 writing_crew/ # Creative Writing code and agent implementations
 ├── src/writing_crew/ # Creative Writing code and agent implementations
 │   ├── main.py
@@ -18,7 +19,7 @@ writing_crew/ # Creative Writing code and agent implementations
 ├── scores.json # Result of calculate_scores.py 
 ├── .env
 └── README.md
-
+```
 
 ## Installation
 

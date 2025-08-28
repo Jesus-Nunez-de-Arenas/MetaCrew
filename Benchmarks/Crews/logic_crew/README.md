@@ -3,6 +3,7 @@
 Welcome to the Logic Grid Puzzle Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Schema
+```
 logic_crew/ # Logic Grid Puzzle code and agent implementations
 ├── src/logic_crew/ # Logic Grid Puzzle code and agent implementations
 │   ├── main.py
@@ -16,7 +17,7 @@ logic_crew/ # Logic Grid Puzzle code and agent implementations
 ├── pyproject.toml # Poetry configuration file
 ├── .env
 └── README.md
-
+```
 
 ## Installation
 

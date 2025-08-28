@@ -3,6 +3,7 @@
 Welcome to the MMMU Crew project. This template is designed to help you set up a multi-agent AI system with ease emulating the CrewAI framework for the use of crews with Ollama based models.
 
 ## Schema
+```
 mmmu_crew/ # MMMU code and agent implementations
 ├── MMMU/ # MMMU Dataset
 ├── output_mmmu/ # Output directoy of the MMMU benchmark
@@ -16,7 +17,7 @@ mmmu_crew/ # MMMU code and agent implementations
 ├── pyproject.toml # Poetry configuration file
 ├── .env
 └── README.md
-
+```
 
 ## Installation
 

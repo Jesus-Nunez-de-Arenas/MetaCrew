@@ -3,6 +3,7 @@
 Welcome to the World of Science Crew project. This template is designed to help you set up a multi-agent AI system with ease emulating the CrewAI framework for the use of crews with Ollama based models.
 
 ## Schema
+```
 scienceworld_crew/ # World of Science code and agent implementations
 ├── manual_crew_utils/ # Utils from EvoAgent to execute the benchmark
 ├── logs/ # Output directoy of the World of Science benchmark
@@ -14,7 +15,7 @@ scienceworld_crew/ # World of Science code and agent implementations
 ├── pyproject.toml # Poetry configuration file
 ├── .env
 └── README.md
-
+```
 
 ## Installation
 

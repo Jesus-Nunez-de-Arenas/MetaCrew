@@ -37,3 +37,11 @@ In the tfg folder we will encounter the code of MetaCrew. This code will be used
 ## Benchamrks
 
 In it we will encounter the different benchmarks, with its own crews created from the outputs of MetaCrew.
+
+### Crews
+
+Crews created to pass the different benchmarks.
+
+### Crews_creation
+
+Output of MetaCrew to create each one of the crews. Each crew represents a different benchmark.
