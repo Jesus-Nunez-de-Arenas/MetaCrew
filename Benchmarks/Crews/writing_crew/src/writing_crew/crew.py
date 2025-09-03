@@ -20,7 +20,7 @@ vectorstore_short_term = Chroma(
 
 @CrewBase
 class Writing_Crew():
-    """Writing_Crew crew"""
+    """Writing crew"""
 
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
@@ -30,6 +30,11 @@ class Writing_Crew():
 
     @agent
     def Alice_Thompson(self) -> Agent:
+        """Agent for Alice Thompson
+
+        Returns:
+            Agent: The agent for Alice Thompson.
+        """
         Alice_Thompson = Agent(
             config=self.agents_config['Alice_Thompson'],
             verbose=True
@@ -39,6 +44,11 @@ class Writing_Crew():
 
     @agent
     def Bob_Johnson(self) -> Agent:
+        """Agent for Bob Johnson
+
+        Returns:
+            Agent: The agent for Bob Johnson.
+        """
         Bob_Johnson = Agent(
             config=self.agents_config['Bob_Johnson'],
             verbose=True
@@ -48,6 +58,11 @@ class Writing_Crew():
     
     @agent
     def Catherine_Lee(self) -> Agent:
+        """Agent for Catherine Lee
+
+        Returns:
+            Agent: The agent for Catherine Lee.
+        """
         Catherine_Lee = Agent(
             config=self.agents_config['Catherine_Lee'],
             verbose=True
@@ -57,6 +72,11 @@ class Writing_Crew():
     
     @agent
     def David_Kim(self) -> Agent:
+        """Agent for David Kim
+
+        Returns:
+            Agent: The agent for David Kim.
+        """
         David_Kim = Agent(
             config=self.agents_config['David_Kim'],
             verbose=True
@@ -66,6 +86,11 @@ class Writing_Crew():
 
     @agent
     def Eva_Martinez(self) -> Agent:
+        """Agent for Eva Martinez
+
+        Returns:
+            Agent: The agent for Eva Martinez.
+        """
         Eva_Martinez = Agent(
             config=self.agents_config['Eva_Martinez'],
             verbose=True
@@ -75,6 +100,12 @@ class Writing_Crew():
 
     @task
     def Define_Story_Topic(self) -> Task:
+        """
+        Task for defining the story topic.
+
+        Returns:
+            Task: The task for defining the story topic.
+        """
         Define_Story_Topic = Task(
             config=self.tasks_config['Define_Story_Topic'],
             agent=self.Alice_Thompson(),
@@ -85,6 +116,12 @@ class Writing_Crew():
 
     @task
     def Collect_Trivia_Questions(self) -> Task:
+        """
+        Task for collecting trivia questions.
+
+        Returns:
+            Task: The task for collecting trivia questions.
+        """
         Collect_Trivia_Questions = Task(
             config=self.tasks_config['Collect_Trivia_Questions'],
             agent=self.Bob_Johnson(),
@@ -95,6 +132,12 @@ class Writing_Crew():
     
     @task
     def Develop_Story_Structure(self) -> Task:
+        """
+        Task for developing the story structure.
+
+        Returns:
+            Task: The task for developing the story structure.
+        """
         Develop_Story_Structure = Task(
             config=self.tasks_config['Develop_Story_Structure'],
             agent=self.Catherine_Lee(),
@@ -105,6 +148,12 @@ class Writing_Crew():
     
     @task
     def Draft_the_Story(self) -> Task:
+        """
+        Task for drafting the story.
+
+        Returns:
+            Task: The task for drafting the story.
+        """
         Draft_the_Story = Task(
             config=self.tasks_config['Draft_the_Story'],
             agent=self.David_Kim(),
@@ -115,6 +164,12 @@ class Writing_Crew():
     
     @task
     def Review_and_Edit_the_Story(self) -> Task:
+        """
+        Task for reviewing and editing the story.
+
+        Returns:
+            Task: The task for reviewing and editing the story.
+        """
         Review_and_Edit_the_Story = Task(
             config=self.tasks_config['Review_and_Edit_the_Story'],
             agent=self.Eva_Martinez(),

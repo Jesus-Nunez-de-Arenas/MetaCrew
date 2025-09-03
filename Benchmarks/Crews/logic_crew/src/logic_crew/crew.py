@@ -30,73 +30,83 @@ class LogicCrew():
 
     @agent
     def Clara_Watson(self) -> Agent:
-        # tools = []
-        # output_dir = os.getenv("OUTPUT_DIR")
-        # if output_dir and os.path.exists(output_dir):
-        #     tools.append(TXTSearchTool(txt=os.getenv("OUTPUT_DIR") + 'Analyze_Define_VariablesClues.txt'))
+        """Clara Watson agent
+
+        Returns:
+            Agent: Clara Watson agent instance
+        """
         
         Clara_Watson = Agent(
             config=self.agents_config['Clara_Watson'],
             verbose=False,
-            # tools=tools
         )
         Clara_Watson.config = self.agents_config['Clara_Watson']
         return Clara_Watson
 
     @agent
     def Oliver_Smith(self) -> Agent:
-        # tools = []
+        """Oliver Smith agent
+
+        Returns:
+            Agent: Oliver Smith agent instance
+        """
         
         Oliver_Smith = Agent(
             config=self.agents_config['Oliver_Smith'],
             verbose=False,
-            # tools=tools
         )
         Oliver_Smith.config = self.agents_config['Oliver_Smith']
         return Oliver_Smith
     
     @agent
     def Emily_Davis(self) -> Agent:
-        # tools = []
-        # output_dir = os.getenv("OUTPUT_DIR")
-        # if output_dir and os.path.exists(output_dir):
-        #     tools.append(TXTSearchTool(txt=os.getenv("OUTPUT_DIR") + 'Identify_Entities.txt'))
-        
+        """Emily Davis agent
+
+        Returns:
+            Agent: Emily Davis agent instance
+        """
         Emily_Davis = Agent(
             config=self.agents_config['Emily_Davis'],
             verbose=False,
-            # tools=tools
         )
         Emily_Davis.config = self.agents_config['Emily_Davis']
         return Emily_Davis
     
     @agent
     def Michael_Brown(self) -> Agent:
-        # tools = []
-        # output_dir = os.getenv("OUTPUT_DIR")
-        # if output_dir and os.path.exists(output_dir):
-        #     tools.append(TXTSearchTool(txt=os.getenv("OUTPUT_DIR") + 'Formulate_Relationships.txt'))
-        
+        """Michael Brown agent
+
+        Returns:
+            Agent: Michael Brown agent instance
+        """
         Michael_Brown = Agent(
             config=self.agents_config['Michael_Brown'],
             verbose=False,
-            # tools=tools
         )
         Michael_Brown.config = self.agents_config['Michael_Brown']
         return Michael_Brown
     
     @agent
     def Sophia_Green(self) -> Agent:
+        """Sophia Green agent
+
+        Returns:
+            Agent: Sophia Green agent instance
+        """
         Sophia_Green = Agent(
             config=self.agents_config['Sophia_Green'],
             verbose=False,
-            # tools=tools
         )
         Sophia_Green.config = self.agents_config['Sophia_Green']
         return Sophia_Green
 
     @task
     def Define_Variables(self) -> Task:
+        """Define Variables task
+
+        Returns:
+            Task: Define Variables task instance
+        """
         Define_Variables = Task(
             config=self.tasks_config['Define_Variables'],
             agent=self.Oliver_Smith(),
@@ -107,6 +117,11 @@ class LogicCrew():
 
     @task
     def Analyze_Clues(self) -> Task:
+        """Analyze Clues task
+
+        Returns:
+            Task: Analyze Clues task instance
+        """
         Analyze_Clues = Task(
             config=self.tasks_config['Analyze_Clues'],
             agent=self.Clara_Watson(),
@@ -117,6 +132,11 @@ class LogicCrew():
     
     @task
     def Formulate_Relationships(self) -> Task:
+        """Formulate Relationships task
+
+        Returns:
+            Task: Formulate Relationships task instance
+        """
         Formulate_Relationships = Task(
             config=self.tasks_config['Formulate_Relationships'],
             agent=self.Emily_Davis(),
@@ -127,6 +147,11 @@ class LogicCrew():
 
     @task
     def Generate_Possible_Arrangements(self) -> Task:
+        """Generate Possible Arrangements task
+
+        Returns:
+            Task: Generate Possible Arrangements task instance
+        """
         Generate_Possible_Arrangements = Task(
             config=self.tasks_config['Generate_Possible_Arrangements'],
             agent=self.Michael_Brown(),
@@ -137,6 +162,11 @@ class LogicCrew():
 
     @task
     def Identify_Valid_Solutions(self) -> Task:
+        """Identify Valid Solutions task
+
+        Returns:
+            Task: Identify Valid Solutions task instance
+        """
         Identify_Valid_Solutions = Task(
             config=self.tasks_config['Identify_Valid_Solutions'],
             agent=self.Sophia_Green(), 
@@ -147,7 +177,7 @@ class LogicCrew():
 
     @crew
     def crew(self) -> Crew:
-        """Creates the TfgAnswerCrew crew"""
+        """Creates the Logic Crew"""
         return Crew(
             agents=self.agents,
             tasks=self.tasks,

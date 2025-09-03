@@ -65,14 +65,14 @@ Provide a detailed response.
         except Exception as e:
             return f"[{self.name}] Error: {e}"
 
-class ManualMMmuCrew:
+class ScienceWorldCrew:
     """Manual implementation of MMMU crew that bypasses CrewAI LLM issues"""
     
     def __init__(self):
         self.setup_agents()
     
     def setup_agents(self):
-        """Create the 5 agents manually"""
+        """Create the agents manually"""
         self.agents = {
             'emily_carter': ManualAgent(
                 name="Dr. Emily Carter",
@@ -189,7 +189,7 @@ def get_prompt(conv: Conversation) -> str:
         return conv.get_prompt()
 
 def llm_llama(prompt: List[Dict[str, str]], model: str) -> str:
-    # Call the ManualMMmuCrew to process the prompt as a ScienceWorld crew
+    # Call the ScienceWorldCrew to process the prompt as a ScienceWorld crew
     # prompt: List[Dict[str, str]], model: str
     # We'll assume prompt is a list of dicts, take the last user message as question
     if isinstance(prompt, str):
@@ -219,7 +219,7 @@ def llm_llama(prompt: List[Dict[str, str]], model: str) -> str:
         question = re.sub(r'Options: .*', '', question).strip()
 
     # Instantiate the crew and run the process
-    crew = ManualMMmuCrew()
+    crew = ScienceWorldCrew()
     results = crew.process_sample(question, options)
     # Return the final agent's output (Linda Green)
     if results:
@@ -227,10 +227,9 @@ def llm_llama(prompt: List[Dict[str, str]], model: str) -> str:
     else:
         return "No result from crew."
 
-# Example user input console, to play through a game.
+
 def eval(args, task_num, logger):
     # Initialize environment
-    # env = ScienceWorldEnv("", args["jar_path"], envStepLimit = args["env_step_limit"], threadNum = 0)
     env = ScienceWorldEnv("", args["jar_path"], envStepLimit=args["env_step_limit"])
     taskNames = env.getTaskNames()
     taskName = taskNames[task_num]
@@ -244,15 +243,12 @@ def eval(args, task_num, logger):
         d = json.load(f)
 
     # Load encoding tool to count token numbers
-    token_model = args["model_name"] if 'gpt' in args["model_name"] else 'gpt-4'
     encoding = tiktoken.encoding_for_model('gpt-4')
-    # plans = get_plans(args)
 
     scores = []
 
     for variation in variations:
 
-        # train_data = []
         env.load(taskName, variation, args["simplification_str"], generateGoldPath=True)
         task_description = env.taskdescription()[18:]
         recent_actions = ["look around"]
@@ -265,12 +261,11 @@ def eval(args, task_num, logger):
         step = 0
 
         # The env has an internal step count, some actions like look around are free
-        # however, the t5 model only generates the action "look around", which will result in a dead loop below
+        # however, the model can generate the action "look around", which will result in a dead loop below
         # so the max_steps here is only used to avoid the model generating the same action forever
         max_steps = args["env_step_limit"] * 2
 
-        
-        
+        # Initialize conversation
         conv = get_conversation_template('llama-2')
         conv.set_system_message("You are a helpful, respectful and honest assistant.")
 
@@ -286,7 +281,7 @@ def eval(args, task_num, logger):
 
         max_len = 4096
 
-        # Kill agent if it provides more than 10 consecutive invalid actions
+        # Kill agents if they provide more than 10 consecutive invalid actions
         fail_counter = 0
 
         while not done:

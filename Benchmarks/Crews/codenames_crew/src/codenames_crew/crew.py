@@ -21,7 +21,7 @@ vectorstore_short_term = Chroma(
 
 @CrewBase
 class CodenamesCrew():
-    """CodenamesCrew crew"""
+    """Codenames crew"""
 
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
@@ -31,6 +31,13 @@ class CodenamesCrew():
 
     @agent
     def Emily_Carter(self) -> Agent:
+        """
+        Agent for Emily Carter
+        This agent is responsible for selecting the target word in the Codenames game.
+
+        Returns:
+            Agent: The agent for Emily Carter.
+        """
         Emily_Carter = Agent(
             config=self.agents_config['Emily_Carter'],
             verbose=True,
@@ -40,6 +47,13 @@ class CodenamesCrew():
 
     @agent
     def Michael_Bowen(self) -> Agent:
+        """
+        Agent for Michael Bowen
+        This agent is responsible for identifying associated words in the Codenames game.
+
+        Returns:
+            Agent: The agent for Michael Bowen.
+        """
         Michael_Bowen = Agent(
             config=self.agents_config['Michael_Bowen'],
             verbose=True,
@@ -49,6 +63,13 @@ class CodenamesCrew():
     
     @agent
     def Sophia_Thompson(self) -> Agent:
+        """
+        Agent for Sophia Thompson
+        This agent is responsible for preparing the results in the Codenames game.
+
+        Returns:
+            Agent: The agent for Sophia Thompson.
+        """
         Sophia_Thompson = Agent(
             config=self.agents_config['Sophia_Thompson'],
             verbose=True,
@@ -58,6 +79,12 @@ class CodenamesCrew():
 
     @task
     def Select_Target_Word(self) -> Task:
+        """
+        Task for selecting the target word in the Codenames game.
+
+        Returns:
+            Task: The task for selecting the target word.
+        """
         Select_Target_Word = Task(
             config=self.tasks_config['Select_Target_Word'],
             agent=self.Emily_Carter(),
@@ -68,6 +95,12 @@ class CodenamesCrew():
 
     @task
     def Identify_Associated_Words(self) -> Task:
+        """
+        Task for identifying associated words in the Codenames game.
+
+        Returns:
+            Task: The task for identifying associated words.
+        """
         Identify_Associated_Words = Task(
             config=self.tasks_config['Identify_Associated_Words'],
             agent=self.Michael_Bowen(),
@@ -78,6 +111,12 @@ class CodenamesCrew():
     
     @task
     def Prepare_Results(self) -> Task:
+        """
+        Task for preparing the results in the Codenames game.
+
+        Returns:
+            Task: The task for preparing the results.
+        """
         Prepare_Results = Task(
             config=self.tasks_config['Prepare_Results'],
             agent=self.Sophia_Thompson(),
@@ -88,7 +127,7 @@ class CodenamesCrew():
 
     @crew
     def crew(self) -> Crew:
-        """Creates the TfgAnswerCrew crew"""
+        """Creates the Codenames crew"""
         return Crew(
             agents=self.agents,
             tasks=self.tasks, 

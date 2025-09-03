@@ -81,7 +81,7 @@ class ManualMMmuCrew:
         self.setup_agents()
     
     def setup_agents(self):
-        """Create the 5 agents manually"""
+        """Create the agents manually"""
         self.agents = {
             'john_smith': ManualAgent(
                 name="John Smith",
@@ -204,10 +204,10 @@ def main():
     output_dir = os.getenv("OUTPUT_DIR", "./output_mmmu/")
     os.makedirs(output_dir, exist_ok=True)
     
-    print(f"📊 Processing {len(all_classes)} MMMU classes for complete benchmark...")
+    print(f"Processing {len(all_classes)} MMMU classes for complete benchmark...")
     
     for cla in all_classes:
-        print(f"\n🔄 Processing Class: {cla}")
+        print(f"\nProcessing Class: {cla}")
         try:
             while True:
                 try:

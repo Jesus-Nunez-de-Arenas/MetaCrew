@@ -21,7 +21,7 @@ vectorstore_short_term = Chroma(
 
 @CrewBase
 class TravelCrew():
-    """TfgAnswerCrew crew"""
+    """Travel crew"""
 
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
@@ -31,6 +31,11 @@ class TravelCrew():
 
     @agent
     def Emily_Johnson(self) -> Agent:
+        """Agent for Emily Johnson
+
+        Returns:
+            Agent: The agent for Emily Johnson.
+        """
         Emily_Johnson = Agent(
             config=self.agents_config['Emily_Johnson'],
             verbose=True,
@@ -40,6 +45,11 @@ class TravelCrew():
 
     @agent
     def James_Smith(self) -> Agent:
+        """Agent for James Smith
+
+        Returns:
+            Agent: The agent for James Smith.
+        """
         James_Smith = Agent(
             config=self.agents_config['James_Smith'],
             verbose=True,
@@ -49,6 +59,11 @@ class TravelCrew():
     
     @agent
     def Samantha_Brown(self) -> Agent:
+        """Agent for Samantha Brown
+
+        Returns:
+            Agent: The agent for Samantha Brown.
+        """
         Samantha_Brown = Agent(
             config=self.agents_config['Samantha_Brown'],
             verbose=True,
@@ -58,6 +73,11 @@ class TravelCrew():
     
     @agent
     def David_Lee(self) -> Agent:
+        """Agent for David Lee
+
+        Returns:
+            Agent: The agent for David Lee.
+        """
         David_Lee = Agent(
             config=self.agents_config['David_Lee'],
             verbose=True,
@@ -67,6 +87,11 @@ class TravelCrew():
     
     @agent
     def Rachel_Green(self) -> Agent:
+        """Agent for Rachel Green
+
+        Returns:
+            Agent: The agent for Rachel Green.
+        """
         Rachel_Green = Agent(
             config=self.agents_config['Rachel_Green'],
             verbose=True,
@@ -76,6 +101,12 @@ class TravelCrew():
 
     @task
     def Research_Destinations(self) -> Task:
+        """
+        Task for researching travel destinations.
+
+        Returns:
+            Task: The task for researching travel destinations.
+        """
         Research_Destinations = Task(
             config=self.tasks_config['Research_Destinations'],
             agent=self.Emily_Johnson(),
@@ -86,6 +117,12 @@ class TravelCrew():
 
     @task
     def Establish_Budget(self) -> Task:
+        """
+        Task for establishing the budget for the travel plan.
+
+        Returns:
+            Task: The task for establishing the budget.
+        """
         Establish_Budget = Task(
             config=self.tasks_config['Establish_Budget'],
             agent=self.James_Smith(),
@@ -96,6 +133,12 @@ class TravelCrew():
     
     @task
     def Plan_Itinerary(self) -> Task:
+        """
+        Task for planning the itinerary for the travel plan.
+
+        Returns:
+            Task: The task for planning the itinerary.
+        """
         Plan_Itinerary = Task(
             config=self.tasks_config['Plan_Itinerary'],
             agent=self.Samantha_Brown(),
@@ -106,6 +149,12 @@ class TravelCrew():
     
     @task
     def Book_Accommodations(self) -> Task:
+        """
+        Task for booking accommodations for the travel plan.
+
+        Returns:
+            Task: The task for booking accommodations.
+        """
         Book_Accommodations = Task(
             config=self.tasks_config['Book_Accommodations'],
             agent=self.David_Lee(),
@@ -116,6 +165,12 @@ class TravelCrew():
     
     @task
     def Arrange_Transportation(self) -> Task:
+        """
+        Task for arranging transportation for the travel plan.
+
+        Returns:
+            Task: The task for arranging transportation.
+        """
         Arrange_Transportation = Task(
             config=self.tasks_config['Arrange_Transportation'],
             agent=self.Rachel_Green(),
@@ -126,7 +181,7 @@ class TravelCrew():
 
     @crew
     def crew(self) -> Crew:
-        """Creates the TfgAnswerCrew crew"""
+        """Creates the Travel crew"""
         return Crew(
             agents=self.agents,
             tasks=self.tasks, 
