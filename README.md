@@ -1,9 +1,12 @@
 # TFG
-Repository of the TFG of Jesús Núñez de Arenas Llamas
 
-# Structure of the project
+Repository for the **Final Degree Project** of **Jesús Núñez de Arenas Llamas**.  
 
-## Schema
+This project explores **MetaCrew**, a system for generating and coordinating groups of AI agents that are evaluated on a variety of benchmarks.  
+
+---
+
+##  📂 Project Structure
 
 ```
 TFG/
@@ -30,18 +33,79 @@ TFG/
 └── README.md
 ```
 
-## tfg crew
+---
 
-In the tfg folder we will encounter the code of MetaCrew. This code will be used to create the new group of agents that will tackle the different benchmarks.
+## 🔹 Main Components  
 
-## Benchamrks
+### **tfg/**  
+Contains the implementation of **MetaCrew**, the system responsible for generating new groups of agents. These agents are later evaluated against different benchmarks.  
 
-In it we will encounter the different benchmarks, with its own crews created from the outputs of MetaCrew.
+### **Benchmarks/**  
+Defines the evaluation tasks and holds the results of different crews when tackling them.  
 
-### Crews
+- **Crews/** → Collections of agents specifically designed to solve each benchmark.  
+- **Crews_creation/** → Raw outputs from MetaCrew used to construct each crew. Each folder corresponds to a different benchmark.  
 
-Crews created to pass the different benchmarks.
+---
 
-### Crews_creation
+## 🚀 How It Works  
 
-Output of MetaCrew to create each one of the crews. Each crew represents a different benchmark.
+1. **MetaCrew (`tfg/`)** generates agents with different skills and strategies.  
+2. These agents are grouped into **crews** tailored to specific benchmarks.  
+3. The crews are evaluated on the selected benchmarks in `Benchmarks/Crews/`.  
+
+---
+
+## 📌 Benchmarks Included  
+
+- **Codenames Crew** – Word association and reasoning tasks.  
+- **Logic Crew** – Symbolic and logical reasoning challenges.  
+- **MMMU Crew** – Multi-modal understanding and reasoning.  
+- **ScienceWorld Crew** – Scientific reasoning and problem solving.  
+- **Travel Crew** – Planning and decision-making in travel scenarios.  
+- **Writing Crew** – Creative and structured text generation.  
+
+---
+
+## ⚙️ Installation  
+
+Clone the repository:  
+
+```bash
+git clone https://github.com/Jesus-Nunez-de-Arenas/MetaCrew.git
+```
+
+We are using Poetry to manage dependencies. You will need to install them separately in both the tfg/ folder (MetaCrew core) and each benchmark folder:
+
+```bash
+cd tfg
+poetry install
+
+cd ../Benchmarks/Crews/<Benchmark>
+poetry install
+```
+
+
+## ▶️ Usage
+
+### Run MetaCrew to generate agents:
+```bash
+cd tfg
+poetry run run_crew
+```
+
+### Evaluate a crew on a benchmark:
+
+```bash
+cd Benchmarks/Crew/<benchmark>_crew
+poetry run run_crew
+```
+
+### View results:
+
+The outputs for each benchmark can be found in the output_\<benchmark\>.
+
+# 📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
